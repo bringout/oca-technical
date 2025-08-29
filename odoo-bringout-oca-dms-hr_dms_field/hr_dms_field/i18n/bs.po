@@ -1,0 +1,65 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_dms_field
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_dms_field
+#: model_terms:ir.ui.view,arch_db:hr_dms_field.res_config_settings_view_form
+msgid "Allow employees to access their DMS Documents."
+msgstr "Dozvoli zaposlenicima pristup njihovim DMS dokumentima."
+
+#. module: hr_dms_field
+#: model:ir.model,name:hr_dms_field.model_hr_employee_base
+msgid "Basic Employee"
+msgstr "Obični zaposlenik"
+
+#. module: hr_dms_field
+#: model:ir.model,name:hr_dms_field.model_res_config_settings
+msgid "Config Settings"
+msgstr "Postavke"
+
+#. module: hr_dms_field
+#: model:ir.model.fields,field_description:hr_dms_field.field_hr_employee_base__dms_directory_ids
+msgid "DMS Directories"
+msgstr "DMS direktoriji"
+
+#. module: hr_dms_field
+#: model:res.groups,name:hr_dms_field.group_hr_public_dms
+msgid "DMS Is accessible publicly on employee profile"
+msgstr "DMS je javno dostupan na profilu zaposlenika"
+
+#. module: hr_dms_field
+#: model_terms:ir.ui.view,arch_db:hr_dms_field.hr_employee_public_view_form
+#: model_terms:ir.ui.view,arch_db:hr_dms_field.view_employee_form
+msgid "Documents"
+msgstr "Dokumenti"
+
+#. module: hr_dms_field
+#: model:dms.access.group,name:hr_dms_field.read_access_hr_employee_group
+msgid "Everyone for Employee DMS"
+msgstr "Svi za zaposlenik DMS"
+
+#. module: hr_dms_field
+#: model:ir.model.fields,field_description:hr_dms_field.field_hr_employee_public__is_logged
+msgid "Is Logged"
+msgstr "Je ulogiran"
+
+#. module: hr_dms_field
+#: model:ir.model,name:hr_dms_field.model_hr_employee_public
+msgid "Public Employee"
+msgstr "Javni djelatnik"
+
+#. module: hr_dms_field
+#: model:ir.model.fields,field_description:hr_dms_field.field_res_config_settings__group_hr_public_dms
+msgid "Show DMS Documents to logged employees"
+msgstr "Prikaži DMS dokumente ulogiranim zaposlenicima"

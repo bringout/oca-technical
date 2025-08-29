@@ -1,0 +1,620 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* attachment_queue
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: attachment_queue
+#: model:mail.template,body_html:attachment_queue.attachment_failure_notification
+msgid ""
+"\n"
+"                <p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">Hello,<br><br></p>\n"
+"                <p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">The attachment ${object.name} has failed with the following error message : <br>${object.state_message}<br></p><p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\"></p>\n"
+"                <p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">Regards,<br></p>\n"
+"            "
+msgstr ""
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__access_token
+msgid "Access Token"
+msgstr "Pristupni token"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_needaction
+msgid "Action Needed"
+msgstr "Potrebna akcija"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_ids
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Dekoracija iznimke aktivnosti"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_state
+msgid "Activity State"
+msgstr "Status aktivnosti"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ikona tipa aktivnosti"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__assigned_attachment_ids
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__assigned_attachment_ids
+msgid "Assigned Attachments"
+msgstr "Dodeljeni prilozi"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__attachment_id
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Attachment"
+msgstr "Prilog"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_attachment_count
+msgid "Attachment Count"
+msgstr "Broj priloga"
+
+#. module: attachment_queue
+#: model:mail.template,name:attachment_queue.attachment_failure_notification
+msgid "Attachment Failure notification"
+msgstr "Obavještenje o neuspjehu priloga"
+
+#. module: attachment_queue
+#: model:ir.model,name:attachment_queue.model_attachment_queue
+msgid "Attachment Queue"
+msgstr "Red priloga"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__local_url
+msgid "Attachment URL"
+msgstr "URL Zakačke"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__attachment_ids
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Attachments"
+msgstr "Prilozi"
+
+#. module: attachment_queue
+#: model:ir.actions.act_window,name:attachment_queue.action_attachment_queue
+#: model:ir.ui.menu,name:attachment_queue.menu_attachment_queue
+msgid "Attachments Queue"
+msgstr "Red priloga"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Binary"
+msgstr "Binarni"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__changeset_change_ids
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__changeset_change_ids
+msgid "Changeset Changes"
+msgstr "Promene skupa izmena"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__changeset_ids
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__changeset_ids
+msgid "Changesets"
+msgstr "Skupovi izmena"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__checksum
+msgid "Checksum/SHA1"
+msgstr "Kontrolni zbroj/SHA1"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__failure_emails
+msgid ""
+"Comma-separated list of email addresses to be notified in case offailure"
+msgstr ""
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__company_id
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Company"
+msgstr "Preduzeće"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__count_changesets
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__count_changesets
+msgid "Count Changesets"
+msgstr "Broj skupova izmena"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr "Broj promena skupa izmena na čekanju"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__count_pending_changesets
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__count_pending_changesets
+msgid "Count Pending Changesets"
+msgstr "Broj skupova izmena na čekanju"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__create_uid
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__create_date
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Creation Month"
+msgstr "Mjesec kreiranja"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__db_datas
+msgid "Database Data"
+msgstr "Podaci baze"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__date_done
+msgid "Date Done"
+msgstr "Datum završetka"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__description
+msgid "Description"
+msgstr "Opis"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__display_name
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: attachment_queue
+#: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__done
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Done"
+msgstr "Gotovo"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_form
+msgid "Error"
+msgstr "Greška"
+
+#. module: attachment_queue
+#: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__failed
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Failed"
+msgstr "Neuspješan"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__failure_emails
+msgid "Failure Emails"
+msgstr "E-mail greške"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__datas
+msgid "File Content (base64)"
+msgstr "Sadržaj datoteke (base64)"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__raw
+msgid "File Content (raw)"
+msgstr "Sadržaj datoteke (sirovo)"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__file_size
+msgid "File Size"
+msgstr "Veličine datoteke"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__file_type
+msgid "File Type"
+msgstr "Tip datoteke"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "File type"
+msgstr "Tip datoteke"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Filter on my documents"
+msgstr "Filtriraj moje dokumente"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_follower_ids
+msgid "Followers"
+msgstr "Pratioci"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Pratioci (Partneri)"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome ikona npr. fa-tasks"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Group By"
+msgstr "Grupiši po"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__has_message
+msgid "Has Message"
+msgstr "Ima poruku"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__id
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__id
+msgid "ID"
+msgstr "ID"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_exception_icon
+msgid "Icon"
+msgstr "Ikona"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ikona za prikaz iznimki."
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_has_error
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__image_height
+msgid "Image Height"
+msgstr "Visina slike"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__image_src
+msgid "Image Src"
+msgstr "Izvor slike"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__image_width
+msgid "Image Width"
+msgstr "Širina slike"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__index_content
+msgid "Indexed Content"
+msgstr "Indeksiani sadržaj"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_is_follower
+msgid "Is Follower"
+msgstr "Pratilac"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__public
+msgid "Is public document"
+msgstr "Je javni dokument"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue____last_update
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__write_uid
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__write_date
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__attachment_id
+msgid "Link to ir.attachment model "
+msgstr "Veza na ir.attachment model "
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Glavna zakačka"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_form
+msgid "Manual run"
+msgstr "Ručno pokretanje"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_has_error
+msgid "Message Delivery error"
+msgstr "Greška pri isporuci poruke"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_ids
+msgid "Messages"
+msgstr "Poruke"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__mimetype
+msgid "Mime Type"
+msgstr "Mime Tip"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Rok za moju aktivnost"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "My Document(s)"
+msgstr "Moj(i) Dokument(i)"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__name
+msgid "Name"
+msgstr "Naziv:"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Kaldendarski događaj slijedeće aktivnosti"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Krajnji rok za sljedeću aktivnost"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_summary
+msgid "Next Activity Summary"
+msgstr "Pregled sljedeće aktivnosti"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tip sljedeće aktivnosti"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Broj akcija"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_has_error_counter
+msgid "Number of errors"
+msgstr "Broj grešaka"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Broj poruka koje zahtijevaju aktivnost"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Broj poruka sa greškama pri isporuci"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__original_id
+msgid "Original (unoptimized, unresized) attachment"
+msgstr "Originalni (neoptimizovan, neresize-ovan) prilog"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Owner"
+msgstr "Vlasnik"
+
+#. module: attachment_queue
+#: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__pending
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Pending"
+msgstr "Na čekanju"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
+msgid "Requeue Attachments"
+msgstr "Ponovo stavi u red priloge"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_form
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
+msgid "Reschedule"
+msgstr "Ponovo zakaži"
+
+#. module: attachment_queue
+#: model:ir.actions.act_window,name:attachment_queue.action_reschedule_attachment
+msgid "Reschedule Attachment"
+msgstr "Ponovo zakaži prilog"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__res_field
+msgid "Resource Field"
+msgstr "Polje resursa"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__res_id
+msgid "Resource ID"
+msgstr "ID Resursa"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__res_model
+msgid "Resource Model"
+msgstr "Model resursa"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__res_name
+msgid "Resource Name"
+msgstr "Naziv resursa"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__activity_user_id
+msgid "Responsible User"
+msgstr "Odgovorni korisnik"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Greška u slanju SMSa"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_form
+msgid "Set to Done"
+msgstr "Postavi na završeno"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__smart_search
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__smart_search
+msgid "Smart Search"
+msgstr "Pametna pretraga"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__state
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "State"
+msgstr "Status"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__state_message
+msgid "State Message"
+msgstr "Poruka o stanju"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__store_fname
+msgid "Stored Filename"
+msgstr "Pohranjeni naziv datoteke"
+
+#. module: attachment_queue
+#: model:mail.template,subject:attachment_queue.attachment_failure_notification
+msgid "The attachment {{object.name}} has failed"
+msgstr "Prilog {{object.name}} je neuspješno"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__file_type
+msgid ""
+"The file type determines an import method to be used to parse and transform "
+"data before their import in ERP or an export"
+msgstr ""
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__count_pending_changeset_changes
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue_reschedule__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr "Broj promena na čekanju ovog zapisa"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__count_pending_changesets
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue_reschedule__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr "Broj čekajućih skupa promjena ovog zapisa"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__count_changesets
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue_reschedule__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr "Ukupan broj skupova izmena ovog zapisa"
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
+msgid "The selected attachments will be rescheduled."
+msgstr "Odabrani prilozi će biti ponovo zakazani."
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__type
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "Type"
+msgstr "Tip"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Vrsta aktivnosti iznimke na zapisu."
+
+#. module: attachment_queue
+#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
+msgid "URL"
+msgstr "URL"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__url
+msgid "Url"
+msgstr "Url"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__user_can_see_changeset
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__user_can_see_changeset
+msgid "User Can See Changeset"
+msgstr "Korisnik može videti skup izmena"
+
+#. module: attachment_queue
+#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__website_message_ids
+msgid "Website Messages"
+msgstr "Poruke sa website-a"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__website_message_ids
+msgid "Website communication history"
+msgstr "Povijest komunikacije Web stranice"
+
+#. module: attachment_queue
+#: model:ir.model,name:attachment_queue.model_attachment_queue_reschedule
+msgid "Wizard to reschedule a selection of attachments"
+msgstr "Čarobnjak za ponovno zakazivanje odabira priloga"
+
+#. module: attachment_queue
+#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__type
+msgid ""
+"You can either upload a file from your computer or copy/paste an internet "
+"link to your file."
+msgstr ""
+
+#. module: attachment_queue
+#. odoo-python
+#: code:addons/attachment_queue/tests/test_models.py:0
+#: code:addons/attachment_queue/tests/test_models.py:0
+#, python-format
+msgid "boom"
+msgstr "bum"

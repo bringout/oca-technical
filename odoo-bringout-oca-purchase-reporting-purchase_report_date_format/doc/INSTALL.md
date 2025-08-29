@@ -1,0 +1,7 @@
+# Install
+
+```bash
+pip install odoo-bringout-oca-purchase-reporting-purchase_report_date_format"
+# or
+uv pip install odoo-bringout-oca-purchase-reporting-purchase_report_date_format"
+```

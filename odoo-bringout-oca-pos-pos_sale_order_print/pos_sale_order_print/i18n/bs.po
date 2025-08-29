@@ -1,0 +1,90 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_sale_order_print
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_sale_order_print
+#: model:ir.model,name:pos_sale_order_print.model_res_config_settings
+msgid "Config Settings"
+msgstr "Postavke"
+
+#. module: pos_sale_order_print
+#. odoo-javascript
+#: code:addons/pos_sale_order_print/static/src/js/SaleOrderManagementScreen.esm.js:0
+#, python-format
+msgid "Network Error"
+msgstr "Pogreška mreže"
+
+#. module: pos_sale_order_print
+#. odoo-javascript
+#: code:addons/pos_sale_order_print/static/src/js/SaleOrderManagementScreen.esm.js:0
+#, python-format
+msgid ""
+"Please choose which sale orders to print in the POS sales configuration."
+msgstr ""
+
+#. module: pos_sale_order_print
+#: model:ir.model,name:pos_sale_order_print.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Postavke prodajnog mjesta"
+
+#. module: pos_sale_order_print
+#: model:ir.model,name:pos_sale_order_print.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesija POS-a"
+
+#. module: pos_sale_order_print
+#. odoo-javascript
+#: code:addons/pos_sale_order_print/static/src/js/SaleOrderManagementScreen.esm.js:0
+#, python-format
+msgid "Print"
+msgstr "Ispis"
+
+#. module: pos_sale_order_print
+#. odoo-javascript
+#: code:addons/pos_sale_order_print/static/src/js/SaleOrderManagementScreen.esm.js:0
+#, python-format
+msgid "Print Error"
+msgstr "Greška štampanja"
+
+#. module: pos_sale_order_print
+#: model:ir.model.fields,field_description:pos_sale_order_print.field_pos_config__print_sales_order_ids
+#: model:ir.model.fields,field_description:pos_sale_order_print.field_res_config_settings__pos_sale_order_print_ids
+#: model_terms:ir.ui.view,arch_db:pos_sale_order_print.res_config_settings_view_form
+msgid "Print Sales Orders"
+msgstr "Štampaj prodajne narudžbe"
+
+#. module: pos_sale_order_print
+#: model:ir.model.fields,help:pos_sale_order_print.field_pos_config__print_sales_order_ids
+#: model:ir.model.fields,help:pos_sale_order_print.field_res_config_settings__pos_sale_order_print_ids
+msgid "Print multiple Sale Orders in POS"
+msgstr "Štampaj više prodajnih narudžbi u prodajnom mjestu"
+
+#. module: pos_sale_order_print
+#: model_terms:ir.ui.view,arch_db:pos_sale_order_print.res_config_settings_view_form
+msgid "These reports will be available for printing at the POS"
+msgstr "Ovi izvještaji će biti dostupni za štampanje u prodajnom mjestu"
+
+#. module: pos_sale_order_print
+#. odoo-javascript
+#: code:addons/pos_sale_order_print/static/src/js/SaleOrderManagementScreen.esm.js:0
+#, python-format
+msgid "Unable to download the report."
+msgstr "Nije moguće preuzeti izvještaj."
+
+#. module: pos_sale_order_print
+#. odoo-javascript
+#: code:addons/pos_sale_order_print/static/src/js/SaleOrderManagementScreen.esm.js:0
+#, python-format
+msgid "What do you want to print?"
+msgstr "Šta želite štampati?"

@@ -1,0 +1,6 @@
+# Overview
+
+Packaged Odoo addon: connector_base_product. Provides features documented in upstream Odoo 16 under this addon.
+
+- Source: OCA/OCB 16.0, addon connector_base_product
+- License: LGPL-3

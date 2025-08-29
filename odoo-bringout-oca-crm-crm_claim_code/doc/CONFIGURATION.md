@@ -1,0 +1,3 @@
+# Configuration
+
+Refer to Odoo settings for crm_claim_code. Configure related models, access rights, and options as needed.

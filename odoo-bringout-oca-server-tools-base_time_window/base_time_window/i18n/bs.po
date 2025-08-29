@@ -1,0 +1,163 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_time_window
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+#, python-format
+msgid "%(end_time)s must be > %(start_time)s"
+msgstr "%(end_time)s mora biti > %(start_time)s"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+#, python-format
+msgid "%(record_name)s overlaps %(other_name)s"
+msgstr "%(record_name)s se preklapa sa %(other_name)s"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+#, python-format
+msgid "At least one time.weekday is required"
+msgstr "Potreban je najmanje jedan time.weekday"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: base_time_window
+#: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__4
+msgid "Friday"
+msgstr "Petak"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_window_mixin__time_window_start
+msgid "From"
+msgstr "Od"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+#, python-format
+msgid "Hour should be between 00 and 23"
+msgstr "Sat treba biti između 00 i 23"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: base_time_window
+#: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__0
+msgid "Monday"
+msgstr "Ponedjeljak"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__name
+msgid "Name"
+msgstr "Naziv:"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_weekday.py:0
+#: model:ir.model.constraint,message:base_time_window.constraint_time_weekday_name_uniq
+#, python-format
+msgid "Name must be unique"
+msgstr "Naziv mora biti jedinstven"
+
+#. module: base_time_window
+#: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__5
+msgid "Saturday"
+msgstr "Subota"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_weekday__smart_search
+#: model:ir.model.fields,field_description:base_time_window.field_time_window_mixin__smart_search
+msgid "Smart Search"
+msgstr "Pametna pretraga"
+
+#. module: base_time_window
+#: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__6
+msgid "Sunday"
+msgstr "Nedjelja"
+
+#. module: base_time_window
+#: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__3
+msgid "Thursday"
+msgstr "Četvrtak"
+
+#. module: base_time_window
+#: model:ir.model,name:base_time_window.model_time_weekday
+msgid "Time Week Day"
+msgstr "Radni dan u sedmici"
+
+#. module: base_time_window
+#: model:ir.model,name:base_time_window.model_time_window_mixin
+msgid "Time Window"
+msgstr "Vremenski okvir"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_window_mixin__time_window_weekday_ids
+msgid "Time Window Weekday"
+msgstr "Dan u sedmici vremenskog okvira"
+
+#. module: base_time_window
+#: model:ir.model.fields,field_description:base_time_window.field_time_window_mixin__time_window_end
+msgid "To"
+msgstr "Za"
+
+#. module: base_time_window
+#: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__1
+msgid "Tuesday"
+msgstr "Utorak"
+
+#. module: base_time_window
+#: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__2
+msgid "Wednesday"
+msgstr "Srijeda"
+
+#. module: base_time_window
+#. odoo-python
+#: code:addons/base_time_window/models/time_window_mixin.py:0
+#, python-format
+msgid "{days}: From {start} to {end}"
+msgstr "{days}: Od {start} do {end}"

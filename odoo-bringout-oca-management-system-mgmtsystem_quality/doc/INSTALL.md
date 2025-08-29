@@ -1,0 +1,7 @@
+# Install
+
+```bash
+pip install odoo-bringout-oca-management-system-mgmtsystem_quality"
+# or
+uv pip install odoo-bringout-oca-management-system-mgmtsystem_quality"
+```

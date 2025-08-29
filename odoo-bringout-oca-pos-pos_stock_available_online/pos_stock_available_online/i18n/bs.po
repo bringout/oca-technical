@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_stock_available_online
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_stock_available_online
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_pos_config__additional_warehouse_ids
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_res_config_settings__pos_additional_warehouse_ids
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Additional Warehouses"
+msgstr "Dodatno Skladišta"
+
+#. module: pos_stock_available_online
+#: model:ir.model,name:pos_stock_available_online.model_res_config_settings
+msgid "Config Settings"
+msgstr "Postavke"
+
+#. module: pos_stock_available_online
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_pos_config__display_product_quantity
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_res_config_settings__pos_display_product_quantity
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Display Product Quantity"
+msgstr "Prikaži Proizvod Količina"
+
+#. module: pos_stock_available_online
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Display the quantity of available products in the POS for"
+msgstr "Prikaži količinu dostupnih proizvoda u POS sistemu za"
+
+#. module: pos_stock_available_online
+#: model:ir.model.fields,help:pos_stock_available_online.field_pos_config__additional_warehouse_ids
+#: model:ir.model.fields,help:pos_stock_available_online.field_res_config_settings__pos_additional_warehouse_ids
+msgid ""
+"For the selected warehouses will be displayed quantity of available products"
+" in the POS"
+msgstr ""
+
+#. module: pos_stock_available_online
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_pos_config__main_warehouse_id
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_res_config_settings__pos_main_warehouse_id
+msgid "Main Warehouse"
+msgstr "Main Skladište"
+
+#. module: pos_stock_available_online
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Mark quantity red if below or equal this value."
+msgstr "Označi količinu crvenom bojom ako je ispod ili jednaka ovoj vrijednosti."
+
+#. module: pos_stock_available_online
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_pos_config__minimum_product_quantity_alert
+#: model:ir.model.fields,field_description:pos_stock_available_online.field_res_config_settings__pos_minimum_product_quantity_alert
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Minimum Product Quantity Alert"
+msgstr "Minimum Proizvod Količina Alert"
+
+#. module: pos_stock_available_online
+#: model:ir.model,name:pos_stock_available_online.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Postavke prodajnog mjesta"
+
+#. module: pos_stock_available_online
+#: model:ir.model,name:pos_stock_available_online.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesija POS-a"
+
+#. module: pos_stock_available_online
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Product Quantity"
+msgstr "Količina proizvoda"
+
+#. module: pos_stock_available_online
+#: model:ir.model,name:pos_stock_available_online.model_stock_quant
+msgid "Quants"
+msgstr "Količine"
+
+#. module: pos_stock_available_online
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Show quantity in the following warehouses in additional to"
+msgstr "Prikaži količinu u sljedećim skladištima dodatno na"
+
+#. module: pos_stock_available_online
+#: model:ir.model,name:pos_stock_available_online.model_stock_move
+msgid "Stock Move"
+msgstr "Skladišno kretanje"
+
+#. module: pos_stock_available_online
+#: model:ir.model,name:pos_stock_available_online.model_stock_notifier_pos_mixin
+msgid "Stock Notifier POS Mixin"
+msgstr "Mješavina POS obavještavača zaliha"
+
+#. module: pos_stock_available_online
+#. odoo-javascript
+#: code:addons/pos_stock_available_online/static/src/xml/Screens/ProductScreen/ProductItem.xml:0
+#, python-format
+msgid "Total"
+msgstr "Ukupno"
+
+#. module: pos_stock_available_online
+#: model:ir.model,name:pos_stock_available_online.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Skladište"
+
+#. module: pos_stock_available_online
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "Warehouses must belong to the same company as POS."
+msgstr "Skladišta moraju pripadati istoj kompaniji kao POS."
+
+#. module: pos_stock_available_online
+#: model_terms:ir.ui.view,arch_db:pos_stock_available_online.res_config_settings_view_form
+msgid "warehouse"
+msgstr "Skladište"

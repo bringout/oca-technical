@@ -1,0 +1,7 @@
+# Install
+
+```bash
+pip install odoo-bringout-oca-brand-product_brand_tag"
+# or
+uv pip install odoo-bringout-oca-brand-product_brand_tag"
+```

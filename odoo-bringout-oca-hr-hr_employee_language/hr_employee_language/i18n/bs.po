@@ -1,0 +1,571 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_employee_language
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sq_al
+msgid "Albanian / Shqip"
+msgstr "Albanski / Shqip"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__am_et
+msgid "Amharic / አምሃርኛ"
+msgstr "Amharski / አምሃርኛ"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ar_sy
+msgid "Arabic (Syria) / الْعَرَبيّة"
+msgstr "Arapski (Sirija) / الْعَرَبيّة"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ar_001
+msgid "Arabic / الْعَرَبيّة"
+msgstr "Arapski / الْعَرَبيّة"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__az_az
+msgid "Azerbaijani / Azərbaycanca"
+msgstr "Azerbejdžanski / Azərbaycanca"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__eu_es
+msgid "Basque / Euskara"
+msgstr "Baskijski / Euskara"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__bn_in
+msgid "Bengali / বাংলা"
+msgstr "Bengali / বাংলা"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__bs_ba
+msgid "Bosnian / bosanski jezik"
+msgstr "Bosanski / bosanski jezik"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__bg_bg
+msgid "Bulgarian / български език"
+msgstr "Bugarski / български език"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__my_mm
+msgid "Burmese / ဗမာစာ"
+msgstr "Burmanski / ဗမာစာ"
+
+#. module: hr_employee_language
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
+msgid "Can Listen"
+msgstr "Može slušati"
+
+#. module: hr_employee_language
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
+msgid "Can Read"
+msgstr "Može čitati"
+
+#. module: hr_employee_language
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
+msgid "Can Speak"
+msgstr "Može govoriti"
+
+#. module: hr_employee_language
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
+msgid "Can Write"
+msgstr "Može pisati"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ca_es
+msgid "Catalan / Català"
+msgstr "Katalonski / Català"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__zh_hk
+msgid "Chinese (HK)"
+msgstr "Kineski (HK)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__zh_cn
+msgid "Chinese (Simplified) / 简体中文"
+msgstr "Kineski (pojednostavljeni) / 简体中文"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__zh_tw
+msgid "Chinese (Traditional) / 繁體中文"
+msgstr "Kineski (tradicionalni) / 繁體中文"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__hr_hr
+msgid "Croatian / hrvatski jezik"
+msgstr "Hrvatski / hrvatski jezik"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__cs_cz
+msgid "Czech / Čeština"
+msgstr "Češki / Čeština"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__da_dk
+msgid "Danish / Dansk"
+msgstr "Danski / Dansk"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__description
+msgid "Description"
+msgstr "Opis"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__nl_be
+msgid "Dutch (BE) / Nederlands (BE)"
+msgstr "Holandski (BE) / Nederlands (BE)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__nl_nl
+msgid "Dutch / Nederlands"
+msgstr "Holandski / Nederlands"
+
+#. module: hr_employee_language
+#: model:ir.model,name:hr_employee_language.model_hr_employee
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
+msgid "Employee"
+msgstr "Zaposleni"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__en_au
+msgid "English (AU)"
+msgstr "Engleski (AU)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__en_ca
+msgid "English (CA)"
+msgstr "Engleski (CA)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__en_in
+msgid "English (IN)"
+msgstr "Engleski (IN)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__en_gb
+msgid "English (UK)"
+msgstr "Engleski (UK)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__en_us
+msgid "English (US)"
+msgstr "Engleski (US)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__et_ee
+msgid "Estonian / Eesti keel"
+msgstr "Estonski / Eesti keel"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__fi_fi
+msgid "Finnish / Suomi"
+msgstr "Finski / Suomi"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__fr_be
+msgid "French (BE) / Français (BE)"
+msgstr "Francuski (BE) / Français (BE)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__fr_ca
+msgid "French (CA) / Français (CA)"
+msgstr "Francuski (CA) / Français (CA)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__fr_ch
+msgid "French (CH) / Français (CH)"
+msgstr "Francuski (CH) / Français (CH)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__fr_fr
+msgid "French / Français"
+msgstr "Francuski / Français"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__gl_es
+msgid "Galician / Galego"
+msgstr "Galicijski / Galego"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ka_ge
+msgid "Georgian / ქართული ენა"
+msgstr "Gruzijski / ქართული ენა"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__de_ch
+msgid "German (CH) / Deutsch (CH)"
+msgstr "Njemački (CH) / Deutsch (CH)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__de_de
+msgid "German / Deutsch"
+msgstr "Njemački / Deutsch"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__el_gr
+msgid "Greek / Ελληνικά"
+msgstr "Grčki / Ελληνικά"
+
+#. module: hr_employee_language
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
+msgid "Group By"
+msgstr "Grupiši po"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__gu_in
+msgid "Gujarati / ગુજરાતી"
+msgstr "Gujarati / ગુજરાતી"
+
+#. module: hr_employee_language
+#: model:ir.model,name:hr_employee_language.model_hr_employee_language
+msgid "HR Employee Language"
+msgstr "HR jezik zaposlenika"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__he_il
+msgid "Hebrew / עברית"
+msgstr "Hebrejski / עברית"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__hi_in
+msgid "Hindi / हिंदी"
+msgstr "Hindi / हिंदी"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__hu_hu
+msgid "Hungarian / Magyar"
+msgstr "Mađarski / Magyar"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__id_id
+msgid "Indonesian / Bahasa Indonesia"
+msgstr "Indonežanski / Bahasa Indonesia"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__it_it
+msgid "Italian / Italiano"
+msgstr "Italijanski / Italiano"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ja_jp
+msgid "Japanese / 日本語"
+msgstr "Japanski / 日本語"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__kab_dz
+msgid "Kabyle / Taqbaylit"
+msgstr "Kabile / Taqbaylit"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__km_kh
+msgid "Khmer / ភាសាខ្មែរ"
+msgstr "Kmerski / ភាសាខ្មែរ"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ko_kp
+msgid "Korean (KP) / 한국어 (KP)"
+msgstr "Korejski (KP) / 한국어 (KP)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ko_kr
+msgid "Korean (KR) / 한국어 (KR)"
+msgstr "Korejski (KR) / 한국어 (KR)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__name
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_form
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
+msgid "Language"
+msgstr "Jezik"
+
+#. module: hr_employee_language
+#: model:ir.actions.act_window,name:hr_employee_language.open_view_hr_employee_language_form
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee__language_ids
+#: model:ir.ui.menu,name:hr_employee_language.menu_open_view_hr_employee_language_form
+#: model_terms:ir.ui.view,arch_db:hr_employee_language.hr_employee_form
+msgid "Languages"
+msgstr "Jezici"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,help:hr_employee_language.field_hr_employee__language_ids
+msgid "Languages of this employee"
+msgstr "Jezici ovog zaposlenika"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__lo_la
+msgid "Lao / ພາສາລາວ"
+msgstr "Laoski / ພາສາລາວ"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__lv_lv
+msgid "Latvian / latviešu valoda"
+msgstr "Letonski / latviešu valoda"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__can_listen
+msgid "Listen"
+msgstr "Slušaj"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__lt_lt
+msgid "Lithuanian / Lietuvių kalba"
+msgstr "Litavski / Lietuvių kalba"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__lb_lu
+msgid "Luxembourgish"
+msgstr "Luksemburški"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__mk_mk
+msgid "Macedonian / македонски јазик"
+msgstr "Makedonski / македонски јазик"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ms_my
+msgid "Malay / Bahasa Melayu"
+msgstr "Malajski / Bahasa Melayu"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ml_in
+msgid "Malayalam / മലയാളം"
+msgstr "Malajalam / മലയാളം"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__mn_mn
+msgid "Mongolian / монгол"
+msgstr "Mongolski / монгол"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__nb_no
+msgid "Norwegian Bokmål / Norsk bokmål"
+msgstr "Norveški Bokmål / Norsk bokmål"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__fa_ir
+msgid "Persian / فارسی"
+msgstr "Perzijski / فارسی"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__pl_pl
+msgid "Polish / Język polski"
+msgstr "Poljski / Język polski"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__pt_ao
+msgid "Portuguese (AO) / Português (AO)"
+msgstr "Portugalski (AO) / Português (AO)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__pt_br
+msgid "Portuguese (BR) / Português (BR)"
+msgstr "Portugalski (BR) / Português (BR)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__pt_pt
+msgid "Portuguese / Português"
+msgstr "Portugalski / Português"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__can_read
+msgid "Read"
+msgstr "Čitaj"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ro_ro
+msgid "Romanian / română"
+msgstr "Rumunjski / română"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__ru_ru
+msgid "Russian / русский язык"
+msgstr "Ruski / русский язык"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sr_rs
+msgid "Serbian (Cyrillic) / српски"
+msgstr "Srpski (ćirilica) / српски"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sr@latin
+msgid "Serbian (Latin) / srpski"
+msgstr "Srpski (latinica) / srpski"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sk_sk
+msgid "Slovak / Slovenský jazyk"
+msgstr "Slovački / Slovenský jazyk"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sl_si
+msgid "Slovenian / slovenščina"
+msgstr "Slovenski / slovenščina"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_ar
+msgid "Spanish (AR) / Español (AR)"
+msgstr "Španjolski (AR) / Español (AR)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_bo
+msgid "Spanish (BO) / Español (BO)"
+msgstr "Španjolski (BO) / Español (BO)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_cl
+msgid "Spanish (CL) / Español (CL)"
+msgstr "Španjolski (CL) / Español (CL)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_co
+msgid "Spanish (CO) / Español (CO)"
+msgstr "Španjolski (CO) / Español (CO)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_cr
+msgid "Spanish (CR) / Español (CR)"
+msgstr "Španjolski (CR) / Español (CR)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_do
+msgid "Spanish (DO) / Español (DO)"
+msgstr "Španjolski (DO) / Español (DO)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_ec
+msgid "Spanish (EC) / Español (EC)"
+msgstr "Španjolski (EC) / Español (EC)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_gt
+msgid "Spanish (GT) / Español (GT)"
+msgstr "Španjolski (GT) / Español (GT)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_mx
+msgid "Spanish (MX) / Español (MX)"
+msgstr "Španjolski (MX) / Español (MX)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_pa
+msgid "Spanish (PA) / Español (PA)"
+msgstr "Španjolski (PA) / Español (PA)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_pe
+msgid "Spanish (PE) / Español (PE)"
+msgstr "Španjolski (PE) / Español (PE)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_py
+msgid "Spanish (PY) / Español (PY)"
+msgstr "Španjolski (PY) / Español (PY)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_uy
+msgid "Spanish (UY) / Español (UY)"
+msgstr "Španjolski (UY) / Español (UY)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_ve
+msgid "Spanish (VE) / Español (VE)"
+msgstr "Španjolski (VE) / Español (VE)"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__es_es
+msgid "Spanish / Español"
+msgstr "Španjolski / Español"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__can_speak
+msgid "Speak"
+msgstr "Govori"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__sv_se
+msgid "Swedish / Svenska"
+msgstr "Švedski / Svenska"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__tl_ph
+msgid "Tagalog / Filipino"
+msgstr "Tagalog / Filipino"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__te_in
+msgid "Telugu / తెలుగు"
+msgstr "Telugu / తెలుగు"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__th_th
+msgid "Thai / ภาษาไทย"
+msgstr "Tajlandski / ภาษาไทย"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__tr_tr
+msgid "Turkish / Türkçe"
+msgstr "Turski / Türkçe"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__uk_ua
+msgid "Ukrainian / українська"
+msgstr "Ukrajinski / українська"
+
+#. module: hr_employee_language
+#: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__vi_vn
+msgid "Vietnamese / Tiếng Việt"
+msgstr "Vijetnamski / Tiếng Việt"
+
+#. module: hr_employee_language
+#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__can_write
+msgid "Write"
+msgstr "Piši"

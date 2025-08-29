@@ -1,0 +1,46 @@
+# Odoo FastAPI
+
+Odoo addon: fastapi
+
+## Installation
+
+```bash
+pip install odoo-bringout-oca-rest-framework-fastapi
+```
+
+## Dependencies
+
+This addon depends on:
+- endpoint_route_handler
+
+## Manifest Information
+
+- **Name**: Odoo FastAPI
+- **Version**: 16.0.1.7.0
+- **Category**: N/A
+- **License**: LGPL-3
+- **Installable**: False
+
+## Source
+
+Based on [OCA/rest-framework](https://github.com/OCA/rest-framework) branch 16.0, addon `fastapi`.
+
+## License
+
+This package maintains the original LGPL-3 license from the upstream Odoo project.
+
+## Documentation
+
+- Overview: doc/OVERVIEW.md
+- Architecture: doc/ARCHITECTURE.md
+- Models: doc/MODELS.md
+- Controllers: doc/CONTROLLERS.md
+- Wizards: doc/WIZARDS.md
+- Reports: doc/REPORTS.md
+- Security: doc/SECURITY.md
+- Install: doc/INSTALL.md
+- Usage: doc/USAGE.md
+- Configuration: doc/CONFIGURATION.md
+- Dependencies: doc/DEPENDENCIES.md
+- Troubleshooting: doc/TROUBLESHOOTING.md
+- FAQ: doc/FAQ.md

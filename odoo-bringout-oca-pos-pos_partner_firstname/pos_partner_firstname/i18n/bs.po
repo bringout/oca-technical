@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_partner_firstname
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_partner_firstname
+#. odoo-javascript
+#: code:addons/pos_partner_firstname/static/src/js/PartnerDetailsEdit.js:0
+#, python-format
+msgid "Both Customer First and Last Name Are Required"
+msgstr "Potrebno je i ime i prezime kupca"
+
+#. module: pos_partner_firstname
+#. odoo-javascript
+#: code:addons/pos_partner_firstname/static/src/xml/pos.xml:0
+#, python-format
+msgid "Company"
+msgstr "Preduzeće"
+
+#. module: pos_partner_firstname
+#: model:ir.model,name:pos_partner_firstname.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: pos_partner_firstname
+#. odoo-javascript
+#: code:addons/pos_partner_firstname/static/src/xml/pos.xml:0
+#, python-format
+msgid "First Name"
+msgstr "Ime"
+
+#. module: pos_partner_firstname
+#. odoo-javascript
+#: code:addons/pos_partner_firstname/static/src/xml/pos.xml:0
+#, python-format
+msgid "FirstName"
+msgstr "Ime"
+
+#. module: pos_partner_firstname
+#. odoo-javascript
+#: code:addons/pos_partner_firstname/static/src/xml/pos.xml:0
+#, python-format
+msgid "Last Name"
+msgstr "Prezime"
+
+#. module: pos_partner_firstname
+#. odoo-javascript
+#: code:addons/pos_partner_firstname/static/src/xml/pos.xml:0
+#, python-format
+msgid "LastName"
+msgstr "Prezime"
+
+#. module: pos_partner_firstname
+#: model:ir.model,name:pos_partner_firstname.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Sesija POS-a"

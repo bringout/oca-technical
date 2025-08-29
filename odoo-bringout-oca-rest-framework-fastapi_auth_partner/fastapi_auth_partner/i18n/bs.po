@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fastapi_auth_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__app
+msgid "App"
+msgstr "Aplikacija"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_auth_directory
+msgid "Auth Directory"
+msgstr "Auth direktorij"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__auth_partner_id
+msgid "Auth Partner"
+msgstr "Auth partner"
+
+#. module: fastapi_auth_partner
+#: model:ir.ui.menu,name:fastapi_auth_partner.fastapi_auth
+msgid "Authentication"
+msgstr "Autentifikacija"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__demo_auth_method
+msgid "Authentication method"
+msgstr "Metoda autentifikacije"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__cookie_duration
+msgid "Cookie Duration"
+msgstr "Trajanje kolačića"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__cookie_secret_key
+msgid "Cookie Secret Key"
+msgstr "Tajni ključ kolačića"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields.selection,name:fastapi_auth_partner.selection__fastapi_endpoint__app__demo
+msgid "Demo Endpoint"
+msgstr "Demo krajnja točka"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_auth_service__directory_id
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__directory_id
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__auth_directory_id
+#: model:ir.ui.menu,name:fastapi_auth_partner.auth_directory_menu
+msgid "Directory"
+msgstr "Imenik"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_auth_service__endpoint_id
+msgid "Endpoint"
+msgstr "Krajnja točka"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_fastapi_endpoint
+msgid "FastAPI Endpoint"
+msgstr "FastAPI krajnja točka"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__fastapi_endpoint_ids
+msgid "FastAPI Endpoints"
+msgstr "FastAPI krajnje točke"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_fastapi_auth_service
+msgid "Fastapi Auth Service"
+msgstr "Fastapi auth servis"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__fastapi_endpoint_id
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_reset_password__fastapi_endpoint_id
+msgid "Fastapi Endpoint"
+msgstr "Fastapi krajnja točka"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__id
+msgid "ID"
+msgstr "ID"
+
+#. module: fastapi_auth_partner
+#: model:ir.actions.act_window,name:fastapi_auth_partner.auth_partner_action_impersonate
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
+msgid "Impersonate"
+msgstr "Oponašanje"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+#, python-format
+msgid "Impersonation successful"
+msgstr "Oponašanje uspješno"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_auth_directory__cookie_duration
+msgid "In minute, default 525600 minutes => 1 year"
+msgstr "U minutama, zadano 525600 minuta => 1 godina"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__is_auth_partner
+msgid "Is Auth Partner"
+msgstr "Je auth partner"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
+msgid "Label"
+msgstr "Opis"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.auth_partner_view_form
+msgid "Local Impersonate"
+msgstr "Lokalno oponašanje"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/routers/auth.py:0
+#, python-format
+msgid "No cookie secret key defined"
+msgstr "Nema definiranog tajnog ključa kolačića"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+#, python-format
+msgid "Only admin can impersonate locally"
+msgstr "Samo administrator može lokalno oponašati"
+
+#. module: fastapi_auth_partner
+#: model:ir.ui.menu,name:fastapi_auth_partner.auth_partner_menu
+msgid "Partner"
+msgstr "Partner"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields.selection,name:fastapi_auth_partner.selection__fastapi_endpoint__demo_auth_method__auth_partner
+msgid "Partner Auth"
+msgstr "Partner auth"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
+msgid "Please choose an endpoint:"
+msgstr "Molimo odaberite krajnju točku:"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+#, python-format
+msgid "Please install base_future_response for local impersonate to work"
+msgstr "Molimo instalirajte base_future_response da lokalno oponašanje radi"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__public_api_url
+msgid "Public Api Url"
+msgstr "Javni API URL"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__public_url
+msgid "Public Url"
+msgstr "Javni URL"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.auth_directory_view_form
+msgid "Regenerate cookie secret key"
+msgstr "Regeneriraj tajni ključ kolačića"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__sliding_session
+msgid "Sliding Session"
+msgstr "Klizna sesija"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_fastapi_endpoint__is_auth_partner
+msgid "Technical field to know if the auth method is partner"
+msgstr "Tehničko polje za poznavanje je li auth metoda partner"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_fastapi_endpoint__public_api_url
+msgid ""
+"The public URL of the API.\n"
+"This URL is used in impersonation to set the cookie on the right API domain if you use a reverse proxy to serve the API.\n"
+"Defaults to the public_url if not set or the odoo url if not set either."
+msgstr ""
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_fastapi_endpoint__public_url
+msgid ""
+"The public URL of the site.\n"
+"This URL is used for the impersonation final redirect. And can also be used in the mail template to construct links.\n"
+"Default to the public_api_url if not set or the odoo url if not set either."
+msgstr ""
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_auth_directory__cookie_secret_key
+msgid "The secret key used to sign the cookie"
+msgstr "Tajni ključ koji se koristi za potpisivanje kolačića"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_wizard_auth_partner_impersonate
+msgid "Wizard Partner Auth Impersonate"
+msgstr "Čarobnjak partnera za auth oponašanje"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_wizard_auth_partner_reset_password
+msgid "Wizard Partner Auth Reset Password"
+msgstr "Čarobnjak partnera za auth resetiranje lozinke"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+#, python-format
+msgid ""
+"You are now impersonating %s\n"
+"%%s"
+msgstr ""

@@ -1,0 +1,196 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* iot_output_oca
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: iot_output_oca
+#: model_terms:ir.ui.view,arch_db:iot_output_oca.iot_device_kanban
+msgid ""
+"<i class=\"fa fa-terminal\"/>\n"
+"                    Outputs"
+msgstr ""
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__action_ids
+msgid "Action"
+msgstr "Akcija"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__action_count
+msgid "Action Count"
+msgstr "Broj akcija"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_communication_system__applies_to
+msgid "Applies To"
+msgstr "Primjenjuje se na"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device__communication_system_id
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__communication_system_id
+msgid "Communication System"
+msgstr "Komunikacijski sistem"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__communication_system_action_id
+msgid "Communication System Action"
+msgstr "Komunikacijska sistemska akcija"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__create_uid
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__create_date
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__device_id
+#: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_communication_system__applies_to__device
+msgid "Device"
+msgstr "Uređaj"
+
+#. module: iot_output_oca
+#. odoo-python
+#: code:addons/iot_output_oca/models/iot_device_output_action.py:0
+#, python-format
+msgid "Device and action must be of the same system"
+msgstr "Uređaj i akcija moraju biti istog sistema"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__display_name
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: iot_output_oca
+#: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_device_output_action__status__failed
+msgid "Failed"
+msgstr "Neuspješan"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__id
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__id
+msgid "ID"
+msgstr "ID"
+
+#. module: iot_output_oca
+#: model:ir.model,name:iot_output_oca.model_iot_device_output_action
+msgid "IoT Action"
+msgstr "IoT akcija"
+
+#. module: iot_output_oca
+#: model:ir.model,name:iot_output_oca.model_iot_communication_system
+msgid "IoT Communication System"
+msgstr "IoT komunikacijski sistem"
+
+#. module: iot_output_oca
+#: model:ir.model,name:iot_output_oca.model_iot_device
+#: model:ir.model,name:iot_output_oca.model_iot_device_output
+msgid "IoT Device"
+msgstr "IoT uređaj"
+
+#. module: iot_output_oca
+#: model:ir.actions.act_window,name:iot_output_oca.iot_device_output_action
+msgid "IoT Outputs"
+msgstr "IoT izlazi"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__ip
+msgid "Ip"
+msgstr "IP"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output____last_update
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__write_uid
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__write_date
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__model
+msgid "Model"
+msgstr "Model"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__name
+msgid "Name"
+msgstr "Naziv:"
+
+#. module: iot_output_oca
+#: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_device_output_action__status__ok
+msgid "Ok"
+msgstr "Uredu"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__date_ok
+msgid "Ok date"
+msgstr "Datum u redu"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_communication_system__output_ids
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device__output_ids
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__output_id
+#: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_communication_system__applies_to__output
+msgid "Output"
+msgstr "Izlaz"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device__output_count
+msgid "Output Count"
+msgstr "Broj izlaza"
+
+#. module: iot_output_oca
+#: model_terms:ir.ui.view,arch_db:iot_output_oca.iot_device_form
+msgid "Outputs"
+msgstr "Izlazi"
+
+#. module: iot_output_oca
+#: model:ir.model.fields.selection,name:iot_output_oca.selection__iot_device_output_action__status__pending
+msgid "Pending"
+msgstr "Na čekanju"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__result
+msgid "Result"
+msgstr "Rezultat"
+
+#. module: iot_output_oca
+#: model_terms:ir.ui.view,arch_db:iot_output_oca.iot_device_output_action_tree
+msgid "Run"
+msgstr "Pokrenut"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output__state
+msgid "State"
+msgstr "Status"
+
+#. module: iot_output_oca
+#: model:ir.model.fields,field_description:iot_output_oca.field_iot_device_output_action__status
+msgid "Status"
+msgstr "Status"
