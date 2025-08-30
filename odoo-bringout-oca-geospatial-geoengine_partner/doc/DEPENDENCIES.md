@@ -4,4 +4,4 @@ This addon depends on:
 
 - base
 - [base_geoengine](https://github.com/bringout/oca-technical)
-- [contacts](https://github.com/bringout/oca-ocb-technical/tree/88371c78cad15e33295a8d1fee0e733653eb4213/odoo-bringout-oca-ocb-contacts)
+- [contacts](https://github.com/bringout/oca-ocb-technical/tree/c402a40a06d0be2fb22b984c2e7c0bd673fa7f80/odoo-bringout-oca-ocb-contacts)
