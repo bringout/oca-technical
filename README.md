@@ -1,15 +1,25 @@
 # OCA Technical
 
-This repository contains **341** OCA packages for technical.
+This repository contains **240** OCA packages for technical.
 
-**Note**: Some modules have been moved to specialized submodules:
+**Note**: Many modules have been moved to specialized submodules for better organization:
+
+### New Submodules Created:
+- **26 CRM modules** moved to [oca-crm](https://github.com/bringout/oca-crm) submodule
+- **10 DMS modules** moved to [oca-dms](https://github.com/bringout/oca-dms) submodule
 - **67 HR modules** moved to [oca-hr](https://github.com/bringout/oca-hr) submodule
-- **74 POS modules** moved to [oca-pos](https://github.com/bringout/oca-pos) submodule  
 - **28 Maintenance modules** moved to [oca-maintenance](https://github.com/bringout/oca-maintenance) submodule
+- **74 POS modules** moved to [oca-pos](https://github.com/bringout/oca-pos) submodule
 - **16 Sale modules** moved to [oca-sale](https://github.com/bringout/oca-sale) submodule
 - **68 Web modules** moved to [oca-web](https://github.com/bringout/oca-web) submodule
 
-## Packages Included (341 packages)
+### Moved to Existing Submodules:
+- **28 Account modules** moved to existing [oca-financial](https://github.com/bringout/oca-financial) submodule
+- **7 IoT modules** moved to existing oca-ocb-hw submodule
+- **9 Product modules** moved to existing [oca-product](https://github.com/bringout/oca-product) submodule
+- **21 Stock-logistics modules** moved to existing [oca-warehouse](https://github.com/bringout/oca-warehouse) submodule
+
+## Packages Included (240 packages)
 
 *Note: The detailed package list below needs to be regenerated to reflect the modules that have been moved to specialized submodules.*
 
