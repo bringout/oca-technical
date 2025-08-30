@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [mail](../../odoo-bringout-oca-ocb-mail)
-- [http_routing](../../odoo-bringout-oca-ocb-http_routing)
-- [portal](../../odoo-bringout-oca-ocb-portal)
+- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
+- [http_routing](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-http_routing)
+- [portal](../../../../../oca-ocb-website/odoo-bringout-oca-ocb-portal)
 - base

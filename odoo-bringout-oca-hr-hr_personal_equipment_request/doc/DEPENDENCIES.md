@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [product](../../odoo-bringout-oca-ocb-product)
-- [hr](../../odoo-bringout-oca-ocb-hr)
-- [mail](../../odoo-bringout-oca-ocb-mail)
+- [product](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-product)
+- [hr](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr)
+- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [crm](../../odoo-bringout-oca-ocb-crm)
+- [crm](../../../../../oca-ocb-crm/odoo-bringout-oca-ocb-crm)
 - partner_firstname

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mail](../../odoo-bringout-oca-ocb-mail)
-- [base_sparse_field](../../odoo-bringout-oca-ocb-base_sparse_field)
+- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
+- [base_sparse_field](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_sparse_field)

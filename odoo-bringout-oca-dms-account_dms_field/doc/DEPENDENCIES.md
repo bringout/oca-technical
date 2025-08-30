@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../odoo-bringout-oca-ocb-account)
-- [dms_field](../../odoo-bringout-oca-dms-dms_field)
+- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [dms_field](../../../../odoo-bringout-oca-dms-dms_field)

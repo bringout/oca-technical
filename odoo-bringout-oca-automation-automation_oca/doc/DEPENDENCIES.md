@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mail](../../odoo-bringout-oca-ocb-mail)
-- [link_tracker](../../odoo-bringout-oca-ocb-link_tracker)
+- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
+- [link_tracker](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-link_tracker)

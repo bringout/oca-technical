@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_setup](../../odoo-bringout-oca-ocb-base_setup)
-- [calendar](../../odoo-bringout-oca-ocb-calendar)
+- [base_setup](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_setup)
+- [calendar](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-calendar)

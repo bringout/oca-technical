@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mail](../../odoo-bringout-oca-ocb-mail)
-- [contacts](../../odoo-bringout-oca-ocb-contacts)
+- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
+- [contacts](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-contacts)

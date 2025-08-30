@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [bus](../../odoo-bringout-oca-ocb-bus)
+- [bus](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-bus)

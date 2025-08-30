@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr](../../odoo-bringout-oca-ocb-hr)
-- [dms_field](../../odoo-bringout-oca-dms-dms_field)
+- [hr](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr)
+- [dms_field](../../../../odoo-bringout-oca-dms-dms_field)

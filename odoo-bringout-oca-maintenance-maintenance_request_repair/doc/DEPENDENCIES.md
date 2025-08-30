@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [maintenance](../../odoo-bringout-oca-ocb-maintenance)
-- [repair](../../odoo-bringout-oca-ocb-repair)
+- [maintenance](../../../../../oca-ocb-vertical-industry/odoo-bringout-oca-ocb-maintenance)
+- [repair](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-repair)

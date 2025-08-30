@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [hr](../../odoo-bringout-oca-ocb-hr)
+- [hr](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr)

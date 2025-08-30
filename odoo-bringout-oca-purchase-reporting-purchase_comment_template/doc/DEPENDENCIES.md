@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [purchase](../../odoo-bringout-oca-ocb-purchase)
-- [base_comment_template](../../odoo-bringout-oca-reporting-engine-base_comment_template)
+- [purchase](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-purchase)
+- [base_comment_template](../../../../../oca-report/odoo-bringout-oca-reporting-engine-base_comment_template)

@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [pos_discount](../../odoo-bringout-oca-ocb-pos_discount)
+- [pos_discount](../../../../../oca-ocb-pos/odoo-bringout-oca-ocb-pos_discount)

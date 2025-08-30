@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [product_brand](../../odoo-bringout-oca-brand-product_brand)
+- [product_brand](../../../../odoo-bringout-oca-brand-product_brand)

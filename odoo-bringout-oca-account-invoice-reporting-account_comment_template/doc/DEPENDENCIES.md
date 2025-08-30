@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../odoo-bringout-oca-ocb-account)
-- [base_comment_template](../../odoo-bringout-oca-reporting-engine-base_comment_template)
+- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [base_comment_template](../../../../../oca-report/odoo-bringout-oca-reporting-engine-base_comment_template)

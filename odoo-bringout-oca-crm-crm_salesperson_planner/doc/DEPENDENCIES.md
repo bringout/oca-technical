@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [crm](../../odoo-bringout-oca-ocb-crm)
-- [calendar](../../odoo-bringout-oca-ocb-calendar)
+- [crm](../../../../../oca-ocb-crm/odoo-bringout-oca-ocb-crm)
+- [calendar](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-calendar)

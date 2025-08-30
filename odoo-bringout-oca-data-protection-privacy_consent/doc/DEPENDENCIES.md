@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [privacy](../../odoo-bringout-oca-data-protection-privacy)
+- [privacy](../../../../odoo-bringout-oca-data-protection-privacy)
