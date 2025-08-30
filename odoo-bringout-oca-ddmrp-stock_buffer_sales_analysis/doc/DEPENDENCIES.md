@@ -3,5 +3,5 @@
 This addon depends on:
 
 - [ddmrp](https://github.com/bringout/oca-technical)
-- [sale](https://github.com/bringout/oca-ocb-sale)
-- [sales_team](https://github.com/bringout/oca-ocb-sale)
+- [sale](https://github.com/bringout/oca-ocb-sale/tree/681dc8d5fff638cb0862a34e48091a2098d091f8/odoo-bringout-oca-ocb-sale)
+- [sales_team](https://github.com/bringout/oca-ocb-sale/tree/681dc8d5fff638cb0862a34e48091a2098d091f8/odoo-bringout-oca-ocb-sales_team)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [product](https://github.com/bringout/oca-ocb-sale)
+- [product](https://github.com/bringout/oca-ocb-sale/tree/681dc8d5fff638cb0862a34e48091a2098d091f8/odoo-bringout-oca-ocb-product)
 - [mgmtsystem_nonconformity](https://github.com/bringout/oca-technical)

@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [mail](https://github.com/bringout/oca-ocb-core)
-- [base_sparse_field](https://github.com/bringout/oca-ocb-core)
-- [web](https://github.com/bringout/oca-ocb-core)
+- [mail](https://github.com/bringout/oca-ocb-core/tree/b3e6fb998e53b9eb1bc9669d992017616c2bd7b3/odoo-bringout-oca-ocb-mail)
+- [base_sparse_field](https://github.com/bringout/oca-ocb-core/tree/b3e6fb998e53b9eb1bc9669d992017616c2bd7b3/odoo-bringout-oca-ocb-base_sparse_field)
+- [web](https://github.com/bringout/oca-ocb-core/tree/b3e6fb998e53b9eb1bc9669d992017616c2bd7b3/odoo-bringout-oca-ocb-web)
