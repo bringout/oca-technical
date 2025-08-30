@@ -3,4 +3,4 @@
 This addon depends on:
 
 - [base_import_async](https://github.com/bringout/oca-technical)
-- [account](https://github.com/bringout/oca-ocb-accounting/tree/1c86482d8238e19ed78579629f21cd46d51a058e/odoo-bringout-oca-ocb-account)
+- [account](https://github.com/bringout/oca-ocb-accounting/tree/6e99f2e941ecad12aceb9b1f887fbe526940de95/odoo-bringout-oca-ocb-account)

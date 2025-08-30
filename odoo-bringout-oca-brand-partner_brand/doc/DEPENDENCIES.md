@@ -3,4 +3,4 @@
 This addon depends on:
 
 - [brand](https://github.com/bringout/oca-technical)
-- [contacts](https://github.com/bringout/oca-ocb-technical/tree/8fcba78f213552797a003ba001cde6c4c59e6785/odoo-bringout-oca-ocb-contacts)
+- [contacts](https://github.com/bringout/oca-ocb-technical/tree/b2a91e3b975dae4980028dc64efeda7a6a77a647/odoo-bringout-oca-ocb-contacts)
