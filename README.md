@@ -1,660 +1,242 @@
-# OCA Technical
-
-This repository contains **240** OCA packages for technical.
-
-**Note**: Many modules have been moved to specialized submodules for better organization:
-
-### New Submodules Created:
-- **26 CRM modules** moved to [oca-crm](https://github.com/bringout/oca-crm) submodule
-- **10 DMS modules** moved to [oca-dms](https://github.com/bringout/oca-dms) submodule
-- **67 HR modules** moved to [oca-hr](https://github.com/bringout/oca-hr) submodule
-- **28 Maintenance modules** moved to [oca-maintenance](https://github.com/bringout/oca-maintenance) submodule
-- **74 POS modules** moved to [oca-pos](https://github.com/bringout/oca-pos) submodule
-- **16 Sale modules** moved to [oca-sale](https://github.com/bringout/oca-sale) submodule
-- **68 Web modules** moved to [oca-web](https://github.com/bringout/oca-web) submodule
-
-### Moved to Existing Submodules:
-- **28 Account modules** moved to existing [oca-financial](https://github.com/bringout/oca-financial) submodule
-- **7 IoT modules** moved to existing oca-ocb-hw submodule
-- **9 Product modules** moved to existing [oca-product](https://github.com/bringout/oca-product) submodule
-- **21 Stock-logistics modules** moved to existing [oca-warehouse](https://github.com/bringout/oca-warehouse) submodule
-
 ## Packages Included (240 packages)
 
-*Note: The detailed package list below needs to be regenerated to reflect the modules that have been moved to specialized submodules.*
-
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_order_base** - From account: closing_account_cutoff_accrual_order_base
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_order_stock_base** - From account: closing_account_cutoff_accrual_order_stock_base
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_purchase** - From account: closing_account_cutoff_accrual_purchase
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_purchase_stock** - From account: closing_account_cutoff_accrual_purchase_stock
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_sale** - From account: closing_account_cutoff_accrual_sale
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_sale_stock** - From account: closing_account_cutoff_accrual_sale_stock
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_sale_stock_delivery** - From account: closing_account_cutoff_accrual_sale_stock_delivery
-- **odoo-bringout-oca-account-closing-account_cutoff_accrual_subscription** - From account: closing_account_cutoff_accrual_subscription
-- **odoo-bringout-oca-account-closing-account_cutoff_base** - From account: closing_account_cutoff_base
-- **odoo-bringout-oca-account-closing-account_cutoff_picking** - From account: closing_account_cutoff_picking
-- **odoo-bringout-oca-account-closing-account_cutoff_start_end_dates** - From account: closing_account_cutoff_start_end_dates
-- **odoo-bringout-oca-account-closing-account_fiscal_year_closing** - From account: closing_account_fiscal_year_closing
-- **odoo-bringout-oca-account-closing-account_invoice_start_end_dates** - From account: closing_account_invoice_start_end_dates
-- **odoo-bringout-oca-account-closing-account_invoice_start_end_dates_move** - From account: closing_account_invoice_start_end_dates_move
-- **odoo-bringout-oca-account-closing-account_multicurrency_revaluation** - From account: closing_account_multicurrency_revaluation
-- **odoo-bringout-oca-account-invoice-reporting-account_comment_template** - From account: invoice_reporting_account_comment_template
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_line_report** - From account: invoice_reporting_account_invoice_line_report
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_production_lot** - From account: invoice_reporting_account_invoice_production_lot
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_report_due_list** - From account: invoice_reporting_account_invoice_report_due_list
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_report_grouped_by_picking** - From account: invoice_reporting_account_invoice_report_grouped_by_picking
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_report_header_repeater** - From account: invoice_reporting_account_invoice_report_header_repeater
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_report_lot_expiration_date** - From account: invoice_reporting_account_invoice_report_lot_expiration_date
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_report_payment_info** - From account: invoice_reporting_account_invoice_report_payment_info
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_report_product_sticker** - From account: invoice_reporting_account_invoice_report_product_sticker
-- **odoo-bringout-oca-account-invoice-reporting-account_invoice_report_salesperson** - From account: invoice_reporting_account_invoice_report_salesperson
-- **odoo-bringout-oca-account-invoice-reporting-account_reporting_volume** - From account: invoice_reporting_account_reporting_volume
-- **odoo-bringout-oca-account-invoice-reporting-account_reporting_weight** - From account: invoice_reporting_account_reporting_weight
-- **odoo-bringout-oca-account-invoice-reporting-partner_time_to_pay** - From account: invoice_reporting_partner_time_to_pay
-- **odoo-bringout-oca-automation-automation_oca** - From automation: automation_oca
-- **odoo-bringout-oca-brand-account_brand** - From brand: account_brand
-- **odoo-bringout-oca-brand-account_invoice_bank_brand** - From brand: account_invoice_bank_brand
-- **odoo-bringout-oca-brand-account_payment_mode_brand** - From brand: account_payment_mode_brand
-- **odoo-bringout-oca-brand-analytic_brand** - From brand: analytic_brand
-- **odoo-bringout-oca-brand-brand** - From brand: brand
-- **odoo-bringout-oca-brand-contract_brand** - From brand: contract_brand
-- **odoo-bringout-oca-brand-contract_forecast_brand** - From brand: contract_forecast_brand
-- **odoo-bringout-oca-brand-partner_brand** - From brand: partner_brand
-- **odoo-bringout-oca-brand-product_brand** - From brand: product_brand
-- **odoo-bringout-oca-brand-product_brand_mrp** - From brand: product_brand_mrp
-- **odoo-bringout-oca-brand-product_brand_purchase** - From brand: product_brand_purchase
-- **odoo-bringout-oca-brand-product_brand_tag** - From brand: product_brand_tag
-- **odoo-bringout-oca-brand-product_contract_brand** - From brand: product_contract_brand
-- **odoo-bringout-oca-brand-sale_brand** - From brand: sale_brand
-- **odoo-bringout-oca-brand-sale_payment_mode_brand** - From brand: sale_payment_mode_brand
-- **odoo-bringout-oca-brand-stock_brand** - From brand: stock_brand
-- **odoo-bringout-oca-connector-component** - From connector: component
-- **odoo-bringout-oca-connector-component_event** - From connector: component_event
-- **odoo-bringout-oca-connector-connector** - From connector: connector
-- **odoo-bringout-oca-connector-connector_base_product** - From connector: connector_base_product
-- **odoo-bringout-oca-connector-interfaces-connector_importer** - From connector: interfaces_connector_importer
-- **odoo-bringout-oca-connector-interfaces-connector_importer_product** - From connector: interfaces_connector_importer_product
-- **odoo-bringout-oca-connector-test_component** - From connector: test_component
-- **odoo-bringout-oca-connector-test_connector** - From connector: test_connector
-- **odoo-bringout-oca-crm-crm_claim** - From crm: crm_claim
-- **odoo-bringout-oca-crm-crm_claim_code** - From crm: crm_claim_code
-- **odoo-bringout-oca-crm-crm_claim_type** - From crm: crm_claim_type
-- **odoo-bringout-oca-crm-crm_date_deadline_required** - From crm: crm_date_deadline_required
-- **odoo-bringout-oca-crm-crm_exception** - From crm: crm_exception
-- **odoo-bringout-oca-crm-crm_industry** - From crm: crm_industry
-- **odoo-bringout-oca-crm-crm_lead_code** - From crm: crm_lead_code
-- **odoo-bringout-oca-crm-crm_lead_currency** - From crm: crm_lead_currency
-- **odoo-bringout-oca-crm-crm_lead_firstname** - From crm: crm_lead_firstname
-- **odoo-bringout-oca-crm-crm_lead_product** - From crm: crm_lead_product
-- **odoo-bringout-oca-crm-crm_lead_search_archive** - From crm: crm_lead_search_archive
-- **odoo-bringout-oca-crm-crm_lead_to_task** - From crm: crm_lead_to_task
-- **odoo-bringout-oca-crm-crm_lead_vat** - From crm: crm_lead_vat
-- **odoo-bringout-oca-crm-crm_location** - From crm: crm_location
-- **odoo-bringout-oca-crm-crm_location_nuts** - From crm: crm_location_nuts
-- **odoo-bringout-oca-crm-crm_partner_assign** - From crm: crm_partner_assign
-- **odoo-bringout-oca-crm-crm_partner_required** - From crm: crm_partner_required
-- **odoo-bringout-oca-crm-crm_phonecall** - From crm: crm_phonecall
-- **odoo-bringout-oca-crm-crm_project_create** - From crm: crm_project_create
-- **odoo-bringout-oca-crm-crm_project_task** - From crm: crm_project_task
-- **odoo-bringout-oca-crm-crm_salesperson_planner** - From crm: crm_salesperson_planner
-- **odoo-bringout-oca-crm-crm_salesperson_planner_sale** - From crm: crm_salesperson_planner_sale
-- **odoo-bringout-oca-crm-crm_security_group** - From crm: crm_security_group
-- **odoo-bringout-oca-crm-crm_stage_probability** - From crm: crm_stage_probability
-- **odoo-bringout-oca-crm-crm_won_restrict_per_stage** - From crm: crm_won_restrict_per_stage
-- **odoo-bringout-oca-crm-marketing_crm_partner** - From crm: marketing_crm_partner
-- **odoo-bringout-oca-data-protection-privacy** - From data: protection_privacy
-- **odoo-bringout-oca-data-protection-privacy_consent** - From data: protection_privacy_consent
-- **odoo-bringout-oca-ddmrp-ddmrp** - From ddmrp: ddmrp
-- **odoo-bringout-oca-ddmrp-ddmrp_adjustment** - From ddmrp: ddmrp_adjustment
-- **odoo-bringout-oca-ddmrp-ddmrp_chatter** - From ddmrp: ddmrp_chatter
-- **odoo-bringout-oca-ddmrp-ddmrp_cron_actions_as_job** - From ddmrp: ddmrp_cron_actions_as_job
-- **odoo-bringout-oca-ddmrp-ddmrp_exclude_moves_adu_calc** - From ddmrp: ddmrp_exclude_moves_adu_calc
-- **odoo-bringout-oca-ddmrp-ddmrp_exclude_moves_adu_calc_sales** - From ddmrp: ddmrp_exclude_moves_adu_calc_sales
-- **odoo-bringout-oca-ddmrp-ddmrp_history** - From ddmrp: ddmrp_history
-- **odoo-bringout-oca-ddmrp-ddmrp_product_replace** - From ddmrp: ddmrp_product_replace
-- **odoo-bringout-oca-ddmrp-ddmrp_report_part_flow_index** - From ddmrp: ddmrp_report_part_flow_index
-- **odoo-bringout-oca-ddmrp-ddmrp_sale** - From ddmrp: ddmrp_sale
-- **odoo-bringout-oca-ddmrp-ddmrp_sale_dropshipping** - From ddmrp: ddmrp_sale_dropshipping
-- **odoo-bringout-oca-ddmrp-ddmrp_warning** - From ddmrp: ddmrp_warning
-- **odoo-bringout-oca-ddmrp-stock_buffer_route** - From ddmrp: stock_buffer_route
-- **odoo-bringout-oca-ddmrp-stock_buffer_sales_analysis** - From ddmrp: stock_buffer_sales_analysis
-- **odoo-bringout-oca-dms-account_dms_field** - From dms: account_dms_field
-- **odoo-bringout-oca-dms-dms** - From dms: dms
-- **odoo-bringout-oca-dms-dms_attachment_link** - From dms: dms_attachment_link
-- **odoo-bringout-oca-dms-dms_auto_classification** - From dms: dms_auto_classification
-- **odoo-bringout-oca-dms-dms_field** - From dms: dms_field
-- **odoo-bringout-oca-dms-dms_field_auto_classification** - From dms: dms_field_auto_classification
-- **odoo-bringout-oca-dms-dms_storage** - From dms: dms_storage
-- **odoo-bringout-oca-dms-dms_user_role** - From dms: dms_user_role
-- **odoo-bringout-oca-dms-hr_dms_field** - From dms: hr_dms_field
-- **odoo-bringout-oca-dms-web_editor_media_dialog_dms** - From dms: web_editor_media_dialog_dms
-- **odoo-bringout-oca-geospatial-base_geoengine** - From geospatial: base_geoengine
-- **odoo-bringout-oca-geospatial-base_geoengine_demo** - From geospatial: base_geoengine_demo
-- **odoo-bringout-oca-geospatial-base_geolocalize_company** - From geospatial: base_geolocalize_company
-- **odoo-bringout-oca-geospatial-geoengine_base_geolocalize** - From geospatial: geoengine_base_geolocalize
-- **odoo-bringout-oca-geospatial-geoengine_partner** - From geospatial: geoengine_partner
-- **odoo-bringout-oca-geospatial-web_leaflet_lib** - From geospatial: web_leaflet_lib
-- **odoo-bringout-oca-geospatial-web_view_leaflet_map** - From geospatial: web_view_leaflet_map
-- **odoo-bringout-oca-geospatial-web_view_leaflet_map_partner** - From geospatial: web_view_leaflet_map_partner
-- **odoo-bringout-oca-geospatial-website_geoengine** - From geospatial: website_geoengine
-- **odoo-bringout-oca-geospatial-website_geoengine_store_locator** - From geospatial: website_geoengine_store_locator
-- **odoo-bringout-oca-hack-payroll** - From hack: payroll
-- **odoo-bringout-oca-hr-attendance-hr_attendance_autoclose** - From hr: attendance_hr_attendance_autoclose
-- **odoo-bringout-oca-hr-attendance-hr_attendance_calendar_view** - From hr: attendance_hr_attendance_calendar_view
-- **odoo-bringout-oca-hr-attendance-hr_attendance_geolocation** - From hr: attendance_hr_attendance_geolocation
-- **odoo-bringout-oca-hr-attendance-hr_attendance_modification_tracking** - From hr: attendance_hr_attendance_modification_tracking
-- **odoo-bringout-oca-hr-attendance-hr_attendance_reason** - From hr: attendance_hr_attendance_reason
-- **odoo-bringout-oca-hr-attendance-hr_attendance_report_theoretical_time** - From hr: attendance_hr_attendance_report_theoretical_time
-- **odoo-bringout-oca-hr-attendance-hr_attendance_rfid** - From hr: attendance_hr_attendance_rfid
-- **odoo-bringout-oca-hr-attendance-hr_birthday_welcome_message** - From hr: attendance_hr_birthday_welcome_message
-- **odoo-bringout-oca-hr-attendance-hr_contract_update_overtime** - From hr: attendance_hr_contract_update_overtime
-- **odoo-bringout-oca-hr-expense-hr_expense_advance_clearing** - From hr: expense_hr_expense_advance_clearing
-- **odoo-bringout-oca-hr-expense-hr_expense_advance_clearing_sequence** - From hr: expense_hr_expense_advance_clearing_sequence
-- **odoo-bringout-oca-hr-expense-hr_expense_cancel** - From hr: expense_hr_expense_cancel
-- **odoo-bringout-oca-hr-expense-hr_expense_invoice** - From hr: expense_hr_expense_invoice
-- **odoo-bringout-oca-hr-expense-hr_expense_journal** - From hr: expense_hr_expense_journal
-- **odoo-bringout-oca-hr-expense-hr_expense_pay_to_vendor** - From hr: expense_hr_expense_pay_to_vendor
-- **odoo-bringout-oca-hr-expense-hr_expense_payment** - From hr: expense_hr_expense_payment
-- **odoo-bringout-oca-hr-expense-hr_expense_sequence** - From hr: expense_hr_expense_sequence
-- **odoo-bringout-oca-hr-expense-hr_expense_sequence_option** - From hr: expense_hr_expense_sequence_option
-- **odoo-bringout-oca-hr-expense-hr_expense_tier_validation** - From hr: expense_hr_expense_tier_validation
-- **odoo-bringout-oca-hr-holidays-hr_holidays_auto_extend** - From hr: holidays_hr_holidays_auto_extend
-- **odoo-bringout-oca-hr-holidays-hr_holidays_leave_auto_approve** - From hr: holidays_hr_holidays_leave_auto_approve
-- **odoo-bringout-oca-hr-holidays-hr_holidays_natural_period** - From hr: holidays_hr_holidays_natural_period
-- **odoo-bringout-oca-hr-holidays-hr_holidays_natural_period_public** - From hr: holidays_hr_holidays_natural_period_public
-- **odoo-bringout-oca-hr-holidays-hr_holidays_public** - From hr: holidays_hr_holidays_public
-- **odoo-bringout-oca-hr-holidays-hr_holidays_public_city** - From hr: holidays_hr_holidays_public_city
-- **odoo-bringout-oca-hr-holidays-hr_holidays_settings** - From hr: holidays_hr_holidays_settings
-- **odoo-bringout-oca-hr-holidays-hr_holidays_summary_email** - From hr: holidays_hr_holidays_summary_email
-- **odoo-bringout-oca-hr-holidays-hr_leave_custom_hour_interval** - From hr: holidays_hr_leave_custom_hour_interval
-- **odoo-bringout-oca-hr-holidays-hr_leave_type_code** - From hr: holidays_hr_leave_type_code
-- **odoo-bringout-oca-hr-holidays-resource_leaves_geographic** - From hr: holidays_resource_leaves_geographic
-- **odoo-bringout-oca-hr-hr_contract_employee_calendar_planning** - From hr: hr_contract_employee_calendar_planning
-- **odoo-bringout-oca-hr-hr_contract_multi_job** - From hr: hr_contract_multi_job
-- **odoo-bringout-oca-hr-hr_contract_reference** - From hr: hr_contract_reference
-- **odoo-bringout-oca-hr-hr_course** - From hr: hr_course
-- **odoo-bringout-oca-hr-hr_course_survey** - From hr: hr_course_survey
-- **odoo-bringout-oca-hr-hr_department_code** - From hr: hr_department_code
-- **odoo-bringout-oca-hr-hr_employee_age** - From hr: hr_employee_age
-- **odoo-bringout-oca-hr-hr_employee_birth_name** - From hr: hr_employee_birth_name
-- **odoo-bringout-oca-hr-hr_employee_birthday_mail** - From hr: hr_employee_birthday_mail
-- **odoo-bringout-oca-hr-hr_employee_calendar_planning** - From hr: hr_employee_calendar_planning
-- **odoo-bringout-oca-hr-hr_employee_digitized_signature** - From hr: hr_employee_digitized_signature
-- **odoo-bringout-oca-hr-hr_employee_document** - From hr: hr_employee_document
-- **odoo-bringout-oca-hr-hr_employee_document_from_applicant** - From hr: hr_employee_document_from_applicant
-- **odoo-bringout-oca-hr-hr_employee_firstname** - From hr: hr_employee_firstname
-- **odoo-bringout-oca-hr-hr_employee_group_overview_readonly** - From hr: hr_employee_group_overview_readonly
-- **odoo-bringout-oca-hr-hr_employee_id** - From hr: hr_employee_id
-- **odoo-bringout-oca-hr-hr_employee_language** - From hr: hr_employee_language
-- **odoo-bringout-oca-hr-hr_employee_lastnames** - From hr: hr_employee_lastnames
-- **odoo-bringout-oca-hr-hr_employee_medical_examination** - From hr: hr_employee_medical_examination
-- **odoo-bringout-oca-hr-hr_employee_partner_external** - From hr: hr_employee_partner_external
-- **odoo-bringout-oca-hr-hr_employee_phone_extension** - From hr: hr_employee_phone_extension
-- **odoo-bringout-oca-hr-hr_employee_phone_pin** - From hr: hr_employee_phone_pin
-- **odoo-bringout-oca-hr-hr_employee_ppe** - From hr: hr_employee_ppe
-- **odoo-bringout-oca-hr-hr_employee_relative** - From hr: hr_employee_relative
-- **odoo-bringout-oca-hr-hr_employee_service** - From hr: hr_employee_service
-- **odoo-bringout-oca-hr-hr_employee_service_contract** - From hr: hr_employee_service_contract
-- **odoo-bringout-oca-hr-hr_employee_ssn** - From hr: hr_employee_ssn
-- **odoo-bringout-oca-hr-hr_holidays_team_manager** - From hr: hr_holidays_team_manager
-- **odoo-bringout-oca-hr-hr_job_category** - From hr: hr_job_category
-- **odoo-bringout-oca-hr-hr_org_chart_overview** - From hr: hr_org_chart_overview
-- **odoo-bringout-oca-hr-hr_personal_equipment_request** - From hr: hr_personal_equipment_request
-- **odoo-bringout-oca-hr-hr_personal_equipment_request_tier_validation** - From hr: hr_personal_equipment_request_tier_validation
-- **odoo-bringout-oca-hr-hr_personal_equipment_stock** - From hr: hr_personal_equipment_stock
-- **odoo-bringout-oca-hr-hr_personal_equipment_variant_configurator** - From hr: hr_personal_equipment_variant_configurator
-- **odoo-bringout-oca-hr-hr_professional_category** - From hr: hr_professional_category
-- **odoo-bringout-oca-hr-hr_recruitment_torecruit** - From hr: hr_recruitment_torecruit
-- **odoo-bringout-oca-hr-resource_multi_week_calendar** - From hr: resource_multi_week_calendar
-- **odoo-bringout-oca-iot-iot_amqp_oca** - From iot: iot_amqp_oca
-- **odoo-bringout-oca-iot-iot_input_oca** - From iot: iot_input_oca
-- **odoo-bringout-oca-iot-iot_key_employee_rfid** - From iot: iot_key_employee_rfid
-- **odoo-bringout-oca-iot-iot_oca** - From iot: iot_oca
-- **odoo-bringout-oca-iot-iot_output_oca** - From iot: iot_output_oca
-- **odoo-bringout-oca-iot-iot_rule** - From iot: iot_rule
-- **odoo-bringout-oca-iot-iot_template_oca** - From iot: iot_template_oca
-- **odoo-bringout-oca-maintenance-base_maintenance** - From maintenance: base_maintenance
-- **odoo-bringout-oca-maintenance-base_maintenance_config** - From maintenance: base_maintenance_config
-- **odoo-bringout-oca-maintenance-base_maintenance_group** - From maintenance: base_maintenance_group
-- **odoo-bringout-oca-maintenance-maintenance_account** - From maintenance: maintenance_account
-- **odoo-bringout-oca-maintenance-maintenance_equipment_category_hierarchy** - From maintenance: maintenance_equipment_category_hierarchy
-- **odoo-bringout-oca-maintenance-maintenance_equipment_certification** - From maintenance: maintenance_equipment_certification
-- **odoo-bringout-oca-maintenance-maintenance_equipment_contract** - From maintenance: maintenance_equipment_contract
-- **odoo-bringout-oca-maintenance-maintenance_equipment_hierarchy** - From maintenance: maintenance_equipment_hierarchy
-- **odoo-bringout-oca-maintenance-maintenance_equipment_image** - From maintenance: maintenance_equipment_image
-- **odoo-bringout-oca-maintenance-maintenance_equipment_sequence** - From maintenance: maintenance_equipment_sequence
-- **odoo-bringout-oca-maintenance-maintenance_equipment_status** - From maintenance: maintenance_equipment_status
-- **odoo-bringout-oca-maintenance-maintenance_equipment_tags** - From maintenance: maintenance_equipment_tags
-- **odoo-bringout-oca-maintenance-maintenance_equipment_usage** - From maintenance: maintenance_equipment_usage
-- **odoo-bringout-oca-maintenance-maintenance_location** - From maintenance: maintenance_location
-- **odoo-bringout-oca-maintenance-maintenance_plan** - From maintenance: maintenance_plan
-- **odoo-bringout-oca-maintenance-maintenance_plan_activity** - From maintenance: maintenance_plan_activity
-- **odoo-bringout-oca-maintenance-maintenance_product** - From maintenance: maintenance_product
-- **odoo-bringout-oca-maintenance-maintenance_project** - From maintenance: maintenance_project
-- **odoo-bringout-oca-maintenance-maintenance_purchase** - From maintenance: maintenance_purchase
-- **odoo-bringout-oca-maintenance-maintenance_remote** - From maintenance: maintenance_remote
-- **odoo-bringout-oca-maintenance-maintenance_request_purchase** - From maintenance: maintenance_request_purchase
-- **odoo-bringout-oca-maintenance-maintenance_request_repair** - From maintenance: maintenance_request_repair
-- **odoo-bringout-oca-maintenance-maintenance_request_sequence** - From maintenance: maintenance_request_sequence
-- **odoo-bringout-oca-maintenance-maintenance_request_stage_transition** - From maintenance: maintenance_request_stage_transition
-- **odoo-bringout-oca-maintenance-maintenance_security** - From maintenance: maintenance_security
-- **odoo-bringout-oca-maintenance-maintenance_team_hierarchy** - From maintenance: maintenance_team_hierarchy
-- **odoo-bringout-oca-maintenance-maintenance_timesheet** - From maintenance: maintenance_timesheet
-- **odoo-bringout-oca-maintenance-maintenance_timesheet_time_control** - From maintenance: maintenance_timesheet_time_control
-- **odoo-bringout-oca-management-system-document_page_environment_manual** - From management: system_document_page_environment_manual
-- **odoo-bringout-oca-management-system-document_page_environmental_aspect** - From management: system_document_page_environmental_aspect
-- **odoo-bringout-oca-management-system-document_page_health_safety_manual** - From management: system_document_page_health_safety_manual
-- **odoo-bringout-oca-management-system-document_page_procedure** - From management: system_document_page_procedure
-- **odoo-bringout-oca-management-system-document_page_quality_manual** - From management: system_document_page_quality_manual
-- **odoo-bringout-oca-management-system-document_page_work_instruction** - From management: system_document_page_work_instruction
-- **odoo-bringout-oca-management-system-mgmtsystem** - From management: system_mgmtsystem
-- **odoo-bringout-oca-management-system-mgmtsystem_action** - From management: system_mgmtsystem_action
-- **odoo-bringout-oca-management-system-mgmtsystem_action_efficacy** - From management: system_mgmtsystem_action_efficacy
-- **odoo-bringout-oca-management-system-mgmtsystem_action_hazard** - From management: system_mgmtsystem_action_hazard
-- **odoo-bringout-oca-management-system-mgmtsystem_action_template** - From management: system_mgmtsystem_action_template
-- **odoo-bringout-oca-management-system-mgmtsystem_audit** - From management: system_mgmtsystem_audit
-- **odoo-bringout-oca-management-system-mgmtsystem_claim** - From management: system_mgmtsystem_claim
-- **odoo-bringout-oca-management-system-mgmtsystem_environment** - From management: system_mgmtsystem_environment
-- **odoo-bringout-oca-management-system-mgmtsystem_evaluation** - From management: system_mgmtsystem_evaluation
-- **odoo-bringout-oca-management-system-mgmtsystem_evaluation_hr** - From management: system_mgmtsystem_evaluation_hr
-- **odoo-bringout-oca-management-system-mgmtsystem_hazard** - From management: system_mgmtsystem_hazard
-- **odoo-bringout-oca-management-system-mgmtsystem_hazard_maintenance_equipment** - From management: system_mgmtsystem_hazard_maintenance_equipment
-- **odoo-bringout-oca-management-system-mgmtsystem_hazard_risk** - From management: system_mgmtsystem_hazard_risk
-- **odoo-bringout-oca-management-system-mgmtsystem_health_safety** - From management: system_mgmtsystem_health_safety
-- **odoo-bringout-oca-management-system-mgmtsystem_info_security_manual** - From management: system_mgmtsystem_info_security_manual
-- **odoo-bringout-oca-management-system-mgmtsystem_manual** - From management: system_mgmtsystem_manual
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity** - From management: system_mgmtsystem_nonconformity
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_hazard** - From management: system_mgmtsystem_nonconformity_hazard
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_hr** - From management: system_mgmtsystem_nonconformity_hr
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_maintenance_equipment** - From management: system_mgmtsystem_nonconformity_maintenance_equipment
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_mrp** - From management: system_mgmtsystem_nonconformity_mrp
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_product** - From management: system_mgmtsystem_nonconformity_product
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_quality_control_oca** - From management: system_mgmtsystem_nonconformity_quality_control_oca
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_repair** - From management: system_mgmtsystem_nonconformity_repair
-- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_type** - From management: system_mgmtsystem_nonconformity_type
-- **odoo-bringout-oca-management-system-mgmtsystem_partner** - From management: system_mgmtsystem_partner
-- **odoo-bringout-oca-management-system-mgmtsystem_quality** - From management: system_mgmtsystem_quality
-- **odoo-bringout-oca-management-system-mgmtsystem_review** - From management: system_mgmtsystem_review
-- **odoo-bringout-oca-management-system-mgmtsystem_review_survey** - From management: system_mgmtsystem_review_survey
-- **odoo-bringout-oca-management-system-mgmtsystem_survey** - From management: system_mgmtsystem_survey
-- **odoo-bringout-oca-pos-pos_access_right** - From pos: pos_access_right
-- **odoo-bringout-oca-pos-pos_auto_invoice** - From pos: pos_auto_invoice
-- **odoo-bringout-oca-pos-pos_bypass_global_discount** - From pos: pos_bypass_global_discount
-- **odoo-bringout-oca-pos-pos_cash_control_override** - From pos: pos_cash_control_override
-- **odoo-bringout-oca-pos-pos_config_logo** - From pos: pos_config_logo
-- **odoo-bringout-oca-pos-pos_container_deposit** - From pos: pos_container_deposit
-- **odoo-bringout-oca-pos-pos_customer_comment** - From pos: pos_customer_comment
-- **odoo-bringout-oca-pos-pos_customer_tree_view_vat** - From pos: pos_customer_tree_view_vat
-- **odoo-bringout-oca-pos-pos_daily_sales_reports_category_only** - From pos: pos_daily_sales_reports_category_only
-- **odoo-bringout-oca-pos-pos_default_partner** - From pos: pos_default_partner
-- **odoo-bringout-oca-pos-pos_discount_all** - From pos: pos_discount_all
-- **odoo-bringout-oca-pos-pos_edit_order_line** - From pos: pos_edit_order_line
-- **odoo-bringout-oca-pos-pos_escpos_status** - From pos: pos_escpos_status
-- **odoo-bringout-oca-pos-pos_financial_risk** - From pos: pos_financial_risk
-- **odoo-bringout-oca-pos-pos_global_discount_in_line** - From pos: pos_global_discount_in_line
-- **odoo-bringout-oca-pos-pos_hide_banknote_button** - From pos: pos_hide_banknote_button
-- **odoo-bringout-oca-pos-pos_hr_access_right** - From pos: pos_hr_access_right
-- **odoo-bringout-oca-pos-pos_lot_barcode** - From pos: pos_lot_barcode
-- **odoo-bringout-oca-pos-pos_lot_selection** - From pos: pos_lot_selection
-- **odoo-bringout-oca-pos-pos_loyalty_exclude** - From pos: pos_loyalty_exclude
-- **odoo-bringout-oca-pos-pos_loyalty_redeem_payment** - From pos: pos_loyalty_redeem_payment
-- **odoo-bringout-oca-pos-pos_margin** - From pos: pos_margin
-- **odoo-bringout-oca-pos-pos_meal_voucher** - From pos: pos_meal_voucher
-- **odoo-bringout-oca-pos-pos_membership** - From pos: pos_membership
-- **odoo-bringout-oca-pos-pos_membership_extension** - From pos: pos_membership_extension
-- **odoo-bringout-oca-pos-pos_minimize_menu** - From pos: pos_minimize_menu
-- **odoo-bringout-oca-pos-pos_order_new_line** - From pos: pos_order_new_line
-- **odoo-bringout-oca-pos-pos_order_remove_line** - From pos: pos_order_remove_line
-- **odoo-bringout-oca-pos-pos_order_reorder** - From pos: pos_order_reorder
-- **odoo-bringout-oca-pos-pos_order_to_sale_order** - From pos: pos_order_to_sale_order
-- **odoo-bringout-oca-pos-pos_order_to_sale_order_delivery** - From pos: pos_order_to_sale_order_delivery
-- **odoo-bringout-oca-pos-pos_order_to_sale_order_report** - From pos: pos_order_to_sale_order_report
-- **odoo-bringout-oca-pos-pos_order_to_sale_order_sale_financial_risk** - From pos: pos_order_to_sale_order_sale_financial_risk
-- **odoo-bringout-oca-pos-pos_partner_birthdate** - From pos: pos_partner_birthdate
-- **odoo-bringout-oca-pos-pos_partner_firstname** - From pos: pos_partner_firstname
-- **odoo-bringout-oca-pos-pos_partner_location_abstract** - From pos: pos_partner_location_abstract
-- **odoo-bringout-oca-pos-pos_partner_location_google_map** - From pos: pos_partner_location_google_map
-- **odoo-bringout-oca-pos-pos_partner_sale_warning** - From pos: pos_partner_sale_warning
-- **odoo-bringout-oca-pos-pos_payment_change** - From pos: pos_payment_change
-- **odoo-bringout-oca-pos-pos_payment_description** - From pos: pos_payment_description
-- **odoo-bringout-oca-pos-pos_payment_method_cashdro** - From pos: pos_payment_method_cashdro
-- **odoo-bringout-oca-pos-pos_payment_method_change_policy** - From pos: pos_payment_method_change_policy
-- **odoo-bringout-oca-pos-pos_payment_method_image** - From pos: pos_payment_method_image
-- **odoo-bringout-oca-pos-pos_payment_restriction** - From pos: pos_payment_restriction
-- **odoo-bringout-oca-pos-pos_payment_terminal** - From pos: pos_payment_terminal
-- **odoo-bringout-oca-pos-pos_payment_usability** - From pos: pos_payment_usability
-- **odoo-bringout-oca-pos-pos_picking_delayed** - From pos: pos_picking_delayed
-- **odoo-bringout-oca-pos-pos_price_to_weight** - From pos: pos_price_to_weight
-- **odoo-bringout-oca-pos-pos_pricelist_technical** - From pos: pos_pricelist_technical
-- **odoo-bringout-oca-pos-pos_product_display_default_code** - From pos: pos_product_display_default_code
-- **odoo-bringout-oca-pos-pos_product_label** - From pos: pos_product_label
-- **odoo-bringout-oca-pos-pos_product_mergeable_line** - From pos: pos_product_mergeable_line
-- **odoo-bringout-oca-pos-pos_product_multi_barcode** - From pos: pos_product_multi_barcode
-- **odoo-bringout-oca-pos-pos_product_packaging_container_deposit** - From pos: pos_product_packaging_container_deposit
-- **odoo-bringout-oca-pos-pos_product_packaging_multi_barcode** - From pos: pos_product_packaging_multi_barcode
-- **odoo-bringout-oca-pos-pos_product_pricelist_alternative** - From pos: pos_product_pricelist_alternative
-- **odoo-bringout-oca-pos-pos_product_quick_info** - From pos: pos_product_quick_info
-- **odoo-bringout-oca-pos-pos_receipt_hide_info** - From pos: pos_receipt_hide_info
-- **odoo-bringout-oca-pos-pos_receipt_hide_price** - From pos: pos_receipt_hide_price
-- **odoo-bringout-oca-pos-pos_receipt_replace_user_by_trigram** - From pos: pos_receipt_replace_user_by_trigram
-- **odoo-bringout-oca-pos-pos_receipt_replace_user_by_trigram_hr** - From pos: pos_receipt_replace_user_by_trigram_hr
-- **odoo-bringout-oca-pos-pos_receipt_usability** - From pos: pos_receipt_usability
-- **odoo-bringout-oca-pos-pos_receipt_vat_detail** - From pos: pos_receipt_vat_detail
-- **odoo-bringout-oca-pos-pos_report_session_summary** - From pos: pos_report_session_summary
-- **odoo-bringout-oca-pos-pos_reset_search** - From pos: pos_reset_search
-- **odoo-bringout-oca-pos-pos_sale_order_print** - From pos: pos_sale_order_print
-- **odoo-bringout-oca-pos-pos_sale_product_config_no_variant** - From pos: pos_sale_product_config_no_variant
-- **odoo-bringout-oca-pos-pos_screen_element_custom_size** - From pos: pos_screen_element_custom_size
-- **odoo-bringout-oca-pos-pos_session_pay_invoice** - From pos: pos_session_pay_invoice
-- **odoo-bringout-oca-pos-pos_stock_available_online** - From pos: pos_stock_available_online
-- **odoo-bringout-oca-pos-pos_supplierinfo_search** - From pos: pos_supplierinfo_search
-- **odoo-bringout-oca-pos-pos_ticket_extra_company_info_l10n_fr** - From pos: pos_ticket_extra_company_info_l10n_fr
-- **odoo-bringout-oca-pos-pos_timeout** - From pos: pos_timeout
-- **odoo-bringout-oca-pos-pos_to_weight_by_product_uom** - From pos: pos_to_weight_by_product_uom
-- **odoo-bringout-oca-product-configurator-product_configurator** - From product: configurator_product_configurator
-- **odoo-bringout-oca-product-configurator-product_configurator_mrp** - From product: configurator_product_configurator_mrp
-- **odoo-bringout-oca-product-configurator-product_configurator_sale** - From product: configurator_product_configurator_sale
-- **odoo-bringout-oca-product-pack-product_pack** - From product: pack_product_pack
-- **odoo-bringout-oca-product-pack-purchase_product_pack** - From product: pack_purchase_product_pack
-- **odoo-bringout-oca-product-pack-sale_product_pack** - From product: pack_sale_product_pack
-- **odoo-bringout-oca-product-pack-sale_stock_product_pack** - From product: pack_sale_stock_product_pack
-- **odoo-bringout-oca-product-pack-stock_product_pack** - From product: pack_stock_product_pack
-- **odoo-bringout-oca-product-pack-website_sale_product_pack** - From product: pack_website_sale_product_pack
-- **odoo-bringout-oca-purchase-reporting-purchase_backorder** - From purchase: reporting_purchase_backorder
-- **odoo-bringout-oca-purchase-reporting-purchase_comment_template** - From purchase: reporting_purchase_comment_template
-- **odoo-bringout-oca-purchase-reporting-purchase_packaging_report** - From purchase: reporting_purchase_packaging_report
-- **odoo-bringout-oca-purchase-reporting-purchase_report_date_format** - From purchase: reporting_purchase_report_date_format
-- **odoo-bringout-oca-purchase-reporting-purchase_report_payment_term** - From purchase: reporting_purchase_report_payment_term
-- **odoo-bringout-oca-purchase-reporting-purchase_report_shipping_address** - From purchase: reporting_purchase_report_shipping_address
-- **odoo-bringout-oca-queue-base_export_async** - From queue: base_export_async
-- **odoo-bringout-oca-queue-base_import_async** - From queue: base_import_async
-- **odoo-bringout-oca-queue-queue_job** - From queue: queue_job
-- **odoo-bringout-oca-queue-queue_job_batch** - From queue: queue_job_batch
-- **odoo-bringout-oca-queue-queue_job_cron** - From queue: queue_job_cron
-- **odoo-bringout-oca-queue-queue_job_cron_jobrunner** - From queue: queue_job_cron_jobrunner
-- **odoo-bringout-oca-queue-queue_job_subscribe** - From queue: queue_job_subscribe
-- **odoo-bringout-oca-queue-queue_job_web_notify** - From queue: queue_job_web_notify
-- **odoo-bringout-oca-queue-test_base_import_async** - From queue: test_base_import_async
-- **odoo-bringout-oca-queue-test_queue_job** - From queue: test_queue_job
-- **odoo-bringout-oca-queue-test_queue_job_batch** - From queue: test_queue_job_batch
-- **odoo-bringout-oca-rest-framework-auth_partner** - From rest: framework_auth_partner
-- **odoo-bringout-oca-rest-framework-base_rest** - From rest: framework_base_rest
-- **odoo-bringout-oca-rest-framework-base_rest_auth_api_key** - From rest: framework_base_rest_auth_api_key
-- **odoo-bringout-oca-rest-framework-base_rest_auth_jwt** - From rest: framework_base_rest_auth_jwt
-- **odoo-bringout-oca-rest-framework-base_rest_auth_user_service** - From rest: framework_base_rest_auth_user_service
-- **odoo-bringout-oca-rest-framework-base_rest_datamodel** - From rest: framework_base_rest_datamodel
-- **odoo-bringout-oca-rest-framework-base_rest_demo** - From rest: framework_base_rest_demo
-- **odoo-bringout-oca-rest-framework-base_rest_pydantic** - From rest: framework_base_rest_pydantic
-- **odoo-bringout-oca-rest-framework-datamodel** - From rest: framework_datamodel
-- **odoo-bringout-oca-rest-framework-extendable** - From rest: framework_extendable
-- **odoo-bringout-oca-rest-framework-extendable_fastapi** - From rest: framework_extendable_fastapi
-- **odoo-bringout-oca-rest-framework-fastapi** - From rest: framework_fastapi
-- **odoo-bringout-oca-rest-framework-fastapi_auth_jwt** - From rest: framework_fastapi_auth_jwt
-- **odoo-bringout-oca-rest-framework-fastapi_auth_jwt_demo** - From rest: framework_fastapi_auth_jwt_demo
-- **odoo-bringout-oca-rest-framework-fastapi_auth_partner** - From rest: framework_fastapi_auth_partner
-- **odoo-bringout-oca-rest-framework-fastapi_encrypted_errors** - From rest: framework_fastapi_encrypted_errors
-- **odoo-bringout-oca-rest-framework-graphql_base** - From rest: framework_graphql_base
-- **odoo-bringout-oca-rest-framework-graphql_demo** - From rest: framework_graphql_demo
-- **odoo-bringout-oca-rest-framework-model_serializer** - From rest: framework_model_serializer
-- **odoo-bringout-oca-rest-framework-pydantic** - From rest: framework_pydantic
-- **odoo-bringout-oca-rest-framework-rest_log** - From rest: framework_rest_log
-- **odoo-bringout-oca-rma-product_warranty** - From rma: product_warranty
-- **odoo-bringout-oca-rma-rma** - From rma: rma
-- **odoo-bringout-oca-rma-rma_delivery** - From rma: rma_delivery
-- **odoo-bringout-oca-rma-rma_lot** - From rma: rma_lot
-- **odoo-bringout-oca-rma-rma_procurement_customer** - From rma: rma_procurement_customer
-- **odoo-bringout-oca-rma-rma_reason** - From rma: rma_reason
-- **odoo-bringout-oca-rma-rma_sale** - From rma: rma_sale
-- **odoo-bringout-oca-rma-rma_sale_lot** - From rma: rma_sale_lot
-- **odoo-bringout-oca-rma-rma_sale_mrp** - From rma: rma_sale_mrp
-- **odoo-bringout-oca-rma-rma_sale_reason** - From rma: rma_sale_reason
-- **odoo-bringout-oca-sale-reporting-product_sold_by_delivery_week** - From sale: reporting_product_sold_by_delivery_week
-- **odoo-bringout-oca-sale-reporting-sale_comment_template** - From sale: reporting_sale_comment_template
-- **odoo-bringout-oca-sale-reporting-sale_layout_category_hide_detail** - From sale: reporting_sale_layout_category_hide_detail
-- **odoo-bringout-oca-sale-reporting-sale_order_line_position** - From sale: reporting_sale_order_line_position
-- **odoo-bringout-oca-sale-reporting-sale_order_product_recommendation_product_sold_by_delivery_week** - From sale: reporting_sale_order_product_recommendation_product_sold_by_delivery_week
-- **odoo-bringout-oca-sale-reporting-sale_order_report_product_image** - From sale: reporting_sale_order_report_product_image
-- **odoo-bringout-oca-sale-reporting-sale_order_weight** - From sale: reporting_sale_order_weight
-- **odoo-bringout-oca-sale-reporting-sale_packaging_report** - From sale: reporting_sale_packaging_report
-- **odoo-bringout-oca-sale-reporting-sale_report_commitment_date** - From sale: reporting_sale_report_commitment_date
-- **odoo-bringout-oca-sale-reporting-sale_report_country_state** - From sale: reporting_sale_report_country_state
-- **odoo-bringout-oca-sale-reporting-sale_report_delivered** - From sale: reporting_sale_report_delivered
-- **odoo-bringout-oca-sale-reporting-sale_report_delivered_attribute_values** - From sale: reporting_sale_report_delivered_attribute_values
-- **odoo-bringout-oca-sale-reporting-sale_report_delivered_deposit** - From sale: reporting_sale_report_delivered_deposit
-- **odoo-bringout-oca-sale-reporting-sale_report_delivered_subtotal** - From sale: reporting_sale_report_delivered_subtotal
-- **odoo-bringout-oca-sale-reporting-sale_report_delivered_volume** - From sale: reporting_sale_report_delivered_volume
-- **odoo-bringout-oca-sale-reporting-sale_report_salesperson_from_partner** - From sale: reporting_sale_report_salesperson_from_partner
-- **odoo-bringout-oca-server-tools-attachment_delete_restrict** - From server: tools_attachment_delete_restrict
-- **odoo-bringout-oca-server-tools-attachment_logging** - From server: tools_attachment_logging
-- **odoo-bringout-oca-server-tools-attachment_queue** - From server: tools_attachment_queue
-- **odoo-bringout-oca-server-tools-attachment_synchronize** - From server: tools_attachment_synchronize
-- **odoo-bringout-oca-server-tools-attachment_unindex_content** - From server: tools_attachment_unindex_content
-- **odoo-bringout-oca-server-tools-auditlog** - From server: tools_auditlog
-- **odoo-bringout-oca-server-tools-auto_backup** - From server: tools_auto_backup
-- **odoo-bringout-oca-server-tools-autovacuum_message_attachment** - From server: tools_autovacuum_message_attachment
-- **odoo-bringout-oca-server-tools-base_changeset** - From server: tools_base_changeset
-- **odoo-bringout-oca-server-tools-base_conditional_image** - From server: tools_base_conditional_image
-- **odoo-bringout-oca-server-tools-base_cron_exclusion** - From server: tools_base_cron_exclusion
-- **odoo-bringout-oca-server-tools-base_domain_inverse_function** - From server: tools_base_domain_inverse_function
-- **odoo-bringout-oca-server-tools-base_exception** - From server: tools_base_exception
-- **odoo-bringout-oca-server-tools-base_fontawesome** - From server: tools_base_fontawesome
-- **odoo-bringout-oca-server-tools-base_force_record_noupdate** - From server: tools_base_force_record_noupdate
-- **odoo-bringout-oca-server-tools-base_import_default_enable_tracking** - From server: tools_base_import_default_enable_tracking
-- **odoo-bringout-oca-server-tools-base_import_odoo** - From server: tools_base_import_odoo
-- **odoo-bringout-oca-server-tools-base_m2m_custom_field** - From server: tools_base_m2m_custom_field
-- **odoo-bringout-oca-server-tools-base_multi_image** - From server: tools_base_multi_image
-- **odoo-bringout-oca-server-tools-base_name_search_improved** - From server: tools_base_name_search_improved
-- **odoo-bringout-oca-server-tools-base_partition** - From server: tools_base_partition
-- **odoo-bringout-oca-server-tools-base_remote** - From server: tools_base_remote
-- **odoo-bringout-oca-server-tools-base_search_fuzzy** - From server: tools_base_search_fuzzy
-- **odoo-bringout-oca-server-tools-base_sequence_default** - From server: tools_base_sequence_default
-- **odoo-bringout-oca-server-tools-base_sequence_option** - From server: tools_base_sequence_option
-- **odoo-bringout-oca-server-tools-base_sparse_field_list_support** - From server: tools_base_sparse_field_list_support
-- **odoo-bringout-oca-server-tools-base_technical_user** - From server: tools_base_technical_user
-- **odoo-bringout-oca-server-tools-base_time_window** - From server: tools_base_time_window
-- **odoo-bringout-oca-server-tools-base_view_inheritance_extension** - From server: tools_base_view_inheritance_extension
-- **odoo-bringout-oca-server-tools-bus_alt_connection** - From server: tools_bus_alt_connection
-- **odoo-bringout-oca-server-tools-cron_daylight_saving_time_resistant** - From server: tools_cron_daylight_saving_time_resistant
-- **odoo-bringout-oca-server-tools-database_cleanup** - From server: tools_database_cleanup
-- **odoo-bringout-oca-server-tools-datetime_formatter** - From server: tools_datetime_formatter
-- **odoo-bringout-oca-server-tools-dbfilter_from_header** - From server: tools_dbfilter_from_header
-- **odoo-bringout-oca-server-tools-excel_import_export** - From server: tools_excel_import_export
-- **odoo-bringout-oca-server-tools-excel_import_export_demo** - From server: tools_excel_import_export_demo
-- **odoo-bringout-oca-server-tools-excel_import_export_unidecode** - From server: tools_excel_import_export_unidecode
-- **odoo-bringout-oca-server-tools-fetchmail_attach_from_folder** - From server: tools_fetchmail_attach_from_folder
-- **odoo-bringout-oca-server-tools-fetchmail_notify_error_to_sender** - From server: tools_fetchmail_notify_error_to_sender
-- **odoo-bringout-oca-server-tools-fetchmail_notify_error_to_sender_test** - From server: tools_fetchmail_notify_error_to_sender_test
-- **odoo-bringout-oca-server-tools-html_image_url_extractor** - From server: tools_html_image_url_extractor
-- **odoo-bringout-oca-server-tools-html_text** - From server: tools_html_text
-- **odoo-bringout-oca-server-tools-iap_alternative_provider** - From server: tools_iap_alternative_provider
-- **odoo-bringout-oca-server-tools-jsonifier** - From server: tools_jsonifier
-- **odoo-bringout-oca-server-tools-letsencrypt** - From server: tools_letsencrypt
-- **odoo-bringout-oca-server-tools-module_analysis** - From server: tools_module_analysis
-- **odoo-bringout-oca-server-tools-module_auto_update** - From server: tools_module_auto_update
-- **odoo-bringout-oca-server-tools-module_change_auto_install** - From server: tools_module_change_auto_install
-- **odoo-bringout-oca-server-tools-nsca_client** - From server: tools_nsca_client
-- **odoo-bringout-oca-server-tools-odoo_test_xmlrunner** - From server: tools_odoo_test_xmlrunner
-- **odoo-bringout-oca-server-tools-onchange_helper** - From server: tools_onchange_helper
-- **odoo-bringout-oca-server-tools-postgres_vacuum** - From server: tools_postgres_vacuum
-- **odoo-bringout-oca-server-tools-rpc_helper** - From server: tools_rpc_helper
-- **odoo-bringout-oca-server-tools-scheduler_error_mailer** - From server: tools_scheduler_error_mailer
-- **odoo-bringout-oca-server-tools-sentry** - From server: tools_sentry
-- **odoo-bringout-oca-server-tools-sequence_python** - From server: tools_sequence_python
-- **odoo-bringout-oca-server-tools-server_action_logging** - From server: tools_server_action_logging
-- **odoo-bringout-oca-server-tools-session_db** - From server: tools_session_db
-- **odoo-bringout-oca-server-tools-tracking_manager** - From server: tools_tracking_manager
-- **odoo-bringout-oca-server-tools-upgrade_analysis** - From server: tools_upgrade_analysis
-- **odoo-bringout-oca-server-tools-url_attachment_search_fuzzy** - From server: tools_url_attachment_search_fuzzy
-- **odoo-bringout-oca-server-ux-announcement** - From server: ux_announcement
-- **odoo-bringout-oca-server-ux-announcement_dialog_size** - From server: ux_announcement_dialog_size
-- **odoo-bringout-oca-server-ux-barcode_action** - From server: ux_barcode_action
-- **odoo-bringout-oca-server-ux-base_archive_security** - From server: ux_base_archive_security
-- **odoo-bringout-oca-server-ux-base_binary_url_import** - From server: ux_base_binary_url_import
-- **odoo-bringout-oca-server-ux-base_cancel_confirm** - From server: ux_base_cancel_confirm
-- **odoo-bringout-oca-server-ux-base_custom_filter** - From server: ux_base_custom_filter
-- **odoo-bringout-oca-server-ux-base_export_manager** - From server: ux_base_export_manager
-- **odoo-bringout-oca-server-ux-base_import_security_group** - From server: ux_base_import_security_group
-- **odoo-bringout-oca-server-ux-base_menu_visibility_restriction** - From server: ux_base_menu_visibility_restriction
-- **odoo-bringout-oca-server-ux-base_optional_quick_create** - From server: ux_base_optional_quick_create
-- **odoo-bringout-oca-server-ux-base_revision** - From server: ux_base_revision
-- **odoo-bringout-oca-server-ux-base_rule_visibility_restriction** - From server: ux_base_rule_visibility_restriction
-- **odoo-bringout-oca-server-ux-base_search_custom_field_filter** - From server: ux_base_search_custom_field_filter
-- **odoo-bringout-oca-server-ux-base_substate** - From server: ux_base_substate
-- **odoo-bringout-oca-server-ux-base_technical_features** - From server: ux_base_technical_features
-- **odoo-bringout-oca-server-ux-base_tier_validation** - From server: ux_base_tier_validation
-- **odoo-bringout-oca-server-ux-base_tier_validation_board** - From server: ux_base_tier_validation_board
-- **odoo-bringout-oca-server-ux-base_tier_validation_correction** - From server: ux_base_tier_validation_correction
-- **odoo-bringout-oca-server-ux-base_tier_validation_definition_server_action** - From server: ux_base_tier_validation_definition_server_action
-- **odoo-bringout-oca-server-ux-base_tier_validation_formula** - From server: ux_base_tier_validation_formula
-- **odoo-bringout-oca-server-ux-base_tier_validation_forward** - From server: ux_base_tier_validation_forward
-- **odoo-bringout-oca-server-ux-base_tier_validation_report** - From server: ux_base_tier_validation_report
-- **odoo-bringout-oca-server-ux-base_tier_validation_server_action** - From server: ux_base_tier_validation_server_action
-- **odoo-bringout-oca-server-ux-base_tier_validation_waiting** - From server: ux_base_tier_validation_waiting
-- **odoo-bringout-oca-server-ux-base_user_chatter** - From server: ux_base_user_chatter
-- **odoo-bringout-oca-server-ux-base_user_locale** - From server: ux_base_user_locale
-- **odoo-bringout-oca-server-ux-confirmation_wizard** - From server: ux_confirmation_wizard
-- **odoo-bringout-oca-server-ux-date_range** - From server: ux_date_range
-- **odoo-bringout-oca-server-ux-date_range_account** - From server: ux_date_range_account
-- **odoo-bringout-oca-server-ux-developer_menu** - From server: ux_developer_menu
-- **odoo-bringout-oca-server-ux-document_quick_access** - From server: ux_document_quick_access
-- **odoo-bringout-oca-server-ux-document_quick_access_folder_auto_classification** - From server: ux_document_quick_access_folder_auto_classification
-- **odoo-bringout-oca-server-ux-filter_multi_user** - From server: ux_filter_multi_user
-- **odoo-bringout-oca-server-ux-mail_message_destiny_link_template** - From server: ux_mail_message_destiny_link_template
-- **odoo-bringout-oca-server-ux-mail_suggested_recipient_unchecked** - From server: ux_mail_suggested_recipient_unchecked
-- **odoo-bringout-oca-server-ux-misc_settings** - From server: ux_misc_settings
-- **odoo-bringout-oca-server-ux-multi_step_wizard** - From server: ux_multi_step_wizard
-- **odoo-bringout-oca-server-ux-sequence_check_digit** - From server: ux_sequence_check_digit
-- **odoo-bringout-oca-server-ux-sequence_reset_period** - From server: ux_sequence_reset_period
-- **odoo-bringout-oca-server-ux-server_action_mass_edit** - From server: ux_server_action_mass_edit
-- **odoo-bringout-oca-server-ux-template_content_swapper** - From server: ux_template_content_swapper
-- **odoo-bringout-oca-server-ux-test_base_binary_url_import** - From server: ux_test_base_binary_url_import
-- **odoo-bringout-oca-server-ux-user_all_groups** - From server: ux_user_all_groups
-- **odoo-bringout-oca-stock-logistics-availability-sale_stock_available_info_popup** - From stock: logistics_availability_sale_stock_available_info_popup
-- **odoo-bringout-oca-stock-logistics-availability-stock_available** - From stock: logistics_availability_stock_available
-- **odoo-bringout-oca-stock-logistics-availability-stock_available_base_exclude_location** - From stock: logistics_availability_stock_available_base_exclude_location
-- **odoo-bringout-oca-stock-logistics-availability-stock_available_exclude_location** - From stock: logistics_availability_stock_available_exclude_location
-- **odoo-bringout-oca-stock-logistics-availability-stock_available_immediately** - From stock: logistics_availability_stock_available_immediately
-- **odoo-bringout-oca-stock-logistics-availability-stock_available_immediately_exclude_location** - From stock: logistics_availability_stock_available_immediately_exclude_location
-- **odoo-bringout-oca-stock-logistics-availability-stock_available_location_get_domain** - From stock: logistics_availability_stock_available_location_get_domain
-- **odoo-bringout-oca-stock-logistics-availability-stock_available_mrp** - From stock: logistics_availability_stock_available_mrp
-- **odoo-bringout-oca-stock-logistics-availability-stock_available_unreserved** - From stock: logistics_availability_stock_available_unreserved
-- **odoo-bringout-oca-stock-logistics-availability-stock_free_quantity** - From stock: logistics_availability_stock_free_quantity
-- **odoo-bringout-oca-stock-logistics-availability-stock_quant_available_quantity** - From stock: logistics_availability_stock_quant_available_quantity
-- **odoo-bringout-oca-stock-logistics-request-stock_request** - From stock: logistics_request_stock_request
-- **odoo-bringout-oca-stock-logistics-request-stock_request_direction** - From stock: logistics_request_stock_request_direction
-- **odoo-bringout-oca-stock-logistics-request-stock_request_kanban** - From stock: logistics_request_stock_request_kanban
-- **odoo-bringout-oca-stock-logistics-request-stock_request_mrp** - From stock: logistics_request_stock_request_mrp
-- **odoo-bringout-oca-stock-logistics-request-stock_request_picking_type** - From stock: logistics_request_stock_request_picking_type
-- **odoo-bringout-oca-stock-logistics-request-stock_request_purchase** - From stock: logistics_request_stock_request_purchase
-- **odoo-bringout-oca-stock-logistics-request-stock_request_submit** - From stock: logistics_request_stock_request_submit
-- **odoo-bringout-oca-stock-logistics-request-stock_request_tier_validation** - From stock: logistics_request_stock_request_tier_validation
-- **odoo-bringout-oca-stock-logistics-tracking-internal_stock_quant_package** - From stock: logistics_tracking_internal_stock_quant_package
-- **odoo-bringout-oca-stock-logistics-tracking-stock_quant_package_multi_reference** - From stock: logistics_tracking_stock_quant_package_multi_reference
-- **odoo-bringout-oca-web-web_action_conditionable** - From web: web_action_conditionable
-- **odoo-bringout-oca-web-web_advanced_search** - From web: web_advanced_search
-- **odoo-bringout-oca-web-web_apply_field_style** - From web: web_apply_field_style
-- **odoo-bringout-oca-web-web_calendar_slot_duration** - From web: web_calendar_slot_duration
-- **odoo-bringout-oca-web-web_chatter_position** - From web: web_chatter_position
-- **odoo-bringout-oca-web-web_company_color** - From web: web_company_color
-- **odoo-bringout-oca-web-web_copy_confirm** - From web: web_copy_confirm
-- **odoo-bringout-oca-web-web_dark_mode** - From web: web_dark_mode
-- **odoo-bringout-oca-web-web_dashboard_tile** - From web: web_dashboard_tile
-- **odoo-bringout-oca-web-web_datetime_picker_default_time** - From web: web_datetime_picker_default_time
-- **odoo-bringout-oca-web-web_dialog_size** - From web: web_dialog_size
-- **odoo-bringout-oca-web-web_disable_export_group** - From web: web_disable_export_group
-- **odoo-bringout-oca-web-web_domain_field** - From web: web_domain_field
-- **odoo-bringout-oca-web-web_editor_class_selector** - From web: web_editor_class_selector
-- **odoo-bringout-oca-web-web_environment_ribbon** - From web: web_environment_ribbon
-- **odoo-bringout-oca-web-web_field_numeric_formatting** - From web: web_field_numeric_formatting
-- **odoo-bringout-oca-web-web_field_tooltip** - From web: web_field_tooltip
-- **odoo-bringout-oca-web-web_group_expand** - From web: web_group_expand
-- **odoo-bringout-oca-web-web_help** - From web: web_help
-- **odoo-bringout-oca-web-web_hide_field_with_key** - From web: web_hide_field_with_key
-- **odoo-bringout-oca-web-web_ir_actions_act_multi** - From web: web_ir_actions_act_multi
-- **odoo-bringout-oca-web-web_ir_actions_act_window_message** - From web: web_ir_actions_act_window_message
-- **odoo-bringout-oca-web-web_ir_actions_act_window_page** - From web: web_ir_actions_act_window_page
-- **odoo-bringout-oca-web-web_ir_actions_close_wizard_refresh_view** - From web: web_ir_actions_close_wizard_refresh_view
-- **odoo-bringout-oca-web-web_listview_range_select** - From web: web_listview_range_select
-- **odoo-bringout-oca-web-web_m2x_options** - From web: web_m2x_options
-- **odoo-bringout-oca-web-web_m2x_options_manager** - From web: web_m2x_options_manager
-- **odoo-bringout-oca-web-web_no_bubble** - From web: web_no_bubble
-- **odoo-bringout-oca-web-web_notify** - From web: web_notify
-- **odoo-bringout-oca-web-web_notify_channel_message** - From web: web_notify_channel_message
-- **odoo-bringout-oca-web-web_notify_upgrade** - From web: web_notify_upgrade
-- **odoo-bringout-oca-web-web_pivot_computed_measure** - From web: web_pivot_computed_measure
-- **odoo-bringout-oca-web-web_pwa_oca** - From web: web_pwa_oca
-- **odoo-bringout-oca-web-web_quick_start_screen** - From web: web_quick_start_screen
-- **odoo-bringout-oca-web-web_refresher** - From web: web_refresher
-- **odoo-bringout-oca-web-web_remember_tree_column_width** - From web: web_remember_tree_column_width
-- **odoo-bringout-oca-web-web_responsive** - From web: web_responsive
-- **odoo-bringout-oca-web-web_save_discard_button** - From web: web_save_discard_button
-- **odoo-bringout-oca-web-web_search_with_and** - From web: web_search_with_and
-- **odoo-bringout-oca-web-web_select_all_companies** - From web: web_select_all_companies
-- **odoo-bringout-oca-web-web_send_message_popup** - From web: web_send_message_popup
-- **odoo-bringout-oca-web-web_sheet_full_width** - From web: web_sheet_full_width
-- **odoo-bringout-oca-web-web_systray_button_init_action** - From web: web_systray_button_init_action
-- **odoo-bringout-oca-web-web_theme_classic** - From web: web_theme_classic
-- **odoo-bringout-oca-web-web_time_range_menu_custom** - From web: web_time_range_menu_custom
-- **odoo-bringout-oca-web-web_timeline** - From web: web_timeline
-- **odoo-bringout-oca-web-web_touchscreen** - From web: web_touchscreen
-- **odoo-bringout-oca-web-web_tree_duplicate** - From web: web_tree_duplicate
-- **odoo-bringout-oca-web-web_tree_dynamic_colored_field** - From web: web_tree_dynamic_colored_field
-- **odoo-bringout-oca-web-web_tree_many2one_clickable** - From web: web_tree_many2one_clickable
-- **odoo-bringout-oca-web-web_widget_bokeh_chart** - From web: web_widget_bokeh_chart
-- **odoo-bringout-oca-web-web_widget_char_size** - From web: web_widget_char_size
-- **odoo-bringout-oca-web-web_widget_datepicker_fulloptions** - From web: web_widget_datepicker_fulloptions
-- **odoo-bringout-oca-web-web_widget_domain_editor_dialog** - From web: web_widget_domain_editor_dialog
-- **odoo-bringout-oca-web-web_widget_dropdown_dynamic** - From web: web_widget_dropdown_dynamic
-- **odoo-bringout-oca-web-web_widget_image_download** - From web: web_widget_image_download
-- **odoo-bringout-oca-web-web_widget_image_webcam** - From web: web_widget_image_webcam
-- **odoo-bringout-oca-web-web_widget_mpld3_chart** - From web: web_widget_mpld3_chart
-- **odoo-bringout-oca-web-web_widget_numeric_step** - From web: web_widget_numeric_step
-- **odoo-bringout-oca-web-web_widget_one2many_tree_line_duplicate** - From web: web_widget_one2many_tree_line_duplicate
-- **odoo-bringout-oca-web-web_widget_open_tab** - From web: web_widget_open_tab
-- **odoo-bringout-oca-web-web_widget_pattern** - From web: web_widget_pattern
-- **odoo-bringout-oca-web-web_widget_pattern_partner_autocomplete** - From web: web_widget_pattern_partner_autocomplete
-- **odoo-bringout-oca-web-web_widget_plotly_chart** - From web: web_widget_plotly_chart
-- **odoo-bringout-oca-web-web_widget_product_label_section_and_note** - From web: web_widget_product_label_section_and_note
-- **odoo-bringout-oca-web-web_widget_progressbar_gradient** - From web: web_widget_progressbar_gradient
-- **odoo-bringout-oca-web-web_widget_remaining_days_exact_date** - From web: web_widget_remaining_days_exact_date
-- **odoo-bringout-oca-web-web_widget_x2many_2d_matrix** - From web: web_widget_x2many_2d_matrix
-
-
-## Installation
-
-Install any package from this category:
-
-```bash
-# Install from local directory
-pip install packages/oca-technical/PACKAGE_NAME/
-
-# Install in development mode  
-pip install -e packages/oca-technical/PACKAGE_NAME/
-
-# Using uv (recommended for speed)
-uv add packages/oca-technical/PACKAGE_NAME/
-```
-
-## Repository Structure
-
-Each package in this repository follows the standard Odoo addon structure:
-
-```
-oca-technical/
-├── odoo-bringout-oca-PROJECT-ADDON/
-│   ├── ADDON_NAME/           # Complete addon code
-│   │   ├── __init__.py
-│   │   ├── __manifest__.py
-│   │   └── ... (models, views, etc.)
-│   ├── pyproject.toml        # Python package configuration
-│   └── README.md            # Package documentation
-└── ...
-```
-
-## Contributing
-
-These packages are maintained as part of the [OCA (Odoo Community Association)](https://github.com/OCA) ecosystem.
-
-## License
-
-Each package maintains its original license as specified in the OCA repositories.
+- **odoo-bringout-oca-automation-automation_oca**
+- **odoo-bringout-oca-brand-account_brand**
+- **odoo-bringout-oca-brand-account_invoice_bank_brand**
+- **odoo-bringout-oca-brand-account_payment_mode_brand**
+- **odoo-bringout-oca-brand-analytic_brand**
+- **odoo-bringout-oca-brand-brand**
+- **odoo-bringout-oca-brand-contract_brand**
+- **odoo-bringout-oca-brand-contract_forecast_brand**
+- **odoo-bringout-oca-brand-partner_brand**
+- **odoo-bringout-oca-brand-product_brand**
+- **odoo-bringout-oca-brand-product_brand_mrp**
+- **odoo-bringout-oca-brand-product_brand_purchase**
+- **odoo-bringout-oca-brand-product_brand_tag**
+- **odoo-bringout-oca-brand-product_contract_brand**
+- **odoo-bringout-oca-brand-sale_brand**
+- **odoo-bringout-oca-brand-sale_payment_mode_brand**
+- **odoo-bringout-oca-brand-stock_brand**
+- **odoo-bringout-oca-connector-component**
+- **odoo-bringout-oca-connector-component_event**
+- **odoo-bringout-oca-connector-connector**
+- **odoo-bringout-oca-connector-connector_base_product**
+- **odoo-bringout-oca-connector-interfaces-connector_importer**
+- **odoo-bringout-oca-connector-interfaces-connector_importer_product**
+- **odoo-bringout-oca-connector-test_component**
+- **odoo-bringout-oca-connector-test_connector**
+- **odoo-bringout-oca-data-protection-privacy**
+- **odoo-bringout-oca-data-protection-privacy_consent**
+- **odoo-bringout-oca-ddmrp-ddmrp**
+- **odoo-bringout-oca-ddmrp-ddmrp_adjustment**
+- **odoo-bringout-oca-ddmrp-ddmrp_chatter**
+- **odoo-bringout-oca-ddmrp-ddmrp_cron_actions_as_job**
+- **odoo-bringout-oca-ddmrp-ddmrp_exclude_moves_adu_calc**
+- **odoo-bringout-oca-ddmrp-ddmrp_exclude_moves_adu_calc_sales**
+- **odoo-bringout-oca-ddmrp-ddmrp_history**
+- **odoo-bringout-oca-ddmrp-ddmrp_product_replace**
+- **odoo-bringout-oca-ddmrp-ddmrp_report_part_flow_index**
+- **odoo-bringout-oca-ddmrp-ddmrp_sale**
+- **odoo-bringout-oca-ddmrp-ddmrp_sale_dropshipping**
+- **odoo-bringout-oca-ddmrp-ddmrp_warning**
+- **odoo-bringout-oca-ddmrp-stock_buffer_route**
+- **odoo-bringout-oca-ddmrp-stock_buffer_sales_analysis**
+- **odoo-bringout-oca-geospatial-base_geoengine**
+- **odoo-bringout-oca-geospatial-base_geoengine_demo**
+- **odoo-bringout-oca-geospatial-base_geolocalize_company**
+- **odoo-bringout-oca-geospatial-geoengine_base_geolocalize**
+- **odoo-bringout-oca-geospatial-geoengine_partner**
+- **odoo-bringout-oca-geospatial-web_leaflet_lib**
+- **odoo-bringout-oca-geospatial-website_geoengine**
+- **odoo-bringout-oca-geospatial-website_geoengine_store_locator**
+- **odoo-bringout-oca-geospatial-web_view_leaflet_map**
+- **odoo-bringout-oca-geospatial-web_view_leaflet_map_partner**
+- **odoo-bringout-oca-management-system-document_page_environmental_aspect**
+- **odoo-bringout-oca-management-system-document_page_environment_manual**
+- **odoo-bringout-oca-management-system-document_page_health_safety_manual**
+- **odoo-bringout-oca-management-system-document_page_procedure**
+- **odoo-bringout-oca-management-system-document_page_quality_manual**
+- **odoo-bringout-oca-management-system-document_page_work_instruction**
+- **odoo-bringout-oca-management-system-mgmtsystem**
+- **odoo-bringout-oca-management-system-mgmtsystem_action**
+- **odoo-bringout-oca-management-system-mgmtsystem_action_efficacy**
+- **odoo-bringout-oca-management-system-mgmtsystem_action_hazard**
+- **odoo-bringout-oca-management-system-mgmtsystem_action_template**
+- **odoo-bringout-oca-management-system-mgmtsystem_audit**
+- **odoo-bringout-oca-management-system-mgmtsystem_claim**
+- **odoo-bringout-oca-management-system-mgmtsystem_environment**
+- **odoo-bringout-oca-management-system-mgmtsystem_evaluation**
+- **odoo-bringout-oca-management-system-mgmtsystem_evaluation_hr**
+- **odoo-bringout-oca-management-system-mgmtsystem_hazard**
+- **odoo-bringout-oca-management-system-mgmtsystem_hazard_maintenance_equipment**
+- **odoo-bringout-oca-management-system-mgmtsystem_hazard_risk**
+- **odoo-bringout-oca-management-system-mgmtsystem_health_safety**
+- **odoo-bringout-oca-management-system-mgmtsystem_info_security_manual**
+- **odoo-bringout-oca-management-system-mgmtsystem_manual**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_hazard**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_hr**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_maintenance_equipment**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_mrp**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_product**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_quality_control_oca**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_repair**
+- **odoo-bringout-oca-management-system-mgmtsystem_nonconformity_type**
+- **odoo-bringout-oca-management-system-mgmtsystem_partner**
+- **odoo-bringout-oca-management-system-mgmtsystem_quality**
+- **odoo-bringout-oca-management-system-mgmtsystem_review**
+- **odoo-bringout-oca-management-system-mgmtsystem_review_survey**
+- **odoo-bringout-oca-management-system-mgmtsystem_survey**
+- **odoo-bringout-oca-purchase-reporting-purchase_backorder**
+- **odoo-bringout-oca-purchase-reporting-purchase_comment_template**
+- **odoo-bringout-oca-purchase-reporting-purchase_packaging_report**
+- **odoo-bringout-oca-purchase-reporting-purchase_report_date_format**
+- **odoo-bringout-oca-purchase-reporting-purchase_report_payment_term**
+- **odoo-bringout-oca-purchase-reporting-purchase_report_shipping_address**
+- **odoo-bringout-oca-queue-base_export_async**
+- **odoo-bringout-oca-queue-base_import_async**
+- **odoo-bringout-oca-queue-queue_job**
+- **odoo-bringout-oca-queue-queue_job_batch**
+- **odoo-bringout-oca-queue-queue_job_cron**
+- **odoo-bringout-oca-queue-queue_job_cron_jobrunner**
+- **odoo-bringout-oca-queue-queue_job_subscribe**
+- **odoo-bringout-oca-queue-queue_job_web_notify**
+- **odoo-bringout-oca-queue-test_base_import_async**
+- **odoo-bringout-oca-queue-test_queue_job**
+- **odoo-bringout-oca-queue-test_queue_job_batch**
+- **odoo-bringout-oca-rest-framework-auth_partner**
+- **odoo-bringout-oca-rest-framework-base_rest**
+- **odoo-bringout-oca-rest-framework-base_rest_auth_api_key**
+- **odoo-bringout-oca-rest-framework-base_rest_auth_jwt**
+- **odoo-bringout-oca-rest-framework-base_rest_auth_user_service**
+- **odoo-bringout-oca-rest-framework-base_rest_datamodel**
+- **odoo-bringout-oca-rest-framework-base_rest_demo**
+- **odoo-bringout-oca-rest-framework-base_rest_pydantic**
+- **odoo-bringout-oca-rest-framework-datamodel**
+- **odoo-bringout-oca-rest-framework-extendable**
+- **odoo-bringout-oca-rest-framework-extendable_fastapi**
+- **odoo-bringout-oca-rest-framework-fastapi**
+- **odoo-bringout-oca-rest-framework-fastapi_auth_jwt**
+- **odoo-bringout-oca-rest-framework-fastapi_auth_jwt_demo**
+- **odoo-bringout-oca-rest-framework-fastapi_auth_partner**
+- **odoo-bringout-oca-rest-framework-fastapi_encrypted_errors**
+- **odoo-bringout-oca-rest-framework-graphql_base**
+- **odoo-bringout-oca-rest-framework-graphql_demo**
+- **odoo-bringout-oca-rest-framework-model_serializer**
+- **odoo-bringout-oca-rest-framework-pydantic**
+- **odoo-bringout-oca-rest-framework-rest_log**
+- **odoo-bringout-oca-rma-product_warranty**
+- **odoo-bringout-oca-rma-rma**
+- **odoo-bringout-oca-rma-rma_delivery**
+- **odoo-bringout-oca-rma-rma_lot**
+- **odoo-bringout-oca-rma-rma_procurement_customer**
+- **odoo-bringout-oca-rma-rma_reason**
+- **odoo-bringout-oca-rma-rma_sale**
+- **odoo-bringout-oca-rma-rma_sale_lot**
+- **odoo-bringout-oca-rma-rma_sale_mrp**
+- **odoo-bringout-oca-rma-rma_sale_reason**
+- **odoo-bringout-oca-server-tools-attachment_delete_restrict**
+- **odoo-bringout-oca-server-tools-attachment_logging**
+- **odoo-bringout-oca-server-tools-attachment_queue**
+- **odoo-bringout-oca-server-tools-attachment_synchronize**
+- **odoo-bringout-oca-server-tools-attachment_unindex_content**
+- **odoo-bringout-oca-server-tools-auditlog**
+- **odoo-bringout-oca-server-tools-auto_backup**
+- **odoo-bringout-oca-server-tools-autovacuum_message_attachment**
+- **odoo-bringout-oca-server-tools-base_changeset**
+- **odoo-bringout-oca-server-tools-base_conditional_image**
+- **odoo-bringout-oca-server-tools-base_cron_exclusion**
+- **odoo-bringout-oca-server-tools-base_domain_inverse_function**
+- **odoo-bringout-oca-server-tools-base_exception**
+- **odoo-bringout-oca-server-tools-base_fontawesome**
+- **odoo-bringout-oca-server-tools-base_force_record_noupdate**
+- **odoo-bringout-oca-server-tools-base_import_default_enable_tracking**
+- **odoo-bringout-oca-server-tools-base_import_odoo**
+- **odoo-bringout-oca-server-tools-base_m2m_custom_field**
+- **odoo-bringout-oca-server-tools-base_multi_image**
+- **odoo-bringout-oca-server-tools-base_name_search_improved**
+- **odoo-bringout-oca-server-tools-base_partition**
+- **odoo-bringout-oca-server-tools-base_remote**
+- **odoo-bringout-oca-server-tools-base_search_fuzzy**
+- **odoo-bringout-oca-server-tools-base_sequence_default**
+- **odoo-bringout-oca-server-tools-base_sequence_option**
+- **odoo-bringout-oca-server-tools-base_sparse_field_list_support**
+- **odoo-bringout-oca-server-tools-base_technical_user**
+- **odoo-bringout-oca-server-tools-base_time_window**
+- **odoo-bringout-oca-server-tools-base_view_inheritance_extension**
+- **odoo-bringout-oca-server-tools-bus_alt_connection**
+- **odoo-bringout-oca-server-tools-cron_daylight_saving_time_resistant**
+- **odoo-bringout-oca-server-tools-database_cleanup**
+- **odoo-bringout-oca-server-tools-datetime_formatter**
+- **odoo-bringout-oca-server-tools-dbfilter_from_header**
+- **odoo-bringout-oca-server-tools-excel_import_export**
+- **odoo-bringout-oca-server-tools-excel_import_export_demo**
+- **odoo-bringout-oca-server-tools-excel_import_export_unidecode**
+- **odoo-bringout-oca-server-tools-fetchmail_attach_from_folder**
+- **odoo-bringout-oca-server-tools-fetchmail_notify_error_to_sender**
+- **odoo-bringout-oca-server-tools-fetchmail_notify_error_to_sender_test**
+- **odoo-bringout-oca-server-tools-html_image_url_extractor**
+- **odoo-bringout-oca-server-tools-html_text**
+- **odoo-bringout-oca-server-tools-iap_alternative_provider**
+- **odoo-bringout-oca-server-tools-jsonifier**
+- **odoo-bringout-oca-server-tools-letsencrypt**
+- **odoo-bringout-oca-server-tools-module_analysis**
+- **odoo-bringout-oca-server-tools-module_auto_update**
+- **odoo-bringout-oca-server-tools-module_change_auto_install**
+- **odoo-bringout-oca-server-tools-nsca_client**
+- **odoo-bringout-oca-server-tools-odoo_test_xmlrunner**
+- **odoo-bringout-oca-server-tools-onchange_helper**
+- **odoo-bringout-oca-server-tools-postgres_vacuum**
+- **odoo-bringout-oca-server-tools-rpc_helper**
+- **odoo-bringout-oca-server-tools-scheduler_error_mailer**
+- **odoo-bringout-oca-server-tools-sentry**
+- **odoo-bringout-oca-server-tools-sequence_python**
+- **odoo-bringout-oca-server-tools-server_action_logging**
+- **odoo-bringout-oca-server-tools-session_db**
+- **odoo-bringout-oca-server-tools-tracking_manager**
+- **odoo-bringout-oca-server-tools-upgrade_analysis**
+- **odoo-bringout-oca-server-tools-url_attachment_search_fuzzy**
+- **odoo-bringout-oca-server-ux-announcement**
+- **odoo-bringout-oca-server-ux-announcement_dialog_size**
+- **odoo-bringout-oca-server-ux-barcode_action**
+- **odoo-bringout-oca-server-ux-base_archive_security**
+- **odoo-bringout-oca-server-ux-base_binary_url_import**
+- **odoo-bringout-oca-server-ux-base_cancel_confirm**
+- **odoo-bringout-oca-server-ux-base_custom_filter**
+- **odoo-bringout-oca-server-ux-base_export_manager**
+- **odoo-bringout-oca-server-ux-base_import_security_group**
+- **odoo-bringout-oca-server-ux-base_menu_visibility_restriction**
+- **odoo-bringout-oca-server-ux-base_optional_quick_create**
+- **odoo-bringout-oca-server-ux-base_revision**
+- **odoo-bringout-oca-server-ux-base_rule_visibility_restriction**
+- **odoo-bringout-oca-server-ux-base_search_custom_field_filter**
+- **odoo-bringout-oca-server-ux-base_substate**
+- **odoo-bringout-oca-server-ux-base_technical_features**
+- **odoo-bringout-oca-server-ux-base_tier_validation**
+- **odoo-bringout-oca-server-ux-base_tier_validation_board**
+- **odoo-bringout-oca-server-ux-base_tier_validation_correction**
+- **odoo-bringout-oca-server-ux-base_tier_validation_definition_server_action**
+- **odoo-bringout-oca-server-ux-base_tier_validation_formula**
+- **odoo-bringout-oca-server-ux-base_tier_validation_forward**
+- **odoo-bringout-oca-server-ux-base_tier_validation_report**
+- **odoo-bringout-oca-server-ux-base_tier_validation_server_action**
+- **odoo-bringout-oca-server-ux-base_tier_validation_waiting**
+- **odoo-bringout-oca-server-ux-base_user_chatter**
+- **odoo-bringout-oca-server-ux-base_user_locale**
+- **odoo-bringout-oca-server-ux-confirmation_wizard**
+- **odoo-bringout-oca-server-ux-date_range**
+- **odoo-bringout-oca-server-ux-date_range_account**
+- **odoo-bringout-oca-server-ux-developer_menu**
+- **odoo-bringout-oca-server-ux-document_quick_access**
+- **odoo-bringout-oca-server-ux-document_quick_access_folder_auto_classification**
+- **odoo-bringout-oca-server-ux-filter_multi_user**
+- **odoo-bringout-oca-server-ux-mail_message_destiny_link_template**
+- **odoo-bringout-oca-server-ux-mail_suggested_recipient_unchecked**
+- **odoo-bringout-oca-server-ux-misc_settings**
+- **odoo-bringout-oca-server-ux-multi_step_wizard**
+- **odoo-bringout-oca-server-ux-sequence_check_digit**
+- **odoo-bringout-oca-server-ux-sequence_reset_period**
+- **odoo-bringout-oca-server-ux-server_action_mass_edit**
+- **odoo-bringout-oca-server-ux-template_content_swapper**
+- **odoo-bringout-oca-server-ux-test_base_binary_url_import**
+- **odoo-bringout-oca-server-ux-user_all_groups**
