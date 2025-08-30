@@ -1,8 +1,17 @@
 # OCA Technical
 
-This repository contains **595** OCA packages for technical.
+This repository contains **341** OCA packages for technical.
 
-## Packages Included (595 packages)
+**Note**: Some modules have been moved to specialized submodules:
+- **67 HR modules** moved to [oca-hr](https://github.com/bringout/oca-hr) submodule
+- **74 POS modules** moved to [oca-pos](https://github.com/bringout/oca-pos) submodule  
+- **28 Maintenance modules** moved to [oca-maintenance](https://github.com/bringout/oca-maintenance) submodule
+- **16 Sale modules** moved to [oca-sale](https://github.com/bringout/oca-sale) submodule
+- **68 Web modules** moved to [oca-web](https://github.com/bringout/oca-web) submodule
+
+## Packages Included (341 packages)
+
+*Note: The detailed package list below needs to be regenerated to reflect the modules that have been moved to specialized submodules.*
 
 - **odoo-bringout-oca-account-closing-account_cutoff_accrual_order_base** - From account: closing_account_cutoff_accrual_order_base
 - **odoo-bringout-oca-account-closing-account_cutoff_accrual_order_stock_base** - From account: closing_account_cutoff_accrual_order_stock_base
