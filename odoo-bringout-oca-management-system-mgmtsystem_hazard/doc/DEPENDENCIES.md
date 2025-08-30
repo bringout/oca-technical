@@ -3,4 +3,4 @@
 This addon depends on:
 
 - [mgmtsystem](https://github.com/bringout/oca-technical)
-- [hr](https://github.com/bringout/oca-ocb-hr/tree/fd0ec9fb231394028ae822d432cba192b5602deb/odoo-bringout-oca-ocb-hr)
+- [hr](https://github.com/bringout/oca-ocb-hr/tree/f98b49b539eee9e50a57b2cbab9546577b4c3681/odoo-bringout-oca-ocb-hr)

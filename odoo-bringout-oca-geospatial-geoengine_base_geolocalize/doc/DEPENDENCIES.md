@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- base
+- [base](https://github.com/bringout/oca-ocb-core/tree/e9ca19c0c154b94934ea86258814c560c4e016f4/odoo-bringout-oca-ocb-base/odoo/addons/base)
 - [geoengine_partner](https://github.com/bringout/oca-technical)
-- [base_geolocalize](https://github.com/bringout/oca-ocb-core/tree/0e11bee18c8c7dd39664f7b81670e02dd0705e48/odoo-bringout-oca-ocb-base_geolocalize)
+- [base_geolocalize](https://github.com/bringout/oca-ocb-core/tree/e9ca19c0c154b94934ea86258814c560c4e016f4/odoo-bringout-oca-ocb-base_geolocalize)
