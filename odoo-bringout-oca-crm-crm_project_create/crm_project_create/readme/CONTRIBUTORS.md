@@ -1,2 +1,0 @@
--   Emilio Pascual ([Moduon](https://www.moduon.team/))
--   Eduardo López ([Moduon](https://www.moduon.team/))
