@@ -1,7 +1,0 @@
-# Install
-
-```bash
-pip install odoo-bringout-oca-web-web_widget_image_webcam"
-# or
-uv pip install odoo-bringout-oca-web-web_widget_image_webcam"
-```
