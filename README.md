@@ -47,12 +47,12 @@
 - **odoo-bringout-oca-geospatial-geoengine_base_geolocalize**
 - **odoo-bringout-oca-geospatial-geoengine_partner**
 - **odoo-bringout-oca-geospatial-web_leaflet_lib**
-- **odoo-bringout-oca-geospatial-website_geoengine**
-- **odoo-bringout-oca-geospatial-website_geoengine_store_locator**
 - **odoo-bringout-oca-geospatial-web_view_leaflet_map**
 - **odoo-bringout-oca-geospatial-web_view_leaflet_map_partner**
-- **odoo-bringout-oca-management-system-document_page_environmental_aspect**
+- **odoo-bringout-oca-geospatial-website_geoengine**
+- **odoo-bringout-oca-geospatial-website_geoengine_store_locator**
 - **odoo-bringout-oca-management-system-document_page_environment_manual**
+- **odoo-bringout-oca-management-system-document_page_environmental_aspect**
 - **odoo-bringout-oca-management-system-document_page_health_safety_manual**
 - **odoo-bringout-oca-management-system-document_page_procedure**
 - **odoo-bringout-oca-management-system-document_page_quality_manual**
