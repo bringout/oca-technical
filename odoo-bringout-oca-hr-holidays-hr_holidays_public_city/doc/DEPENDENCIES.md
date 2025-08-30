@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr_holidays_public](../../../../odoo-bringout-oca-hr-holidays-hr_holidays_public)
-- [base_address_extended](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_address_extended)
+- [hr_holidays_public](https://github.com/bringout/oca-technical)
+- [base_address_extended](https://github.com/bringout/oca-ocb-core)

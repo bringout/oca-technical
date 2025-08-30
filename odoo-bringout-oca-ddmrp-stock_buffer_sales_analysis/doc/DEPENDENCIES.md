@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [ddmrp](../../../../odoo-bringout-oca-ddmrp-ddmrp)
-- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
-- [sales_team](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sales_team)
+- [ddmrp](https://github.com/bringout/oca-technical)
+- [sale](https://github.com/bringout/oca-ocb-sale)
+- [sales_team](https://github.com/bringout/oca-ocb-sale)

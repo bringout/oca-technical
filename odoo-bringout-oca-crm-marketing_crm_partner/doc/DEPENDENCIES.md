@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [crm](../../../../../oca-ocb-crm/odoo-bringout-oca-ocb-crm)
+- [crm](https://github.com/bringout/oca-ocb-crm)

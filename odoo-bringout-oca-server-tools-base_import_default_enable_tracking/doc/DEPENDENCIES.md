@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [base_import](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_import)
+- [base_import](https://github.com/bringout/oca-ocb-core)

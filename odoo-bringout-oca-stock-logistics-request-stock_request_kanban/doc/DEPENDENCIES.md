@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_request](../../../../odoo-bringout-oca-stock-logistics-request-stock_request)
-- [barcodes](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-barcodes)
+- [stock_request](https://github.com/bringout/oca-technical)
+- [barcodes](https://github.com/bringout/oca-ocb-technical)

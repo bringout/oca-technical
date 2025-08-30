@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [web](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-web)
-- [queue_job](../../../../odoo-bringout-oca-queue-queue_job)
+- [web](https://github.com/bringout/oca-ocb-core)
+- [queue_job](https://github.com/bringout/oca-technical)

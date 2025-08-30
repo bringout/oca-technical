@@ -2,8 +2,8 @@
 
 This addon depends on:
 
-- [mgmtsystem_manual](../../../../odoo-bringout-oca-management-system-mgmtsystem_manual)
-- [mgmtsystem_audit](../../../../odoo-bringout-oca-management-system-mgmtsystem_audit)
-- [document_page_health_safety_manual](../../../../odoo-bringout-oca-management-system-document_page_health_safety_manual)
-- [mgmtsystem_review](../../../../odoo-bringout-oca-management-system-mgmtsystem_review)
-- [mgmtsystem_hazard_risk](../../../../odoo-bringout-oca-management-system-mgmtsystem_hazard_risk)
+- [mgmtsystem_manual](https://github.com/bringout/oca-technical)
+- [mgmtsystem_audit](https://github.com/bringout/oca-technical)
+- [document_page_health_safety_manual](https://github.com/bringout/oca-technical)
+- [mgmtsystem_review](https://github.com/bringout/oca-technical)
+- [mgmtsystem_hazard_risk](https://github.com/bringout/oca-technical)

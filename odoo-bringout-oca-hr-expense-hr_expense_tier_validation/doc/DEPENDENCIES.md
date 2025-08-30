@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr_expense](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr_expense)
-- [base_tier_validation](../../../../odoo-bringout-oca-server-ux-base_tier_validation)
+- [hr_expense](https://github.com/bringout/oca-ocb-hr)
+- [base_tier_validation](https://github.com/bringout/oca-technical)

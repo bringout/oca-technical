@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [maintenance](../../../../../oca-ocb-vertical-industry/odoo-bringout-oca-ocb-maintenance)
-- [base_remote](../../../../odoo-bringout-oca-server-tools-base_remote)
+- [maintenance](https://github.com/bringout/oca-ocb-vertical-industry)
+- [base_remote](https://github.com/bringout/oca-technical)

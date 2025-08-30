@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [dms](../../../../odoo-bringout-oca-dms-dms)
-- [web_editor](../../../../../oca-ocb-web/odoo-bringout-oca-ocb-web_editor)
+- [dms](https://github.com/bringout/oca-technical)
+- [web_editor](https://github.com/bringout/oca-ocb-web)

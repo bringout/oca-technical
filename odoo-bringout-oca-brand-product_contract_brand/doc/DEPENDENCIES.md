@@ -3,5 +3,5 @@
 This addon depends on:
 
 - product_contract
-- [sale_brand](../../../../odoo-bringout-oca-brand-sale_brand)
-- [contract_brand](../../../../odoo-bringout-oca-brand-contract_brand)
+- [sale_brand](https://github.com/bringout/oca-technical)
+- [contract_brand](https://github.com/bringout/oca-technical)

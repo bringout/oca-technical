@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [base_sparse_field](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_sparse_field)
+- [base_sparse_field](https://github.com/bringout/oca-ocb-core)

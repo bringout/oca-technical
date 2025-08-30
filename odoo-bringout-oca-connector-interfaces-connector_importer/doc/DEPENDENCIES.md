@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [connector](../../../../odoo-bringout-oca-connector-connector)
-- [queue_job](../../../../odoo-bringout-oca-queue-queue_job)
+- [connector](https://github.com/bringout/oca-technical)
+- [queue_job](https://github.com/bringout/oca-technical)

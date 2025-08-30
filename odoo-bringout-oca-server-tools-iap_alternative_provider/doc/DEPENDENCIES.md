@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [iap](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-iap)
+- [iap](https://github.com/bringout/oca-ocb-technical)

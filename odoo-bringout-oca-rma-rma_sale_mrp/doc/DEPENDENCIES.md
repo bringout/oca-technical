@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [rma_sale](../../../../odoo-bringout-oca-rma-rma_sale)
-- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [rma_sale](https://github.com/bringout/oca-technical)
+- [mrp](https://github.com/bringout/oca-ocb-mrp)

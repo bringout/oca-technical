@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [dms](../../../../odoo-bringout-oca-dms-dms)
-- [fs_storage](../../../../../oca-storage/odoo-bringout-oca-storage-fs_storage)
+- [dms](https://github.com/bringout/oca-technical)
+- [fs_storage](https://github.com/bringout/oca-storage)

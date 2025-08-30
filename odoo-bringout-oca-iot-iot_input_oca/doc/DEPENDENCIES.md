@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [iot_oca](../../../../odoo-bringout-oca-iot-iot_oca)
+- [iot_oca](https://github.com/bringout/oca-technical)

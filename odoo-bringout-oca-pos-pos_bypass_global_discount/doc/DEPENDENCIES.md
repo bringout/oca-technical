@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [pos_discount](../../../../../oca-ocb-pos/odoo-bringout-oca-ocb-pos_discount)
-- [pos_loyalty](../../../../../oca-ocb-pos/odoo-bringout-oca-ocb-pos_loyalty)
-- [sale_global_discount](../../../../../oca-workflow-process/odoo-bringout-oca-sale-workflow-sale_global_discount)
+- [pos_discount](https://github.com/bringout/oca-ocb-pos)
+- [pos_loyalty](https://github.com/bringout/oca-ocb-pos)
+- [sale_global_discount](https://github.com/bringout/oca-workflow-process)

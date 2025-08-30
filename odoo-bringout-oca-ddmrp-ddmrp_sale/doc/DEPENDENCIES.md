@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [ddmrp](../../../../odoo-bringout-oca-ddmrp-ddmrp)
-- [sale_order_line_date](../../../../../oca-workflow-process/odoo-bringout-oca-sale-workflow-sale_order_line_date)
+- [ddmrp](https://github.com/bringout/oca-technical)
+- [sale_order_line_date](https://github.com/bringout/oca-workflow-process)

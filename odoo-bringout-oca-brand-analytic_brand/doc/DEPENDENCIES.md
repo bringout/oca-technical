@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [analytic](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-analytic)
-- [brand](../../../../odoo-bringout-oca-brand-brand)
+- [analytic](https://github.com/bringout/oca-ocb-core)
+- [brand](https://github.com/bringout/oca-technical)

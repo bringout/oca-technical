@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [resource](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-resource)
+- [resource](https://github.com/bringout/oca-ocb-core)

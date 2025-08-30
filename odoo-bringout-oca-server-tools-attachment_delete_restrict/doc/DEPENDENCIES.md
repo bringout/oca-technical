@@ -3,4 +3,4 @@
 This addon depends on:
 
 - base
-- [base_setup](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_setup)
+- [base_setup](https://github.com/bringout/oca-ocb-core)

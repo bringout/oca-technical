@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [maintenance](../../../../../oca-ocb-vertical-industry/odoo-bringout-oca-ocb-maintenance)
-- [mgmtsystem_nonconformity](../../../../odoo-bringout-oca-management-system-mgmtsystem_nonconformity)
+- [maintenance](https://github.com/bringout/oca-ocb-vertical-industry)
+- [mgmtsystem_nonconformity](https://github.com/bringout/oca-technical)

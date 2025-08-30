@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [base_geoengine](../../../../odoo-bringout-oca-geospatial-base_geoengine)
+- [base_geoengine](https://github.com/bringout/oca-technical)

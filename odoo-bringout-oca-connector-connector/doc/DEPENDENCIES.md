@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
-- [queue_job](../../../../odoo-bringout-oca-queue-queue_job)
-- [component](../../../../odoo-bringout-oca-connector-component)
-- [component_event](../../../../odoo-bringout-oca-connector-component_event)
+- [mail](https://github.com/bringout/oca-ocb-core)
+- [queue_job](https://github.com/bringout/oca-technical)
+- [component](https://github.com/bringout/oca-technical)
+- [component_event](https://github.com/bringout/oca-technical)

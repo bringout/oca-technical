@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr_expense_sequence](../../../../odoo-bringout-oca-hr-expense-hr_expense_sequence)
-- [hr_expense_advance_clearing](../../../../odoo-bringout-oca-hr-expense-hr_expense_advance_clearing)
+- [hr_expense_sequence](https://github.com/bringout/oca-technical)
+- [hr_expense_advance_clearing](https://github.com/bringout/oca-technical)

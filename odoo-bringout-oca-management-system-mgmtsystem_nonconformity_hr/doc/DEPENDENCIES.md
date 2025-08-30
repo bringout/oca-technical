@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr)
-- [mgmtsystem_nonconformity](../../../../odoo-bringout-oca-management-system-mgmtsystem_nonconformity)
+- [hr](https://github.com/bringout/oca-ocb-hr)
+- [mgmtsystem_nonconformity](https://github.com/bringout/oca-technical)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [brand](../../../../odoo-bringout-oca-brand-brand)
-- [contacts](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-contacts)
+- [brand](https://github.com/bringout/oca-technical)
+- [contacts](https://github.com/bringout/oca-ocb-technical)

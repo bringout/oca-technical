@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [web_tour](../../../../../oca-ocb-web/odoo-bringout-oca-ocb-web_tour)
+- [web_tour](https://github.com/bringout/oca-ocb-web)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [web_view_leaflet_map](../../../../odoo-bringout-oca-geospatial-web_view_leaflet_map)
-- [contacts](../../../../../oca-ocb-technical/odoo-bringout-oca-ocb-contacts)
+- [web_view_leaflet_map](https://github.com/bringout/oca-technical)
+- [contacts](https://github.com/bringout/oca-ocb-technical)

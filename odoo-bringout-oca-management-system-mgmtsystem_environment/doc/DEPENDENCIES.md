@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [mgmtsystem_audit](../../../../odoo-bringout-oca-management-system-mgmtsystem_audit)
-- [mgmtsystem_review](../../../../odoo-bringout-oca-management-system-mgmtsystem_review)
-- [document_page_environment_manual](../../../../odoo-bringout-oca-management-system-document_page_environment_manual)
-- [document_page_environmental_aspect](../../../../odoo-bringout-oca-management-system-document_page_environmental_aspect)
+- [mgmtsystem_audit](https://github.com/bringout/oca-technical)
+- [mgmtsystem_review](https://github.com/bringout/oca-technical)
+- [document_page_environment_manual](https://github.com/bringout/oca-technical)
+- [document_page_environmental_aspect](https://github.com/bringout/oca-technical)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [maintenance_product](../../../../odoo-bringout-oca-maintenance-maintenance_product)
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [maintenance_product](https://github.com/bringout/oca-technical)
+- [account](https://github.com/bringout/oca-ocb-accounting)

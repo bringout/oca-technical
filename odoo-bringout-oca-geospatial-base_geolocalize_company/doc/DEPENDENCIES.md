@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [base_geolocalize](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_geolocalize)
+- [base_geolocalize](https://github.com/bringout/oca-ocb-core)

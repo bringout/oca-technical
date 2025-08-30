@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [connector](../../../../odoo-bringout-oca-connector-connector)
-- [product](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-product)
+- [connector](https://github.com/bringout/oca-technical)
+- [product](https://github.com/bringout/oca-ocb-sale)

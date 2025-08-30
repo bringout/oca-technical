@@ -3,5 +3,5 @@
 This addon depends on:
 
 - contract
-- [account_brand](../../../../odoo-bringout-oca-brand-account_brand)
-- [analytic_brand](../../../../odoo-bringout-oca-brand-analytic_brand)
+- [account_brand](https://github.com/bringout/oca-technical)
+- [analytic_brand](https://github.com/bringout/oca-technical)

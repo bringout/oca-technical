@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [rma](../../../../odoo-bringout-oca-rma-rma)
+- [rma](https://github.com/bringout/oca-technical)

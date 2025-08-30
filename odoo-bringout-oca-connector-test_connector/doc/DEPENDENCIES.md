@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [connector](../../../../odoo-bringout-oca-connector-connector)
+- [connector](https://github.com/bringout/oca-technical)

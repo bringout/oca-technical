@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_geolocalize](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_geolocalize)
-- [web_leaflet_lib](../../../../odoo-bringout-oca-geospatial-web_leaflet_lib)
+- [base_geolocalize](https://github.com/bringout/oca-ocb-core)
+- [web_leaflet_lib](https://github.com/bringout/oca-technical)

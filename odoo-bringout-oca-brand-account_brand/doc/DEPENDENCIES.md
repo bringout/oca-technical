@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [brand](../../../../odoo-bringout-oca-brand-brand)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [brand](https://github.com/bringout/oca-technical)

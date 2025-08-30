@@ -3,4 +3,4 @@
 This addon depends on:
 
 - contract
-- [base_maintenance](../../../../odoo-bringout-oca-maintenance-base_maintenance)
+- [base_maintenance](https://github.com/bringout/oca-technical)

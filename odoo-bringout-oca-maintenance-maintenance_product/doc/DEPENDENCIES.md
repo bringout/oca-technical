@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [maintenance](../../../../../oca-ocb-vertical-industry/odoo-bringout-oca-ocb-maintenance)
-- [product](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-product)
+- [maintenance](https://github.com/bringout/oca-ocb-vertical-industry)
+- [product](https://github.com/bringout/oca-ocb-sale)

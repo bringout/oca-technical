@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [web_notify](../../../../odoo-bringout-oca-web-web_notify)
-- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
+- [web_notify](https://github.com/bringout/oca-technical)
+- [mail](https://github.com/bringout/oca-ocb-core)

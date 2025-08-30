@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [product_brand](../../../../odoo-bringout-oca-brand-product_brand)
-- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [product_brand](https://github.com/bringout/oca-technical)
+- [mrp](https://github.com/bringout/oca-ocb-mrp)

@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [maintenance_plan](../../../../odoo-bringout-oca-maintenance-maintenance_plan)
+- [maintenance_plan](https://github.com/bringout/oca-technical)

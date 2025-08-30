@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_rest](../../../../odoo-bringout-oca-rest-framework-base_rest)
-- [auth_api_key](../../../../../oca-server-auth/odoo-bringout-oca-server-auth-auth_api_key)
+- [base_rest](https://github.com/bringout/oca-technical)
+- [auth_api_key](https://github.com/bringout/oca-server-auth)

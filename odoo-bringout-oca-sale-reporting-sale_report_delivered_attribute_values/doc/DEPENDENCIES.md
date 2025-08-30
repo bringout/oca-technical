@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale_report_delivered](../../../../odoo-bringout-oca-sale-reporting-sale_report_delivered)
-- [sale_order_line_product_attribute_values](../../../../../oca-workflow-process/odoo-bringout-oca-sale-workflow-sale_order_line_product_attribute_values)
+- [sale_report_delivered](https://github.com/bringout/oca-technical)
+- [sale_order_line_product_attribute_values](https://github.com/bringout/oca-workflow-process)

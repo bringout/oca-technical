@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [excel_import_export](../../../../odoo-bringout-oca-server-tools-excel_import_export)
-- [sale_management](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_management)
-- [purchase](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-purchase)
-- [crm](../../../../../oca-ocb-crm/odoo-bringout-oca-ocb-crm)
+- [excel_import_export](https://github.com/bringout/oca-technical)
+- [sale_management](https://github.com/bringout/oca-ocb-sale)
+- [purchase](https://github.com/bringout/oca-ocb-core)
+- [crm](https://github.com/bringout/oca-ocb-crm)

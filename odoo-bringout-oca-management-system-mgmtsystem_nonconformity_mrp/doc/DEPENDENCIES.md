@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mgmtsystem_nonconformity](../../../../odoo-bringout-oca-management-system-mgmtsystem_nonconformity)
-- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [mgmtsystem_nonconformity](https://github.com/bringout/oca-technical)
+- [mrp](https://github.com/bringout/oca-ocb-mrp)

@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [mgmtsystem_nonconformity](../../../../odoo-bringout-oca-management-system-mgmtsystem_nonconformity)
+- [mgmtsystem_nonconformity](https://github.com/bringout/oca-technical)

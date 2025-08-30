@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [account_cutoff_base](../../../../odoo-bringout-oca-account-closing-account_cutoff_base)
+- [account_cutoff_base](https://github.com/bringout/oca-technical)

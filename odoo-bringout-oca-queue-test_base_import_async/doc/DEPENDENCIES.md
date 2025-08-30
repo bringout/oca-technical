@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_import_async](../../../../odoo-bringout-oca-queue-base_import_async)
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
+- [base_import_async](https://github.com/bringout/oca-technical)
+- [account](https://github.com/bringout/oca-ocb-accounting)

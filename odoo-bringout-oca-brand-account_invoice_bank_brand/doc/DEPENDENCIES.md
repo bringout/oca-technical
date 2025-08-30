@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [account_brand](../../../../odoo-bringout-oca-brand-account_brand)
+- [account_brand](https://github.com/bringout/oca-technical)

@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [base_rest](../../../../odoo-bringout-oca-rest-framework-base_rest)
+- [base_rest](https://github.com/bringout/oca-technical)

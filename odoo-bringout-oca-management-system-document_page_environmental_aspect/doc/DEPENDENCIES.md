@@ -3,4 +3,4 @@
 This addon depends on:
 
 - document_page
-- [mgmtsystem](../../../../odoo-bringout-oca-management-system-mgmtsystem)
+- [mgmtsystem](https://github.com/bringout/oca-technical)

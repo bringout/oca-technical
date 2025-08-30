@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [delivery](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-delivery)
-- [account_cutoff_accrual_sale_stock](../../../../odoo-bringout-oca-account-closing-account_cutoff_accrual_sale_stock)
+- [delivery](https://github.com/bringout/oca-ocb-warehouse)
+- [account_cutoff_accrual_sale_stock](https://github.com/bringout/oca-technical)

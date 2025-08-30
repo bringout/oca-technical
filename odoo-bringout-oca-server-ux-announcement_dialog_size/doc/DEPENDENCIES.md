@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [announcement](../../../../odoo-bringout-oca-server-ux-announcement)
-- [web_dialog_size](../../../../odoo-bringout-oca-web-web_dialog_size)
+- [announcement](https://github.com/bringout/oca-technical)
+- [web_dialog_size](https://github.com/bringout/oca-technical)

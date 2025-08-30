@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_import](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_import)
-- [queue_job](../../../../odoo-bringout-oca-queue-queue_job)
+- [base_import](https://github.com/bringout/oca-ocb-core)
+- [queue_job](https://github.com/bringout/oca-technical)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [ddmrp_sale](../../../../odoo-bringout-oca-ddmrp-ddmrp_sale)
-- [stock_dropshipping](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock_dropshipping)
+- [ddmrp_sale](https://github.com/bringout/oca-technical)
+- [stock_dropshipping](https://github.com/bringout/oca-ocb-warehouse)

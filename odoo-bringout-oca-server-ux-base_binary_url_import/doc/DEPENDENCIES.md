@@ -3,5 +3,5 @@
 This addon depends on:
 
 - base
-- [base_import](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-base_import)
-- [web_domain_field](../../../../odoo-bringout-oca-web-web_domain_field)
+- [base_import](https://github.com/bringout/oca-ocb-core)
+- [web_domain_field](https://github.com/bringout/oca-technical)

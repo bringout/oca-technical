@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [dms](../../../../odoo-bringout-oca-dms-dms)
+- [dms](https://github.com/bringout/oca-technical)
 - base_user_role

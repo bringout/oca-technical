@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [base_binary_url_import](../../../../odoo-bringout-oca-server-ux-base_binary_url_import)
+- [base_binary_url_import](https://github.com/bringout/oca-technical)

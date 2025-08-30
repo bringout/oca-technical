@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_sequence_option](../../../../odoo-bringout-oca-server-tools-base_sequence_option)
-- [hr_expense_sequence](../../../../odoo-bringout-oca-hr-expense-hr_expense_sequence)
+- [base_sequence_option](https://github.com/bringout/oca-technical)
+- [hr_expense_sequence](https://github.com/bringout/oca-technical)

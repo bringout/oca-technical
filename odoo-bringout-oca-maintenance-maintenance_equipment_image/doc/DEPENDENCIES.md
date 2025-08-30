@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [maintenance](../../../../../oca-ocb-vertical-industry/odoo-bringout-oca-ocb-maintenance)
+- [maintenance](https://github.com/bringout/oca-ocb-vertical-industry)

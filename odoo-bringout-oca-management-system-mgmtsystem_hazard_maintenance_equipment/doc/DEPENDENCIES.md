@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [maintenance](../../../../../oca-ocb-vertical-industry/odoo-bringout-oca-ocb-maintenance)
-- [mgmtsystem_hazard](../../../../odoo-bringout-oca-management-system-mgmtsystem_hazard)
+- [maintenance](https://github.com/bringout/oca-ocb-vertical-industry)
+- [mgmtsystem_hazard](https://github.com/bringout/oca-technical)

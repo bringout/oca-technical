@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)
-- [delivery_procurement_group_carrier](../../../../../oca-workflow-process/odoo-bringout-oca-stock-logistics-workflow-delivery_procurement_group_carrier)
+- [stock](https://github.com/bringout/oca-ocb-warehouse)
+- [delivery_procurement_group_carrier](https://github.com/bringout/oca-workflow-process)

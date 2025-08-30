@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [base_search_fuzzy](../../../../odoo-bringout-oca-server-tools-base_search_fuzzy)
+- [base_search_fuzzy](https://github.com/bringout/oca-technical)

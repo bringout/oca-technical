@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_available](../../../../odoo-bringout-oca-stock-logistics-availability-stock_available)
-- [mrp](../../../../../oca-ocb-mrp/odoo-bringout-oca-ocb-mrp)
+- [stock_available](https://github.com/bringout/oca-technical)
+- [mrp](https://github.com/bringout/oca-ocb-mrp)

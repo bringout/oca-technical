@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [auth_signup](../../../../../oca-ocb-security/odoo-bringout-oca-ocb-auth_signup)
-- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
-- [queue_job](../../../../odoo-bringout-oca-queue-queue_job)
+- [auth_signup](https://github.com/bringout/oca-ocb-security)
+- [mail](https://github.com/bringout/oca-ocb-core)
+- [queue_job](https://github.com/bringout/oca-technical)
 - server_environment

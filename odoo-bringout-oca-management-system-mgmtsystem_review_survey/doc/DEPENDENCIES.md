@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mgmtsystem_review](../../../../odoo-bringout-oca-management-system-mgmtsystem_review)
-- [survey](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-survey)
+- [mgmtsystem_review](https://github.com/bringout/oca-technical)
+- [survey](https://github.com/bringout/oca-ocb-core)

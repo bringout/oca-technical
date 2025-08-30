@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale_loyalty_exclude](../../../../../oca-workflow-process/odoo-bringout-oca-sale-workflow-sale_loyalty_exclude)
-- [pos_loyalty](../../../../../oca-ocb-pos/odoo-bringout-oca-ocb-pos_loyalty)
+- [sale_loyalty_exclude](https://github.com/bringout/oca-workflow-process)
+- [pos_loyalty](https://github.com/bringout/oca-ocb-pos)

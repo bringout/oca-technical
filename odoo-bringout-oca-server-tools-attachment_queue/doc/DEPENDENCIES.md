@@ -3,5 +3,5 @@
 This addon depends on:
 
 - base
-- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
-- [queue_job](../../../../odoo-bringout-oca-queue-queue_job)
+- [mail](https://github.com/bringout/oca-ocb-core)
+- [queue_job](https://github.com/bringout/oca-technical)

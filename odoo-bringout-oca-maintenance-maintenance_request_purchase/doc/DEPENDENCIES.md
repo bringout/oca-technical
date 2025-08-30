@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_maintenance](../../../../odoo-bringout-oca-maintenance-base_maintenance)
-- [purchase](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-purchase)
+- [base_maintenance](https://github.com/bringout/oca-technical)
+- [purchase](https://github.com/bringout/oca-ocb-core)

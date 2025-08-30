@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [pos_loyalty](../../../../../oca-ocb-pos/odoo-bringout-oca-ocb-pos_loyalty)
+- [pos_loyalty](https://github.com/bringout/oca-ocb-pos)

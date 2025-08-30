@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [hr_attendance_rfid](../../../../odoo-bringout-oca-hr-attendance-hr_attendance_rfid)
-- [iot_rule](../../../../odoo-bringout-oca-iot-iot_rule)
+- [hr_attendance_rfid](https://github.com/bringout/oca-technical)
+- [iot_rule](https://github.com/bringout/oca-technical)

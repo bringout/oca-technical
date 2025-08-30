@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [ddmrp](../../../../odoo-bringout-oca-ddmrp-ddmrp)
+- [ddmrp](https://github.com/bringout/oca-technical)

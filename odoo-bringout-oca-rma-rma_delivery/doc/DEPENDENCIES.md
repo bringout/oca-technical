@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [rma](../../../../odoo-bringout-oca-rma-rma)
-- [delivery](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-delivery)
+- [rma](https://github.com/bringout/oca-technical)
+- [delivery](https://github.com/bringout/oca-ocb-warehouse)

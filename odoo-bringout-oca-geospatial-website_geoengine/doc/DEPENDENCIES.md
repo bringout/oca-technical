@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [base_geoengine](../../../../odoo-bringout-oca-geospatial-base_geoengine)
-- [website](../../../../../oca-ocb-website/odoo-bringout-oca-ocb-website)
+- [base_geoengine](https://github.com/bringout/oca-technical)
+- [website](https://github.com/bringout/oca-ocb-website)
 - partner_store

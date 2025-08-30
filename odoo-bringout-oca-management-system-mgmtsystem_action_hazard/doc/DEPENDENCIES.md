@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [mgmtsystem_action](../../../../odoo-bringout-oca-management-system-mgmtsystem_action)
-- [mgmtsystem_hazard](../../../../odoo-bringout-oca-management-system-mgmtsystem_hazard)
+- [mgmtsystem_action](https://github.com/bringout/oca-technical)
+- [mgmtsystem_hazard](https://github.com/bringout/oca-technical)

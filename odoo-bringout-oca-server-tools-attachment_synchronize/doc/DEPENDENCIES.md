@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [attachment_queue](../../../../odoo-bringout-oca-server-tools-attachment_queue)
-- [fs_storage](../../../../../oca-storage/odoo-bringout-oca-storage-fs_storage)
+- [attachment_queue](https://github.com/bringout/oca-technical)
+- [fs_storage](https://github.com/bringout/oca-storage)

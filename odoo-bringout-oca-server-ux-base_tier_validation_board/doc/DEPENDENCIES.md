@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_tier_validation](../../../../odoo-bringout-oca-server-ux-base_tier_validation)
-- [spreadsheet_dashboard](../../../../../oca-ocb-report/odoo-bringout-oca-ocb-spreadsheet_dashboard)
+- [base_tier_validation](https://github.com/bringout/oca-technical)
+- [spreadsheet_dashboard](https://github.com/bringout/oca-ocb-report)

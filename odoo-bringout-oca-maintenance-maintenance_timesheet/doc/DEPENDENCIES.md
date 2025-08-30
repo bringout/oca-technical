@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [base_maintenance](../../../../odoo-bringout-oca-maintenance-base_maintenance)
-- [maintenance_project](../../../../odoo-bringout-oca-maintenance-maintenance_project)
-- [hr_timesheet](../../../../../oca-ocb-hr/odoo-bringout-oca-ocb-hr_timesheet)
+- [base_maintenance](https://github.com/bringout/oca-technical)
+- [maintenance_project](https://github.com/bringout/oca-technical)
+- [hr_timesheet](https://github.com/bringout/oca-ocb-hr)

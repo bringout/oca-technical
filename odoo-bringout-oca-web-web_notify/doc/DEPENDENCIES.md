@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [web](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-web)
-- [bus](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-bus)
+- [web](https://github.com/bringout/oca-ocb-core)
+- [bus](https://github.com/bringout/oca-ocb-core)
 - base
-- [mail](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-mail)
+- [mail](https://github.com/bringout/oca-ocb-core)
