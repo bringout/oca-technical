@@ -3,6 +3,6 @@
 This addon depends on:
 
 - [excel_import_export](https://github.com/bringout/oca-technical)
-- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sale_management)
-- [purchase](https://github.com/bringout/oca-ocb-core/tree/156bd325ef4782b980ca23175711c453db07528e/odoo-bringout-oca-ocb-purchase)
-- [crm](https://github.com/bringout/oca-ocb-crm/tree/f57c024d38b5558f0e9ad32b1e05486b4c39cc36/odoo-bringout-oca-ocb-crm)
+- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/5d9b47ce90463a1c61e6fb80db86d42fb811e501/odoo-bringout-oca-ocb-sale_management)
+- [purchase](https://github.com/bringout/oca-ocb-core/tree/9d67cf00c06114fd0d5a87a06a485b3dabf57e2b/odoo-bringout-oca-ocb-purchase)
+- [crm](https://github.com/bringout/oca-ocb-crm/tree/e1a65339b7c7a28040a72ff2de3a7891f54e21c9/odoo-bringout-oca-ocb-crm)
