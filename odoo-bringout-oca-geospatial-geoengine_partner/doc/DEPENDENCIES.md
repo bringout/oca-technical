@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [base](https://github.com/bringout/oca-ocb-core/tree/e9ca19c0c154b94934ea86258814c560c4e016f4/odoo-bringout-oca-ocb-base/odoo/addons/base)
+- [base](https://github.com/bringout/oca-ocb-core/tree/11a704b400b8bf0763643e267bf123858a85c9e6/odoo-bringout-oca-ocb-base)
 - [base_geoengine](https://github.com/bringout/oca-technical)
-- [contacts](https://github.com/bringout/oca-ocb-technical/tree/823c95bfc5f4d48617544ec3cb80ffb889f07f55/odoo-bringout-oca-ocb-contacts)
+- [contacts](https://github.com/bringout/oca-ocb-technical/tree/f67f0f1f77e860a61a0c3d3eccbc049dbedb9347/odoo-bringout-oca-ocb-contacts)

@@ -3,4 +3,4 @@
 This addon depends on:
 
 - [mgmtsystem_review](https://github.com/bringout/oca-technical)
-- [survey](https://github.com/bringout/oca-ocb-core/tree/e9ca19c0c154b94934ea86258814c560c4e016f4/odoo-bringout-oca-ocb-survey)
+- [survey](https://github.com/bringout/oca-ocb-core/tree/11a704b400b8bf0763643e267bf123858a85c9e6/odoo-bringout-oca-ocb-survey)
