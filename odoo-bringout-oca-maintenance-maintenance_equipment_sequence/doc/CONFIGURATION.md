@@ -1,3 +1,0 @@
-# Configuration
-
-Refer to Odoo settings for maintenance_equipment_sequence. Configure related models, access rights, and options as needed.

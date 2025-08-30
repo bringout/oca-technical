@@ -1,7 +1,0 @@
-# Install
-
-```bash
-pip install odoo-bringout-oca-maintenance-base_maintenance_group"
-# or
-uv pip install odoo-bringout-oca-maintenance-base_maintenance_group"
-```
