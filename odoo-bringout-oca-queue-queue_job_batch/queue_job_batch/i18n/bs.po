@@ -55,8 +55,6 @@ msgstr "Preduzeće"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__completeness
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_tree
 msgid "Completeness"
 msgstr "Dovršeno"
 
@@ -67,7 +65,6 @@ msgstr "Prikazani naziv"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__draft
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Draft"
 msgstr "U pripremi"
 
@@ -88,7 +85,6 @@ msgstr "Postotak neuspješnih"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__finished
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Finished"
 msgstr "Završeno"
 
@@ -174,16 +170,17 @@ msgstr "Zadatak"
 
 #. module: queue_job_batch
 #. odoo-javascript
-#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
+#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml
 #, python-format
 msgid ""
 "Job\n"
 "                        Batches"
 msgstr ""
+"Paketi\n"
+"                        poslova"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__job_batch_id
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Job Batch"
 msgstr "Paket poslova"
 
@@ -199,18 +196,13 @@ msgstr "Korisnik paketa reda poslova"
 
 #. module: queue_job_batch
 #. odoo-javascript
-#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
-#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
-#: model:ir.actions.act_window,name:queue_job_batch.action_queue_job_batch
-#: model:ir.actions.act_window,name:queue_job_batch.action_view_your_queue_job_batch
-#: model:ir.ui.menu,name:queue_job_batch.menu_queue_job_batch
+#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml
 #, python-format
 msgid "Job batches"
 msgstr "Paketi poslova"
 
 #. module: queue_job_batch
 #: model:ir.actions.act_window,name:queue_job_batch.action_queue_job_related
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Jobs"
 msgstr "Zadaci"
 
@@ -226,7 +218,7 @@ msgstr "Glavna zakačka"
 
 #. module: queue_job_batch
 #. odoo-javascript
-#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
+#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml
 #, python-format
 msgid "Mark as Read"
 msgstr "Označi kao pročitano"
@@ -268,7 +260,7 @@ msgstr "Tip sljedeće aktivnosti"
 
 #. module: queue_job_batch
 #. odoo-javascript
-#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
+#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml
 #, python-format
 msgid "No jobs to view."
 msgstr "Nema poslova za prikaz."
@@ -305,7 +297,6 @@ msgstr "Odgovorni korisnik"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__state
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "State"
 msgstr "Status"
 
@@ -317,6 +308,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_exception_decoration
@@ -325,13 +320,12 @@ msgstr "Vrsta aktivnosti iznimke na zapisu."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_id
-#: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "User"
 msgstr "Korisnik"
 
 #. module: queue_job_batch
 #. odoo-javascript
-#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
+#: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml
 #, python-format
 msgid "View All"
 msgstr "Prikaži sve"

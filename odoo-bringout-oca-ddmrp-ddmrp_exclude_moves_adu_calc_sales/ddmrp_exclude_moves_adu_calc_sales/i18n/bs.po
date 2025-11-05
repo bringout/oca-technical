@@ -24,6 +24,8 @@ msgid ""
 "If this flag is set related stock moves will be excluded from ADU "
 "calculation"
 msgstr ""
+"Ako je ova oznaka postavljena, povezani skladišni pokreti će biti isključeni"
+" iz izračuna ADU"
 
 #. module: ddmrp_exclude_moves_adu_calc_sales
 #: model:ir.model,name:ddmrp_exclude_moves_adu_calc_sales.model_sale_order_line

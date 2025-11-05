@@ -19,6 +19,8 @@ msgid ""
 "If set, all possible reviewers will be notified by email when this "
 "definition is triggered."
 msgstr ""
+"Ako je postavljen, svi mogući pregledači će biti obavješteni e-mailom kada "
+"se ova definicija pokrene."
 
 #. module: base_tier_validation_waiting
 #: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_definition__notify_on_pending
@@ -52,6 +54,5 @@ msgstr "Status ovjeravanja"
 
 #. module: base_tier_validation_waiting
 #: model:ir.model.fields.selection,name:base_tier_validation_waiting.selection__tier_review__status__waiting
-#: model:ir.model.fields.selection,name:base_tier_validation_waiting.selection__tier_validation__validation_status__waiting
 msgid "Waiting"
 msgstr "Na čekanju"

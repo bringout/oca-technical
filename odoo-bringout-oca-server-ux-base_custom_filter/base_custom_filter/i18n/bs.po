@@ -30,14 +30,11 @@ msgstr "Kreirano"
 
 #. module: base_custom_filter
 #: model:ir.actions.act_window,name:base_custom_filter.action_ir_filters_group
-#: model:ir.ui.menu,name:base_custom_filter.menu_ir_filters_group
 msgid "Custom Filter Groups"
 msgstr "Grupe prilagođenih filtara"
 
 #. module: base_custom_filter
 #: model:ir.actions.act_window,name:base_custom_filter.action_ir_custom_filter
-#: model:ir.ui.menu,name:base_custom_filter.menu_base_custom_filter
-#: model:ir.ui.menu,name:base_custom_filter.menu_ir_custom_filter
 msgid "Custom Filters"
 msgstr "Prilagođeni filtri"
 
@@ -52,6 +49,8 @@ msgid ""
 "Enter a filter domain expression if necessary.\n"
 "        Example: [('default_code', 'ilike', self)]"
 msgstr ""
+"Unesite izraz domene filtera ako je potrebno.\n"
+"        Primjer: [('default_code', 'ilike', self)]"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters__filter_domain
@@ -65,7 +64,6 @@ msgstr "Grupa filtera"
 
 #. module: base_custom_filter
 #: model:ir.model,name:base_custom_filter.model_ir_filters
-#: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__filter_ids
 msgid "Filters"
 msgstr "Filteri"
 
@@ -126,14 +124,11 @@ msgstr "Grupa filtara za pretragu"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters__sequence
-#: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters__type
-#: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__type
-#: model_terms:ir.ui.view,arch_db:base_custom_filter.search_ir_filters_group
 msgid "Type"
 msgstr "Tip"
 

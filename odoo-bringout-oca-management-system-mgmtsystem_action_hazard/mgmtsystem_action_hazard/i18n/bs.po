@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: mgmtsystem_action_hazard
 #: model:ir.model,name:mgmtsystem_action_hazard.model_mgmtsystem_action
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action_hazard.view_mgmtsystem_hazard_form
 msgid "Action"
 msgstr "Akcija"
 
@@ -26,7 +25,6 @@ msgstr "Akcije"
 
 #. module: mgmtsystem_action_hazard
 #: model:ir.model.fields,field_description:mgmtsystem_action_hazard.field_mgmtsystem_action__mgmtsystem_hazard_ids
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action_hazard.view_mgmtsystem_action_form
 msgid "Hazards"
 msgstr "Opasnosti"
 

@@ -29,6 +29,14 @@ msgid ""
 "                      \n"
 "            "
 msgstr ""
+"<p>Poštovani ${object.quality_contact_name},<br/><br/>\n"
+"u prilogu imate izvještaj o neusklađenosti:<br/>\n"
+"<strong>Neusklađenost br.</strong>: ${object.id}<br/>\n"
+"<strong>Naziv</strong>: ${object.name}<br/>\n"
+"<strong>Opis</strong>: ${object.description}<br/>\n"
+"<br/>\n"
+"S poštovanjem<br>\n"
+"</p>"
 
 #. module: mgmtsystem_nonconformity_type
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_type.field_mgmtsystem_nonconformity__quality_contact_name
@@ -57,7 +65,6 @@ msgstr "Interni"
 
 #. module: mgmtsystem_nonconformity_type
 #: model:ir.model,name:mgmtsystem_nonconformity_type.model_mgmtsystem_nonconformity
-#: model:mail.template,name:mgmtsystem_nonconformity_type.email_template_nonconformity
 msgid "Nonconformity"
 msgstr "Neusklađenost"
 
@@ -88,23 +95,25 @@ msgstr "Dobavljač"
 
 #. module: mgmtsystem_nonconformity_type
 #. odoo-python
-#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
-#: code:addons/mgmtsystem_nonconformity_type/tests/test_nonconformity_type.py:0
+#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py
 #, python-format
 msgid ""
 "The partner's contacts quality type isn't available.\n"
 " Check if module mgmtsystem_nonconformity_partner is installed."
 msgstr ""
+"Tip kvaliteta kontakata partnera nije dostupan.\n"
+"Provjerite da li je instaliran modul mgmtsystem_nonconformity_partner."
 
 #. module: mgmtsystem_nonconformity_type
 #. odoo-python
-#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
-#: code:addons/mgmtsystem_nonconformity_type/tests/test_nonconformity_type.py:0
+#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py
 #, python-format
 msgid ""
 "The partner's quality contact email is required in order to send the "
 "message."
 msgstr ""
+"E-mail adresa kontakta za kvalitet partnera je obavezna da bi se poruka "
+"poslala."
 
 #. module: mgmtsystem_nonconformity_type
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_type.field_mgmtsystem_nonconformity__nc_type

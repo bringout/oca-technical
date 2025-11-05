@@ -19,10 +19,12 @@ msgid ""
 "<br/>\n"
 "                            <span class=\"oe_grey oe_inline\"> If the max. retries is 0, the number of retries is infinite.</span>"
 msgstr ""
+"<br/>\n"
+"                            <span class=\"oe_grey oe_inline\"> Ako je maksimalni broj pokušaja 0, broj pokušaja je beskonačan.</span>"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/controllers/main.py:0
+#: code:addons/queue_job/controllers/main.py
 #, python-format
 msgid "Access Denied"
 msgstr "Pristup Odbijen"
@@ -64,7 +66,6 @@ msgstr "Broj priloga"
 
 #. module: queue_job
 #: model:ir.actions.server,name:queue_job.ir_cron_autovacuum_queue_jobs_ir_actions_server
-#: model:ir.cron,cron_name:queue_job.ir_cron_autovacuum_queue_jobs
 msgid "AutoVacuum Job Queue"
 msgstr "AutoVacuum red poslova"
 
@@ -75,8 +76,6 @@ msgstr "Osnova"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_requeue_job
-#: model_terms:ir.ui.view,arch_db:queue_job.view_set_jobs_cancelled
-#: model_terms:ir.ui.view,arch_db:queue_job.view_set_jobs_done
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -92,42 +91,37 @@ msgstr "Otkaži posao"
 
 #. module: queue_job
 #: model:ir.actions.act_window,name:queue_job.action_set_jobs_cancelled
-#: model_terms:ir.ui.view,arch_db:queue_job.view_set_jobs_cancelled
 msgid "Cancel jobs"
 msgstr "Otkaži poslove"
 
 #. module: queue_job
 #: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__cancelled
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Cancelled"
 msgstr "Otkazan"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "Cancelled by %s"
 msgstr "Otkazao %s"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job_channel.py:0
+#: code:addons/queue_job/models/queue_job_channel.py
 #, python-format
 msgid "Cannot change the root channel"
 msgstr "Ne možete promijeniti glavni kanal"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job_channel.py:0
+#: code:addons/queue_job/models/queue_job_channel.py
 #, python-format
 msgid "Cannot remove the root channel"
 msgstr "Ne možete ukloniti glavni kanal"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__channel
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__channel_id
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_function_search
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Channel"
 msgstr "Kanal"
 
@@ -138,9 +132,6 @@ msgstr "Potpuno ime kanala mora biti jedinstveno"
 
 #. module: queue_job
 #: model:ir.actions.act_window,name:queue_job.action_queue_job_channel
-#: model:ir.ui.menu,name:queue_job.menu_queue_job_channel
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_channel_form
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_channel_search
 msgid "Channels"
 msgstr "Kanali"
 
@@ -156,7 +147,6 @@ msgstr "Potpuno ime metode"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__complete_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__channel
 msgid "Complete Name"
 msgstr "Puni naziv"
 
@@ -167,10 +157,6 @@ msgstr "Datum kreiranja"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__create_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__create_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__create_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__create_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
@@ -181,10 +167,6 @@ msgstr "Datum kreiranja"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__create_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__create_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__create_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__create_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -210,7 +192,6 @@ msgstr "Datum završetka"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__dependencies
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
 msgid "Dependencies"
 msgstr "Ovisnosti"
 
@@ -226,18 +207,11 @@ msgstr "Opis"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__display_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__display_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__display_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__display_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__display_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__display_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: queue_job
 #: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__done
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Done"
 msgstr "Gotovo"
 
@@ -248,13 +222,11 @@ msgstr "Vrijeme stavljanja u red"
 
 #. module: queue_job
 #: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__enqueued
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Enqueued"
 msgstr "Stavljen u red"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__exc_name
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Exception"
 msgstr "Opis"
 
@@ -295,7 +267,6 @@ msgstr "Vrijeme izvršavanja (prosj.)"
 
 #. module: queue_job
 #: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__failed
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Failed"
 msgstr "Neuspješan"
 
@@ -346,7 +317,6 @@ msgstr "UUID grafika"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_function_search
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Group By"
 msgstr "Grupiši po"
 
@@ -357,12 +327,6 @@ msgstr "Ima poruku"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__id
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__id
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__id
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__id
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__id
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__id
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__id
 msgid "ID"
 msgstr "ID"
 
@@ -393,7 +357,7 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job_function.py:0
+#: code:addons/queue_job/models/queue_job_function.py
 #, python-format
 msgid "Invalid job function: {}"
 msgstr "Neispravna funkcija posla: {}"
@@ -410,23 +374,16 @@ msgstr "Kanali poslova"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__job_function_id
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Job Function"
 msgstr "Funkcija posla"
 
 #. module: queue_job
 #: model:ir.actions.act_window,name:queue_job.action_queue_job_function
-#: model:ir.model,name:queue_job.model_queue_job_function
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__job_function_ids
-#: model:ir.ui.menu,name:queue_job.menu_queue_job_function
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_function_form
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_function_search
 msgid "Job Functions"
 msgstr "Funkcije posla"
 
 #. module: queue_job
 #: model:ir.module.category,name:queue_job.module_category_queue_job
-#: model:ir.ui.menu,name:queue_job.menu_queue_job_root
 msgid "Job Queue"
 msgstr "Red poslova"
 
@@ -447,27 +404,19 @@ msgstr "Posao neuspješan"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/controllers/main.py:0
+#: code:addons/queue_job/controllers/main.py
 #, python-format
 msgid "Job interrupted and set to Done: nothing to do."
 msgstr "Posao prekinut i postavljen na završeno: nema šta da se radi."
 
 #. module: queue_job
 #: model:ir.actions.act_window,name:queue_job.action_queue_job
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__job_ids
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__job_ids
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__job_ids
-#: model:ir.ui.menu,name:queue_job.menu_queue_job
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_graph
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_pivot
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Jobs"
 msgstr "Zadaci"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "Jobs for graph %s"
 msgstr "Poslovi za grafik %s"
@@ -475,7 +424,7 @@ msgstr "Poslovi za grafik %s"
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__kwargs
 msgid "Kwargs"
-msgstr "Kwargs"
+msgstr "Keyword argumenti"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
@@ -494,30 +443,16 @@ msgstr "Posljednjih 7 dana"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job____last_update
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_channel____last_update
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_function____last_update
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock____last_update
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled____last_update
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done____last_update
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__write_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__write_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__write_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__write_uid
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__write_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__write_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_cancelled__write_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_jobs_to_done__write_date
-#: model:ir.model.fields,field_description:queue_job.field_queue_requeue_job__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -528,7 +463,7 @@ msgstr "Glavna zakačka"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "Manually set to done by %s"
 msgstr "Ručno postavljen na završeno od %s"
@@ -560,14 +495,12 @@ msgstr "Ime metode"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__model_name
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__model_id
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Model"
 msgstr "Model"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job_function.py:0
+#: code:addons/queue_job/models/queue_job_function.py
 #, python-format
 msgid "Model {} not found"
 msgstr "Model {} nije pronađen"
@@ -579,7 +512,6 @@ msgstr "Rok za moju aktivnost"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__name
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -600,14 +532,14 @@ msgstr "Tip sljedeće aktivnosti"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "No action available for this job"
 msgstr "Nema dostupne akcije za ovaj posao"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "Not allowed to change field(s): {}"
 msgstr "Nije dozvoljeno mijenjanje polja: {}"
@@ -639,7 +571,7 @@ msgstr "Roditeljski kanal"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job_channel.py:0
+#: code:addons/queue_job/models/queue_job_channel.py
 #, python-format
 msgid "Parent channel required."
 msgstr "Potreban je roditeljski kanal."
@@ -652,10 +584,13 @@ msgid ""
 "Example: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
 "See the module description for details."
 msgstr ""
+"Uzorak koji izražava iz broja pokušaja na greškama koje se mogu ponoviti, broj sekundi da se odloži sljedeće izvršavanje. Postavljanje broja sekundi na 2-elementnu torku ili listu će randomizovati interval ponovnog pokušaja između 2 vrijednosti.\n"
+"Primjer: {1: 10, 5: 20, 10: 30, 15: 300}.\n"
+"Primjer: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
+"Vidi opis modula za detalje."
 
 #. module: queue_job
 #: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__pending
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Pending"
 msgstr "Na čekanju"
 
@@ -671,7 +606,6 @@ msgstr "Red"
 
 #. module: queue_job
 #: model:ir.model,name:queue_job.model_queue_job
-#: model:ir.model.fields,field_description:queue_job.field_queue_job_lock__queue_job_id
 msgid "Queue Job"
 msgstr "Red poslova"
 
@@ -682,7 +616,7 @@ msgstr "Zaključavanje reda poslova"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "Queue jobs must be created by calling 'with_delay()'."
 msgstr "Poslovi reda morah biti kreirani pozivom 'with_delay()'."
@@ -714,14 +648,14 @@ msgstr "Povezana akcija (serijalizovana)"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "Related Record"
 msgstr "Povezani zapis"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid "Related Records"
 msgstr "Povezani zapisi"
@@ -748,7 +682,6 @@ msgstr "Vrati posao u red"
 
 #. module: queue_job
 #: model:ir.actions.act_window,name:queue_job.action_requeue_job
-#: model_terms:ir.ui.view,arch_db:queue_job.view_requeue_job
 msgid "Requeue Jobs"
 msgstr "Vrati poslove u red"
 
@@ -759,7 +692,6 @@ msgstr "Odgovorni korisnik"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__result
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
 msgid "Result"
 msgstr "Rezultat"
 
@@ -806,16 +738,19 @@ msgstr "Postavi na završeno"
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job__graph_uuid
 msgid "Single shared identifier of a Graph. Empty for a single job."
-msgstr "Jedinstveni dijeljeni identifikator grafika. Prazan za pojedinačni posao."
+msgstr ""
+"Jedinstveni dijeljeni identifikator grafika. Prazan za pojedinačni posao."
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job.py:0
+#: code:addons/queue_job/models/queue_job.py
 #, python-format
 msgid ""
 "Something bad happened during the execution of job %s. More details in the "
 "'Exception Information' section."
 msgstr ""
+"Nešto je pošlo naopako tokom izvršavanja posla %s. Više detalja u sekciji "
+"'Informacije o iznimci'."
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__date_started
@@ -824,13 +759,11 @@ msgstr "Početni datum"
 
 #. module: queue_job
 #: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__started
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Started"
 msgstr "Započeto"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__state
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "State"
 msgstr "Status"
 
@@ -842,6 +775,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__func_string
@@ -854,6 +791,8 @@ msgid ""
 "The action when the button *Related Action* is used on a job. The default action is to open the view of the record related to the job. Configured as a dictionary with optional keys: enable, func_name, kwargs.\n"
 "See the module description for details."
 msgstr ""
+"Akcija kada se koristi dugme *Povezana akcija* na poslu. Zadana akcija je otvaranje pogleda zapisa povezanog s poslom. Konfiguriše se kao rječnik s opcionim ključevima: enable, func_name, kwargs.\n"
+"Vidi opis modula za detalje."
 
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job__max_retries
@@ -861,6 +800,8 @@ msgid ""
 "The job will fail if the number of tries reach the max. retries.\n"
 "Retries are infinite when empty."
 msgstr ""
+"Posao će neuspjeti ako broj pokušaja dosegne maksimalne pokušaje.\n"
+"Pokušaji su beskonačni kad je prazno."
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_set_jobs_cancelled
@@ -885,7 +826,9 @@ msgstr "Vrijeme (s)"
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job__exec_time
 msgid "Time required to execute this job in seconds. Average when grouped."
-msgstr "Vrijeme potrebno za izvršavanje ovog posla u sekundama. Prosjek kad je grupisano."
+msgstr ""
+"Vrijeme potrebno za izvršavanje ovog posla u sekundama. Prosjek kad je "
+"grupisano."
 
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job__activity_exception_decoration
@@ -899,17 +842,20 @@ msgstr "UUID"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job_function.py:0
+#: code:addons/queue_job/models/queue_job_function.py
 #, python-format
 msgid ""
 "Unexpected format of Related Action for {}.\n"
 "Example of valid format:\n"
 "{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
 msgstr ""
+"Neočekivani format povezane akcije za {}.\n"
+"Primjer ispravnog formata:\n"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
 
 #. module: queue_job
 #. odoo-python
-#: code:addons/queue_job/models/queue_job_function.py:0
+#: code:addons/queue_job/models/queue_job_function.py
 #, python-format
 msgid ""
 "Unexpected format of Retry Pattern for {}.\n"
@@ -917,6 +863,10 @@ msgid ""
 "{{1: 300, 5: 600, 10: 1200, 15: 3000}}\n"
 "{{1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}}"
 msgstr ""
+"Neočekivani format uzorka ponovnog pokušaja za {}.\n"
+"Primjeri ispravnih formata:\n"
+"{{1: 300, 5: 600, 10: 1200, 15: 3000}}\n"
+"{{1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}}"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__user_id
@@ -925,7 +875,6 @@ msgstr "ID korisnika"
 
 #. module: queue_job
 #: model:ir.model.fields.selection,name:queue_job.selection__queue_job__state__wait_dependencies
-#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Wait Dependencies"
 msgstr "Čeka ovisnosti"
 

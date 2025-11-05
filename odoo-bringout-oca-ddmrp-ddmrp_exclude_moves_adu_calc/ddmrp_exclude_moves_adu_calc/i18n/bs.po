@@ -34,12 +34,16 @@ msgid ""
 "If this flag is set stock moves into this location will be excluded from ADU"
 " calculation in the origin location buffer."
 msgstr ""
+"Ako je ova oznaka postavljena, skladišni pokreti u ovu lokaciju će biti "
+"isključeni iz izračuna ADU u baferu izvorišne lokacije."
 
 #. module: ddmrp_exclude_moves_adu_calc
 #: model:ir.model.fields,help:ddmrp_exclude_moves_adu_calc.field_stock_move__exclude_from_adu
 msgid ""
 "If this flag is set this stock move will be excluded from ADU calculation"
 msgstr ""
+"Ako je ova oznaka postavljena, ovaj skladišni pokret će biti isključen iz "
+"izračuna ADU"
 
 #. module: ddmrp_exclude_moves_adu_calc
 #: model:ir.model,name:ddmrp_exclude_moves_adu_calc.model_stock_location
@@ -53,7 +57,7 @@ msgstr "Nije isključen iz ADU"
 
 #. module: ddmrp_exclude_moves_adu_calc
 #. odoo-python
-#: code:addons/ddmrp_exclude_moves_adu_calc/models/stock_move.py:0
+#: code:addons/ddmrp_exclude_moves_adu_calc/models/stock_move.py
 #, python-format
 msgid "Only buffer maintainers are allowed perform this action."
 msgstr "Samo održavaoci bafera imaju dozvolu da izvrše ovu akciju."

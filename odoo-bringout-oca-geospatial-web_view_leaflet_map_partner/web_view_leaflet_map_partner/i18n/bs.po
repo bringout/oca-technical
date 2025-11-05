@@ -20,6 +20,5 @@ msgstr "Kontakt"
 
 #. module: web_view_leaflet_map_partner
 #: model:ir.model.fields,field_description:web_view_leaflet_map_partner.field_res_partner__display_address
-#: model:ir.model.fields,field_description:web_view_leaflet_map_partner.field_res_users__display_address
 msgid "Display Address"
 msgstr "Prikaži adresu"

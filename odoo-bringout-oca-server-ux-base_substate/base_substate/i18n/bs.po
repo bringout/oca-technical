@@ -20,8 +20,6 @@ msgstr "Aktivan"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__model
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__model
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__model
 msgid "Apply on"
 msgstr "Primjeni na"
 
@@ -32,10 +30,6 @@ msgstr "Arhivirano"
 
 #. module: base_substate
 #: model:ir.actions.act_window,name:base_substate.act_open_base_substate_view
-#: model:ir.model,name:base_substate.model_base_substate
-#: model:ir.ui.menu,name:base_substate.menu_base_substate
-#: model_terms:ir.ui.view,arch_db:base_substate.base_substate_view_form
-#: model_terms:ir.ui.view,arch_db:base_substate.base_substate_view_search
 msgid "Base Substate"
 msgstr "Osnovno podstanje"
 
@@ -51,15 +45,11 @@ msgstr "BaseSubstate Mixin"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__create_uid
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__create_uid
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__create_date
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__create_date
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -70,8 +60,6 @@ msgstr "Opis"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__display_name
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__display_name
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -87,8 +75,6 @@ msgstr "Daje redoslijed sekvence prilikom primjene defaultnog podstanja"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__id
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__id
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__id
 msgid "ID"
 msgstr "ID"
 
@@ -98,31 +84,26 @@ msgid ""
 "If set, an email will be sent to the partner when the object reaches this "
 "substate."
 msgstr ""
+"Ako je postavljen, e-mail će biti poslan partneru kada objekat dostigne ovo "
+"podstanje."
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate____last_update
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type____last_update
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__write_uid
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__write_uid
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__write_date
-#: model:ir.model.fields,field_description:base_substate.field_base_substate_type__write_date
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: base_substate
 #: model:ir.model.fields,help:base_substate.field_base_substate__model
-#: model:ir.model.fields,help:base_substate.field_target_state_value__model
 msgid "Model for technical use"
 msgstr "Model za tehničku upotrebu"
 
@@ -148,9 +129,6 @@ msgstr "Konfiguracija podstanja"
 
 #. module: base_substate
 #: model:ir.actions.act_window,name:base_substate.act_open_base_substate_type_view
-#: model:ir.ui.menu,name:base_substate.menu_base_substate_type
-#: model_terms:ir.ui.view,arch_db:base_substate.base_substate_type_view_form
-#: model_terms:ir.ui.view,arch_db:base_substate.base_substate_type_view_search
 msgid "Sub State Type"
 msgstr "Tip podstanja"
 
@@ -176,12 +154,6 @@ msgstr "Polje ciljnog stanja"
 
 #. module: base_substate
 #: model:ir.actions.act_window,name:base_substate.act_open_target_state_value_view
-#: model:ir.model,name:base_substate.model_target_state_value
-#: model:ir.model.fields,field_description:base_substate.field_base_substate__target_state_value_id
-#: model:ir.model.fields,field_description:base_substate.field_target_state_value__target_state_value
-#: model:ir.ui.menu,name:base_substate.menu_target_state_value
-#: model_terms:ir.ui.view,arch_db:base_substate.target_state_value_view_form
-#: model_terms:ir.ui.view,arch_db:base_substate.target_state_value_view_search
 msgid "Target State Value"
 msgstr "Vrijednost ciljnog stanja"
 
@@ -196,6 +168,8 @@ msgid ""
 "Target state translateble name.\n"
 "Ex: for sale order \"Quotation\", \"Sale order\", \"Locked\"..."
 msgstr ""
+"Prevedeno ime ciljnog stanja.\\\n"
+"Npr: za prodajnu narudžbu \"Ponuda\", \"Prodajna narudžba\", \"Zaključano\"..."
 
 #. module: base_substate
 #: model:ir.model.fields,help:base_substate.field_base_substate_type__target_state_field
@@ -203,6 +177,8 @@ msgid ""
 "Technical target state field name. Ex for sale order \"state\" for other "
 "\"status\" ... "
 msgstr ""
+"Naziv polja tehničkog ciljnog stanja. Na primjer, za prodajnu narudžbu "
+"\"state\", za druge modele \"status\" ..."
 
 #. module: base_substate
 #: model:ir.model.fields,help:base_substate.field_target_state_value__target_state_value
@@ -210,19 +186,23 @@ msgid ""
 "Technical target state value.\n"
 "Ex: for sale order \"draft\", \"sale\", \"done\", ..."
 msgstr ""
+"Tehnička vrijednost ciljnog stanja.\\\n"
+"Npr: za prodajnu narudžbu \"draft\", \"sale\", \"done\", ..."
 
 #. module: base_substate
 #. odoo-python
-#: code:addons/base_substate/models/base_substate_mixin.py:0
+#: code:addons/base_substate/models/base_substate_mixin.py
 #, python-format
 msgid ""
 "The substate %(name)s is not defined for the state %(state)s but for "
 "%(target_state)s "
 msgstr ""
+"Podstanje %(name)s nije definirano za stanje %(state)s već za "
+"%(target_state)s"
 
 #. module: base_substate
 #. odoo-python
-#: code:addons/base_substate/models/base_substate_mixin.py:0
+#: code:addons/base_substate/models/base_substate_mixin.py
 #, python-format
 msgid "This substate is not define for this object but for %s"
 msgstr "Ovo podstanje nije definirano za ovaj objekat već za %s"

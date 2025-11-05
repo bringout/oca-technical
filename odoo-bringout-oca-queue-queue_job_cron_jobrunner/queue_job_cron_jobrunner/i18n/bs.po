@@ -20,7 +20,7 @@ msgstr "Ako je označeno, cron se smatra pokretačem queue.job-a."
 
 #. module: queue_job_cron_jobrunner
 #. odoo-python
-#: code:addons/queue_job_cron_jobrunner/models/queue_job.py:0
+#: code:addons/queue_job_cron_jobrunner/models/queue_job.py
 #, python-format
 msgid "Job interrupted and set to Done: nothing to do."
 msgstr "Posao prekinut i postavljen na završeno: nema šta da se radi."
@@ -32,8 +32,6 @@ msgstr "Red poslova"
 
 #. module: queue_job_cron_jobrunner
 #: model:ir.actions.server,name:queue_job_cron_jobrunner.queue_job_cron_ir_actions_server
-#: model:ir.cron,cron_name:queue_job_cron_jobrunner.queue_job_cron
-#: model:ir.model.fields,field_description:queue_job_cron_jobrunner.field_ir_cron__queue_job_runner
 msgid "Queue Job Runner"
 msgstr "Pokretač reda poslova"
 

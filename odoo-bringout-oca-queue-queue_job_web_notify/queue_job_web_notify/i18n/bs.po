@@ -25,7 +25,7 @@ msgstr "Funkcije posla"
 
 #. module: queue_job_web_notify
 #. odoo-python
-#: code:addons/queue_job_web_notify/models/queue_job.py:0
+#: code:addons/queue_job_web_notify/models/queue_job.py
 #, python-format
 msgid "Job failed"
 msgstr "Posao neuspješan"

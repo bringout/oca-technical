@@ -24,11 +24,13 @@ msgid ""
 "Bank Account Number to which the invoices of this brand will be paid (for "
 "Customer Invoice and Vendor Credit Note)"
 msgstr ""
+"Broj bankovnog računa na koji će biti plaćene fakture ovog brenda (za "
+"Fakturu kupca i Kreditnu notu dobavljača)"
 
 #. module: account_invoice_bank_brand
 #: model:ir.model,name:account_invoice_bank_brand.model_res_brand
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: account_invoice_bank_brand
 #: model_terms:ir.ui.view,arch_db:account_invoice_bank_brand.res_brand_form_view
@@ -42,8 +44,9 @@ msgstr "Žurnal"
 
 #. module: account_invoice_bank_brand
 #. odoo-python
-#: code:addons/account_invoice_bank_brand/models/res_brand.py:0
+#: code:addons/account_invoice_bank_brand/models/res_brand.py
 msgid ""
 "The account selected for invoices payment does not belong to the same "
 "partner as this brand."
 msgstr ""
+"Odabrani račun za plaćanje faktura ne pripada istom partneru kao ovaj brend."

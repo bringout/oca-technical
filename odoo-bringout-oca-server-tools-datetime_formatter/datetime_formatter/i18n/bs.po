@@ -13,13 +13,15 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: datetime_formatter
 #. odoo-python
-#: code:addons/datetime_formatter/models/res_lang.py:0
+#: code:addons/datetime_formatter/models/res_lang.py
 #, python-format
 msgid "Best matched language (%s) not found."
 msgstr "Najsličiniji jezik (%s) nije pronađen."
 
+# taken from hr.po
 #. module: datetime_formatter
 #: model:ir.model,name:datetime_formatter.model_res_lang
 msgid "Languages"

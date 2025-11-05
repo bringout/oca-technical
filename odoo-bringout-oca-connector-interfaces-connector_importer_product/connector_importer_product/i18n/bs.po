@@ -15,18 +15,22 @@ msgstr ""
 
 #. module: connector_importer_product
 #. odoo-python
-#: code:addons/connector_importer_product/components/product_product/record_handler.py:0
+#: code:addons/connector_importer_product/components/product_product/record_handler.py
 #, python-format
 msgid ""
 "Product '%(code)s' has not the same attributes than '%(existing_code)s'. "
 "Unable to import it."
 msgstr ""
+"Proizvod '%(code)s' nema iste atribute kao '%(existing_code)s'. Ne mogu ga "
+"uvoziti."
 
 #. module: connector_importer_product
 #. odoo-python
-#: code:addons/connector_importer_product/components/product_product/record_handler.py:0
+#: code:addons/connector_importer_product/components/product_product/record_handler.py
 #, python-format
 msgid ""
 "Product '%(code)s' seems to be a duplicate of '%(existing_code)s' (same "
 "attributes). Unable to import it."
 msgstr ""
+"Proizvod '%(code)s' izgleda da je duplikat od '%(existing_code)s' (isti "
+"atributi). Ne mogu ga uvoziti."

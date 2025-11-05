@@ -15,9 +15,8 @@ msgstr ""
 
 #. module: contract_brand
 #: model:ir.model.fields,field_description:contract_brand.field_contract_contract__brand_id
-#: model_terms:ir.ui.view,arch_db:contract_brand.contract_contract_search_view
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: contract_brand
 #: model:ir.model.fields,field_description:contract_brand.field_contract_contract__brand_use_level

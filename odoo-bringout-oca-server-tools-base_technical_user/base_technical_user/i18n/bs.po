@@ -18,11 +18,13 @@ msgstr ""
 msgid "Base"
 msgstr "Osnova"
 
+# taken from hr.po
 #. module: base_technical_user
 #: model:ir.model,name:base_technical_user.model_res_company
 msgid "Companies"
 msgstr "Tvrtke"
 
+# taken from hr.po
 #. module: base_technical_user
 #: model_terms:ir.ui.view,arch_db:base_technical_user.res_company_view_form_inherit_base_technical_user
 msgid "Configuration"
@@ -33,11 +35,13 @@ msgstr "Postavke"
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
+# taken from hr.po
 #. module: base_technical_user
 #: model_terms:ir.ui.view,arch_db:base_technical_user.res_company_view_form_inherit_base_technical_user
 msgid "Technical Parameters"
 msgstr "Tehnički parametri"
 
+# taken from hr.po
 #. module: base_technical_user
 #: model:ir.model.fields,field_description:base_technical_user.field_res_company__user_tech_id
 msgid "Technical User"
@@ -45,11 +49,12 @@ msgstr "Tehnički korisnik"
 
 #. module: base_technical_user
 #. odoo-python
-#: code:addons/base_technical_user/models/models.py:0
+#: code:addons/base_technical_user/models/models.py
 #, python-format
 msgid "The technical user is missing in the company {}"
 msgstr "Tehnički korisnik nedostaje u kompaniji {}"
 
+# taken from hr.po
 #. module: base_technical_user
 #: model:ir.model.fields,help:base_technical_user.field_res_company__user_tech_id
 msgid "This user can be used by process for technical purpose"

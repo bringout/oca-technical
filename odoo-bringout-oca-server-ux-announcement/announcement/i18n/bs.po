@@ -25,7 +25,6 @@ msgstr "Računovodstvo"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__active
-#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_search
 msgid "Active"
 msgstr "Aktivan"
 
@@ -46,11 +45,7 @@ msgstr "Objavi u"
 
 #. module: announcement
 #. odoo-javascript
-#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml:0
-#: model:ir.model.fields,field_description:announcement.field_announcement_log__announcement_id
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__announcement_id
-#: model:ir.module.category,name:announcement.category_announcement
-#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml
 #, python-format
 msgid "Announcement"
 msgstr "Obaveštenje"
@@ -72,8 +67,6 @@ msgstr "Menadžer obaveštenja"
 
 #. module: announcement
 #: model:ir.actions.act_window,name:announcement.announcement_tag_action
-#: model:ir.model,name:announcement.model_announcement_tag
-#: model:ir.ui.menu,name:announcement.menu_announcement_tag_management
 msgid "Announcement Tags"
 msgstr "Oznake obaveštenja"
 
@@ -84,17 +77,13 @@ msgstr "Tip obaveštenja"
 
 #. module: announcement
 #. odoo-javascript
-#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml:0
-#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml:0
-#: model:ir.actions.act_window,name:announcement.announcement_action
-#: model:ir.ui.menu,name:announcement.menu_announcement_management
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml
 #, python-format
 msgid "Announcements"
 msgstr "Obaveštenja"
 
 #. module: announcement
 #: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
-#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -105,7 +94,6 @@ msgstr "Prilozi"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__color
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag__color
 msgid "Color"
 msgstr "Boja"
 
@@ -126,31 +114,21 @@ msgstr "Kompanija povezana sa ovom oznakom"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__content
-#: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
 msgid "Content"
 msgstr "Sadržaj"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__create_uid
-#: model:ir.model.fields,field_description:announcement.field_announcement_log__create_uid
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag__create_uid
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__create_date
-#: model:ir.model.fields,field_description:announcement.field_announcement_log__create_date
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag__create_date
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__display_name
-#: model:ir.model.fields,field_description:announcement.field_announcement_log__display_name
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag__display_name
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -181,9 +159,6 @@ msgstr "HTTP usmjeravanje"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__id
-#: model:ir.model.fields,field_description:announcement.field_announcement_log__id
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag__id
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__id
 msgid "ID"
 msgstr "ID"
 
@@ -194,25 +169,16 @@ msgstr "U datumu"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement____last_update
-#: model:ir.model.fields,field_description:announcement.field_announcement_log____last_update
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag____last_update
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__write_uid
-#: model:ir.model.fields,field_description:announcement.field_announcement_log__write_uid
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag__write_uid
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: announcement
 #: model:ir.model.fields,field_description:announcement.field_announcement__write_date
-#: model:ir.model.fields,field_description:announcement.field_announcement_log__write_date
-#: model:ir.model.fields,field_description:announcement.field_announcement_tag__write_date
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -228,7 +194,7 @@ msgstr "Proizvodnja"
 
 #. module: announcement
 #. odoo-javascript
-#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.esm.js:0
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.esm.js
 #, python-format
 msgid "Mark as read"
 msgstr "Označi kao pročitano"
@@ -240,7 +206,7 @@ msgstr "Naziv:"
 
 #. module: announcement
 #. odoo-javascript
-#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml:0
+#: code:addons/announcement/static/src/js/announcement_menu/announcement_menu.xml
 #, python-format
 msgid "No announcements."
 msgstr "Nema obaveštenja."
@@ -292,7 +258,7 @@ msgstr "Datum čitanja"
 
 #. module: announcement
 #. odoo-python
-#: code:addons/announcement/models/announcement.py:0
+#: code:addons/announcement/models/announcement.py
 #, python-format
 msgid "Read Logs"
 msgstr "Zapisi čitanja"
@@ -359,7 +325,6 @@ msgstr "Oznake..."
 
 #. module: announcement
 #: model:ir.model.fields,help:announcement.field_announcement__notification_end_date
-#: model:ir.model.fields,help:announcement.field_announcement__notification_start_date
 msgid "Technical field to display announcements in the calendar view"
 msgstr "Tehničko polje za prikazivanje obaveštenja u kalendaru"
 
@@ -390,7 +355,6 @@ msgstr "Nepročitano obaveštenje"
 
 #. module: announcement
 #: model:ir.model,name:announcement.model_res_users
-#: model:ir.model.fields,field_description:announcement.field_read_announcement_wizard__user_id
 msgid "User"
 msgstr "Korisnik"
 
@@ -417,7 +381,8 @@ msgstr "Korisnici"
 #. module: announcement
 #: model:res.groups,comment:announcement.announcemenent_manager
 msgid "Users allowed to manage and configure announcements."
-msgstr "Korisnici kojima je dozvoljeno upravljanje i konfigurisanje obaveštenja."
+msgstr ""
+"Korisnici kojima je dozvoljeno upravljanje i konfigurisanje obaveštenja."
 
 #. module: announcement
 #: model_terms:ir.ui.view,arch_db:announcement.announcement_view_form
@@ -431,7 +396,7 @@ msgstr "Možete priložiti kopiju vašeg pisma"
 
 #. module: announcement
 #. odoo-python
-#: code:addons/announcement/models/announcement_tag.py:0
+#: code:addons/announcement/models/announcement_tag.py
 #, python-format
 msgid "You cannot create recursive tags."
 msgstr "Ne možete kreirati rekurzivne oznake."

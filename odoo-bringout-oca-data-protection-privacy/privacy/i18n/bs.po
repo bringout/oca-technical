@@ -13,20 +13,21 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_needaction
 msgid "Action Needed"
 msgstr "Potrebna radnja"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__active
 msgid "Active"
 msgstr "Aktivan"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.actions.act_window,name:privacy.activity_action
-#: model:ir.model.fields,field_description:privacy.field_privacy_activity__activity_ids
-#: model:ir.ui.menu,name:privacy.menu_privacy_activity
 msgid "Activities"
 msgstr "Aktivnosti"
 
@@ -35,8 +36,10 @@ msgstr "Aktivnosti"
 msgid "Activity Exception Decoration"
 msgstr "Dekoracija iznimke aktivnosti"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__activity_state
+#, fuzzy
 msgid "Activity State"
 msgstr "Aktivnosti"
 
@@ -45,63 +48,73 @@ msgstr "Aktivnosti"
 msgid "Activity Type Icon"
 msgstr "Ikona tipa aktivnosti"
 
+# taken from hr.po
 #. module: privacy
 #: model_terms:ir.ui.view,arch_db:privacy.activity_form
-#: model_terms:ir.ui.view,arch_db:privacy.activity_search
 msgid "Archived"
 msgstr "Arhivirano"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,help:privacy.field_privacy_activity__subject_find
 msgid "Are affected subjects present in this database?"
 msgstr "Jesu li dotični subjekti prisutni u ovoj bazi?"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
+# taken from hr.po
 #. module: privacy
 #: model_terms:ir.actions.act_window,help:privacy.activity_action
 msgid "Click to add a data processing activity."
 msgstr "Kliknite za dodavanje aktivnosti obrade podataka."
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__controller_id
-#: model_terms:ir.ui.view,arch_db:privacy.activity_search
 msgid "Controller"
 msgstr "Kontroler"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.module.category,name:privacy.module_category_data_protection
 msgid "Data Protection"
 msgstr "Zaštita podataka"
 
+# taken from hr.po
 #. module: privacy
 #: model:res.groups,name:privacy.group_data_protection_manager
 msgid "Data Protection Manager"
 msgstr "Upravlja zaštitom podataka"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.actions.act_window,name:privacy.action_data_protection_config
 msgid "Data Protection Settings"
 msgstr "Postavke zaštite podataka"
 
+# taken from hr.po
 #. module: privacy
 #: model:res.groups,name:privacy.group_data_protection_user
 msgid "Data Protection User"
 msgstr "Korisnik zaštite podataka"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model,name:privacy.model_privacy_activity
 msgid "Data processing activities"
@@ -113,33 +126,40 @@ msgid ""
 "Data processing activities define why, how and what you do\n"
 "                with subjects' personal data."
 msgstr ""
+"Aktivnosti obrade podataka definiraju zašto, kako i šta radite\n"
+"                s ličnim podacima subjekata."
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__subject_find
 msgid "Define subjects"
 msgstr "Definirajte subjekte"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__description
-#: model_terms:ir.ui.view,arch_db:privacy.activity_form
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: privacy
 #: model_terms:ir.ui.view,arch_db:privacy.activity_form
 msgid "Details"
 msgstr "Pojedinosti"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__display_name
 msgid "Display Name"
 msgstr "Naziv"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_follower_ids
 msgid "Followers"
 msgstr "Pratitelji"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_partner_ids
 msgid "Followers (Partners)"
@@ -150,6 +170,7 @@ msgstr "Pratitelji (partneri)"
 msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Font awesome ikona npr. fa-tasks"
 
+# taken from hr.po
 #. module: privacy
 #: model_terms:ir.ui.view,arch_db:privacy.activity_search
 msgid "Group By"
@@ -160,6 +181,7 @@ msgstr "Grupiraj po"
 msgid "Has Message"
 msgstr "Ima poruku"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,help:privacy.field_privacy_activity__description
 msgid "How is personal data used here? Why? Etc."
@@ -180,6 +202,7 @@ msgstr "Ikona"
 msgid "Icon to indicate an exception activity."
 msgstr "Ikona za prikaz iznimki."
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,help:privacy.field_privacy_activity__message_needaction
 msgid "If checked, new messages require your attention."
@@ -190,6 +213,7 @@ msgstr "Ako je označeno, nove poruke zahtijevaju važu pozornost."
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_is_follower
 msgid "Is Follower"
@@ -225,6 +249,7 @@ msgstr "Glavni podaci"
 msgid "Message Delivery error"
 msgstr "Greška pri isporuci poruke"
 
+# taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_ids
 msgid "Messages"
@@ -277,7 +302,6 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: privacy
 #: model:ir.actions.act_window,name:privacy.action_data_protection_partner_form
-#: model:ir.ui.menu,name:privacy.menu_data_protection_partner
 msgid "Partners"
 msgstr "Partneri"
 
@@ -288,7 +312,6 @@ msgstr "Privatnost"
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__processor_ids
-#: model_terms:ir.ui.view,arch_db:privacy.activity_form
 msgid "Processors"
 msgstr "Obrađivači"
 
@@ -320,6 +343,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: privacy
 #: model_terms:ir.ui.view,arch_db:privacy.activity_form
@@ -346,7 +373,7 @@ msgstr "Vrsta aktivnosti iznimke na zapisu."
 msgid ""
 "Whoever determines the purposes and means of the processing of personal "
 "data."
-msgstr ""
+msgstr "Onaj ko određuje svrhe i sredstva obrade ličnih podataka."
 
 #. module: privacy
 #: model:ir.model.fields,help:privacy.field_privacy_activity__processor_ids

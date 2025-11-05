@@ -21,7 +21,7 @@ msgstr "Dozvoljeni način plaćanja"
 #. module: contract_forecast_brand
 #: model:ir.model.fields,field_description:contract_forecast_brand.field_contract_line_forecast_period__brand_id
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: contract_forecast_brand
 #: model:ir.model.fields,field_description:contract_forecast_brand.field_contract_line_forecast_period__brand_use_level

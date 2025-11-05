@@ -35,13 +35,11 @@ msgstr "API ključ"
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__app
-#: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_search_view
 msgid "App"
 msgstr "Aplikacija"
 
 #. module: fastapi
 #: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_form_view
-#: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_search_view
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -73,7 +71,7 @@ msgstr "Kreirano"
 #. module: fastapi
 #: model:ir.model.fields.selection,name:fastapi.selection__fastapi_endpoint__app__demo
 msgid "Demo Endpoint"
-msgstr "Demo krajnja točka"
+msgstr "Demo krajnja tačka"
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__description
@@ -92,16 +90,13 @@ msgstr "URL dokumentacije"
 
 #. module: fastapi
 #: model:ir.module.category,name:fastapi.module_category_fastapi
-#: model:ir.ui.menu,name:fastapi.menu_fastapi_root
 msgid "FastAPI"
 msgstr "FastAPI"
 
 #. module: fastapi
 #: model:ir.actions.act_window,name:fastapi.fastapi_endpoint_act_window
-#: model:ir.model,name:fastapi.model_fastapi_endpoint
-#: model:ir.ui.menu,name:fastapi.fastapi_endpoint_menu
 msgid "FastAPI Endpoint"
-msgstr "FastAPI krajnja točka"
+msgstr "FastAPI krajnja tačka"
 
 #. module: fastapi
 #: model:res.groups,name:fastapi.group_fastapi_endpoint_runner
@@ -166,6 +161,10 @@ msgid ""
 "\n"
 "OFF: record in line with the registry, nothing to do."
 msgstr ""
+"UKLJUČENO: zapis je modificiran i registar nije obaviješten.\n"
+"Nijedna promjena neće biti aktivna dok se ova oznaka ne postavi na false putem odgovarajuće akcije.\n"
+"\n"
+"ISKLJUČENO: zapis u skladu sa registrom, ništa za raditi."
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__openapi_url
@@ -204,14 +203,12 @@ msgstr "Snimanje HTTP sesije"
 
 #. module: fastapi
 #: model:ir.actions.server,name:fastapi.fastapi_endpoint_action_sync_registry
-#: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_form_view
-#: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_tree_view
 msgid "Sync Registry"
 msgstr "Sinhroniziraj registar"
 
 #. module: fastapi
 #. odoo-python
-#: code:addons/fastapi/models/fastapi_endpoint_demo.py:0
+#: code:addons/fastapi/models/fastapi_endpoint_demo.py
 #, python-format
 msgid "The authentication method is required for app %(app)s"
 msgstr "Metoda autentifikacije je potrebna za aplikaciju %(app)s"
@@ -228,7 +225,6 @@ msgstr "Korisnik koji će se koristiti za izvršavanje API poziva."
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__user_id
-#: model:res.groups,name:fastapi.group_fastapi_user
 msgid "User"
 msgstr "Korisnik"
 
@@ -242,10 +238,15 @@ msgid ""
 "reading the session on the disk and prevent unexpecteed disk space "
 "consumption."
 msgstr ""
+"Da li treba snimiti sesiju u mjesto pohrane sesije. Ovo je potrebno ako na "
+"primjer koristite Odoo mehanizam autentifikacije. Inače su šanse velike da "
+"vam to ne treba i možete isključiti ovo ponašanje. Dodatno, isključivanje "
+"ove opcije spriječit će nepotrebne IO operacije prilikom pohrane i čitanja "
+"sesije s diska i spriječiti neočekivanu potrošnju prostora na disku."
 
 #. module: fastapi
 #. odoo-python
-#: code:addons/fastapi/models/fastapi_endpoint.py:0
+#: code:addons/fastapi/models/fastapi_endpoint.py
 #, python-format
 msgid "`%(name)s` uses a blacklisted root_path = `%(root_path)s`"
 msgstr "`%(name)s` koristi zabranjenu root_path = `%(root_path)s`"

@@ -20,7 +20,6 @@ msgstr "Tipovi raspona datuma"
 
 #. module: date_range_account
 #: model:ir.ui.menu,name:date_range_account.menu_date_range
-#: model:ir.ui.menu,name:date_range_account.menu_date_range_root
 msgid "Date Ranges"
 msgstr "Rasponi datuma"
 

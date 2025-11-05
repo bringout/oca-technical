@@ -43,6 +43,12 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div>\n"
+"            Pozdrav <t t-out=\"object.partner_id.name or ''\"></t>\n"
+"            Kliknite na sljedeći link da resetujete vašu lozinku\n"
+"            <a t-attf-href=\"https://example.org/password/reset?token={{ object.env.context['token']}}\" target=\"_blank\" style=\"color:#FFFFFF; text-decoration:none;\">Resetuj lozinku</a>\n"
+"            </div>\n"
+"        "
 
 #. module: auth_partner
 #: model:mail.template,body_html:auth_partner.email_validate_email
@@ -54,6 +60,12 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div>\n"
+"            Pozdrav <t t-out=\"object.partner_id.name or ''\"></t>\n"
+"            Dobrodošli na stranicu, molimo kliknite na sljedeći link da verifikujete vašu email adresu\n"
+"            <a t-attf-href=\"https://example.org/email/validate?token={{ object.env.context['token']}}\" target=\"_blank\" style=\"color:#FFFFFF; text-decoration:none;\">Verifikuj email</a>\n"
+"            </div>\n"
+"        "
 
 #. module: auth_partner
 #: model:mail.template,body_html:auth_partner.email_set_password
@@ -66,6 +78,13 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div>\n"
+"            Pozdrav <t t-out=\"object.partner_id.name or ''\"></t>\n"
+"            Dobrodošli, vaš račun je kreiran\n"
+"            Kliknite na sljedeći link da postavite vašu lozinku\n"
+"            <a t-attf-href=\"https://example.org/password/reset?token={{ object.env.context['token']}}\" target=\"_blank\" style=\"color:#FFFFFF; text-decoration:none;\">Postavi lozinku</a>\n"
+"            </div>\n"
+"        "
 
 #. module: auth_partner
 #: model:res.groups,name:auth_partner.group_auth_partner_api
@@ -79,7 +98,6 @@ msgstr "API partner Auth menadžer"
 
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_form
-#: model_terms:ir.ui.view,arch_db:auth_partner.view_partner_form
 msgid "Account"
 msgstr "Konto"
 
@@ -89,6 +107,8 @@ msgid ""
 "An email will be send with a token to each customer, you can specify the "
 "date until the link is valid"
 msgstr ""
+"Email će biti poslan sa tokenom svakom kupcu, možete specificirati datum do "
+"kojeg je link validan"
 
 #. module: auth_partner
 #: model:ir.model,name:auth_partner.model_auth_directory
@@ -112,14 +132,11 @@ msgstr "Auth direktorij: Validiraj e-mail"
 
 #. module: auth_partner
 #: model:ir.model,name:auth_partner.model_auth_partner
-#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_form
-#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_search
 msgid "Auth Partner"
 msgstr "Auth partner"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_res_partner__auth_partner_count
-#: model:ir.model.fields,field_description:auth_partner.field_res_users__auth_partner_count
 msgid "Auth Partner Count"
 msgstr "Broj Auth partnera"
 
@@ -130,7 +147,6 @@ msgstr "Auth partneri"
 
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
-#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_reset_password_view_form
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -151,17 +167,11 @@ msgstr "Broj partnera"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__create_uid
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__create_uid
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__create_uid
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__create_date
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__create_date
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__create_date
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -207,34 +217,29 @@ msgstr "Kašnjenje"
 
 #. module: auth_partner
 #: model:ir.actions.act_window,name:auth_partner.auth_directory_action
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__directory_id
-#: model:ir.ui.menu,name:auth_partner.auth_directory_menu
-#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_search
 msgid "Directory"
 msgstr "Imenik"
 
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_form
-#: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_search
 msgid "Directory Auth"
-msgstr "Directory Auth"
+msgstr "Autentifikacija direktorija"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__display_name
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__display_name
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__display_name
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_partner.py:0
+#: code:addons/auth_partner/models/auth_partner.py
 #, python-format
 msgid ""
 "Email address not validated. Validate your email address by clicking on the "
 "link in the email sent to you or request a new password. "
 msgstr ""
+"Email adresa nije verifikovana. Verifikujte vašu email adresu klikom na link"
+" u emailu koji vam je poslan ili zatražite novu lozinku. "
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_partner__encrypted_password
@@ -253,16 +258,14 @@ msgstr "Grupiši po"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__id
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__id
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__id
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__id
 msgid "ID"
 msgstr "ID"
 
 #. module: auth_partner
 #: model:ir.model.fields,help:auth_partner.field_auth_directory__force_verified_email
 msgid "If checked, email must be verified to be able to log in"
-msgstr "Ako je označeno, e-mail mora biti verificiran da bi se mogao prijaviti"
+msgstr ""
+"Ako je označeno, e-mail mora biti verificiran da bi se mogao prijaviti"
 
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_form
@@ -276,7 +279,6 @@ msgstr "Trajanje oponašavajućeg tokena"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__impersonating_user_ids
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__impersonating_user_ids
 msgid "Impersonating Users"
 msgstr "Oponašavajući korisnici"
 
@@ -292,54 +294,42 @@ msgstr "U sekundama, default 60 sekundi"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_partner.py:0
+#: code:addons/auth_partner/models/auth_partner.py
 #, python-format
 msgid "Invalid Login or Password"
 msgstr "Nevažeća prijava ili lozinka"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_directory.py:0
-#: code:addons/auth_partner/models/auth_directory.py:0
-#: code:addons/auth_partner/models/auth_directory.py:0
+#: code:addons/auth_partner/models/auth_directory.py
 #, python-format
 msgid "Invalid Token"
 msgstr "Nevažeći token"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_directory.py:0
+#: code:addons/auth_partner/models/auth_directory.py
 #, python-format
 msgid "Invalid token"
 msgstr "Nevažeći token"
 
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
-#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_reset_password_view_form
 msgid "Label"
 msgstr "Opis"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory____last_update
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner____last_update
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password____last_update
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_uid
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__write_uid
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__write_uid
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_date
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__write_date
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__write_date
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -395,14 +385,14 @@ msgstr "Broj čekajućih resetovanja poslanih"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py
 #, python-format
 msgid "No active_id in context"
 msgstr "Nema active_id u kontekstu"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_directory.py:0
+#: code:addons/auth_partner/models/auth_directory.py
 #, python-format
 msgid "No email template defined for %(template)s in %(directory)s"
 msgstr "Nema definirani e-mail template za %(template)s u %(directory)s"
@@ -415,19 +405,19 @@ msgid ""
 "their password and you senddifferent mail depending on the number of "
 "reminder"
 msgstr ""
+"Broj poslanih resetovanja na čekanju od vašeg kupca. Ovo polje je korisno "
+"kada nakon migracije sa drugog sistema zatražite od svih kupaca da resetuju "
+"svoju lozinku i šaljete različite emailove u zavisnosti od broja podsjećanja"
 
 #. module: auth_partner
 #: model:ir.actions.act_window,name:auth_partner.auth_partner_action
-#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__partner_id
-#: model:ir.ui.menu,name:auth_partner.auth_partner_menu
 msgid "Partner"
 msgstr "Partner"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_res_partner__auth_partner_ids
-#: model:ir.model.fields,field_description:auth_partner.field_res_users__auth_partner_ids
 msgid "Partner Auth"
-msgstr "Partner Auth"
+msgstr "Partner auth"
 
 #. module: auth_partner
 #: model:ir.ui.menu,name:auth_partner.auth
@@ -436,13 +426,12 @@ msgstr "Partner autentifikacija"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_partner__password
-#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__password
 msgid "Password"
 msgstr "Zaporka"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py
 #, python-format
 msgid "Password and Confirm Password must be the same"
 msgstr "Lozinka i potvrda lozinke moraju biti iste"
@@ -494,8 +483,6 @@ msgstr "Server Env defaults"
 
 #. module: auth_partner
 #: model:ir.actions.act_window,name:auth_partner.auth_partner_force_set_password_action
-#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_form
-#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
 msgid "Set Password"
 msgstr "Postavi šifru"
 
@@ -511,9 +498,9 @@ msgstr "Tehničko polje za provjeru da li korisnik može oponašati"
 
 #. module: auth_partner
 #: model:ir.model.fields,help:auth_partner.field_auth_directory__impersonating_user_ids
-#: model:ir.model.fields,help:auth_partner.field_auth_partner__impersonating_user_ids
 msgid "These odoo users can impersonate any partner of this directory"
-msgstr "Ovi odoo korisnici mogu oponašati bilo kojeg partnera ovog direktorija"
+msgstr ""
+"Ovi odoo korisnici mogu oponašati bilo kojeg partnera ovog direktorija"
 
 #. module: auth_partner
 #: model:ir.model.fields,help:auth_partner.field_auth_partner__mail_verified
@@ -521,10 +508,12 @@ msgid ""
 "This field is set to True when the user has clicked on the link sent by "
 "email"
 msgstr ""
+"Ovo polje je postavljeno na Tačno kada je korisnik kliknuo na link poslan "
+"emailom"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py
 #, python-format
 msgid "This wizard can only be used on auth.partner"
 msgstr "Ovaj čarobnjak se može koristiti samo na auth.partner"
@@ -536,19 +525,17 @@ msgstr "Korisnik može oponašati"
 
 #. module: auth_partner
 #: model:mail.template,subject:auth_partner.email_set_password
-#: model:mail.template,subject:auth_partner.email_validate_email
 msgid "Welcome"
 msgstr "Dobrodošli"
 
 #. module: auth_partner
 #: model:ir.model,name:auth_partner.model_wizard_auth_partner_force_set_password
-#: model:ir.model,name:auth_partner.model_wizard_auth_partner_reset_password
 msgid "Wizard Partner Auth Reset Password"
 msgstr "Čarobnjak partner auth resetovanje lozinke"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_partner.py:0
+#: code:addons/auth_partner/models/auth_partner.py
 #, python-format
 msgid "You are not allowed to impersonate this user"
 msgstr "Nije vam dozvoljeno oponašati ovog korisnika"

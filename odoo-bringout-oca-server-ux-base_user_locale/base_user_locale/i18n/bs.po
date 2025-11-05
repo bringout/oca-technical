@@ -20,6 +20,9 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Ove vrijednosti su specifične"
+" za svaku tvrtku.\" role=\"img\" aria-label=\"Ove vrijednosti su specifične "
+"za svaku tvrtku.\" groups=\"base.group_multi_company\"/>"
 
 #. module: base_user_locale
 #: model:ir.model,name:base_user_locale.model_calendar_event
@@ -53,21 +56,16 @@ msgstr "Konfiguriši globalno prepisivanje početka sedmice za sve korisnike."
 
 #. module: base_user_locale
 #: model:ir.model.fields,field_description:base_user_locale.field_res_company__date_format
-#: model:ir.model.fields,field_description:base_user_locale.field_res_config_settings__date_format
-#: model:ir.model.fields,field_description:base_user_locale.field_res_users__date_format
 msgid "Date Format"
 msgstr "Format datuma"
 
 #. module: base_user_locale
 #: model:ir.model.fields,field_description:base_user_locale.field_res_company__decimal_point
-#: model:ir.model.fields,field_description:base_user_locale.field_res_config_settings__decimal_point
-#: model:ir.model.fields,field_description:base_user_locale.field_res_users__decimal_point
 msgid "Decimal Separator"
 msgstr "Separator decimala"
 
 #. module: base_user_locale
 #: model:ir.model.fields.selection,name:base_user_locale.selection__res_company__week_start__5
-#: model:ir.model.fields.selection,name:base_user_locale.selection__res_users__week_start__5
 msgid "Friday"
 msgstr "Petak"
 
@@ -78,63 +76,45 @@ msgstr "Regionalnost"
 
 #. module: base_user_locale
 #: model:ir.model.fields.selection,name:base_user_locale.selection__res_company__week_start__1
-#: model:ir.model.fields.selection,name:base_user_locale.selection__res_users__week_start__1
 msgid "Monday"
 msgstr "Ponedjeljak"
 
 #. module: base_user_locale
 #: model:ir.model.fields.selection,name:base_user_locale.selection__res_company__week_start__6
-#: model:ir.model.fields.selection,name:base_user_locale.selection__res_users__week_start__6
 msgid "Saturday"
 msgstr "Subota"
 
 #. module: base_user_locale
 #: model:ir.model.fields,help:base_user_locale.field_res_company__date_format
-#: model:ir.model.fields,help:base_user_locale.field_res_company__decimal_point
-#: model:ir.model.fields,help:base_user_locale.field_res_company__thousands_sep
-#: model:ir.model.fields,help:base_user_locale.field_res_company__time_format
-#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__date_format
-#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__decimal_point
-#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__thousands_sep
-#: model:ir.model.fields,help:base_user_locale.field_res_config_settings__time_format
-#: model:ir.model.fields,help:base_user_locale.field_res_users__date_format
-#: model:ir.model.fields,help:base_user_locale.field_res_users__decimal_point
-#: model:ir.model.fields,help:base_user_locale.field_res_users__thousands_sep
-#: model:ir.model.fields,help:base_user_locale.field_res_users__time_format
 msgid ""
 "See Settings > Translations > Languages and then click on any language to "
 "see the Legends for supported Date and Time Formats and some examples"
 msgstr ""
+"Pogledajte Postavke > Prijevodi > Jezici i zatim kliknite na bilo koji jezik"
+" da vidite Legende za podržane formate datuma i vremena i neke primjere"
 
 #. module: base_user_locale
 #: model:ir.model.fields.selection,name:base_user_locale.selection__res_company__week_start__7
-#: model:ir.model.fields.selection,name:base_user_locale.selection__res_users__week_start__7
 msgid "Sunday"
 msgstr "Nedjelja"
 
 #. module: base_user_locale
 #: model:ir.model.fields,field_description:base_user_locale.field_res_company__thousands_sep
-#: model:ir.model.fields,field_description:base_user_locale.field_res_config_settings__thousands_sep
-#: model:ir.model.fields,field_description:base_user_locale.field_res_users__thousands_sep
 msgid "Thousands Separator"
 msgstr "Separator hiljade"
 
 #. module: base_user_locale
 #: model:ir.model.fields.selection,name:base_user_locale.selection__res_company__week_start__4
-#: model:ir.model.fields.selection,name:base_user_locale.selection__res_users__week_start__4
 msgid "Thursday"
 msgstr "Četvrtak"
 
 #. module: base_user_locale
 #: model:ir.model.fields,field_description:base_user_locale.field_res_company__time_format
-#: model:ir.model.fields,field_description:base_user_locale.field_res_config_settings__time_format
-#: model:ir.model.fields,field_description:base_user_locale.field_res_users__time_format
 msgid "Time Format"
 msgstr "Format vremena"
 
 #. module: base_user_locale
 #: model:ir.model.fields.selection,name:base_user_locale.selection__res_company__week_start__2
-#: model:ir.model.fields.selection,name:base_user_locale.selection__res_users__week_start__2
 msgid "Tuesday"
 msgstr "Utorak"
 
@@ -145,13 +125,10 @@ msgstr "Korisnik"
 
 #. module: base_user_locale
 #: model:ir.model.fields.selection,name:base_user_locale.selection__res_company__week_start__3
-#: model:ir.model.fields.selection,name:base_user_locale.selection__res_users__week_start__3
 msgid "Wednesday"
 msgstr "Srijeda"
 
 #. module: base_user_locale
 #: model:ir.model.fields,field_description:base_user_locale.field_res_company__week_start
-#: model:ir.model.fields,field_description:base_user_locale.field_res_config_settings__week_start
-#: model:ir.model.fields,field_description:base_user_locale.field_res_users__week_start
 msgid "Week Start"
 msgstr "Početak sedmice"

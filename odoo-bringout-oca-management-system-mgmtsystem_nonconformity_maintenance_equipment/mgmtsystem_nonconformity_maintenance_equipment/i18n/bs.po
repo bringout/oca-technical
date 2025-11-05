@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: mgmtsystem_nonconformity_maintenance_equipment
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_maintenance_equipment.field_mgmtsystem_nonconformity__equipment_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity_maintenance_equipment.mgmtsystem_nonconformity_filter_view
 msgid "Equipment"
 msgstr "Oprema"
 

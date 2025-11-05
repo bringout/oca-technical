@@ -15,38 +15,40 @@ msgstr ""
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "%(key)'s JSON content is malformed: %(error)s"
 msgstr "%(key)s JSON sadržaj je neispravno formatiran: %(error)s"
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "BadRequest %s"
 msgstr "Neispravni zahtjev %s"
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "BadRequest item %(idx)s :%(errors)s"
 msgstr "Neispravni zahtjev stavka %(idx)s :%(errors)s"
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "BadRequest: Not enough items in the list (%(current)s < %(expected)s)"
-msgstr "Neispravni zahtjev: Nedovoljno stavki u listi (%(current)s < %(expected)s)"
+msgstr ""
+"Neispravni zahtjev: Nedovoljno stavki u listi (%(current)s < %(expected)s)"
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "BadRequest: Too many items in the list (%(current)s > %(expected)s)"
-msgstr "Neispravni zahtjev: Previše stavki u listi (%(current)s > %(expected)s)"
+msgstr ""
+"Neispravni zahtjev: Previše stavki u listi (%(current)s > %(expected)s)"
 
 #. module: base_rest
 #: model:ir.ui.menu,name:base_rest.menu_rest_api_docs
@@ -55,14 +57,13 @@ msgstr "Dokumentacija"
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "Invalid Response %s"
 msgstr "Neispravni odgovor %s"
 
 #. module: base_rest
 #: model:ir.actions.act_url,name:base_rest.action_rest_api_docs
-#: model:ir.ui.menu,name:base_rest.menu_rest_api_root
 msgid "REST API"
 msgstr "REST API"
 
@@ -78,14 +79,14 @@ msgstr "Pravilo zapisa"
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "Unable to get cerberus schema from %s"
 msgstr "Ne mogu dobiti cerberus šemu iz %s"
 
 #. module: base_rest
 #. odoo-python
-#: code:addons/base_rest/restapi.py:0
+#: code:addons/base_rest/restapi.py
 #, python-format
 msgid "You must provide a dict of RestMethodParam"
 msgstr "Morate pružiti dict od RestMethodParam"

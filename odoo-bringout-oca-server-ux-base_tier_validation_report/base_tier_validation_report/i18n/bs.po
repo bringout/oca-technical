@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: base_tier_validation_report
 #: model:ir.actions.act_window,name:base_tier_validation_report.tier_review_all_action
-#: model:ir.ui.menu,name:base_tier_validation_report.menu_tier_review_report_all
 msgid "All Reviews"
 msgstr "Svi pregledi"
 
@@ -31,7 +30,6 @@ msgstr "Riješio"
 
 #. module: base_tier_validation_report
 #: model:ir.actions.act_window,name:base_tier_validation_report.tier_review_my_action
-#: model:ir.ui.menu,name:base_tier_validation_report.menu_tier_review_report_my
 msgid "My Reviews"
 msgstr "Moji pregledi"
 
@@ -42,7 +40,6 @@ msgstr "Sljedeća ovjera"
 
 #. module: base_tier_validation_report
 #: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_form
-#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_tree
 msgid "Open Resource"
 msgstr "Otvori resurs"
 
@@ -63,7 +60,6 @@ msgstr "Naziv resursa"
 
 #. module: base_tier_validation_report
 #: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__resource_ref
-#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
 msgid "Resource Ref"
 msgstr "Referenca resursa"
 

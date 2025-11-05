@@ -45,7 +45,6 @@ msgstr "Definirajte polja za spremanje vrijednosti šablona akcije"
 
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__description
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_action_template.mgmtsystem_action_template_form_view
 msgid "Description"
 msgstr "Opis"
 
@@ -86,8 +85,7 @@ msgstr "Šablon akcije sistema upravljanja"
 
 #. module: mgmtsystem_action_template
 #. odoo-python
-#: code:addons/mgmtsystem_action_template/models/mgmtsystem_action.py:0
-#: code:addons/mgmtsystem_action_template/tests/test_action_template.py:0
+#: code:addons/mgmtsystem_action_template/models/mgmtsystem_action.py
 #, python-format
 msgid "NEW"
 msgstr "NOVO"

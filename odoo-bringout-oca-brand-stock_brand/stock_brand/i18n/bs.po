@@ -21,7 +21,7 @@ msgstr "Dozvoljeni način plaćanja"
 #. module: stock_brand
 #: model:ir.model.fields,field_description:stock_brand.field_stock_picking__brand_id
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: stock_brand
 #: model:ir.model.fields,field_description:stock_brand.field_stock_picking__brand_use_level

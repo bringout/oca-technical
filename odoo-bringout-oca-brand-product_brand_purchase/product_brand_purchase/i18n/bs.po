@@ -15,9 +15,8 @@ msgstr ""
 
 #. module: product_brand_purchase
 #: model:ir.model.fields,field_description:product_brand_purchase.field_purchase_report__product_brand_id
-#: model_terms:ir.ui.view,arch_db:product_brand_purchase.purchase_report_search_view
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: product_brand_purchase
 #: model:ir.ui.menu,name:product_brand_purchase.menu_product_in_config_purchase_product_brand

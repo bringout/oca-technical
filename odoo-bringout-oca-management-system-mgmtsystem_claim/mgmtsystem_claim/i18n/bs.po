@@ -36,6 +36,25 @@ msgid ""
 "            \n"
 "        "
 msgstr ""
+"\n"
+"            \n"
+"<p>Zdravo <t t-out=\"object.user_id.name\"/>,</br>\n"
+"Nova reklamacija je dodijeljena vama:\n"
+"\n"
+"<p>\n"
+"<t t-out=\"object.description\"/>\n"
+"</p>\n"
+"\n"
+"<b><a t-att-href=\"object.get_action_url()\"><t t-out=\"object.name\"/></a></b>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Hvala i lijep pozdrav.<br>\n"
+"--<br>\n"
+"Odoo\n"
+"</p>\n"
+"            \n"
+"        "
 
 #. module: mgmtsystem_claim
 #: model:mail.template,body_html:mgmtsystem_claim.email_template_remain_claim_reminder
@@ -63,12 +82,33 @@ msgid ""
 "            \n"
 "        "
 msgstr ""
+"\n"
+"            \n"
+"<p>Zdravo <t t-out=\"object.user_id.name\"/>,</p>\n"
+"\n"
+"<p>\n"
+"Ovo je automatska poruka da vas podsjetimo da\n"
+"sljedeću reklamaciju treba završiti za 10 dana (<t t-out=\"object.date_deadline\"/>):\n"
+"\n"
+"<b><a t-att-href=\"object.get_action_url()\"><t t-out=\"object.name\"/></a></b>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"<t t-out=\"object.description\"/>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Hvala i lijep pozdrav.<br>\n"
+"--<br>\n"
+"Odoo\n"
+"</p>\n"
+"            \n"
+"        "
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_res_partner__mgmtsystem_claim_count
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_res_users__mgmtsystem_claim_count
 msgid "# Mgmt Claims"
-msgstr "# Mgmt Claims"
+msgstr "# upravlj. reklamacija"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__message_needaction
@@ -132,7 +172,6 @@ msgstr "Potraživanje"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__date
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Claim Date"
 msgstr "Datum potraživanja"
 
@@ -168,9 +207,6 @@ msgstr "Opis reklamacije/akcije"
 
 #. module: mgmtsystem_claim
 #: model:ir.actions.act_window,name:mgmtsystem_claim.mgmtsystem_claim_action
-#: model:ir.ui.menu,name:mgmtsystem_claim.menu_config_claim
-#: model:ir.ui.menu,name:mgmtsystem_claim.menu_mgmtsystem_claims
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.mgmtsystem_claims_form_view
 msgid "Claims"
 msgstr "Reklamacije"
 
@@ -180,6 +216,8 @@ msgid ""
 "Click to setup a new stage in the processing of the Management System "
 "claims."
 msgstr ""
+"Kliknite da biste postavili novu fazu u obradi reklamacija sistema "
+"upravljanja."
 
 #. module: mgmtsystem_claim
 #: model:mgmtsystem.claim.stage,name:mgmtsystem_claim.stage_close
@@ -213,13 +251,11 @@ msgstr "Kontakt"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__create_uid
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__create_date
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -240,7 +276,6 @@ msgstr "Datumi"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__date_deadline
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Deadline"
 msgstr "Rok izvršenja"
 
@@ -256,7 +291,6 @@ msgstr "Odredišna e-pošta za e-mail gateway."
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__display_name
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -277,7 +311,6 @@ msgstr "E-Mail"
 
 #. module: mgmtsystem_claim
 #: model:ir.actions.server,name:mgmtsystem_claim.ir_cron_mgmtsystem_claim_reminder_ir_actions_server
-#: model:ir.cron,cron_name:mgmtsystem_claim.ir_cron_mgmtsystem_claim_reminder
 msgid "Email Claim Reminders 10 days before due date."
 msgstr "Pošaljite podsjetnike za reklamacije 10 dana prije roka."
 
@@ -313,7 +346,6 @@ msgstr "Ima poruku"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__id
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage__id
 msgid "ID"
 msgstr "ID"
 
@@ -343,6 +375,8 @@ msgid ""
 "If you check this field, this stage will be proposed by default on each "
 "sales team. It will not assign this stage to existing teams."
 msgstr ""
+"Ako označite ovo polje, ova faza će biti predložena po defaultu za svaki "
+"prodajni tim. Neće dodijeliti ovu fazu postojećim timovima."
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__message_is_follower
@@ -351,19 +385,16 @@ msgstr "Pratilac"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim____last_update
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__write_uid
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__write_date
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -373,6 +404,8 @@ msgid ""
 "Link between stages and sales teams. When set, this limitate the current "
 "stage to the selected sales teams."
 msgstr ""
+"Veza između faza i prodajnih timova. Kada je postavljeno, ovo ograničava "
+"trenutnu fazu na odabrane prodajne timove."
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__message_main_attachment_id
@@ -411,9 +444,8 @@ msgstr "Reklamacije sistema upravljanja"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_res_partner__mgmtsystem_claim_ids
-#: model:ir.model.fields,field_description:mgmtsystem_claim.field_res_users__mgmtsystem_claim_ids
 msgid "Mgmtsystem Claim"
-msgstr "Mgmtsystem Claim"
+msgstr "Reklamacija sistema upravljanja"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__model_ref_id
@@ -427,8 +459,7 @@ msgstr "Rok za moju aktivnost"
 
 #. module: mgmtsystem_claim
 #. odoo-python
-#: code:addons/mgmtsystem_claim/models/mgmtsystem_claim.py:0
-#: code:addons/mgmtsystem_claim/models/mgmtsystem_claim.py:0
+#: code:addons/mgmtsystem_claim/models/mgmtsystem_claim.py
 #, python-format
 msgid "New"
 msgstr "Novi"
@@ -490,14 +521,11 @@ msgstr "Otvori"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__partner_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.mgmtsystem_claims_form_view
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Partner"
 msgstr "Partner"
 
 #. module: mgmtsystem_claim
 #: model:mgmtsystem.claim.stage,name:mgmtsystem_claim.stage_pending
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Pending"
 msgstr "Na čekanju"
 
@@ -518,6 +546,9 @@ msgid ""
 "            You can send emails with attachments and keep the full history for a claim (emails sent, intervention\n"
 "            type and so on). Claims may automatically be linked to an email address using the mail gateway module."
 msgstr ""
+"Zabilježite i pratite reklamacije vaših kupaca. Reklamacije mogu biti povezane s prodajnim nalogom ili lotom.\n"
+"Možete slati e-mailove s prilozima i čuvati kompletnu historiju za reklamaciju (poslani e-mailovi, vrsta intervencije\n"
+"i tako dalje). Reklamacije se mogu automatski povezati s e-mail adresom pomoću modula mail gateway."
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__reference
@@ -526,13 +557,11 @@ msgstr "Referenca"
 
 #. module: mgmtsystem_claim
 #: model:mail.template,subject:mgmtsystem_claim.email_template_new_claim_reminder
-#: model:mail.template,subject:mgmtsystem_claim.email_template_remain_claim_reminder
 msgid "Reminder on Action: \"{{object.name}}\""
 msgstr "Podsjetnik na akciju: \"{{object.name}}\""
 
 #. module: mgmtsystem_claim
 #: model:mail.template,name:mgmtsystem_claim.email_template_new_claim_reminder
-#: model:mail.template,name:mgmtsystem_claim.email_template_remain_claim_reminder
 msgid "Reminder to Responsible"
 msgstr "Podsjetnik za odgovornu osobu"
 
@@ -553,13 +582,11 @@ msgstr "Odgovornosti"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__user_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Responsible"
 msgstr "Odgovoran"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__activity_user_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Responsible User"
 msgstr "Odgovorni korisnik"
 
@@ -569,6 +596,8 @@ msgid ""
 "Responsible sales team. Define Responsible user and Email account for mail "
 "gateway."
 msgstr ""
+"Odgovorni prodajni tim. Definiše odgovornog korisnika i email nalog za mail "
+"gateway."
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__cause
@@ -607,7 +636,6 @@ msgstr "Naziv faze"
 
 #. module: mgmtsystem_claim
 #: model:ir.ui.menu,name:mgmtsystem_claim.menu_mgmtsystem_claim_stages
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Stages"
 msgstr "Faze"
 
@@ -619,6 +647,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim_stage__team_ids
@@ -632,6 +664,8 @@ msgid ""
 "outbound emails for this record before being sent. Separate multiple email "
 "addresses with a comma"
 msgstr ""
+"Ove email adrese će biti dodane u CC polje svih dolaznih i odlaznih emailova"
+" za ovaj zapis prije slanja. Odvojite više email adresa zarezom"
 
 #. module: mgmtsystem_claim
 #: model:ir.model.fields,field_description:mgmtsystem_claim.field_mgmtsystem_claim__user_fault
@@ -640,7 +674,6 @@ msgstr "Odgovoran za problem"
 
 #. module: mgmtsystem_claim
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.mgmtsystem_claims_tree_view
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_claim.view_mgmtsystem_claims_filter
 msgid "Type"
 msgstr "Tip"
 
@@ -681,3 +714,6 @@ msgid ""
 "                claim entered in the system. The stages define all the steps\n"
 "                required for the resolution of a claim."
 msgstr ""
+"Možete kreirati faze reklamacija sistema upravljanja da biste kategorizirali status svake\n"
+"reklamacije unesene u sistem. Faze definiraju sve korake\n"
+"potrebne za rješavanje reklamacije."

@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: graphql_demo
 #. odoo-python
-#: code:addons/graphql_demo/schema.py:0
+#: code:addons/graphql_demo/schema.py
 #, python-format
 msgid "UserError example"
 msgstr "Primjer korisničke greške"
 
 #. module: graphql_demo
 #. odoo-python
-#: code:addons/graphql_demo/schema.py:0
+#: code:addons/graphql_demo/schema.py
 #, python-format
 msgid "as requested"
 msgstr "na zahtjev"

@@ -75,6 +75,5 @@ msgstr "Test binari"
 
 #. module: test_base_binary_url_import
 #: model:ir.actions.act_window,name:test_base_binary_url_import.action_list_test_binary
-#: model:ir.model,name:test_base_binary_url_import.model_test_binary
 msgid "Test Binary"
 msgstr "Test binarni"

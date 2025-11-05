@@ -35,29 +35,21 @@ msgstr "Veličina koda"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__create_uid
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__create_uid
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__create_date
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__create_date
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__display_name
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__display_name
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__id
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__id
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__id
 msgid "ID"
 msgstr "ID"
 
@@ -73,7 +65,6 @@ msgstr "Količina instaliranih modula"
 
 #. module: module_analysis
 #: model:ir.actions.act_window,name:module_analysis.action_ir_module_module_by_type
-#: model:ir.ui.menu,name:module_analysis.menu_module_by_type
 msgid "Installed Modules by Types"
 msgstr "Instalirani moduli po tipovima"
 
@@ -84,22 +75,16 @@ msgstr "Količina JS koda"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author____last_update
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type____last_update
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__write_uid
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__write_uid
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__write_date
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__write_date
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -130,8 +115,6 @@ msgstr "Moduli"
 
 #. module: module_analysis
 #: model:ir.actions.act_window,name:module_analysis.action_ir_module_author
-#: model:ir.model,name:module_analysis.model_ir_module_author
-#: model:ir.ui.menu,name:module_analysis.menu_module_authors
 msgid "Modules Authors"
 msgstr "Autori modula"
 
@@ -142,21 +125,16 @@ msgstr "Količina modula"
 
 #. module: module_analysis
 #: model:ir.actions.act_window,name:module_analysis.action_ir_module_type
-#: model:ir.model,name:module_analysis.model_ir_module_type
-#: model:ir.ui.menu,name:module_analysis.menu_module_types
 msgid "Modules Types"
 msgstr "Tipovi modula"
 
 #. module: module_analysis
 #: model:ir.actions.act_window,name:module_analysis.action_ir_module_type_rule
-#: model:ir.model,name:module_analysis.model_ir_module_type_rule
-#: model:ir.ui.menu,name:module_analysis.menu_module_type_rules
 msgid "Modules Types Rules"
 msgstr "Pravila tipova modula"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__name
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -182,7 +160,6 @@ msgstr "Količina SCSS koda"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__sequence
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 
@@ -193,9 +170,6 @@ msgstr "Postavke"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__smart_search
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__smart_search
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__smart_search
-#: model:ir.model.fields,field_description:module_analysis.field_ir_module_type_rule__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
@@ -211,7 +185,6 @@ msgstr "Tip i autori"
 
 #. module: module_analysis
 #: model:ir.actions.server,name:module_analysis.cron_module_analysis_ir_actions_server
-#: model:ir.cron,cron_name:module_analysis.cron_module_analysis
 msgid "Update Module Analysis"
 msgstr "Ažuriraj analizu modula"
 

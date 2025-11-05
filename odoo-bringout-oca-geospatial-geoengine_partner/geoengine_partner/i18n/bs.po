@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: geoengine_partner
 #: model:ir.model.fields,field_description:geoengine_partner.field_res_partner__geo_point
-#: model:ir.model.fields,field_description:geoengine_partner.field_res_users__geo_point
 msgid "Address coordinates"
 msgstr "Koordinate adrese"
 

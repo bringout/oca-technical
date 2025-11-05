@@ -15,11 +15,12 @@ msgstr ""
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "A wildcard is only allowed at the start of a domain"
 msgstr "Wildcard je dozvoljen samo na početku domene"
 
+# taken from hr.po
 #. module: letsencrypt
 #: model:ir.model,name:letsencrypt.model_letsencrypt
 msgid "Abstract model providing functions for letsencrypt"
@@ -27,7 +28,6 @@ msgstr "Apstraktni model sa metodama za letsencrypt"
 
 #. module: letsencrypt
 #: model:ir.actions.server,name:letsencrypt.cronjob_ir_actions_server
-#: model:ir.cron,cron_name:letsencrypt.cronjob
 msgid "Check Let's Encrypt certificates"
 msgstr "Provjeri Let's Encrypt certifikate"
 
@@ -38,7 +38,7 @@ msgstr "Postavke"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "Could not respond to letsencrypt challenges."
 msgstr "Nije moguće odgovoriti na letsencrypt izazove."
@@ -55,14 +55,14 @@ msgstr "DNS update skripta"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "Domain %s: Let's Encrypt doesn't support IP addresses!"
 msgstr "Domena %s: Let's Encrypt ne podržava IP adrese!"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "Domain %s: Let's encrypt doesn't work with local domains!"
 msgstr "Domena %s: Let's encrypt ne funkcioniše sa lokalnim domenama!"
@@ -75,25 +75,26 @@ msgstr "Nazivi domena"
 #. module: letsencrypt
 #: model:ir.model.fields,help:letsencrypt.field_res_config_settings__letsencrypt_altnames
 msgid "Domains to use for the certificate. Separate with commas or newlines."
-msgstr "Domene za korištenje u certifikatu. Razdvojite zarezima ili novim redom."
+msgstr ""
+"Domene za korištenje u certifikatu. Razdvojite zarezima ili novim redom."
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "Error calling %(cmdline)s: %(returncode)d"
 msgstr "Greška pri pozivu %(cmdline)s: %(returncode)d"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/controllers/main.py:0
+#: code:addons/letsencrypt/controllers/main.py
 #, python-format
 msgid "Error opening file %s"
 msgstr "Greška pri otvaranju datoteke %s"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "Error updating name"
 msgstr "Greška pri ažuriranju naziva"
@@ -110,6 +111,9 @@ msgid ""
 "set this to \"Shell script\" you can enter a shell script. Other options can"
 " be added by installing additional modules."
 msgstr ""
+"Za wildcard certifikate trebamo dodati TXT zapis u vaš DNS. Ako postavite na"
+" \"Shell skripta\" možete unijeti shell skriptu. Druge opcije mogu biti "
+"dodane instaliranjem dodatnih modula."
 
 #. module: letsencrypt
 #: model_terms:ir.ui.view,arch_db:letsencrypt.res_config_settings_view_form
@@ -128,14 +132,16 @@ msgstr "Lista domena za certifikat"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "No DNS provider set, can't request wildcard certificate"
-msgstr "Nema postavljenog DNS proviajdera, nije moguće zahtijevati wildcard certifikat"
+msgstr ""
+"Nema postavljenog DNS proviajdera, nije moguće zahtijevati wildcard "
+"certifikat"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py:0
+#: code:addons/letsencrypt/models/letsencrypt.py
 #, python-format
 msgid "No shell command configured for updating DNS records"
 msgstr "Nije konfigurirana shell komanda za ažuriranje DNS zapisa"
@@ -162,7 +168,6 @@ msgstr "Shell skripta"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_letsencrypt__smart_search
-#: model:ir.model.fields,field_description:letsencrypt.field_res_config_settings__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
@@ -177,6 +182,8 @@ msgid ""
 "Use the Let's Encrypt staging server, which has higher rate limits but "
 "doesn't create valid certificates."
 msgstr ""
+"Koristite Let's Encrypt staging server, koji ima veća ograničenja brzine ali"
+" ne kreira valjane certifikate."
 
 #. module: letsencrypt
 #: model_terms:ir.ui.view,arch_db:letsencrypt.res_config_settings_view_form
@@ -184,14 +191,17 @@ msgid ""
 "Use the testing server, which has higher rate limits but creates invalid "
 "certificates."
 msgstr ""
+"Koristite test server, koji ima veće ograničenja brzine ali kreira "
+"neispravne certifikate."
 
 #. module: letsencrypt
 #: model:ir.model.fields,help:letsencrypt.field_res_config_settings__letsencrypt_prefer_dns
-#: model_terms:ir.ui.view,arch_db:letsencrypt.res_config_settings_view_form
 msgid ""
 "Validate through DNS even when HTTP validation is possible. Use this if your"
 " Odoo instance isn't publicly accessible."
 msgstr ""
+"Validiraj preko DNS-a čak i kada je HTTP validacija moguća. Koristite ovo "
+"ako vaša Odoo instanca nije javno dostupna."
 
 #. module: letsencrypt
 #: model_terms:ir.ui.view,arch_db:letsencrypt.res_config_settings_view_form
@@ -204,6 +214,8 @@ msgid ""
 "Write a shell script that will update your DNS TXT records. You can use the "
 "$LETSENCRYPT_DNS_CHALLENGE and $LETSENCRYPT_DNS_DOMAIN variables."
 msgstr ""
+"Write a shell script that will update your DNS TXT records. You can use the "
+"$LETSENCRYPT_DNS_CHALLENGE and $LETSENCRYPT_DNS_DOMAIN variables."
 
 #. module: letsencrypt
 #: model_terms:ir.ui.view,arch_db:letsencrypt.res_config_settings_view_form
@@ -212,7 +224,7 @@ msgstr "Napišite shell skriptu za ažuriranje DNS zapisa"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/res_config_settings.py:0
+#: code:addons/letsencrypt/models/res_config_settings.py
 #, python-format
 msgid "You didn't write a DNS update script!"
 msgstr "Niste napisali DNS update skriptu!"

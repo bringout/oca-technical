@@ -15,13 +15,11 @@ msgstr ""
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__bo_qty
-#: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "Backorder Qty"
 msgstr "Backorder Qty"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__bo_value
-#: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "Backorder Value"
 msgstr "Vremenske evidencije i prodaja"
 
@@ -57,7 +55,6 @@ msgstr "Prikazani naziv"
 
 #. module: purchase_backorder
 #: model:ir.actions.act_window,name:purchase_backorder.action_po_backorder_wizard
-#: model:ir.ui.menu,name:purchase_backorder.menu_po_backorder_report
 msgid "Generate PO Backorder Report"
 msgstr "Isporučeno"
 
@@ -68,15 +65,11 @@ msgstr "ID"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order__last_bill_date
-#: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__last_bill_date
-#: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "Last Bill Date"
 msgstr "Vremenske evidencije"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order__last_date_received
-#: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__last_date_received
-#: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "Last Date Received"
 msgstr "Last Datum Received"
 
@@ -102,7 +95,6 @@ msgstr "Referenca narudžbe"
 
 #. module: purchase_backorder
 #: model:ir.actions.report,name:purchase_backorder.action_po_backorder_report
-#: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "PO Backorder Report"
 msgstr "Nema ništa za isporuku"
 
@@ -113,7 +105,6 @@ msgstr "PO Backorder Report Wizard"
 
 #. module: purchase_backorder
 #: model:ir.actions.act_window,name:purchase_backorder.action_po_backorder
-#: model:ir.ui.menu,name:purchase_backorder.menu_po_backorder
 msgid "PO Backorders"
 msgstr "Za isporuku"
 
@@ -139,13 +130,11 @@ msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__uigr_qty
-#: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "UIGR Qty"
 msgstr "Vremenske evidencije i skladište"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__uigr_value
-#: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "UIGR Value"
 msgstr "UIGR Value"
 

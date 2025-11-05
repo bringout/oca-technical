@@ -20,31 +20,26 @@ msgstr "Osnova"
 
 #. module: base_remote
 #: model:ir.model.fields,field_description:base_remote.field_res_remote__changeset_change_ids
-#: model:ir.model.fields,field_description:base_remote.field_res_users__changeset_change_ids
 msgid "Changeset Changes"
 msgstr "Promjene skupa izmjena"
 
 #. module: base_remote
 #: model:ir.model.fields,field_description:base_remote.field_res_remote__changeset_ids
-#: model:ir.model.fields,field_description:base_remote.field_res_users__changeset_ids
 msgid "Changesets"
 msgstr "Skupovi izmjena"
 
 #. module: base_remote
 #: model:ir.model.fields,field_description:base_remote.field_res_remote__count_changesets
-#: model:ir.model.fields,field_description:base_remote.field_res_users__count_changesets
 msgid "Count Changesets"
 msgstr "Prebroji skupove izmjena"
 
 #. module: base_remote
 #: model:ir.model.fields,field_description:base_remote.field_res_remote__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:base_remote.field_res_users__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
 msgstr "Prebroji promjene skupova na čekanju"
 
 #. module: base_remote
 #: model:ir.model.fields,field_description:base_remote.field_res_remote__count_pending_changesets
-#: model:ir.model.fields,field_description:base_remote.field_res_users__count_pending_changesets
 msgid "Count Pending Changesets"
 msgstr "Prebroji skupove izmjena na čekanju"
 
@@ -110,8 +105,6 @@ msgstr "Daljinski"
 
 #. module: base_remote
 #: model:ir.actions.act_window,name:base_remote.res_remote_action
-#: model:ir.model,name:base_remote.model_res_remote
-#: model:ir.ui.menu,name:base_remote.res_remote_menu
 msgid "Remotes"
 msgstr "Daljinski"
 
@@ -122,25 +115,21 @@ msgstr "Pokazuje da li se daljinski pristup može pronaći kroz socket"
 
 #. module: base_remote
 #: model:ir.model.fields,field_description:base_remote.field_res_remote__smart_search
-#: model:ir.model.fields,field_description:base_remote.field_res_users__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
 #. module: base_remote
 #: model:ir.model.fields,help:base_remote.field_res_remote__count_pending_changeset_changes
-#: model:ir.model.fields,help:base_remote.field_res_users__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
 msgstr "Broj promjena na čekanju ovog zapisa"
 
 #. module: base_remote
 #: model:ir.model.fields,help:base_remote.field_res_remote__count_pending_changesets
-#: model:ir.model.fields,help:base_remote.field_res_users__count_pending_changesets
 msgid "The number of pending changesets of this record"
 msgstr "Broj skupova izmjena na čekanju ovog zapisa"
 
 #. module: base_remote
 #: model:ir.model.fields,help:base_remote.field_res_remote__count_changesets
-#: model:ir.model.fields,help:base_remote.field_res_users__count_changesets
 msgid "The overall number of changesets of this record"
 msgstr "Ukupan broj skupova izmjena ovog zapisa"
 
@@ -151,6 +140,5 @@ msgstr "Korisnik"
 
 #. module: base_remote
 #: model:ir.model.fields,field_description:base_remote.field_res_remote__user_can_see_changeset
-#: model:ir.model.fields,field_description:base_remote.field_res_users__user_can_see_changeset
 msgid "User Can See Changeset"
 msgstr "Korisnik može vidjeti skup izmjena"

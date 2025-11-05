@@ -30,40 +30,46 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                <div>\n"
+"                <p>Zdravo <t t-out=\"ctx.get('sender_message').get('from')\"></t>,</p>\n"
+"                <p>imamo problem s vašom e-poštom: <i><t t-out=\"ctx.get('sender_message').get('subject')\"></t></i></p>\n"
+"                <p>Možda ste koristili pogrešnu adresu primatelja?</p>\n"
+"                <p><br></p>\n"
+"                <p>Tehnički detalji:</p>\n"
+"                <p><i><t t-out=\"ctx.get('route_exception')\"></t></i></p>\n"
+"                </div>\n"
+"                </p>\n"
+"            </div>\n"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__assigned_attachment_ids
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__assigned_attachment_ids
 msgid "Assigned Attachments"
 msgstr "Dodijeljeni prilozi"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__changeset_change_ids
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__changeset_change_ids
 msgid "Changeset Changes"
 msgstr "Promjene skupa promjena"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__changeset_ids
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__changeset_ids
 msgid "Changesets"
 msgstr "Skupovi promjena"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__count_changesets
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__count_changesets
 msgid "Count Changesets"
 msgstr "Broj skupova promjena"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
 msgstr "Broj promjena skupova promjena na čekanju"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__count_pending_changesets
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__count_pending_changesets
 msgid "Count Pending Changesets"
 msgstr "Broj skupova promjena na čekanju"
 
@@ -98,33 +104,30 @@ msgid ""
 "Set here the template to use to send notice to sender when errors occur "
 "while fetching email"
 msgstr ""
+"Ovdje postavite predložak za slanje obavještenja pošiljatelju kad se dogode "
+"greške prilikom dohvaćanja e-pošte"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__smart_search
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__smart_search
 msgid "Smart Search"
 msgstr "Pametno pretraživanje"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,help:fetchmail_notify_error_to_sender.field_fetchmail_server__count_pending_changeset_changes
-#: model:ir.model.fields,help:fetchmail_notify_error_to_sender.field_mail_thread__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
 msgstr "Broj promjena na čekanju ovog zapisa"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,help:fetchmail_notify_error_to_sender.field_fetchmail_server__count_pending_changesets
-#: model:ir.model.fields,help:fetchmail_notify_error_to_sender.field_mail_thread__count_pending_changesets
 msgid "The number of pending changesets of this record"
 msgstr "Broj skupa promjena na čekanju ovog zapisa"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,help:fetchmail_notify_error_to_sender.field_fetchmail_server__count_changesets
-#: model:ir.model.fields,help:fetchmail_notify_error_to_sender.field_mail_thread__count_changesets
 msgid "The overall number of changesets of this record"
 msgstr "Ukupan broj promjena ovog zapisa"
 
 #. module: fetchmail_notify_error_to_sender
 #: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_fetchmail_server__user_can_see_changeset
-#: model:ir.model.fields,field_description:fetchmail_notify_error_to_sender.field_mail_thread__user_can_see_changeset
 msgid "User Can See Changeset"
 msgstr "Korisnik može vidjeti skup promjena"

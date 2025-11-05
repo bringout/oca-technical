@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: model_serializer
-#: code:addons/model_serializer/core.py:0
+#: code:addons/model_serializer/core.py
 #, python-format
 msgid "'{}' datamodel does not exist"
 msgstr "'{}' datamodel ne postoji"
@@ -25,17 +25,21 @@ msgid "Datamodel Builder"
 msgstr "Graditelj datamodela"
 
 #. module: model_serializer
-#: code:addons/model_serializer/core.py:0
+#: code:addons/model_serializer/core.py
 #, python-format
 msgid ""
 "Error in {}: Model Serializers cannot inherit from a class having a "
 "different '_model' attribute"
 msgstr ""
+"Greška u {}: Model Serializers ne može naslijediti od klase koja ima "
+"različiti '_model' atribut"
 
 #. module: model_serializer
-#: code:addons/model_serializer/core.py:0
+#: code:addons/model_serializer/core.py
 #, python-format
 msgid ""
 "Error in {}: Model Serializers require '_model' and '_model_fields' "
 "attributes to be defined"
 msgstr ""
+"Greška u {}: Model Serializers zahtjevaju da '_model' i '_model_fields' "
+"atributi budu definirani"

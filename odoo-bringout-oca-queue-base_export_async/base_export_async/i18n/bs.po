@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: base_export_async
 #. odoo-javascript
-#: code:addons/base_export_async/static/src/xml/base.xml:0
+#: code:addons/base_export_async/static/src/xml/base.xml
 #, python-format
 msgid "(You will receive the export by email)"
 msgstr "(Primiće te izvoz e-poštom)"
@@ -31,6 +31,13 @@ msgid ""
 "            </p>\n"
 "        "
 msgstr ""
+"<p>Vaš izvoz je dostupan <a t-attf-href=\"{{ object.url }}\" target=\"_blank\">ovdje</a>.</p>\n"
+"            <p>Biće automatski obrisan <t t-out=\"object.expiration_date\"></t>.</p>\n"
+"            <br>\n"
+"            <p>\n"
+"                <span style=\"color: #808080;\">Ovo je automatska poruka molimo ne odgovarajte.</span>\n"
+"            </p>\n"
+"        "
 
 #. module: base_export_async
 #: model:ir.model,name:base_export_async.model_delay_export
@@ -39,7 +46,7 @@ msgstr "Asinhroni izvoz"
 
 #. module: base_export_async
 #. odoo-javascript
-#: code:addons/base_export_async/static/src/xml/base.xml:0
+#: code:addons/base_export_async/static/src/xml/base.xml
 #, python-format
 msgid "Asynchronous export"
 msgstr "Asinhroni izvoz"
@@ -61,7 +68,6 @@ msgstr "Kašnjenje izvoza"
 
 #. module: base_export_async
 #: model:ir.actions.server,name:base_export_async.to_delete_attachment_ir_actions_server
-#: model:ir.cron,cron_name:base_export_async.to_delete_attachment
 msgid "Delete Generated Exports"
 msgstr "Obriši generirane izvozove"
 
@@ -82,7 +88,7 @@ msgstr "Izvoz {{ object.model_description }} {{ datetime.date.today() }}"
 
 #. module: base_export_async
 #. odoo-javascript
-#: code:addons/base_export_async/static/src/js/list_controller.esm.js:0
+#: code:addons/base_export_async/static/src/js/list_controller.esm.js
 #, python-format
 msgid "External ID"
 msgstr "Externi ID"
@@ -114,7 +120,7 @@ msgstr "Opis modela"
 
 #. module: base_export_async
 #. odoo-javascript
-#: code:addons/base_export_async/static/src/js/data_export.esm.js:0
+#: code:addons/base_export_async/static/src/js/data_export.esm.js
 #, python-format
 msgid "Please select fields to save export list..."
 msgstr "Molimo da odaberete polja za čuvanje liste izvoza..."
@@ -122,7 +128,7 @@ msgstr "Molimo da odaberete polja za čuvanje liste izvoza..."
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__user_ids
@@ -131,14 +137,14 @@ msgstr "Korisnici"
 
 #. module: base_export_async
 #. odoo-python
-#: code:addons/base_export_async/models/delay_export.py:0
+#: code:addons/base_export_async/models/delay_export.py
 #, python-format
 msgid "You must set an email address to your user."
 msgstr "Morate postaviti e-mail adresu za vašeg korisnika."
 
 #. module: base_export_async
 #. odoo-javascript
-#: code:addons/base_export_async/static/src/js/list_controller.esm.js:0
+#: code:addons/base_export_async/static/src/js/list_controller.esm.js
 #, python-format
 msgid "You will receive the export file by email as soon as it is finished."
 msgstr "Primiće te datoteku izvoza e-poštom čim bude završena."

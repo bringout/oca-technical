@@ -47,6 +47,21 @@ msgid ""
 "To achieve this, simply return a dict like: \n"
 "{'result': {'_value': $value, '_json_key': $new_json_key}}"
 msgstr ""
+"Izračunaj rezultat iz 'vrijednosti' postavljanjem varijable 'rezultat'.\n"
+"\n"
+"Za resolvere polja:\n"
+":param zapis: zapis\n"
+":param naziv: naziv polja\n"
+":param vrijednost: vrijednost polja\n"
+":param tip_polja: tip polja\n"
+"\n"
+"Za globalne resolvere:\n"
+":param vrijednost: JSON rječnik\n"
+":param zapis: zapis\n"
+"\n"
+"U oba tipa, možete prepisati završni JSON ključ.\n"
+"Da to postignete, jednostavno vratite rječnik kao: \n"
+"{'rezultat': {'_vrijednost': $vrijednost, '_json_ključ': $novi_json_ključ}}"
 
 #. module: jsonifier
 #: model_terms:ir.ui.view,arch_db:jsonifier.view_ir_exports
@@ -65,7 +80,6 @@ msgstr "Kreirano"
 
 #. module: jsonifier
 #: model:ir.actions.act_window,name:jsonifier.act_ui_exports_resolver_view
-#: model:ir.ui.menu,name:jsonifier.ui_exports_resolvers
 msgid "Custom Export Resolvers"
 msgstr "Prilagođeni export resolveri"
 
@@ -86,14 +100,13 @@ msgstr "Prikazani naziv"
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/ir_exports_line.py:0
+#: code:addons/jsonifier/models/ir_exports_line.py
 #, python-format
 msgid "Either set a function or a resolver, not both."
 msgstr "Postavite ili funkciju ili resolver, ne oboje."
 
 #. module: jsonifier
 #: model:ir.actions.act_window,name:jsonifier.act_ui_exports_view
-#: model:ir.ui.menu,name:jsonifier.ui_exports
 msgid "Export Fields"
 msgstr "Export polja"
 
@@ -153,6 +166,8 @@ msgid ""
 "If set, will set the lang to False when exporting lines without lang, "
 "otherwise it uses the lang in the given context to export these fields"
 msgstr ""
+"Ako je postavljen, postavit će jezik na False kad exportuje linije bez "
+"jezika, inače koristi jezik u datom kontekstu za export ovih polja"
 
 #. module: jsonifier
 #: model_terms:ir.ui.view,arch_db:jsonifier.view_ir_exports
@@ -191,7 +206,7 @@ msgstr "Naziv:"
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/ir_exports_line.py:0
+#: code:addons/jsonifier/models/ir_exports_line.py
 #, python-format
 msgid "Name and Target must have the same hierarchy depth"
 msgstr "Naziv i cilj moraju imati istu dubinu hijerarhije"
@@ -203,8 +218,6 @@ msgstr "Python Kod"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports__smart_search
-#: model:ir.model.fields,field_description:jsonifier.field_ir_exports_line__smart_search
-#: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__smart_search
 msgid "Smart Search"
 msgstr "Pametno pretraživanje"
 
@@ -219,15 +232,19 @@ msgid ""
 "The complete path to the field where you can specify a target on the step as"
 " field:target"
 msgstr ""
+"Kompletna putanja do polja gdje možete specificirati cilj u koraku kao "
+"polje:cilj"
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/ir_exports_line.py:0
+#: code:addons/jsonifier/models/ir_exports_line.py
 #, python-format
 msgid ""
 "The target must reference the same field as in name '%(name)s' not in "
 "'%(name_with_target)s'"
 msgstr ""
+"Cilj mora referencirati isto polje kao u nazivu '%(name)s' a ne u "
+"'%(name_with_target)s'"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__type
@@ -236,7 +253,7 @@ msgstr "Tip"
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/models.py:0
+#: code:addons/jsonifier/models/models.py
 #, python-format
 msgid "Wrong parser configuration for field: `%s`"
 msgstr "Pogrešna konfiguracija parsera za polje: `%s`"

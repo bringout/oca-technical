@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* autovacuum_mail_message
+# * autovacuum_mail_message
 #
 msgid ""
 msgstr ""
@@ -13,68 +13,68 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: autovacuum_mail_message
-#: selection:message.vacuum.rule,message_type:0
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields.selection,name:autovacuum_message_attachment.selection__vacuum_rule__message_type__all
 msgid "All"
 msgstr "Sve"
 
-#. module: autovacuum_mail_message
-#: selection:message.vacuum.rule,message_type:0
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields.selection,name:autovacuum_message_attachment.selection__vacuum_rule__message_type__comment
 msgid "Comment"
 msgstr "Komentar"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_company_id
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_create_uid
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_create_date
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_display_name
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
-#. module: autovacuum_mail_message
-#: selection:message.vacuum.rule,message_type:0
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields.selection,name:autovacuum_message_attachment.selection__vacuum_rule__message_type__email
 msgid "Email"
-msgstr "E-Mail"
+msgstr "Email"
 
 #. module: autovacuum_mail_message
 #: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_empty_subtype
 msgid "Empty subtype"
 msgstr "Prazan podtip"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_id
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__id
 msgid "ID"
 msgstr "ID"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule___last_update
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_write_uid
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažurirao"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_write_date
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
-#. module: autovacuum_mail_message
-#: model:ir.model,name:autovacuum_mail_message.model_mail_message
+#. module: autovacuum_message_attachment
+#: model:ir.model,name:autovacuum_message_attachment.model_mail_message
 msgid "Message"
 msgstr "Poruka"
 
@@ -83,76 +83,290 @@ msgstr "Poruka"
 msgid "Message Models"
 msgstr "Modeli poruka"
 
-#. module: autovacuum_mail_message
-#: model:ir.ui.view,arch_db:autovacuum_mail_message.message_vacuum_rule_form_view
+#. module: autovacuum_message_attachment
+#: model_terms:ir.ui.view,arch_db:autovacuum_message_attachment.vacuum_rule_form_view
 msgid "Message Subtypes"
 msgstr "Podtipovi poruka"
 
-#. module: autovacuum_mail_message
-#: model:ir.actions.act_window,name:autovacuum_mail_message.action_message_vacuum_rule
-#: model:ir.ui.menu,name:autovacuum_mail_message.menu_action_message_vacuum_rule
-#: model:ir.ui.view,arch_db:autovacuum_mail_message.message_vacuum_rule_form_view
+#. module: autovacuum_message_attachment
+#: model_terms:ir.ui.view,arch_db:autovacuum_message_attachment.vacuum_rule_form_view
 msgid "Message Vacuum Rule"
 msgstr "Pravilo čišćenja poruka"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,help:autovacuum_mail_message.field_message_vacuum_rule_message_subtype_ids
-msgid "Message subtypes concerned by the rule. If left empty, the system won't take the subtype into account to find the messages to delete"
-msgstr "Podtipovi poruka obuhvaćeni pravilom. Ako se ostavi prazno, sistem neće uzimati podtip u obzir za pronalaženje poruka za brisanje"
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__message_subtype_ids
+msgid ""
+"Message subtypes concerned by the rule. If left empty, the system won't take"
+" the subtype into account to find the messages to delete"
+msgstr ""
+"Podtipovi poruka obuhvaćeni pravilom. Ako ostane prazno, sistem neće uzeti "
+"podtip u obzir prilikom pronalaženja poruka za brisanje"
 
 #. module: autovacuum_mail_message
 #: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_message_type
 msgid "Message type"
 msgstr "Tip poruke"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_model_ids
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__model_ids
 msgid "Models"
 msgstr "Modeli"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,help:autovacuum_mail_message.field_message_vacuum_rule_model_ids
-msgid "Models concerned by the rule. If left empty, it will take all models into account"
-msgstr "Modeli obuhvaćeni pravilom. Ako se ostavi prazno, uzet će sve modele u obzir"
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__model_ids
+msgid ""
+"Models concerned by the rule. If left empty, it will take all models into "
+"account"
+msgstr ""
+"Modeli obuhvaćeni pravilom. Ako ostane prazno, uzet će u obzir sve modele"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_name
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,help:autovacuum_mail_message.field_message_vacuum_rule_retention_time
-msgid "Number of days the messages concerned by this rule will be keeped in the database after creation. Once the delay is passed, they will be automatically deleted."
-msgstr "Broj dana koliko će poruke obuhvaćene ovim pravilom biti zadržane u bazi nakon kreiranja. Nakon isteka roka, biće automatski obrisane."
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__retention_time
+msgid ""
+"Number of days the messages concerned by this rule will be keeped in the "
+"database after creation. Once the delay is passed, they will be "
+"automatically deleted."
+msgstr ""
+"Broj dana koje će poruke obuhvaćene ovim pravilom biti zadržane u bazi nakon"
+" kreiranja. Nakon isteka roka, biće automatski obrisane."
 
 #. module: autovacuum_mail_message
 #: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_retention_time
 msgid "Retention time"
 msgstr "Vrijeme zadržavanja"
 
-#. module: autovacuum_mail_message
-#: model:ir.model,name:autovacuum_mail_message.model_message_vacuum_rule
+#. module: autovacuum_message_attachment
+#: model:ir.model,name:autovacuum_message_attachment.model_vacuum_rule
 msgid "Rules Used to delete message historic"
-msgstr "Pravila korišćena za brisanje historije poruka"
+msgstr "Pravila korištena za brisanje historije poruka"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,field_description:autovacuum_mail_message.field_message_vacuum_rule_message_subtype_ids
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__message_subtype_ids
 msgid "Subtypes"
 msgstr "Podtipovi"
 
-#. module: autovacuum_mail_message
-#: selection:message.vacuum.rule,message_type:0
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields.selection,name:autovacuum_message_attachment.selection__vacuum_rule__message_type__notification
 msgid "System notification"
-msgstr "Sistemska obavijest"
+msgstr "Sistemska notifikacija"
 
-#. module: autovacuum_mail_message
-#: model:ir.model.fields,help:autovacuum_mail_message.field_message_vacuum_rule_empty_subtype
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__empty_subtype
 msgid "Take also into account messages with no subtypes"
 msgstr "Uzmi u obzir i poruke bez podtipova"
 
-#. module: autovacuum_mail_message
-#: code:addons/autovacuum_mail_message/models/message_vacuum_rule.py:48
+#. module: autovacuum_message_attachment
+#: code:addons/autovacuum_message_attachment/models/vacuum_rule.py
 #, python-format
 msgid "The Retention Time can't be 0 days"
 msgstr "Vrijeme zadržavanja ne može biti 0 dana"
 
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__active
+msgid "Active"
+msgstr "Aktivno"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field__unknown__assigned_attachment_ids
+msgid "Assigned Attachments"
+msgstr "Dodijeljeni prilozi"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model,name:autovacuum_message_attachment.model_ir_attachment
+msgid "Attachment"
+msgstr "Prilog"
+
+#. module: autovacuum_message_attachment
+#: model:ir.actions.server,name:autovacuum_message_attachment.ir_cron_vacuum_attachment_ir_actions_server
+msgid "AutoVacuum Attachments"
+msgstr "Automatsko čišćenje priloga"
+
+#. module: autovacuum_message_attachment
+#: model:ir.actions.server,name:autovacuum_message_attachment.ir_cron_vacuum_message_ir_actions_server
+msgid "AutoVacuum Mails and Messages"
+msgstr "Automatsko čišćenje emailova i poruka"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model,name:autovacuum_message_attachment.model_base
+msgid "Base"
+msgstr "Osnova"
+
+#. module: autovacuum_message_attachment
+#: code:addons/autovacuum_message_attachment/models/vacuum_rule.py
+#, python-format
+msgid "Cannot find relation to ir.attachment on model %s"
+msgstr "Ne mogu pronaći relaciju sa ir.attachment na modelu %s"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_autovacuum_mixin__changeset_change_ids
+msgid "Changeset Changes"
+msgstr "Promjene changeset-a"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_autovacuum_mixin__changeset_ids
+msgid "Changesets"
+msgstr "Changesets"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_autovacuum_mixin__count_changesets
+msgid "Count Changesets"
+msgstr "Broj changesets"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_autovacuum_mixin__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr "Broj changeset promjena na čekanju"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_autovacuum_mixin__count_pending_changesets
+msgid "Count Pending Changesets"
+msgstr "Broj changesets na čekanju"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__description
+msgid "Description"
+msgstr "Opis"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__empty_model
+msgid "Empty Model"
+msgstr "Prazan model"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__empty_subtype
+msgid "Empty Subtype"
+msgstr "Prazan podtip"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__filename_pattern
+msgid "Filename Pattern"
+msgstr "Uzorak naziva datoteke"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__filename_pattern
+msgid "If set, only attachments containing this pattern will be deleted."
+msgstr ""
+"Ako je postavljeno, biće obrisani samo prilozi koji sadrže ovaj obrazac."
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__inheriting_model
+msgid ""
+"If set, this model will be searched and only related attachments will be deleted.\n"
+"\n"
+"N.B: model must implement _inherits to link ir.attachment"
+msgstr ""
+"Ako je postavljeno, ovaj model će biti pretraživan i samo povezani prilozi će biti obrisani.\n"
+"\n"
+"Napomena: model mora implementirati _inherits da poveže ir.attachment"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__inheriting_model
+msgid "Inheriting Model"
+msgstr "Naslijeđeni model"
+
+#. module: autovacuum_message_attachment
+#: code:addons/autovacuum_message_attachment/models/vacuum_rule.py
+#, python-format
+msgid "Inheriting model cannot be used on rule where type is not attachment"
+msgstr ""
+"Naslijeđeni model ne može biti korišten na pravilu gdje tip nije prilog"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__message_type
+msgid "Message Type"
+msgstr "Tip poruke"
+
+#. module: autovacuum_message_attachment
+#: model:ir.actions.act_window,name:autovacuum_message_attachment.action_vacuum_rule
+msgid "Message and Attachment Vacuum Rule"
+msgstr "Pravilo čišćenja poruka i priloga"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model,name:autovacuum_message_attachment.model_autovacuum_mixin
+msgid "Mixin used to delete messages or attachments"
+msgstr "Mixin korišten za brisanje poruka ili priloga"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__model_id
+msgid "Model"
+msgstr "Model"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__model_filter_domain
+msgid "Model Filter Domain"
+msgstr "Domen filtera modela"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__model
+msgid "Model code"
+msgstr "Šifra modela"
+
+#. module: autovacuum_message_attachment
+#: code:addons/autovacuum_message_attachment/models/vacuum_rule.py
+#, python-format
+msgid "No inheritance of ir.attachment was found on model %s"
+msgstr "Nije pronađeno nasljeđivanje ir.attachment na modelu %s"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__retention_time
+msgid "Retention Time"
+msgstr "Vrijeme zadržavanja"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_autovacuum_mixin__smart_search
+msgid "Smart Search"
+msgstr "Pametna pretraga"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__empty_model
+msgid ""
+"Take into account attachment not linked to any model, but only if a pattern "
+"is set, to avoid deleting attachments generated/needed by odoo"
+msgstr ""
+"Uzmi u obzir priloge koji nisu povezani sa nijednim modelom, ali samo ako je"
+" obrazac postavljen, kako bi se izbjeglo brisanje priloga "
+"generisanih/potrebnih Odoo-u"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_vacuum_rule__model_id
+msgid ""
+"Technical field used to set attributes (invisible/required, domain, "
+"etc...for other fields, like the domain filter"
+msgstr ""
+"Tehničko polje korišteno za postavljanje atributa (nevidljivo/obavezno, "
+"domen, itd...za druga polja, kao što je filter domena"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_autovacuum_mixin__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr "Broj promjena na čekanju ovog zapisa"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_autovacuum_mixin__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr "Broj skupa promjena na čekanju ovog zapisa"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,help:autovacuum_message_attachment.field_autovacuum_mixin__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr "Ukupan broj promjena ovog zapisa"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_vacuum_rule__ttype
+msgid "Type"
+msgstr "Tip"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_autovacuum_mixin__user_can_see_changeset
+msgid "User Can See Changeset"
+msgstr "Korisnik može vidjeti changeset"
+
+#. module: autovacuum_message_attachment
+#: model:ir.model.fields.selection,name:autovacuum_message_attachment.selection__vacuum_rule__message_type__user_notification
+msgid "User Specific Notification"
+msgstr "Korisničko specifična obavijest"

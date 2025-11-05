@@ -30,7 +30,6 @@ msgstr "Kreirano"
 
 #. module: base_search_custom_field_filter
 #: model:ir.actions.act_window,name:base_search_custom_field_filter.action_ir_ui_custom_field_filter
-#: model:ir.ui.menu,name:base_search_custom_field_filter.menu_ir_ui_custom_field_filter
 msgid "Custom Field Filters"
 msgstr "Prilagođeni filteri polja"
 
@@ -56,7 +55,7 @@ msgstr "ID"
 
 #. module: base_search_custom_field_filter
 #. odoo-python
-#: code:addons/base_search_custom_field_filter/models/ir_ui_custom_field_filter.py:0
+#: code:addons/base_search_custom_field_filter/models/ir_ui_custom_field_filter.py
 #, python-format
 msgid "Incorrect expression: %s."
 msgstr "Neispravan izraz: %s."
@@ -102,6 +101,8 @@ msgid ""
 "Optional field name for putting the filter after that one. If empty or not "
 "found, it will be put at the end."
 msgstr ""
+"Opcionalno ime polja za stavljanje filtera nakon tog. Ako je prazno ili se "
+"ne pronađe, će biti stavljeno na kraj."
 
 #. module: base_search_custom_field_filter
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__position_after

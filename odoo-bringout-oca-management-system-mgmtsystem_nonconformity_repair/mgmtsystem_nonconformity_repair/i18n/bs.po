@@ -30,6 +30,5 @@ msgstr "Neusklađenost"
 
 #. module: mgmtsystem_nonconformity_repair
 #: model:ir.model,name:mgmtsystem_nonconformity_repair.model_repair_order
-#: model:ir.model.fields,field_description:mgmtsystem_nonconformity_repair.field_mgmtsystem_nonconformity__repair_order_id
 msgid "Repair Order"
 msgstr "Nalog za popravak"

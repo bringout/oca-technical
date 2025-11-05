@@ -20,20 +20,19 @@ msgstr "${object.post_import_do_something()}"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py:0
-#: code:addons/excel_import_export/models/common.py:0
+#: code:addons/excel_import_export/models/common.py
 #, python-format
 msgid "'%s' sheet not found"
 msgstr "'%s' list nije pronađen"
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__state
-#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__state
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__state
 msgid ""
 "* Choose: wizard show in user selection mode\n"
 "* Get: wizard show results from user action"
 msgstr ""
+"* Odaberi: čarobnjak prikaže u režimu korisničkog odabira\n"
+"* Dobij: čarobnjak prikaže rezultate korisničke akcije"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -46,6 +45,8 @@ msgid ""
 "<b>Continue</b>: If not selected, start rolling with specified first row "
 "cells. If selected, continue from previous one2many field"
 msgstr ""
+"<b>Nastavi</b>: Ako nije odabran, počni sa određenim ćelijama prvog reda. "
+"Ako je odabran, nastavi od prethodnog one2many polja"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -53,6 +54,8 @@ msgid ""
 "<b>Extend</b>: If selected, extend one row after one data row in order to "
 "preserve the sum line"
 msgstr ""
+"<b>Proširiti</b>: If selected, extend one row after one data row in order to"
+" preserve the sum line"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -62,6 +65,10 @@ msgid ""
 " represent product object, e.g., <code>$</code><code>{value and "
 "value.uom_id.name or \"\"}</code>"
 msgstr ""
+"<b>Uslov polja</b>: Python code in <code>$</code><code>{...}</code> to "
+"manipulate field value, e.g., if field = product_id, <code>value</code> will"
+" represent product object, e.g., <code>$</code><code>{value and "
+"value.uom_id.name or \"\"}</code>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -71,6 +78,10 @@ msgid ""
 " will represent 'ABC', e.g., <code>$</code><code>{value == \"ABC\" and \"X\""
 " or \"Y\"}</code> thus can change from cell value to other value for import."
 msgstr ""
+"<b>Uslov polja</b>: Python code in <code>$</code><code>{...}</code> value "
+"will represent data from excel cell, e.g., if A1 = 'ABC', <code>value</code>"
+" will represent 'ABC', e.g., <code>$</code><code>{value == \"ABC\" and \"X\""
+" or \"Y\"}</code> thus can change from cell value to other value for import."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -83,6 +94,8 @@ msgid ""
 "<b>Field</b>: Field of the record, e.g., product_id.uom_id.name. They are "
 "orm compliant."
 msgstr ""
+"<b>Polje</b>: Polje zapisa, npr. product_id.uom_id.name. Oni su orm "
+"kompatibilni."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -90,6 +103,8 @@ msgid ""
 "<b>No Delete</b>: By default, all one2many lines will be deleted before "
 "import. Select this, to avoid deletion"
 msgstr ""
+"<b>Ne briši</b>: By default, all one2many lines will be deleted before "
+"import. Select this, to avoid deletion"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -102,6 +117,8 @@ msgid ""
 "<b>Row Field</b>: Use _HEAD_ for the record itself, and one2many field "
 "(e.g., line_ids) for row data"
 msgstr ""
+"<b>Polje reda</b>: Use _HEAD_ for the record itself, and one2many field "
+"(e.g., line_ids) for row data"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -110,6 +127,9 @@ msgid ""
 "row data, e.g., order_line, line_ids<code>[max_row]</code> where "
 "<code>[max_row]</code> is optional number of rows to import"
 msgstr ""
+"<b>Polje reda</b>: Use _HEAD_ for the record itself, and one2many field for "
+"row data, e.g., order_line, line_ids<code>[max_row]</code> where "
+"<code>[max_row]</code> is optional number of rows to import"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -122,6 +142,8 @@ msgid ""
 "<b>Sheet</b>: Name (e.g., Sheet 1) or index (e.g., 1) of excel sheet to "
 "export data to"
 msgstr ""
+"<b>List</b>: Naziv (npr. List 1) ili indeks (npr. 1) excel lista za izvoz "
+"podataka"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -130,6 +152,9 @@ msgid ""
 "<code>#?...?</code>, e.g., apply style for specific product, "
 "<code>#?value.name == \"ABC\" and #{font=bold;fill=red} or None?</code>"
 msgstr ""
+"<b>Stil s uvjetom</b>: Conditional style by python code in "
+"<code>#?...?</code>, e.g., apply style for specific product, "
+"<code>#?value.name == \"ABC\" and #{font=bold;fill=red} or None?</code>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -138,11 +163,15 @@ msgid ""
 "e.g., <code>#{align=left;style=text}</code>. See module's <b>style.py</b> "
 "for available styles."
 msgstr ""
+"<b>Stil</b>: Defaultni stil u <code>#{...}</code> koji se primjenjuje na "
+"svaku ćeliju, npr. <code>#{align=left;style=text}</code>. Pogledajte "
+"<b>style.py</b> modula za dostupne stilove."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid "<b>Sum</b>: Add sum value on last row, <code>@{sum}</code>"
-msgstr "<b>Zbir</b>: Dodaj vrijednost zbira u posljednjem redu, <code>@{sum}</code>"
+msgstr ""
+"<b>Zbir</b>: Dodaj vrijednost zbira u posljednjem redu, <code>@{sum}</code>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -177,6 +206,35 @@ msgid ""
 "\n"
 "                                </code>"
 msgstr ""
+"<code class=\"oe_grey\">\n"
+"{\n"
+"    '__EXPORT__': {\n"
+"        'sale_order': { # list može biti naziv (string) ili indeks (integer)\n"
+"            '_HEAD_': {\n"
+"                'B2': 'partner_id.display_name<span>$</span>{value or \"\"}#{align=left;style=text}',\n"
+"                'B3': 'name<span>$</span>{value or \"\"}#{align=left;style=text}',\n"
+"            },\n"
+"            'line_ids': { # prefix sa _CONT_ da nastavi redove od prethodnog polja reda\n"
+"                'A6': 'product_id.display_name<span>$</span>{value or \"\"}#{style=text}',\n"
+"                'C6': 'product_uom_qty<span>$</span>{value or 0}#{style=number}',\n"
+"                'E6': 'price_unit<span>$</span>{value or 0}#{style=number}',\n"
+"                'G6': 'price_subtotal<span>$</span>{value or 0}#{style=number}',\n"
+"            },\n"
+"        },\n"
+"    },\n"
+"    '__IMPORT__': {\n"
+"        'sale_order': { # list može biti naziv (string) ili indeks (integer)\n"
+"            'order_line': { # prefix sa _NODEL_ da ne briše redove prije uvoza\n"
+"                'A6': 'product_id',\n"
+"                'C6': 'product_uom_qty',\n"
+"                'E6': 'price_unit<span>$</span>{value &gt; 0 and value or 0}',\n"
+"            },\n"
+"        },\n"
+"    },\n"
+"    '__POST_IMPORT__': '<span>$</span>{object.post_import_do_something()}',\n"
+"}\n"
+"\n"
+"                                </code>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -194,6 +252,8 @@ msgid ""
 "<code>object</code>: record object or line object depends on <b>Row "
 "Field</b>"
 msgstr ""
+"<code>object</code>: record object or line object depends on <b>Polje "
+"reda</b>"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -252,16 +312,6 @@ msgstr "Dozvoli izbor predloška"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__assigned_attachment_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__assigned_attachment_ids
 msgid "Assigned Attachments"
 msgstr "Dodijeljeni prilozi"
 
@@ -276,6 +326,8 @@ msgid ""
 "By default, all rows will be deleted before import.\n"
 "Select No Delete, otherwise"
 msgstr ""
+"Po zadanom, svi redovi će biti obrisani prije uvoza.\n"
+"Odaberite Ne briši, inače"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__csv_delimiter
@@ -298,57 +350,31 @@ msgid ""
 "Call a function after successful import, i.e.,\n"
 "${object.post_import_do_something()}"
 msgstr ""
+"Pozovi funkciju nakon uspješnog uvoza, npr.,\n"
+"${object.post_import_do_something()}"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.report_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.xlsx_report_view
 msgid "Cancel"
 msgstr "Otkaži"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__excel_cell
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__excel_cell
 msgid "Cell"
 msgstr "Ćelija"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__changeset_change_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__changeset_change_ids
 msgid "Changeset Changes"
 msgstr "Promjene changeset-a"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__changeset_ids
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__changeset_ids
 msgid "Changesets"
 msgstr "Changesets"
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__export_xlsx_wizard__state__choose
-#: model:ir.model.fields.selection,name:excel_import_export.selection__import_xlsx_wizard__state__choose
-#: model:ir.model.fields.selection,name:excel_import_export.selection__report_crm_lead__state__choose
-#: model:ir.model.fields.selection,name:excel_import_export.selection__report_sale_order__state__choose
-#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_report__state__choose
 msgid "Choose"
 msgstr "Odaberite"
 
@@ -364,8 +390,6 @@ msgstr "Kliknite da kreirate XLSX predložak objekt."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.xlsx_report_view
 msgid "Close"
 msgstr "Zatvori"
 
@@ -401,72 +425,31 @@ msgstr "Konvertuj u CSV?"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__count_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__count_changesets
 msgid "Count Changesets"
 msgstr "Broj changesets"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
 msgstr "Broj changeset promjena na čekanju"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__count_pending_changesets
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__count_pending_changesets
 msgid "Count Pending Changesets"
 msgstr "Broj changesets na čekanju"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__create_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__create_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__create_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__create_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__create_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__create_date
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__create_date
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__create_date
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__create_date
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__create_date
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_export__section_type__data
-#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_import__section_type__data
 msgid "Data"
 msgstr "Podaci"
 
@@ -492,24 +475,19 @@ msgstr "Detalji kako će excel podaci biti uvezeni"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__display_name
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__display_name
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__display_name
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__display_name
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__display_name
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
 #, python-format
 msgid "Document must be in %s states"
 msgstr "Dokument mora biti u %s stanjima"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
 #, python-format
 msgid "Document must be in draft state"
 msgstr "Dokument mora biti u nacrt stanju"
@@ -521,25 +499,29 @@ msgstr "Lako izvještavanje"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py
 #, python-format
 msgid ""
 "Error deleting data\n"
 "%s"
 msgstr ""
+"Greška brisanja podataka\n"
+"%s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py:0
+#: code:addons/excel_import_export/models/xlsx_export.py
 #, python-format
 msgid ""
 "Error filling data into Excel sheets\n"
 "%s"
 msgstr ""
+"Greška popunjavanja podataka u Excel listove\n"
+"%s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py
 #, python-format
 msgid "Error importing data"
 msgstr "Greška uvoza podataka"
@@ -591,8 +573,6 @@ msgstr "Izvršiti izvještaj"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__export_ids
-#: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid "Export"
 msgstr "Izvoz"
 
@@ -609,6 +589,10 @@ msgid ""
 "                                  The record itself will be mapped to the header part of excel sheet. The record can contain multiple one2many fields, which will be written as data lines.\n"
 "                                  You can look at following instruction as Excel Sheet(s), each with 1 header section (_HEAD_) and multiple row sections (one2many fields)."
 msgstr ""
+"Instrukcija izvoza je kako pisati podatke iz aktivnog zapisa podataka u određene ćelije u excel listu.\n"
+"                                  Na primjer, aktivni zapis može biti prodajni nalog koji korisnik želi izvesti.\n"
+"                                  Sam zapis će biti mapiran na dio zaglavlja excel lista. Zapis može sadržavati više one2many polja, koja će biti pisana kao linije podataka.\n"
+"                                  Možete pogledati sljedeću instrukciju kao Excel list(ovi), svaki sa 1 sekcijom zaglavlja (_HEAD_) i više sekcija redova (one2many polja)."
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__is_extend
@@ -618,29 +602,28 @@ msgstr "Proširiti"
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__is_extend
 msgid "Extend a blank row after filling each record, to extend the footer"
-msgstr "Proširiti prazan red nakon popunjavanja svakog zapisa, za proširavanje podnožja"
+msgstr ""
+"Proširiti prazan red nakon popunjavanja svakog zapisa, za proširavanje "
+"podnožja"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__field_name
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__field_name
 msgid "Field"
 msgstr "Polje"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__field_cond
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__field_cond
 msgid "Field Cond."
 msgstr "Uslov polja"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__data
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__data
 msgid "File"
 msgstr "Datoteka"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
 #, python-format
 msgid "File \"%(fname)s\" not found in template, %(name)s."
 msgstr "Datoteka \"%(fname)s\" nije pronađena u predlošku, %(name)s."
@@ -652,8 +635,6 @@ msgstr "Sadržaj datoteke"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__name
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__name
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__fname
 msgid "File Name"
 msgstr "Ime fajla"
 
@@ -668,6 +649,8 @@ msgid ""
 "Following show very simple example of the dictionary construct.\n"
 "                                    Normally, this will be within templates.xml file within addons."
 msgstr ""
+"Sljedeće prikazuje vrlo jednostavan primjer konstrukcije rječnika.\n"
+"                                    Normalno, ovo će biti u datoteci templates.xml u addonima."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -675,6 +658,8 @@ msgid ""
 "For code block <code>$</code><code>{...}</code> and <code>#?...?</code>, "
 "following object are available,"
 msgstr ""
+"Za blok koda <code>$</code><code>{...}</code> i <code>#?...?</code>, "
+"dostupni su sljedeći objekti,"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -682,18 +667,17 @@ msgid ""
 "For code block <code>$</code><code>{...}</code>, following object are "
 "available,"
 msgstr ""
+"Za blok koda <code>$</code><code>{...}</code>, dostupni su sljedeći objekti,"
 
 #. module: excel_import_export
 #: model:ir.model,name:excel_import_export.model_report_xlsx_wizard
 msgid "Generic Report Wizard, used with template reporting option"
-msgstr "Generički čarobnjak izvještaja, koristi se sa opcijom predloška izvještavanja"
+msgstr ""
+"Generički čarobnjak izvještaja, koristi se sa opcijom predloška "
+"izvještavanja"
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__export_xlsx_wizard__state__get
-#: model:ir.model.fields.selection,name:excel_import_export.selection__import_xlsx_wizard__state__get
-#: model:ir.model.fields.selection,name:excel_import_export.selection__report_crm_lead__state__get
-#: model:ir.model.fields.selection,name:excel_import_export.selection__report_sale_order__state__get
-#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_report__state__get
 msgid "Get"
 msgstr "Dobij"
 
@@ -709,7 +693,6 @@ msgstr "Naziv grupe"
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_export__section_type__head
-#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_import__section_type__head
 msgid "Head"
 msgstr "Zaglavlje"
 
@@ -735,34 +718,29 @@ msgstr "Evo datoteke izvještaja:"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__id
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__id
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__id
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__id
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__id
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__id
 msgid "ID"
 msgstr "ID"
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__row_field
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__row_field
 msgid "If section type is row, this field is required"
 msgstr "Ako je tip sekcije red, ovo polje je obavezno"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py:0
+#: code:addons/excel_import_export/models/xlsx_export.py
 #, python-format
 msgid ""
 "IllegalCharacterError\n"
 "Some exporting data contain special character\n"
 "%s"
 msgstr ""
+"IllegalCharacterError\n"
+"Neki podaci za izvoz sadrže poseban karakter\n"
+"%s"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__import_ids
-#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid "Import"
 msgstr "Uvoz"
 
@@ -773,7 +751,7 @@ msgstr "Akcija uvoza"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
 #, python-format
 msgid "Import Excel"
 msgstr "Uvezi Excel"
@@ -806,6 +784,10 @@ msgid ""
 "                                  In reverse direction to exporting, data from excel's cells will be mapped to record fields during import.\n"
 "                                  Cells can be mapped to record in header section (_HEAD_) and data table can be mapped to row section (one2many field, begins from specifed cells."
 msgstr ""
+"Instrukcija uvoza je kako dobiti podatke iz excel lista i pisati ih u aktivni zapis.\n"
+"                                  Na primjer, korisnik kreira dokument prodajnog naloga, i želi uvesti linije narudžbe iz excel-a.\n"
+"                                  U obrnutom smjeru od izvoza, podaci iz excel ćelija će biti mapirani na polja zapisa tokom uvoza.\n"
+"                                  Ćelije mogu biti mapirane na zapis u sekciji zaglavlja (_HEAD_) i tabela podataka može biti mapirana na sekciju reda (one2many polje, počinje od određenih ćelija."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
@@ -818,6 +800,8 @@ msgid ""
 "In header section part, map data fields (e.g., number, partner_id.name) into"
 " cells (e.g., B1, B2)."
 msgstr ""
+"U dijelu sekcije zaglavlja, mapiraj polja podataka (npr. broj, "
+"partner_id.name) u ćelije (npr. B1, B2)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -825,6 +809,8 @@ msgid ""
 "In header section, map cells (e.g., B1, B2) into data fields (e.g., number, "
 "partner_id)."
 msgstr ""
+"U sekciji zaglavlja, mapiraj ćelije (npr. B1, B2) u polja podataka (npr. "
+"broj, partner_id)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -833,6 +819,10 @@ msgid ""
 "order_line), and map data field (i.e., product_id.name, uom_id.name, qty) "
 "into the first row cells to start rolling (e.g., A6, B6, C6)."
 msgstr ""
+"U sekciji reda, lista podataka će biti razvijena iz one2many polja reda "
+"(npr. order_line), i mapiraj polje podataka (npr. product_id.name, "
+"uom_id.name, qty) u ćelije prvog reda da počne razvojačanje (npr. A6, B6, "
+"C6)."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -841,6 +831,9 @@ msgid ""
 "(e.g., order_line) by mapping cells on first row onwards (e.g., A6, B6, C6) "
 "to fields (e.g., product_id, uom_id, qty)"
 msgstr ""
+"U sekciji reda, tabela podataka iz excel-a može biti uvezena u one2many "
+"polje reda (npr. order_line) mapiranjem ćelija prvog reda nadalje (npr. A6, "
+"B6, C6) na polja (npr. product_id, uom_id, qty)"
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
@@ -864,68 +857,55 @@ msgstr "Instrukcije o tome kako uvoziti/izvoziti, pripremljene od sistema."
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py
 #, python-format
 msgid "Invalid declaration, %s has no valid field type"
 msgstr "Neispravna deklaracija, %s nema ispravan tip polja"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py
 #, python-format
 msgid "Invalid file style, only .xls or .xlsx file allowed"
 msgstr "Neispravan stil datoteke, dozvoljena je samo .xls ili .xlsx datoteka"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py:0
+#: code:addons/excel_import_export/models/common.py
 #, python-format
 msgid "Invalid style type %s"
 msgstr "Neispravan tip stila %s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py:0
+#: code:addons/excel_import_export/models/common.py
 #, python-format
 msgid "Invalid value %(value)s for style type %(key)s"
 msgstr "Neispravna vrijednost %(value)s za tip stila %(key)s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py:0
+#: code:addons/excel_import_export/models/xlsx_export.py
 #, python-format
 msgid ""
 "Key Error\n"
 "%s"
 msgstr ""
+"Greška ključa\n"
+"%s"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard____last_update
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard____last_update
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard____last_update
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template____last_update
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export____last_update
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__write_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__write_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__write_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__write_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__write_uid
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__write_date
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__write_date
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__write_date
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__write_date
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__write_date
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -935,6 +915,8 @@ msgid ""
 "Multiple template of same model, can belong to same group,\n"
 "result in multiple template selection"
 msgstr ""
+"Više predložaka istog modela može pripadati istoj grupi,\n"
+"rezultat u odabiru više predložaka"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__no_delete
@@ -943,45 +925,42 @@ msgstr "Ne briši"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py
 #, python-format
 msgid "No data_dict['__IMPORT__'] in template %s"
 msgstr "Nema data_dict['__IMPORT__'] u predlošku %s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_template.py:0
+#: code:addons/excel_import_export/models/xlsx_template.py
 #, python-format
 msgid "No file content!"
 msgstr "Nema sadržaja datoteke!"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_report.py:0
-#: code:addons/excel_import_export/wizard/export_xlsx_wizard.py:0
+#: code:addons/excel_import_export/models/xlsx_report.py
 #, python-format
 msgid "No file in %s"
 msgstr "Nema datoteke u %s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_report.py:0
-#: code:addons/excel_import_export/wizard/export_xlsx_wizard.py:0
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/models/xlsx_report.py
 #, python-format
 msgid "No template found"
 msgstr "Predložak nije pronađen"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py:0
+#: code:addons/excel_import_export/models/xlsx_export.py
 #, python-format
 msgid "Not enough worksheets"
 msgstr "Nema dovoljno radnih listova"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/ir_report.py:0
+#: code:addons/excel_import_export/models/ir_report.py
 #, python-format
 msgid "Only one id is allowed for excel_import_export"
 msgstr "Samo jedan id je dozvoljen za excel_import_export"
@@ -1008,15 +987,14 @@ msgstr "Neobavezno za CSV, zadano je potpuno navođenje."
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
 #, python-format
 msgid "Please select Excel file to import"
 msgstr "Molimo odaberite Excel datoteku za uvoz"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py:0
-#: code:addons/excel_import_export/models/common.py:0
+#: code:addons/excel_import_export/models/common.py
 #, python-format
 msgid "Position %s is not valid"
 msgstr "Pozicija %s nije ispravna"
@@ -1033,16 +1011,18 @@ msgstr "Hook nakon uvoza"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py
 #, python-format
 msgid ""
 "Post import operation error\n"
 "%s"
 msgstr ""
+"Greška operacije nakon uvoza\n"
+"%s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py:0
+#: code:addons/excel_import_export/models/xlsx_export.py
 #, python-format
 msgid "Records in %s exceed max records allowed"
 msgstr "Zapisi u %s premašuju maksimalne dozvoljene zapise"
@@ -1064,7 +1044,6 @@ msgstr "Ukloni meni izvještaja"
 
 #. module: excel_import_export
 #: model:ir.model,name:excel_import_export.model_ir_actions_report
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__report_action_id
 msgid "Report Action"
 msgstr "Akcija izvještaja"
 
@@ -1100,8 +1079,6 @@ msgstr "ID resursa"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__res_model
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__res_model
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__res_model
 msgid "Resource Model"
 msgstr "Model resursa"
 
@@ -1117,13 +1094,11 @@ msgstr "Povratna akcija"
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_export__section_type__row
-#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_import__section_type__row
 msgid "Row"
 msgstr "Red"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__row_field
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__row_field
 msgid "Row Field"
 msgstr "Polje reda"
 
@@ -1144,35 +1119,29 @@ msgstr "Kriteriji pretrage"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__section_type
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__section_type
 msgid "Section Type"
 msgstr "Tip sekcije"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__sequence
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
 #, python-format
 msgid "Set Templates"
 msgstr "Postavi predloške"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__sheet
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__sheet
-#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_export__section_type__sheet
-#: model:ir.model.fields.selection,name:excel_import_export.selection__xlsx_template_import__section_type__sheet
 msgid "Sheet"
 msgstr "List"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py:0
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_export.py
 #, python-format
 msgid "Sheet %s not found"
 msgstr "List %s nije pronađen"
@@ -1184,23 +1153,11 @@ msgstr "Prikaži izlaz"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__smart_search
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__state
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__state
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__state
 msgid "State"
 msgstr "Status"
 
@@ -1216,37 +1173,35 @@ msgstr "Zbroj"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__template_id
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__template_id
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__template_id
 msgid "Template"
 msgstr "Prijedlog"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/ir_report.py:0
+#: code:addons/excel_import_export/models/ir_report.py
 #, python-format
 msgid "Template %(report_name)s on model %(model)s is not unique!"
 msgstr "Predložak %(report_name)s na modelu %(model)s nije jedinstven!"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__fname
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__name
 msgid "Template Name"
 msgstr "Naziv predloška"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py:0
+#: code:addons/excel_import_export/models/common.py
 #, python-format
 msgid ""
 "Template with CSV Quoting = False, data must not contain the same char as "
 "delimiter -> \"%s\""
 msgstr ""
+"Predložak sa CSV Quoting = False, podaci ne smiju sadržavati isti karakter "
+"kao delimiter -> \"%s\""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py:0
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_export.py
 #, python-format
 msgid "Template's model mismatch"
 msgstr "Model predloška se ne poklapa"
@@ -1258,52 +1213,22 @@ msgstr "Objekt baze podataka na koji će ova zakačka biti zakačena."
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_ir_actions_report__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_report_xlsx_wizard__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_export__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_import__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_styles__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__count_pending_changeset_changes
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
 msgstr "Broj promjena na čekanju ovog zapisa"
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_ir_actions_report__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_report_xlsx_wizard__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_export__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_import__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_styles__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__count_pending_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__count_pending_changesets
 msgid "The number of pending changesets of this record"
 msgstr "Broj skupa promjena na čekanju ovog zapisa"
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_export_xlsx_wizard__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_import_xlsx_wizard__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_ir_actions_report__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_report_xlsx_wizard__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_export__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_import__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_report__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_styles__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_export__count_changesets
-#: model:ir.model.fields,help:excel_import_export.field_xlsx_template_import__count_changesets
 msgid "The overall number of changesets of this record"
 msgstr "Ukupan broj promjena ovog zapisa"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_template.py:0
+#: code:addons/excel_import_export/models/xlsx_template.py
 #, python-format
 msgid "The selected redirect action is not for model %s"
 msgstr "Odabrana akcija preusmjeravanja nije za model %s"
@@ -1316,20 +1241,27 @@ msgid ""
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"Tip izvještaja koji će biti renderovan, svaki ima svoj metod renderiranja. "
+"HTML znači da će se izvještaj otvoriti direktno u vašem pregledniku, PDF "
+"znači da će se izvještaj renderovati koristeći Wkhtmltopdf i korisnik će ga "
+"preuzeti."
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py:0
+#: code:addons/excel_import_export/models/xlsx_import.py
 #, python-format
 msgid ""
 "The value for the '%(field)s' field is expected to be in cell "
 "%(cell_position)s, but no column exists for that cell in the Excel sheet. "
 "Please check your Excel file."
 msgstr ""
+"Vrijednost za polje '%(field)s' se očekuje u ćeliji %(cell_position)s, ali "
+"ne postoji kolona za tu ćeliju u Excel listu. Molimo provjerite svoj Excel "
+"fajl."
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
 #, python-format
 msgid "This import action is not usable in this document context"
 msgstr "Ova akcija uvoza se ne može koristiti u ovom kontekstu dokumenta"
@@ -1340,6 +1272,8 @@ msgid ""
 "This is the computed instruction based on tab Import/Export,\n"
 "to be used by xlsx import/export engine"
 msgstr ""
+"Ovo je izračunata instrukcija bazirana na tabu Uvoz/Izvoz,\n"
+"za korištenje od strane xlsx uvoz/izvoz motora"
 
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_xlsx_template__input_instruction
@@ -1349,20 +1283,12 @@ msgstr "Ovo se koristi za konstruiranje instrukcija u tabu Uvoz/Izvoz"
 #. module: excel_import_export
 #: model:ir.model.fields,help:excel_import_export.field_xlsx_template__use_report_wizard
 msgid "Use common report wizard model, instead of create specific model"
-msgstr "Koristi zajednički model čarobnjaka izvještaja, umjesto kreiranja specifičnog modela"
+msgstr ""
+"Koristi zajednički model čarobnjaka izvještaja, umjesto kreiranja "
+"specifičnog modela"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_import_xlsx_wizard__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_ir_actions_report__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_report_xlsx_wizard__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_export__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_import__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_report__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_styles__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__user_can_see_changeset
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__user_can_see_changeset
 msgid "User Can See Changeset"
 msgstr "Korisnik može vidjeti changeset"
 
@@ -1383,14 +1309,11 @@ msgstr "Čarobnjak za uvoz excel-a"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__template_id
-#: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_import__template_id
-#: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid "XLSX Template"
 msgstr "XLSX predložak"
 
 #. module: excel_import_export
 #: model:ir.actions.act_window,name:excel_import_export.action_xlsx_template
-#: model:ir.ui.menu,name:excel_import_export.menu_xlsx_template
 msgid "XLSX Templates"
 msgstr "XLSX predlošci"
 
@@ -1401,8 +1324,6 @@ msgstr "Možete odabrati više datoteka za uvoz."
 
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.export_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.import_xlsx_wizard
-#: model_terms:ir.ui.view,arch_db:excel_import_export.xlsx_report_view
 msgid "or"
 msgstr "ili"
 

@@ -79,6 +79,8 @@ msgid ""
 "Adjust interval to run at the same hour after and beforedaylight saving time"
 " change. It's used twice a year"
 msgstr ""
+"Prilagodi interval da se pokreće u istom satu prije i poslije promjene "
+"ljetnog računanja vremena. Koristi se dvaput godišnje"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__allow_void_result
@@ -91,6 +93,8 @@ msgid ""
 "Any other RC value will be treated as\n"
 "                                        CRITICAL."
 msgstr ""
+"Bilo koja druga RC vrijednost će biti tretirana kao\n"
+"                                        KRITIČNA"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__nsca_args
@@ -118,6 +122,8 @@ msgid ""
 "By default, a CRITICAL message is sent if the method does not return.\n"
 "If checked, no message will be sent in such a case."
 msgstr ""
+"Zadano, KRITIČNA poruka se šalje ako metod ne vrati rezultat.\n"
+"Ako je označeno, nijedna poruka neće biti poslana u takvom slučaju"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_server__check_count
@@ -126,9 +132,6 @@ msgstr "Broj provjera"
 
 #. module: nsca_client
 #: model:ir.actions.act_window,name:nsca_client.action_nsca_check_tree
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__check_ids
-#: model:ir.ui.menu,name:nsca_client.menu_action_nsca_check_tree
-#: model_terms:ir.ui.view,arch_db:nsca_client.view_nsca_server_form
 msgid "Checks"
 msgstr "Kontrole"
 
@@ -143,6 +146,8 @@ msgid ""
 "Child server actions that will be executed. Note that the last return "
 "returned action value will be used as global return value."
 msgstr ""
+"Podređena serverska akcija koja će biti izvršena. Zapamtite da će zadnja "
+"vraćena vrijednost akcije biti korišćena kao globalna vraćena vrijednost."
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_check__sms_method
@@ -152,6 +157,10 @@ msgid ""
 "Post as Message: log on document\n"
 "Post as Note: mass SMS with archives"
 msgstr ""
+"Odaberite metod za slanje SMS-a:\n"
+"SMS: masovni SMS\n"
+"Objavi kao poruku: logiraj na dokumentu\n"
+"Objavi kao bilješku: masovni SMS sa arhivama"
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_check__mail_post_method
@@ -161,15 +170,21 @@ msgid ""
 "Post as Message: post on document and notify followers\n"
 "Post as Note: log a note on document"
 msgstr ""
+"Odaberite metodu slanja e-pošte:\n"
+"E-pošta: šalje direktno e-poštu\n"
+"Objavi kao poruku: objavljuje na dokumentu i obavještava pratioce\n"
+"Objavi kao bilješku: evidentira bilješku na dokumentu"
 
 #. module: nsca_client
 #. odoo-python
-#: code:addons/nsca_client/models/nsca_server.py:0
+#: code:addons/nsca_client/models/nsca_server.py
 #, python-format
 msgid ""
 "Command '%s' not found. Please install the NSCA client.\n"
 "On Debian/Ubuntu: apt-get install nsca-client"
 msgstr ""
+"Komanda '%s' nije pronađena. Molimo instalirajte NSCA klijent.\n"
+"Na Debian/Ubuntu: apt-get install nsca-client"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_server__config_dir_path
@@ -183,13 +198,11 @@ msgstr "Datoteka konfiguracije"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__create_uid
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__create_date
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -205,7 +218,6 @@ msgstr "Otporan na ljetno računanje vremena"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__display_name
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -225,6 +237,8 @@ msgid ""
 "E.g.\n"
 "                                        <em>(1, u\"3 mails not sent\")</em>"
 msgstr ""
+"Npr.\n"
+"                                        <em>(1, u\"3 poruke nisu poslane\")</em>"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__template_id
@@ -267,10 +281,11 @@ msgid ""
 "How many times the method is called,\n"
 "a negative number indicates no limit."
 msgstr ""
+"Koliko pute je pozvana metoda,\n"
+"negativan broj(-1) znači bez limita."
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__id
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__id
 msgid "ID"
 msgstr "ID"
 
@@ -291,19 +306,16 @@ msgstr "Datum poslednjeg izvršavanja"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check____last_update
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__write_uid
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__write_date
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -333,6 +345,8 @@ msgid ""
 "Model for record creation / update. Set this field only to specify a "
 "different model than the base model."
 msgstr ""
+"Model za stvaranje zapisa/ažuriranje. Postavi ovo polje samo za određivanje "
+"drugačijeg modela od osnovnog modela."
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_check__model_id
@@ -346,9 +360,7 @@ msgstr "Međusobno isključive zakazane akcije"
 
 #. module: nsca_client
 #. odoo-python
-#: code:addons/nsca_client/models/nsca_check.py:0
-#: model:ir.model,name:nsca_client.model_nsca_check
-#: model_terms:ir.ui.view,arch_db:nsca_client.view_nsca_check_form
+#: code:addons/nsca_client/models/nsca_check.py
 #, python-format
 msgid "NSCA Check"
 msgstr "NSCA provjera"
@@ -370,7 +382,6 @@ msgstr "NSCA model"
 
 #. module: nsca_client
 #: model:ir.model,name:nsca_client.model_nsca_server
-#: model_terms:ir.ui.view,arch_db:nsca_client.view_nsca_server_form
 msgid "NSCA Server"
 msgstr "NSCA server"
 
@@ -410,6 +421,8 @@ msgid ""
 "Optional help text for the users with a description of the target view, such"
 " as its usage and purpose."
 msgstr ""
+"Opcionalni tekst pomoći za korisnike sa opisom ciljnog pogleda, kao što je "
+"njegova upotreba i svrha."
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_server__password
@@ -427,6 +440,8 @@ msgid ""
 "Previous time the cron ran successfully, provided to the job through the "
 "context on the `lastcall` key"
 msgstr ""
+"Prethodno vrijeme kada je cron uspješno pokrenuo, pruženo je poslu kroz "
+"kontekst na 'lastcall' ključu"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__priority
@@ -439,6 +454,8 @@ msgid ""
 "Provide the field used to link the newly created record on the record used "
 "by the server action."
 msgstr ""
+"Pružite polje koje se koristi za povezivanje novog kreiranog zapisa sa "
+"zapisom korišćenim od serverske akcije"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__code
@@ -497,7 +514,6 @@ msgstr "Serverska akcija"
 
 #. module: nsca_client
 #: model:ir.actions.act_window,name:nsca_client.action_nsca_server_tree
-#: model:ir.ui.menu,name:nsca_client.menu_action_nsca_server_tree
 msgid "Servers"
 msgstr "Poslužitelji"
 
@@ -512,6 +528,8 @@ msgid ""
 "Setting a value makes this action available in the sidebar for the given "
 "model."
 msgstr ""
+"Postavljanjem vrijednosti omogućava ovoj akciji da bude dostupna u meniju "
+"ovog modela."
 
 #. module: nsca_client
 #: model_terms:ir.ui.view,arch_db:nsca_client.view_nsca_check_form
@@ -520,7 +538,6 @@ msgstr "Postavke"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__smart_search
-#: model:ir.model.fields,field_description:nsca_client.field_nsca_server__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
@@ -529,6 +546,8 @@ msgstr "Pametna pretraga"
 msgid ""
 "Specify if missed occurrences should be executed when the server restarts."
 msgstr ""
+"Specifirajte ako se propušteni događaji trebaju izvršiti nakon ponovnog "
+"pokretanja servera."
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__mail_post_autofollow
@@ -556,6 +575,8 @@ msgid ""
 "The method must return a tuple (RC,\n"
 "                                        MESSAGE) where RC is an integer:"
 msgstr ""
+"Metod mora vratiti tuple (RC,\n"
+"                                        PORUKA) gdje je RC cijeli broj:"
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_check__priority
@@ -563,6 +584,8 @@ msgid ""
 "The priority of the job, as an integer: 0 means higher priority, 10 means "
 "lower priority."
 msgstr ""
+"Prioritet posla, kao cijeli broj: 0 znači najveći prioritet, 10 znači niži "
+"prioritet."
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_server__node_hostname
@@ -570,6 +593,7 @@ msgid ""
 "This is the hostname of the current Odoo node declared in the monitoring "
 "server."
 msgstr ""
+"Ovo je ime hosta trenutnog Odoo čvora deklarirano u monitoring serveru"
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_check__state
@@ -584,6 +608,15 @@ msgid ""
 "- 'Create Next Activity': create an activity (Discuss)\n"
 "- 'Send SMS Text Message': send SMS, log them on documents (SMS)"
 msgstr ""
+"Tip serverske akcije. Dostupne su sljedeće vrijednosti:\n"
+"- 'Izvršiti Python kod': blok python koda koji će biti izvršen\n"
+"- 'Kreirati novi zapis': kreirati novi zapis sa novim vrijednostima\n"
+"- 'Ažurirati zapis': ažurirati vrijednosti zapisa\n"
+"- 'Izvršiti nekoliko akcija': definirati akciju koja pokreće nekoliko drugih serverskih akcija\n"
+"- 'Poslati e-poštu': objaviti poruku, bilješku ili poslati e-poštu (Diskusija)\n"
+"- 'Dodati pratioce': dodati pratioce u zapis (Diskusija)\n"
+"- 'Kreirati sljedeću aktivnost': kreirati aktivnost (Diskusija)\n"
+"- 'Poslati SMS poruku': poslati SMS, evidentirati ih na dokumentima (SMS)"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__usage
@@ -597,6 +630,9 @@ msgid ""
 " 'Generic User From Record' to specify the field name of the user to choose "
 "on the record."
 msgstr ""
+"Koristite 'Određeni korisnik' da uvijek dodijelite istog korisnika za "
+"sljedeću aktivnost. Koristite 'Generički korisnik iz zapisa' da navedete "
+"naziv polja korisnika koji treba odabrati iz zapisa."
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__activity_user_field_name
@@ -614,6 +650,8 @@ msgid ""
 "When dealing with multiple actions, the execution order is based on the "
 "sequence. Low number means high priority."
 msgstr ""
+"Kada radite sa više akcija, redoslijed izvršavanja se bazira na sekvenci. "
+"Manji broj znači veći prioritet"
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_check__code
@@ -621,3 +659,5 @@ msgid ""
 "Write Python code that the action will execute. Some variables are available"
 " for use; help about python expression is given in the help tab."
 msgstr ""
+"Napišite Python kod koji će akcija izvršiti. Neke varijable su dostupne za "
+"upotrebu; pomoć za izraz Python daje se na kartici pomoći."

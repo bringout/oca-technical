@@ -30,6 +30,10 @@ msgid ""
 "wrapped by a dict with key `disable`. Eg: {'disable': ['search', "
 "'do_this']}To disable all methods, use `{'disable: ['all']}`"
 msgstr ""
+"Konfiguriraj RPC konfiguraciju putem JSON-a. Vrijednost mora biti lista "
+"metoda za onemogućavanje umotana u dict sa ključem `disable`. Npr: "
+"{'disable': ['search', 'do_this']}Za onemogućavanje svih metoda, koristi "
+"`{'disable: ['all']}`"
 
 #. module: rpc_helper
 #: model:ir.model.fields,field_description:rpc_helper.field_ir_model__count_changesets
@@ -53,14 +57,14 @@ msgstr "Modeli"
 
 #. module: rpc_helper
 #. odoo-python
-#: code:addons/rpc_helper/patch.py:0
+#: code:addons/rpc_helper/patch.py
 #, python-format
 msgid "Object %s doesn't exist"
 msgstr "Objekat %s ne postoji"
 
 #. module: rpc_helper
 #. odoo-python
-#: code:addons/rpc_helper/patch.py:0
+#: code:addons/rpc_helper/patch.py
 #, python-format
 msgid "RPC call on %s is not allowed"
 msgstr "RPC poziv na %s nije dozvoljen"

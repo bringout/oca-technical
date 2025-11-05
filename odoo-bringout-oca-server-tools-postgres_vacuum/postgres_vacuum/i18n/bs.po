@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: postgres_vacuum
 #: model:ir.actions.server,name:postgres_vacuum.cronjob_analyze_ir_actions_server
-#: model:ir.cron,cron_name:postgres_vacuum.cronjob_analyze
 msgid "Analyze Postgresql Tables"
 msgstr "Analyze Postgresql Tables"
 
@@ -31,6 +30,5 @@ msgstr "Pametna pretraga"
 
 #. module: postgres_vacuum
 #: model:ir.actions.server,name:postgres_vacuum.cronjob_vacuum_ir_actions_server
-#: model:ir.cron,cron_name:postgres_vacuum.cronjob_vacuum
 msgid "Vacuum Postgresql Tables"
 msgstr "Vacuum Postgresql Tables"

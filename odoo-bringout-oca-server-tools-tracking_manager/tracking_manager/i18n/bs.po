@@ -65,7 +65,6 @@ msgstr "Promenjeno"
 
 #. module: tracking_manager
 #: model:ir.model.fields,field_description:tracking_manager.field_ir_model_fields__custom_tracking
-#: model_terms:ir.ui.view,arch_db:tracking_manager.view_model_form
 msgid "Custom Tracking"
 msgstr "Prilagođeno praćenje"
 
@@ -97,7 +96,8 @@ msgstr "Polja"
 #. module: tracking_manager
 #: model:ir.model.fields,help:tracking_manager.field_ir_model__automatic_custom_tracking
 msgid "If tick new field will be automatically tracked if the domain match"
-msgstr "Ako je označeno, novo polje će se automatski pratiti ako domen odgovara"
+msgstr ""
+"Ako je označeno, novo polje će se automatski pratiti ako domen odgovara"
 
 #. module: tracking_manager
 #: model:ir.model,name:tracking_manager.model_mail_tracking_value

@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: document_page_environmental_aspect
 #: model:ir.actions.act_window,name:document_page_environmental_aspect.action_environmental_aspects
-#: model:ir.ui.menu,name:document_page_environmental_aspect.menu_mgmtsystem_manuals_environmental_aspects
 msgid "Environmental Aspects"
 msgstr "Ekološki aspekti"
 

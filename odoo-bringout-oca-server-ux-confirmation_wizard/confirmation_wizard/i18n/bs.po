@@ -40,8 +40,7 @@ msgstr "Poruka potvrde"
 
 #. module: confirmation_wizard
 #. odoo-python
-#: code:addons/confirmation_wizard/wizard/confirmation_wizard.py:0
-#: model:ir.actions.act_window,name:confirmation_wizard.confirmation_wizard_action
+#: code:addons/confirmation_wizard/wizard/confirmation_wizard.py
 #, python-format
 msgid "Confirmation"
 msgstr "Potvrda"
@@ -88,14 +87,15 @@ msgstr "Zadnje ažurirano"
 
 #. module: confirmation_wizard
 #. odoo-python
-#: code:addons/confirmation_wizard/wizard/confirmation_wizard.py:0
+#: code:addons/confirmation_wizard/wizard/confirmation_wizard.py
 #, python-format
 msgid "Method '%(callback_method)s' is not found on model '%(res_model)s'."
-msgstr "Metoda '%(callback_method)s' nije pronađena na modelu '%(res_model)s'."
+msgstr ""
+"Metoda '%(callback_method)s' nije pronađena na modelu '%(res_model)s'."
 
 #. module: confirmation_wizard
 #. odoo-python
-#: code:addons/confirmation_wizard/wizard/confirmation_wizard.py:0
+#: code:addons/confirmation_wizard/wizard/confirmation_wizard.py
 #, python-format
 msgid "Records (IDS: '%(ids)s') not found in model '%(model)s'."
 msgstr "Zapisi (ID-jevi: '%(ids)s') nisu pronađeni u modelu '%(model)s'."

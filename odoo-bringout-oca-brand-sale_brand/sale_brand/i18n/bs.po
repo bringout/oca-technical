@@ -18,32 +18,37 @@ msgstr ""
 msgid "Allowed Payment Mode"
 msgstr "Allowed Plaćanje Mode"
 
+# taken from hr.po
 #. module: sale_brand
 #: model:ir.model.fields,field_description:sale_brand.field_crm_team__brand_id
-#: model:ir.model.fields,field_description:sale_brand.field_sale_order__brand_id
 msgid "Brand"
 msgstr "Brend"
 
+# taken from hr.po
 #. module: sale_brand
 #: model:ir.model.fields,field_description:sale_brand.field_sale_order__brand_use_level
 msgid "Brand Use Level"
 msgstr "Razina upotrebe Brenda"
 
+# taken from hr.po
 #. module: sale_brand
 #: model:ir.model.fields,help:sale_brand.field_sale_order__brand_id
 msgid "Brand to use for this sale"
 msgstr "Za ovu prodaju koristiti brand"
 
+# taken from hr.po
 #. module: sale_brand
 #: model:ir.model.fields,field_description:sale_brand.field_sale_order__company_id
 msgid "Company"
 msgstr "Tvrtka"
 
+# taken from hr.po
 #. module: sale_brand
 #: model:ir.model,name:sale_brand.model_sale_order
 msgid "Sales Order"
 msgstr "Ponuda"
 
+# taken from hr.po
 #. module: sale_brand
 #: model:ir.model,name:sale_brand.model_crm_team
 msgid "Sales Team"

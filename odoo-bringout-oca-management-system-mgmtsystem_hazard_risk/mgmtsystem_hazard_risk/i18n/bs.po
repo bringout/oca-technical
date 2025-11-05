@@ -20,31 +20,38 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Ove vrijednosti su specifične"
+" za svaku tvrtku.\" role=\"img\" aria-label=\"Ove vrijednosti su specifične "
+"za svaku tvrtku.\" groups=\"base.group_multi_company\"/>"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__acceptability
 msgid "Acceptability"
 msgstr "Prihvatljivost"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:mgmtsystem.hazard.risk.type,name:mgmtsystem_hazard_risk.risk_type_chemical
 msgid "Chemical"
 msgstr "Kemikalije"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_res_company
 msgid "Companies"
 msgstr "Poduzeća"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__company_id
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__company_id
+#, fuzzy
 msgid "Company"
 msgstr "Poduzeća"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_mgmtsystem_hazard_risk_computation
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__name
 msgid "Computation Risk"
 msgstr "Izračun rizika"
 
@@ -53,48 +60,49 @@ msgstr "Izračun rizika"
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__create_uid
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__create_uid
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__create_uid
 msgid "Created by"
 msgstr "Stvorio"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__create_date
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__create_date
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__create_date
 msgid "Created on"
 msgstr "Stvoreno na"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__description
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__description
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__display_name
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__display_name
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:mgmtsystem.hazard.risk.type,name:mgmtsystem_hazard_risk.risk_type_environment
 msgid "Environment"
 msgstr "Okoliš"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:mgmtsystem.hazard.risk.type,name:mgmtsystem_hazard_risk.risk_type_fire
 msgid "Fire"
 msgstr "Požar"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__hazard_id
 msgid "Hazard"
 msgstr "Opasnost"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_mgmtsystem_hazard
 msgid "Hazards of the health and safety management system"
@@ -102,137 +110,145 @@ msgstr "Opasnost zdravlja i sigurnosti upravljačkog sustava"
 
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__id
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__id
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__id
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__justification
 msgid "Justification"
 msgstr "Opravdanje"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk____last_update
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation____last_update
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type____last_update
 msgid "Last Modified on"
 msgstr "Zadnja izmjena na"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__write_uid
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__write_uid
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji puta ažurirao"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__write_date
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__write_date
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažuriranje na"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__name
 msgid "Name"
 msgstr "Naziv"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__usage_id
 msgid "Occupation / Usage"
 msgstr "Iskorištenost"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:mgmtsystem.hazard.risk.type,name:mgmtsystem_hazard_risk.risk_type_physical
 msgid "Physical"
 msgstr "Fizički"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__probability_id
 msgid "Probability"
 msgstr "Vjerojatnost"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_residual_risk_form
 msgid "Residual Risk"
 msgstr "Preostali rizik"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard__residual_risk_ids
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_form
 msgid "Residual Risk Evaluations"
 msgstr "Evaluacija preostalog rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.actions.act_window,name:mgmtsystem_hazard_risk.open_mgmtsystem_hazard_residual_risk_list
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_residual_risk_filter
 msgid "Residual Risks"
 msgstr "Preostali rizici"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_mgmtsystem_hazard_residual_risk
 msgid "Residual Risks of hazard"
 msgstr "Preostali rizici opasnosti"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard__risk
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__risk
 msgid "Risk"
 msgstr "Rizik"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_res_company__risk_computation_id
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_risk_computation_form
 msgid "Risk Computation"
 msgstr "Izrčun rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.res_config_settings_view_form
+#, fuzzy
 msgid "Risk Computation formula"
 msgstr "Izrčun rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.actions.act_window,name:mgmtsystem_hazard_risk.open_mgmtsystem_hazard_risk_computation_list
-#: model:ir.ui.menu,name:mgmtsystem_hazard_risk.menu_open_hazard_risk_computation
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_risk_computation_filter
 msgid "Risk Computations"
 msgstr "Izračuni rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_form
 msgid "Risk Evaluation"
 msgstr "Evaluacija rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard__risk_type_id
-#: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_type__name
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_risk_type_form
 msgid "Risk Type"
 msgstr "Vrsta rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.actions.act_window,name:mgmtsystem_hazard_risk.open_mgmtsystem_hazard_risk_type_list
-#: model:ir.ui.menu,name:mgmtsystem_hazard_risk.menu_open_hazard_risk_type
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.view_mgmtsystem_hazard_risk_type_filter
 msgid "Risk Types"
 msgstr "Vrste rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.res_config_settings_view_form
+#, fuzzy
 msgid "Risk computation"
 msgstr "Izrčun rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_res_config_settings__risk_computation_id
+#, fuzzy
 msgid "Risk formula"
 msgstr "Izrčun rizika"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_mgmtsystem_hazard_risk_type
 msgid "Risk type of the hazard"
 msgstr "Vrsta rizika od opasnosti"
 
+# taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__severity_id
 msgid "Severity"
@@ -240,7 +256,9 @@ msgstr "Ozbiljnost"
 
 #. module: mgmtsystem_hazard_risk
 #. odoo-python
-#: code:addons/mgmtsystem_hazard_risk/models/common.py:0
+#: code:addons/mgmtsystem_hazard_risk/models/common.py
 #, python-format
 msgid "You must define the company's risk computing formula. Go to settings"
-msgstr "You must define the company's risk computing formula. Go to settings"
+msgstr ""
+"Morate definisati formulu za izračunavanje rizika kompanije. Idite na "
+"postavke"

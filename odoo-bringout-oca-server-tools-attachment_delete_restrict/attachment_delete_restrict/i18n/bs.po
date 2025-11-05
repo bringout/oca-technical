@@ -25,21 +25,16 @@ msgstr "Prilog"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__delete_attachment_group_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__global_delete_attachment_group_ids
 msgid "Attachment Deletion Groups"
 msgstr "Grupe za brisanje priloga"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__delete_attachment_model_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__delete_attachment_model_ids
-#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.view_groups_form
-#: model_terms:ir.ui.view,arch_db:attachment_delete_restrict.view_users_form
 msgid "Attachment Deletion Models"
 msgstr "Modeli brisanja priloga"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__delete_attachment_user_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__global_delete_attachment_user_ids
 msgid "Attachment Deletion Users"
 msgstr "Korisnici za brisanje priloga"
 
@@ -55,19 +50,11 @@ msgstr "Ovlašćeni korisnici:"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__changeset_change_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__changeset_change_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__changeset_change_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__changeset_change_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__changeset_change_ids
 msgid "Changeset Changes"
 msgstr "Promene skupa izmena"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__changeset_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__changeset_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__changeset_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__changeset_ids
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__changeset_ids
 msgid "Changesets"
 msgstr "Skupovi izmena"
 
@@ -78,36 +65,24 @@ msgstr "Postavke"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__count_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__count_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__count_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__count_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__count_changesets
 msgid "Count Changesets"
 msgstr "Broj skupova izmena"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
 msgstr "Broj promena skupa izmena na čekanju"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__count_pending_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__count_pending_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__count_pending_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__count_pending_changesets
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__count_pending_changesets
 msgid "Count Pending Changesets"
 msgstr "Broj skupova izmena na čekanju"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__ir_model__restrict_delete_attachment__custom
-#: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__res_config_settings__global_restrict_delete_attachment__custom
 msgid "Custom: For each model, selected groups and users can delete them"
-msgstr "Prilagođeno: Za svaki model, odabrane grupe i korisnici mogu da ih brišu"
+msgstr ""
+"Prilagođeno: Za svaki model, odabrane grupe i korisnici mogu da ih brišu"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__global_restrict_delete_attachment
@@ -121,21 +96,20 @@ msgstr "Modeli"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__ir_model__restrict_delete_attachment__none
-#: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__res_config_settings__global_restrict_delete_attachment__none
 msgid "No restriction: All users / groups can delete them"
 msgstr "Nema ograničenja: Svi korisnici / grupe mogu da ih brišu"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__ir_model__restrict_delete_attachment__owner_custom
-#: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__res_config_settings__global_restrict_delete_attachment__owner_custom
 msgid ""
 "Owner + Custom: Creator and admin can delete them + for each model, selected"
 " groups and users can delete them"
 msgstr ""
+"Vlasnik + Prilagođeno: Kreator i admin mogu ih brisati + za svaki model, "
+"odabrane grupe i korisnici mogu ih brisati"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__ir_model__restrict_delete_attachment__owner
-#: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__res_config_settings__global_restrict_delete_attachment__owner
 msgid "Owner: Only creator and admin can delete them"
 msgstr "Vlasnik: Samo kreator i admin mogu da ih brišu"
 
@@ -161,37 +135,21 @@ msgstr "Izaberite zadati nivo ograničenja brisanja priloga"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__smart_search
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__smart_search
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__smart_search
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__smart_search
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,help:attachment_delete_restrict.field_ir_attachment__count_pending_changeset_changes
-#: model:ir.model.fields,help:attachment_delete_restrict.field_ir_model__count_pending_changeset_changes
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__count_pending_changeset_changes
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_groups__count_pending_changeset_changes
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_users__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
 msgstr "Broj promena na čekanju ovog zapisa"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,help:attachment_delete_restrict.field_ir_attachment__count_pending_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_ir_model__count_pending_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__count_pending_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_groups__count_pending_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_users__count_pending_changesets
 msgid "The number of pending changesets of this record"
 msgstr "Broj skupova izmena na čekanju ovog zapisa"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,help:attachment_delete_restrict.field_ir_attachment__count_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_ir_model__count_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__count_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_groups__count_changesets
-#: model:ir.model.fields,help:attachment_delete_restrict.field_res_users__count_changesets
 msgid "The overall number of changesets of this record"
 msgstr "Ukupan broj skupova izmena ovog zapisa"
 
@@ -202,6 +160,9 @@ msgid ""
 "Restrict Attachment Deletion must be'Custom' or 'Owner + Custom' for the "
 "model to be selected here."
 msgstr ""
+"Korisnik može brisati priloge vezane za modele dodijeljene ovdje. "
+"Ograničenje brisanja priloga mora biti 'Prilagođeno' ili 'Vlasnik + "
+"Prilagođeno' da bi model bio odabran ovdje."
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__global_delete_attachment_group_ids
@@ -214,6 +175,8 @@ msgid ""
 "The users in the groups selected here can delete the attachments related to "
 "this model."
 msgstr ""
+"Korisnici u grupama odabranim ovdje mogu brisati priloge vezane za ovaj "
+"model."
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,help:attachment_delete_restrict.field_res_groups__delete_attachment_model_ids
@@ -222,6 +185,9 @@ msgid ""
 "assigned here. Restrict Attachment Deletion must be'Custom' or 'Owner + "
 "Custom' for the model to be selected here."
 msgstr ""
+"Korisnici grupe mogu brisati priloge vezane za modele dodijeljene ovdje. "
+"Ograničenje brisanja priloga mora biti 'Prilagođeno' ili 'Vlasnik + "
+"Prilagođeno' da bi model bio odabran ovdje."
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,help:attachment_delete_restrict.field_res_config_settings__global_delete_attachment_user_ids
@@ -232,7 +198,7 @@ msgstr "Korisnici odabrani ovde mogu brisati sve priloge"
 #: model:ir.model.fields,help:attachment_delete_restrict.field_ir_model__delete_attachment_user_ids
 msgid ""
 "The users selected here can delete the attachments related to this model."
-msgstr ""
+msgstr "Korisnici odabrani ovdje mogu brisati priloge vezane za ovaj model."
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields.selection,name:attachment_delete_restrict.selection__ir_model__restrict_delete_attachment__default
@@ -246,10 +212,6 @@ msgstr "Korisnik"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__user_can_see_changeset
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_model__user_can_see_changeset
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_config_settings__user_can_see_changeset
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_groups__user_can_see_changeset
-#: model:ir.model.fields,field_description:attachment_delete_restrict.field_res_users__user_can_see_changeset
 msgid "User Can See Changeset"
 msgstr "Korisnik može videti skup izmena"
 
@@ -259,10 +221,12 @@ msgid ""
 "When selected, the deletion of the attachments related to this model is "
 "restricted to certain users."
 msgstr ""
+"Kada je odabrano, brisanje priloga vezanih za ovaj model je ograničeno na "
+"određene korisnike."
 
 #. module: attachment_delete_restrict
 #. odoo-python
-#: code:addons/attachment_delete_restrict/models/ir_attachment.py:0
+#: code:addons/attachment_delete_restrict/models/ir_attachment.py
 #, python-format
 msgid ""
 "You are not allowed to delete this attachment.\n"
@@ -270,3 +234,7 @@ msgid ""
 "Users with the delete permission:\n"
 "%s"
 msgstr ""
+"Nije vam dozvoljeno brisanje ovog priloga.\n"
+"\n"
+"Korisnici sa dozvolom brisanja:\n"
+"%s"

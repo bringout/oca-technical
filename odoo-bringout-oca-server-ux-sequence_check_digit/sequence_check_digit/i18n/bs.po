@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: sequence_check_digit
 #. odoo-python
-#: code:addons/sequence_check_digit/models/ir_sequence.py:0
+#: code:addons/sequence_check_digit/models/ir_sequence.py
 #, python-format
 msgid "%s is not an implemented function"
 msgstr "%s is not an implemented function"
@@ -32,8 +32,7 @@ msgstr "Damm"
 
 #. module: sequence_check_digit
 #. odoo-python
-#: code:addons/sequence_check_digit/models/ir_sequence.py:0
-#: code:addons/sequence_check_digit/models/ir_sequence.py:0
+#: code:addons/sequence_check_digit/models/ir_sequence.py
 #, python-format
 msgid "Format is not accepted"
 msgstr "Format is not accepted"
@@ -71,7 +70,7 @@ msgstr "Luhn"
 #. module: sequence_check_digit
 #: model:ir.model.fields.selection,name:sequence_check_digit.selection__ir_sequence__check_digit_formula__none
 msgid "None"
-msgstr ""
+msgstr "Ništa"
 
 #. module: sequence_check_digit
 #: model:ir.model,name:sequence_check_digit.model_ir_sequence

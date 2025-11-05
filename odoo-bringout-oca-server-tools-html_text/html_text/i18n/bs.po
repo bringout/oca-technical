@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: html_text
 #: model:ir.model,name:html_text.model_ir_fields_converter
 msgid "Fields Converter"

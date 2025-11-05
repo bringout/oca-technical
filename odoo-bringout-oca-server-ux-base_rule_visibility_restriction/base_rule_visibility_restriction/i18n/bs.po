@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: base_rule_visibility_restriction
 #: model:ir.model.fields,field_description:base_rule_visibility_restriction.field_ir_rule__excluded_group_ids
-#: model_terms:ir.ui.view,arch_db:base_rule_visibility_restriction.view_rule_form
 msgid "Excluded Groups"
 msgstr "Isključene grupe"
 

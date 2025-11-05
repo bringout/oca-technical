@@ -30,8 +30,6 @@ msgstr "Menadžer konektora"
 
 #. module: connector
 #: model:ir.ui.menu,name:connector.menu_connector
-#: model:ir.ui.menu,name:connector.menu_connector_root
-#: model_terms:ir.ui.view,arch_db:connector.view_partner_connector_form
 msgid "Connectors"
 msgstr "Priključci"
 
@@ -47,8 +45,7 @@ msgstr "Datum zadnje sinhronizacije"
 
 #. module: connector
 #. odoo-python
-#: code:addons/connector/components/synchronizer.py:0
-#: code:addons/connector/components/synchronizer.py:0
+#: code:addons/connector/components/synchronizer.py
 #, python-format
 msgid "Nothing to export."
 msgstr "Nema ništa za izvoz."
@@ -60,14 +57,14 @@ msgstr "Posao u redu"
 
 #. module: connector
 #. odoo-python
-#: code:addons/connector/components/synchronizer.py:0
+#: code:addons/connector/components/synchronizer.py
 #, python-format
 msgid "Record exported with ID %s on Backend."
 msgstr "Zapis izvezen sa ID %s na Backend."
 
 #. module: connector
 #. odoo-python
-#: code:addons/connector/models/queue_job.py:0
+#: code:addons/connector/models/queue_job.py
 #, python-format
 msgid "Related Record"
 msgstr "Povezani zapis"

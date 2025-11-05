@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma_team.py:0
+#: code:addons/rma/models/rma_team.py
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (kopija)"
@@ -27,11 +27,13 @@ msgstr "(object._get_report_base_filename())"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid ""
 "<b>E-mail subject:</b> %(subject)s<br/><br/><b>E-mail body:</b><br/>%(body)s"
 msgstr ""
+"<b>Predmet e-pošte:</b> %(subject)s<br/><br/><b>Tijelo "
+"e-pošte:</b><br/>%(body)s"
 
 #. module: rma
 #: model:mail.template,body_html:rma.mail_template_rma_notification
@@ -59,6 +61,28 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                    Poštovani\n"
+"                    <t t-out=\"object.partner_id.name\"></t>\n"
+"                    <t t-if=\"object.partner_id.parent_id\">\n"
+"                        <t t-out=\"object.partner_id.parent_id.name\"></t>\n"
+"                    </t>\n"
+"                    <br>\n"
+"                    <br>\n"
+"                    U prilogu je RMA\n"
+"                    <strong>\n"
+"                        <t t-out=\"object.name\"></t>\n"
+"                    </strong>\n"
+"                    kompanije\n"
+"                    <t t-out=\"object.company_id.name\"></t>\n"
+"                    .\n"
+"                    <br>\n"
+"                    <br>\n"
+"                    Ne ustručavajte se da nas kontaktirate ako imate bilo kakvih pitanja.\n"
+"                </p>\n"
+"            </div>\n"
+"        "
 
 #. module: rma
 #: model:mail.template,body_html:rma.mail_template_rma_receipt_notification
@@ -86,6 +110,28 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                    Poštovani\n"
+"                    <t t-out=\"object.partner_id.name\"></t>\n"
+"                    <t t-if=\"object.partner_id.parent_id\">\n"
+"                        <t t-out=\"object.partner_id.parent_id.name\"></t>\n"
+"                    </t>\n"
+"                    <br>\n"
+"                    <br>\n"
+"                    Proizvodi za vaš RMA\n"
+"                    <strong>\n"
+"                        <t t-out=\"object.name\"></t>\n"
+"                    </strong>\n"
+"                    kompanije\n"
+"                    <t t-out=\"object.company_id.name\"></t>\n"
+"                    primljeni su u našem skladištu.\n"
+"                    <br>\n"
+"                    <br>\n"
+"                    Ne ustručavajte se da nas kontaktirate ako imate bilo kakvih pitanja.\n"
+"                </p>\n"
+"            </div>\n"
+"        "
 
 #. module: rma
 #: model:mail.template,body_html:rma.mail_template_rma_draft_notification
@@ -113,6 +159,28 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                    Poštovani\n"
+"                    <t t-out=\"object.partner_id.name\"></t>\n"
+"                    <t t-if=\"object.partner_id.parent_id\">\n"
+"                        <t t-out=\"object.partner_id.parent_id.name\"></t>\n"
+"                    </t>\n"
+"                    <br>\n"
+"                    <br>\n"
+"                    Uspješno ste kreirali RMA\n"
+"                    <strong>\n"
+"                        <t t-out=\"object.name\"></t>\n"
+"                    </strong>\n"
+"                    za\n"
+"                    <t t-out=\"object.company_id.name\"></t>\n"
+"                    . Naš tim će ga provjeriti i odobriti što je prije moguće.\n"
+"                    <br>\n"
+"                    <br>\n"
+"                    Ne ustručavajte se da nas kontaktirate ako imate bilo kakvih pitanja.\n"
+"                </p>\n"
+"            </div>\n"
+"        "
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -122,7 +190,9 @@ msgstr "<i class=\"fa fa-download\" role=\"img\" aria-label=\"Preuzmi\" title=\"
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_operation_kanban
 msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
-msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Upravljaj\"/>"
+msgstr ""
+"<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" "
+"title=\"Upravljaj\"/>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -130,6 +200,8 @@ msgid ""
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                                <b>Paid</b>"
 msgstr ""
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                                <b>Plaćeno</b>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -137,6 +209,8 @@ msgid ""
 "<i class=\"fa fa-fw fa-clock-o\"/>\n"
 "                                <b>Waiting Payment</b>"
 msgstr ""
+"<i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                <b>Čeka plaćanje</b>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -144,13 +218,15 @@ msgid ""
 "<i class=\"fa fa-pencil-square-o mr-1\" role=\"img\" aria-label=\"Download\""
 " title=\"Download\"/>"
 msgstr ""
+"<i class=\"fa fa-pencil-square-o mr-1\" role=\"img\" aria-label=\"Preuzmi\" "
+"title=\"Preuzmi\"/>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
 msgid ""
 "<i class=\"fa fa-truck mr-1\" role=\"img\" aria-label=\"Download\" "
 "title=\"Download\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-truck mr-1\" role=\"img\" aria-label=\"Preuzmi\" title=\"Preuzmi\"/>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -160,6 +236,10 @@ msgid ""
 "                                            Cancelled\n"
 "                                        </span>"
 msgstr ""
+"<span class=\"badge badge-danger label-text-align\">\n"
+"                                            <i class=\"fa fa-fw fa-times\"/>\n"
+"                                            Otkazano\n"
+"                                        </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -169,6 +249,10 @@ msgid ""
 "                                    Cancelled\n"
 "                                </span>"
 msgstr ""
+"<span class=\"badge badge-danger label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-times\"/>\n"
+"                                    Otkazano\n"
+"                                </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -178,6 +262,10 @@ msgid ""
 "                                            Preparation\n"
 "                                        </span>"
 msgstr ""
+"<span class=\"badge badge-info label-text-align\">\n"
+"                                            <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                            Priprema\n"
+"                                        </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -187,6 +275,10 @@ msgid ""
 "                                    Preparation\n"
 "                                </span>"
 msgstr ""
+"<span class=\"badge badge-info label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                    Priprema\n"
+"                                </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -196,6 +288,10 @@ msgid ""
 "                                            Shipped\n"
 "                                        </span>"
 msgstr ""
+"<span class=\"badge badge-success label-text-align\">\n"
+"                                            <i class=\"fa fa-fw fa-truck\"/>\n"
+"                                            Isporučeno\n"
+"                                        </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -205,6 +301,10 @@ msgid ""
 "                                    Shipped\n"
 "                                </span>"
 msgstr ""
+"<span class=\"badge badge-success label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-truck\"/>\n"
+"                                    Isporučeno\n"
+"                                </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -214,6 +314,10 @@ msgid ""
 "                                            Partially Available\n"
 "                                        </span>"
 msgstr ""
+"<span class=\"badge badge-warning label-text-align\">\n"
+"                                            <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                            Djelomično dostupno\n"
+"                                        </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
@@ -223,6 +327,10 @@ msgid ""
 "                                    Partially Available\n"
 "                                </span>"
 msgstr ""
+"<span class=\"badge badge-warning label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                    Djelimično dostupno\n"
+"                                </span>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
@@ -230,6 +338,8 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_operation_kanban
@@ -328,7 +438,6 @@ msgstr "<strong>RMA bilješka:</strong>"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
-#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
 msgid "<strong>Responsible:</strong>"
 msgstr "<strong>Odgovoran:</strong>"
 
@@ -353,6 +462,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+"Python rječnik koji će biti evaluiran kako bi pružio standardne vrijednosti "
+"prilikom kreiranja novih zapisa za ovaj alias."
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_team_view_form
@@ -366,17 +477,11 @@ msgstr "Upozorenje pristupa"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_needaction
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_needaction
 msgid "Action Needed"
 msgstr "Potrebna akcija"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_finalization__active
-#: model:ir.model.fields,field_description:rma.field_rma_operation__active
-#: model:ir.model.fields,field_description:rma.field_rma_tag__active
-#: model:ir.model.fields,field_description:rma.field_rma_team__active
-#: model_terms:ir.ui.view,arch_db:rma.rma_finalization_view_search
-#: model_terms:ir.ui.view,arch_db:rma.rma_tag_view_search
 msgid "Active"
 msgstr "Aktivan"
 
@@ -437,8 +542,6 @@ msgstr "Allow to finish an RMA without returning back a Proizvod or refunding"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_finalization_view_search
-#: model_terms:ir.ui.view,arch_db:rma.rma_tag_view_search
-#: model_terms:ir.ui.view,arch_db:rma.view_rma_finalization_form
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -449,7 +552,6 @@ msgstr "Jeste li sigurni da želite otkazati ovaj RMA"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_attachment_count
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
@@ -460,14 +562,11 @@ msgstr "Auto Confirm Reception"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_delivery__automatic_after_receipt
-#: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_refund__automatic_after_receipt
 msgid "Automatically After Receipt"
 msgstr "Automatically After Receipt"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_delivery__automatic_on_confirm
-#: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_receipt__automatic_on_confirm
-#: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_refund__automatic_on_confirm
 msgid "Automatically on Confirm"
 msgstr "Automatically on Confirm"
 
@@ -478,8 +577,7 @@ msgstr "Avatar"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma_operation.py:0
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
+#: code:addons/rma/models/rma_operation.py
 #, python-format
 msgid "Awaiting Action"
 msgstr "Čeka akciju"
@@ -516,9 +614,6 @@ msgstr "Can Be Split"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_finalization_wizard_view_form
-#: model_terms:ir.ui.view,arch_db:rma.rma_redelivery_wizard_view_form
-#: model_terms:ir.ui.view,arch_db:rma.rma_split_wizard_view_form2
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -539,7 +634,6 @@ msgstr "Kategorija UoM"
 
 #. module: rma
 #: model_terms:ir.actions.act_window,help:rma.rma_action
-#: model_terms:ir.actions.act_window,help:rma.rma_team_action
 msgid "Click to add a new RMA."
 msgstr "Kliknite da dodate novi RMA."
 
@@ -575,8 +669,6 @@ msgstr "Kompanije"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__company_id
-#: model:ir.model.fields,field_description:rma.field_rma_finalization__company_id
-#: model:ir.model.fields,field_description:rma.field_rma_team__company_id
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -587,7 +679,6 @@ msgstr "Postavke"
 
 #. module: rma
 #: model:ir.ui.menu,name:rma.rma_configuration_menu
-#: model_terms:ir.ui.view,arch_db:rma.rma_operation_kanban
 msgid "Configuration"
 msgstr "Konfiguracija"
 
@@ -598,23 +689,23 @@ msgstr "Potvrdi"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma__state__confirmed
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
 msgid "Confirmed"
 msgstr "Potvrđeno"
 
 #. module: rma
 #: model:ir.model,name:rma.model_res_partner
-#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
 msgid "Contact"
 msgstr "Kontakt"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__uom_category_id
-#: model:ir.model.fields,help:rma.field_rma_delivery_wizard__uom_category_id
 msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+"Konverzija jedinica mjere može se vršiti samo za jedinice mjere koje "
+"pripadaju istoj kategoriji. Konverzija će se izvršiti temeljem omjera "
+"jedinica mjere."
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_operation__count_rma_awaiting_action
@@ -638,7 +729,6 @@ msgstr "Kreiraj RMAs"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_operation__action_create_receipt
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
 msgid "Create Receipt"
 msgstr "Kreiraj Receipt"
 
@@ -659,25 +749,11 @@ msgstr "Kreirajte novu RMA oznaku"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__create_uid
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__create_uid
-#: model:ir.model.fields,field_description:rma.field_rma_finalization__create_uid
-#: model:ir.model.fields,field_description:rma.field_rma_finalization_wizard__create_uid
-#: model:ir.model.fields,field_description:rma.field_rma_operation__create_uid
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__create_uid
-#: model:ir.model.fields,field_description:rma.field_rma_tag__create_uid
-#: model:ir.model.fields,field_description:rma.field_rma_team__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__create_date
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__create_date
-#: model:ir.model.fields,field_description:rma.field_rma_finalization__create_date
-#: model:ir.model.fields,field_description:rma.field_rma_finalization_wizard__create_date
-#: model:ir.model.fields,field_description:rma.field_rma_operation__create_date
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__create_date
-#: model:ir.model.fields,field_description:rma.field_rma_tag__create_date
-#: model:ir.model.fields,field_description:rma.field_rma_team__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -688,8 +764,7 @@ msgstr "Prilagođena poruka odbijanja"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
-#: model:ir.model.fields,field_description:rma.field_rma__partner_id
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "Customer"
 msgstr "Kupac"
@@ -701,10 +776,7 @@ msgstr "URL portala kupca"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/controllers/main.py:0
-#: model:ir.model.fields,field_description:rma.field_rma__date
-#: model_terms:ir.ui.view,arch_db:rma.portal_my_rmas
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
+#: code:addons/rma/controllers/main.py
 #, python-format
 msgid "Date"
 msgstr "Datum"
@@ -716,7 +788,6 @@ msgstr "Datum:"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__deadline
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
 msgid "Deadline"
 msgstr "Rok izvršenja"
 
@@ -782,41 +853,28 @@ msgstr "Delivery reservation"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__description
-#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
 msgid "Description"
 msgstr "Opis"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__different_return_product
-#: model:ir.model.fields,field_description:rma.field_rma_operation__different_return_product
-#: model:ir.model.fields,field_description:rma.field_stock_return_picking_line__different_return_product
 msgid "Different Return Product"
 msgstr "Različit proizvod za povrat"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__display_name
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__display_name
-#: model:ir.model.fields,field_description:rma.field_rma_finalization__display_name
-#: model:ir.model.fields,field_description:rma.field_rma_finalization_wizard__display_name
-#: model:ir.model.fields,field_description:rma.field_rma_operation__display_name
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__display_name
-#: model:ir.model.fields,field_description:rma.field_rma_tag__display_name
-#: model:ir.model.fields,field_description:rma.field_rma_team__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma_operation.py:0
-#: model:ir.model.fields.selection,name:rma.selection__rma__state__draft
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
+#: code:addons/rma/models/rma_operation.py
 #, python-format
 msgid "Draft"
 msgstr "U pripremi"
 
 #. module: rma
 #: model:mail.message.subtype,name:rma.mt_rma_draft
-#: model:mail.message.subtype,name:rma.mt_rma_team_rma_draft
 msgid "Draft RMA"
 msgstr "Nacrt RMA"
 
@@ -837,37 +895,31 @@ msgstr "Predložak email-a"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__rma_mail_confirmation_template_id
-#: model:ir.model.fields,field_description:rma.field_res_config_settings__rma_mail_confirmation_template_id
 msgid "Email Template confirmation for RMA"
 msgstr "E-mail Šablon confirmation for RMA"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__rma_mail_draft_confirmation_template_id
-#: model:ir.model.fields,field_description:rma.field_res_config_settings__rma_mail_draft_confirmation_template_id
 msgid "Email Template draft notification for RMA"
 msgstr "E-mail Šablon Nacrt notification for RMA"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__rma_mail_receipt_confirmation_template_id
-#: model:ir.model.fields,field_description:rma.field_res_config_settings__rma_mail_receipt_confirmation_template_id
 msgid "Email Template receipt confirmation for RMA"
 msgstr "E-mail Šablon receipt confirmation for RMA"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_res_company__rma_mail_confirmation_template_id
-#: model:ir.model.fields,help:rma.field_res_config_settings__rma_mail_confirmation_template_id
 msgid "Email sent to the customer once the RMA is confirmed."
 msgstr "E-mail sent to the Kupac once the RMA is Potvrđeno."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_res_company__rma_mail_receipt_confirmation_template_id
-#: model:ir.model.fields,help:rma.field_res_config_settings__rma_mail_receipt_confirmation_template_id
 msgid "Email sent to the customer once the RMA products are received."
 msgstr "E-mail sent to the Kupac once the RMA Proizvodi are received."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_res_company__rma_mail_draft_confirmation_template_id
-#: model:ir.model.fields,help:rma.field_res_config_settings__rma_mail_draft_confirmation_template_id
 msgid "Email sent to the customer when they place an RMA from the portal"
 msgstr "E-mail sent to the Kupac when they place an RMA from the portal"
 
@@ -877,10 +929,12 @@ msgid ""
 "Enable this option to automatically confirm the reception when the RMA is "
 "confirmed."
 msgstr ""
+"Enable this option to automatically confirm the reception when the RMA is "
+"Potvrđeno."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/wizard/rma_split.py:0
+#: code:addons/rma/wizard/rma_split.py
 #, python-format
 msgid "Extracted RMA"
 msgstr "Izvućeni RMA"
@@ -932,13 +986,11 @@ msgstr "Završeno"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_follower_ids
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_follower_ids
 msgid "Followers"
 msgstr "Pratioci"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_partner_ids
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Pratioci (Partneri)"
 
@@ -954,8 +1006,6 @@ msgstr "Grupiši po"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__rma_return_grouping
-#: model:ir.model.fields,field_description:rma.field_res_config_settings__rma_return_grouping
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__rma_return_grouping
 msgid "Group RMA returns by customer address and warehouse"
 msgstr "Group RMA Povrati by Kupac address and Skladište"
 
@@ -966,19 +1016,11 @@ msgstr "Grupišite RMA povrate po kupcu i skladištu."
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__has_message
-#: model:ir.model.fields,field_description:rma.field_rma_team__has_message
 msgid "Has Message"
 msgstr "Ima poruku"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__id
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__id
-#: model:ir.model.fields,field_description:rma.field_rma_finalization__id
-#: model:ir.model.fields,field_description:rma.field_rma_finalization_wizard__id
-#: model:ir.model.fields,field_description:rma.field_rma_operation__id
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__id
-#: model:ir.model.fields,field_description:rma.field_rma_tag__id
-#: model:ir.model.fields,field_description:rma.field_rma_team__id
 msgid "ID"
 msgstr "ID"
 
@@ -988,6 +1030,8 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
 msgstr ""
+"ID nadređenog zapisa koji drži alias (primjer: projekt koji drži alias za "
+"kreiranje zadatka)"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__activity_exception_icon
@@ -1001,22 +1045,20 @@ msgstr "Ikona za prikaz iznimki."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__different_return_product
-#: model:ir.model.fields,help:rma.field_rma_operation__different_return_product
-#: model:ir.model.fields,help:rma.field_stock_return_picking_line__different_return_product
 msgid ""
 "If checked, allows the return of a product different from the one originally"
 " ordered. Used if the delivery is created automatically"
 msgstr ""
+"Ako je označeno, omogućava povrat proizvoda koji se razlikuje od originalnog"
+" naručenog. Koristi se ako se isporuka kreira automatski"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__message_needaction
-#: model:ir.model.fields,help:rma.field_rma_team__message_needaction
 msgid "If checked, new messages require your attention."
 msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__message_has_error
-#: model:ir.model.fields,help:rma.field_rma_team__message_has_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
@@ -1026,6 +1068,8 @@ msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
 msgstr ""
+"Ako je postavljeno, ovaj sadržaj će automatski biti poslan neovlaštenim "
+"korisnicima umjesto standardne poruke."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_team__active
@@ -1033,10 +1077,12 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the RMA Team "
 "without removing it."
 msgstr ""
+"If the active field is set to false, it will allow you to hide the RMA Team "
+"without removing it."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "Incoming e-mail"
 msgstr "Dolazna e-pošta"
@@ -1047,6 +1093,8 @@ msgid ""
 "Indicates whether the RMA requires processing such as a receipt,delivery, or"
 " refund."
 msgstr ""
+"Indicates whether the RMA requires processing such as a receipt,delivery, or"
+" refund."
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__partner_invoice_id
@@ -1065,7 +1113,6 @@ msgstr "Adresa računa i dostave:"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_is_follower
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_is_follower
 msgid "Is Follower"
 msgstr "Pratilac"
 
@@ -1081,37 +1128,16 @@ msgstr "Stavka žurnala"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma____last_update
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard____last_update
-#: model:ir.model.fields,field_description:rma.field_rma_finalization____last_update
-#: model:ir.model.fields,field_description:rma.field_rma_finalization_wizard____last_update
-#: model:ir.model.fields,field_description:rma.field_rma_operation____last_update
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard____last_update
-#: model:ir.model.fields,field_description:rma.field_rma_tag____last_update
-#: model:ir.model.fields,field_description:rma.field_rma_team____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__write_uid
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__write_uid
-#: model:ir.model.fields,field_description:rma.field_rma_finalization__write_uid
-#: model:ir.model.fields,field_description:rma.field_rma_finalization_wizard__write_uid
-#: model:ir.model.fields,field_description:rma.field_rma_operation__write_uid
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__write_uid
-#: model:ir.model.fields,field_description:rma.field_rma_tag__write_uid
-#: model:ir.model.fields,field_description:rma.field_rma_team__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__write_date
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__write_date
-#: model:ir.model.fields,field_description:rma.field_rma_finalization__write_date
-#: model:ir.model.fields,field_description:rma.field_rma_finalization_wizard__write_date
-#: model:ir.model.fields,field_description:rma.field_rma_operation__write_date
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__write_date
-#: model:ir.model.fields,field_description:rma.field_rma_tag__write_date
-#: model:ir.model.fields,field_description:rma.field_rma_team__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -1137,7 +1163,6 @@ msgstr "Zaključano"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_main_attachment_id
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Glavna zakačka"
 
@@ -1147,12 +1172,15 @@ msgid ""
 "Manage RMA finalization reasons to better classify them for tracking and "
 "analysis purposes."
 msgstr ""
+"Upravljajte razlozima završetka RMA-a za bolju klasifikaciju radi praćenja i"
+" analize."
 
 #. module: rma
 #: model_terms:ir.actions.act_window,help:rma.action_rma_tag
 msgid ""
 "Manage RMA tags to better classify them for tracking and analysis purposes."
 msgstr ""
+"Upravljajte RMA oznakama za bolju klasifikaciju radi praćenja i analize."
 
 #. module: rma
 #: model:ir.module.category,description:rma.rma_module_category
@@ -1166,26 +1194,21 @@ msgstr "Upravitelj"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_delivery__manual_after_receipt
-#: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_refund__manual_after_receipt
 msgid "Manually After Receipt"
 msgstr "Manually After Receipt"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_delivery__manual_on_confirm
-#: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_receipt__manual_on_confirm
-#: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_refund__manual_on_confirm
 msgid "Manually on Confirm"
 msgstr "Manually on Confirm"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_has_error
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_has_error
 msgid "Message Delivery error"
 msgstr "Greška pri isporuci poruke"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_ids
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_ids
 msgid "Messages"
 msgstr "Poruke"
 
@@ -1196,18 +1219,14 @@ msgstr "Rok za moju aktivnost"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/controllers/main.py:0
-#: model:ir.model.fields,field_description:rma.field_rma__name
-#: model:ir.model.fields,field_description:rma.field_rma_operation__name
-#: model:ir.model.fields,field_description:rma.field_rma_team__name
+#: code:addons/rma/controllers/main.py
 #, python-format
 msgid "Name"
 msgstr "Naziv:"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0 code:addons/rma/models/rma.py:0
-#: code:addons/rma/models/rma.py:0 code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "New"
 msgstr "Novi"
@@ -1234,14 +1253,14 @@ msgstr "Tip sljedeće aktivnosti"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "None of the selected RMAs can perform a replacement."
 msgstr "Nijedan od odabranih RMA-a ne može izvršiti zamjenu."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "None of the selected RMAs can perform a return."
 msgstr "Nijedan od odabranih RMA-a ne može izvršiti povrat."
@@ -1253,25 +1272,21 @@ msgstr "Normalan"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_needaction_counter
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_needaction_counter
 msgid "Number of Actions"
 msgstr "Broj akcija"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_has_error_counter
-#: model:ir.model.fields,field_description:rma.field_rma_team__message_has_error_counter
 msgid "Number of errors"
 msgstr "Broj grešaka"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__message_needaction_counter
-#: model:ir.model.fields,help:rma.field_rma_team__message_needaction_counter
 msgid "Number of messages requiring action"
 msgstr "Broj poruka koje zahtijevaju aktivnost"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__message_has_error_counter
-#: model:ir.model.fields,help:rma.field_rma_team__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Broj poruka sa greškama pri isporuci"
 
@@ -1282,7 +1297,6 @@ msgstr "Operacija"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.rma_operation_act_window
-#: model:ir.ui.menu,name:rma.rma_operation_menu
 msgid "Operations"
 msgstr "Operacije"
 
@@ -1293,6 +1307,9 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+"Opcionalni ID niti (zapisa) na koju će sve dolazne poruke biti priložene, "
+"čak i ako nisu odgovorile na nju. Ako je postavljeno, ovo će potpuno "
+"onemogućiti kreiranje novih zapisa."
 
 #. module: rma
 #: model:ir.ui.menu,name:rma.rma_orders_menu
@@ -1346,6 +1363,9 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
+"Nadređeni model koji drži alias. Model koji drži referencu aliasa nije nužno"
+" model dat u alias_model_id (primjer: projekt (nadređeni_model) i zadatak "
+"(model))"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_view_search
@@ -1360,6 +1380,10 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
+"Pravilo za objavljivanje poruke na dokumentu koristeći mail gateway.\n"
+"- svi: svi mogu objavljivati\n"
+"- partneri: samo autentificirani partneri\n"
+"- pratioci: samo pratioci povezanog dokumenta ili članovi kanala koje prate\n"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__access_url
@@ -1378,8 +1402,7 @@ msgstr "Prioritet"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma_operation.py:0
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
+#: code:addons/rma/models/rma_operation.py
 #, python-format
 msgid "Processed"
 msgstr "Obrađeno"
@@ -1391,8 +1414,6 @@ msgstr "Grupa naručivanja"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__product_id
-#: model_terms:ir.ui.view,arch_db:rma.portal_my_rmas
-#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
 msgid "Product"
 msgstr "Artikal"
 
@@ -1403,10 +1424,10 @@ msgstr "Proizvod qty"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__return_product_id
-#: model:ir.model.fields,help:rma.field_stock_return_picking_line__return_product_id
 msgid ""
 "Product to be returned if it's different from the originally delivered item."
 msgstr ""
+"Proizvod koji se vraća ako se razlikuje od originalno isporučene stavke."
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_tag__is_public
@@ -1415,15 +1436,12 @@ msgstr "Public Tag"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__product_uom_qty
-#: model_terms:ir.ui.view,arch_db:rma.portal_my_rmas
-#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
 msgid "Quantity"
 msgstr "Količina"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/wizard/rma_delivery.py:0
-#: model:ir.model.constraint,message:rma.constraint_rma_split_wizard_check_product_uom_qty_positive
+#: code:addons/rma/wizard/rma_delivery.py
 #, python-format
 msgid "Quantity must be greater than 0."
 msgstr "Količina Mora be greater than 0."
@@ -1435,12 +1453,14 @@ msgstr "Količina to extract"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid ""
 "Quantity to extract cannot be greater than remaining delivery quantity "
 "(%(remaining_qty)s %(product_uom)s)"
 msgstr ""
+"Količina za izvlačenje ne može biti veća od preostale količine dostave "
+"(%(remaining_qty)s %(product_uom)s)"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_split_wizard__product_uom_qty
@@ -1449,28 +1469,17 @@ msgstr "Količina to extract to a new RMA."
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.rma_action
-#: model:ir.model,name:rma.model_rma
-#: model:ir.model.fields,field_description:rma.field_account_move_line__rma_id
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__rma_id
-#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma
-#: model:ir.module.category,name:rma.rma_module_category
-#: model:ir.ui.menu,name:rma.rma_menu
-#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
-#: model_terms:ir.ui.view,arch_db:rma.rma_operation_kanban
-#: model_terms:ir.ui.view,arch_db:rma.view_partner_form
-#: model_terms:ir.ui.view,arch_db:rma.view_picking_form
 msgid "RMA"
 msgstr "RMA"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_my_rmas
-#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
 msgid "RMA #"
 msgstr "RMA #"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/res_company.py:0
+#: code:addons/rma/models/res_company.py
 #, python-format
 msgid "RMA Code"
 msgstr "RMA kod"
@@ -1492,7 +1501,7 @@ msgstr "RMA rok"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/stock_warehouse.py:0
+#: code:addons/rma/models/stock_warehouse.py
 #, python-format
 msgid "RMA Delivery Orders"
 msgstr "RMA nalozi za dostavu"
@@ -1519,8 +1528,6 @@ msgstr "RMA Finalization Razlog"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.action_rma_finalization
-#: model:ir.ui.menu,name:rma.rma_configuration_rma_finalization_menu
-#: model_terms:ir.ui.view,arch_db:rma.rma_finalization_view_search
 msgid "RMA Finalization Reasons"
 msgstr "Razlozi završetka RMA-a"
 
@@ -1546,8 +1553,6 @@ msgstr "RMA ručno završavanje"
 
 #. module: rma
 #: model:mail.message.subtype,name:rma.mt_rma_notification
-#: model:mail.message.subtype,name:rma.mt_rma_team_rma_notification
-#: model:mail.template,name:rma.mail_template_rma_notification
 msgid "RMA Notification"
 msgstr "RMA Notification"
 
@@ -1558,8 +1563,6 @@ msgstr "RMA nalog -"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.portal_my_home_menu_rma
-#: model_terms:ir.ui.view,arch_db:rma.portal_my_home_rma
-#: model_terms:ir.ui.view,arch_db:rma.portal_my_rmas
 msgid "RMA Orders"
 msgstr "RMA nalozi"
 
@@ -1585,7 +1588,7 @@ msgstr "RMA Receipt Notification"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/stock_warehouse.py:0
+#: code:addons/rma/models/stock_warehouse.py
 #, python-format
 msgid "RMA Receipts"
 msgstr "RMA prijemi"
@@ -1607,17 +1610,11 @@ msgstr "RMA oznaka"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.action_rma_tag
-#: model:ir.model,name:rma.model_rma_tag
-#: model:ir.ui.menu,name:rma.rma_configuration_rma_tag_menu
-#: model_terms:ir.ui.view,arch_db:rma.rma_tag_view_search
 msgid "RMA Tags"
 msgstr "RMA oznake"
 
 #. module: rma
 #: model:ir.model,name:rma.model_rma_team
-#: model:ir.model.fields,field_description:rma.field_res_users__rma_team_id
-#: model:ir.ui.menu,name:rma.rma_configuration_rma_team_menu
-#: model_terms:ir.ui.view,arch_db:rma.rma_team_view_form
 msgid "RMA Team"
 msgstr "RMA Team"
 
@@ -1633,8 +1630,6 @@ msgstr "RMA automatic Kupac notifications"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_partner__rma_count
-#: model:ir.model.fields,field_description:rma.field_res_users__rma_count
-#: model:ir.model.fields,field_description:rma.field_stock_picking__rma_count
 msgid "RMA count"
 msgstr "RMA count"
 
@@ -1685,14 +1680,11 @@ msgstr "RMA Povrat"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.rma_team_action
-#: model:ir.model.fields,field_description:rma.field_rma__team_id
 msgid "RMA team"
 msgstr "RMA tim"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_partner__rma_ids
-#: model:ir.model.fields,field_description:rma.field_res_users__rma_ids
-#: model:ir.model.fields,field_description:rma.field_stock_move__rma_ids
 msgid "RMAs"
 msgstr "RMAs"
 
@@ -1718,15 +1710,13 @@ msgstr "Naziv razloga"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "Receipt"
 msgstr "Račun"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma__state__received
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
 msgid "Received"
 msgstr "Primljeno"
 
@@ -1747,10 +1737,7 @@ msgstr "Referenca of the document that generated this RMA."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
-#: model:ir.model.fields,field_description:rma.field_rma__refund_id
-#: model:rma.operation,name:rma.rma_operation_refund
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "Refund"
 msgstr "Povrat"
@@ -1792,8 +1779,6 @@ msgstr "Popravi"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma_delivery_wizard__type__replace
-#: model:rma.operation,name:rma.rma_operation_replace
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
 msgid "Replace"
 msgstr "Zamijeni"
 
@@ -1809,7 +1794,7 @@ msgstr "Replaced"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid ""
 "Replacement: Move <a href=\"#\" data-oe-model=\"stock.move\" data-oe-"
@@ -1817,10 +1802,14 @@ msgid ""
 "model=\"stock.picking\" data-oe-id=\"%(picking_id)d\"> %(picking_name)s</a>)"
 " has been created."
 msgstr ""
+"Zamjena: Premještaj <a href=\"#\" data-oe-model=\"stock.move\" data-oe-"
+"id=\"%(move_id)d\">%(move_name)s</a> (Preuzimanje <a href=\"#\" data-oe-"
+"model=\"stock.picking\" data-oe-id=\"%(picking_id)d\"> %(picking_name)s</a>)"
+" je kreiran."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid ""
 "Replacement:<br/>Product <a href=\"#\" data-oe-model=\"product.product\" "
@@ -1828,6 +1817,10 @@ msgid ""
 "replacement did not create a new move, but one of the previously created "
 "moves was updated with this data."
 msgstr ""
+"Zamjena:<br/>Proizvod <a href=\"#\" data-oe-model=\"product.product\" data-"
+"oe-id=\"%(id)d\">%(name)s</a><br/>Količina %(qty)s %(uom)s<br/>Ova zamjena "
+"nije kreirala novi premještaj, već je jedan od prethodno kreiraних "
+"premještaja ažuriran ovim podacima."
 
 #. module: rma
 #: model:ir.ui.menu,name:rma.rma_reporting_menu
@@ -1836,14 +1829,12 @@ msgstr "Izvještavanje"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__operation_id
-#: model:ir.model.fields,field_description:rma.field_stock_return_picking__rma_operation_id
-#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
 msgid "Requested operation"
 msgstr "Zahtijevana operacija"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "Required field(s):%s"
 msgstr "Obavezno polje/a: %s"
@@ -1855,7 +1846,6 @@ msgstr "Requires Action"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__user_id
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
 msgid "Responsible"
 msgstr "Odgovoran"
 
@@ -1886,25 +1876,24 @@ msgstr "Stavka povrata"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__return_product_id
-#: model:ir.model.fields,field_description:rma.field_stock_return_picking_line__return_product_id
 msgid "Return Product"
 msgstr "Proizvod za povrat"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.rma_delivery_wizard_action
-#: model:ir.model.fields.selection,name:rma.selection__rma_delivery_wizard__type__return
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
 msgid "Return to customer"
 msgstr "Vrati kupcu"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid ""
 "Return: <a href=\"#\" data-oe-model=\"stock.picking\" data-oe-"
 "id=\"%(id)d\">%(name)s</a> has been created."
 msgstr ""
+"Povrat: <a href=\"#\" data-oe-model=\"stock.picking\" data-oe-"
+"id=\"%(id)d\">%(name)s</a> je kreiran."
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma__state__returned
@@ -1913,7 +1902,7 @@ msgstr "Vraćeno"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/wizard/stock_picking_return.py:0
+#: code:addons/rma/wizard/stock_picking_return.py
 #, python-format
 msgid "Returned Picking"
 msgstr "Evidencija povrata"
@@ -1945,19 +1934,16 @@ msgstr "Sigurnosni token"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__send_rma_confirmation
-#: model:ir.model.fields,field_description:rma.field_res_config_settings__send_rma_confirmation
 msgid "Send RMA Confirmation"
 msgstr "Pošalji RMA Confirmation"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__send_rma_receipt_confirmation
-#: model:ir.model.fields,field_description:rma.field_res_config_settings__send_rma_receipt_confirmation
 msgid "Send RMA Receipt Confirmation"
 msgstr "Pošalji RMA Receipt Confirmation"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__send_rma_draft_confirmation
-#: model:ir.model.fields,field_description:rma.field_res_config_settings__send_rma_draft_confirmation
 msgid "Send RMA draft Confirmation"
 msgstr "Pošalji RMA Nacrt Confirmation"
 
@@ -1998,14 +1984,14 @@ msgstr "Sekvenca"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/stock_warehouse.py:0
+#: code:addons/rma/models/stock_warehouse.py
 #, python-format
 msgid "Sequence RMA in"
 msgstr "Sekvenca RMA ulazni"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/stock_warehouse.py:0
+#: code:addons/rma/models/stock_warehouse.py
 #, python-format
 msgid "Sequence RMA out"
 msgstr "Sekvenca RMA izlazni"
@@ -2017,8 +2003,6 @@ msgstr "Postavi na nacrt"
 
 #. module: rma
 #: model:ir.actions.act_window,name:rma.action_rma_config_settings
-#: model:ir.ui.menu,name:rma.menu_rma_general_settings
-#: model_terms:ir.ui.view,arch_db:rma.rma_operation_form_view
 msgid "Settings"
 msgstr "Postavke"
 
@@ -2064,7 +2048,6 @@ msgstr "Izvorni dokument"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_split_wizard_view_form2
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
 msgid "Split"
 msgstr "Razdvoji"
 
@@ -2075,23 +2058,23 @@ msgstr "Podijeli RMA"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid ""
 "Split: <a href=\"#\" data-oe-model=\"rma\" data-oe-"
 "id=\"%(id)d\">%(name)s</a> has been created."
 msgstr ""
+"Podijeli: <a href=\"#\" data-oe-model=\"rma\" data-oe-"
+"id=\"%(id)d\">%(name)s</a> je kreiran."
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__state
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
 msgid "State"
 msgstr "Status"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/controllers/main.py:0
-#: model_terms:ir.ui.view,arch_db:rma.portal_my_rmas
+#: code:addons/rma/controllers/main.py
 #, python-format
 msgid "Status"
 msgstr "Status"
@@ -2104,6 +2087,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: rma
 #: model:ir.model,name:rma.model_stock_move
@@ -2142,7 +2129,6 @@ msgstr "Vođa tima"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_team__member_ids
-#: model_terms:ir.ui.view,arch_db:rma.rma_team_view_form
 msgid "Team Members"
 msgstr "Članovi tima"
 
@@ -2157,11 +2143,14 @@ msgid ""
 "The RMA operation system allows you to configure each return operation\n"
 "                with specific settings that will adjust its behavior."
 msgstr ""
+"Sistem RMA operacija vam omogućava konfiguriranje svake operacije povrata sa"
+" specifičnim postavkama koje će prilagoditi njezino ponašanje."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_tag__active
 msgid "The active field allows you to hide the category without removing it."
-msgstr "Ovo poljeVam dozvoljava da sakrijete kategoriju bez njenog uklanjanja."
+msgstr ""
+"Ovo poljeVam dozvoljava da sakrijete kategoriju bez njenog uklanjanja."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_team__alias_model_id
@@ -2170,6 +2159,9 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+"Model (vrsta Odoo dokumenta) kome odgovara ovaj alias. Bilo koji dolazni "
+"email koji ne odgovara postojećem zapisu će uzrokovati kreiranje novog "
+"zapisa ovog modela (npr. projektni zadatak)"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_team__alias_name
@@ -2177,6 +2169,8 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+"Naziv email aliasa, npr. 'jobs' ako želite primati emailove za "
+"<jobs@example.odoo.com>"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_team__alias_user_id
@@ -2186,31 +2180,39 @@ msgid ""
 "the sender (From) address, or will use the Administrator account if no "
 "system user is found for that address."
 msgstr ""
+"Vlasnik zapisa kreiranih nakon primanja emailova na ovaj alias. Ako ovo "
+"polje nije postavljeno, sistem će pokušati pronaći pravog vlasnika na osnovu"
+" adrese pošiljaoca (From), ili će koristiti račun administratora ako nije "
+"pronađen sistemski korisnik za tu adresu."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/stock_move.py:0
+#: code:addons/rma/models/stock_move.py
 #, python-format
 msgid ""
 "The quantity done for the product '%(id)s' must be equal to its initial "
 "demand because the stock move is linked to an RMA (%(name)s)."
 msgstr ""
+"Količina urađena za proizvod '%(id)s' mora biti jednaka njegovoj početnoj "
+"potražnji jer je premještaj zaliha povezan sa RMA (%(name)s)."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "The quantity to return is greater than remaining quantity."
 msgstr "Količina za povrat je veća od preostale količine."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid ""
 "The selected operation requires a return product different from the "
 "originally delivered item. Please select the product to return."
 msgstr ""
+"Odabrana operacija zahtijeva proizvod za povrat različit od originalno "
+"dostavljene stavke. Molimo odaberite proizvod za povrat."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma_tag__is_public
@@ -2219,37 +2221,38 @@ msgstr "The tag is visible in the portal view"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/account_move.py:0
+#: code:addons/rma/models/account_move.py
 #, python-format
 msgid ""
 "There is at least one invoice lines whose quantity is less than the quantity"
 " specified in its linked RMA."
 msgstr ""
+"Postoji najmanje jedna linija fakture čija je količina manja od količine "
+"navedene u povezanom RMA."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "This RMA cannot be split."
 msgstr "Ovaj RMA se ne može podijeliti."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "This RMA cannot perform a replacement."
 msgstr "Ovaj RMA ne može izvršiti zamjenu."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "This RMA cannot perform a return."
 msgstr "Ovaj RMA ne može izvršiti povrat."
 
 #. module: rma
 #: model:ir.actions.server,name:rma.rma_refund_action_server
-#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
 msgid "To Refund"
 msgstr "Za povrat"
 
@@ -2280,7 +2283,6 @@ msgstr "Nedodijeljeni RMA-i"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__product_uom
-#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__product_uom
 msgid "Unit of measure"
 msgstr "Unit of measure"
 
@@ -2336,26 +2338,21 @@ msgstr "Waiting for Povrat"
 
 #. module: rma
 #: model:ir.model,name:rma.model_stock_warehouse
-#: model:ir.model.fields,field_description:rma.field_rma__warehouse_id
-#: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__warehouse_id
 msgid "Warehouse"
 msgstr "Skladište"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__website_message_ids
-#: model:ir.model.fields,field_description:rma.field_rma_team__website_message_ids
 msgid "Website Messages"
 msgstr "Poruke sa website-a"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__website_message_ids
-#: model:ir.model.fields,help:rma.field_rma_team__website_message_ids
 msgid "Website communication history"
 msgstr "Povijest komunikacije Web stranice"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_res_company__send_rma_draft_confirmation
-#: model:ir.model.fields,help:rma.field_res_config_settings__send_rma_draft_confirmation
 msgid "When a customer places an RMA, send a notification with it"
 msgstr "When a Kupac places an RMA, Pošalji a notification with it"
 
@@ -2365,6 +2362,8 @@ msgid ""
 "When customers themselves place an RMA from the portal, send an automatic "
 "notification acknowleging it."
 msgstr ""
+"Kad kupci sami postave RMA s portala, pošaljite automatsko obavještenje o "
+"priznavanju."
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
@@ -2377,49 +2376,53 @@ msgid ""
 "When the RMA is receive, allow to finsish it manually choosing\n"
 "                            a finalization reason."
 msgstr ""
+"Kad je RMA primljen, omogućite da se završi ručno odabiranjem razloga "
+"završetka."
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
 msgid ""
 "When the RMA products are received, send an automatic information email."
 msgstr ""
+"Kad su RMA proizvodi primljeni, pošaljite automatski informacijski e-mail."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_res_company__send_rma_receipt_confirmation
-#: model:ir.model.fields,help:rma.field_res_config_settings__send_rma_receipt_confirmation
 msgid ""
 "When the RMA receipt is confirmed, send a confirmation email to the "
 "customer."
-msgstr ""
+msgstr "Kada je prijem RMA potvrđen, pošalji kupcu email potvrde."
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_res_company__send_rma_confirmation
-#: model:ir.model.fields,help:rma.field_res_config_settings__send_rma_confirmation
 msgid ""
 "When the delivery is confirmed, send a confirmation email to the customer."
-msgstr ""
+msgstr "Kada je isporuka potvrđena, pošalji kupcu email potvrde."
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/models/rma.py:0
+#: code:addons/rma/models/rma.py
 #, python-format
 msgid "You cannot delete RMAs that are not in draft state"
 msgstr "Ne možete obrisati RMA-e koji nisu u stanju nacrta"
 
 #. module: rma
 #. odoo-python
-#: code:addons/rma/wizard/stock_picking_return.py:0
+#: code:addons/rma/wizard/stock_picking_return.py
 #, python-format
 msgid ""
 "You must specify the 'Customer' in the 'Stock Picking' from which RMAs will "
 "be created"
 msgstr ""
+"Morate specificirati 'Kupca' u 'Preuzimanju zaliha' iz kojeg će se kreirati "
+"RMA-i"
 
 #. module: rma
 #: model:res.groups,comment:rma.rma_group_user_all
 msgid ""
 "the user will have access to all records of everyone in the RMA application."
 msgstr ""
+"korisnik će imati pristup svim zapisima svih korisnika u RMA aplikaciji."
 
 #. module: rma
 #: model:res.groups,comment:rma.rma_group_user_own
@@ -2432,11 +2435,11 @@ msgid ""
 "the user will have an access to the RMA configuration as well as statistic "
 "reports."
 msgstr ""
+"korisnik će imati pristup konfiguraciji RMA-a kao i statističkim "
+"izvještajima."
 
 #. module: rma
 #: model:mail.template,report_name:rma.mail_template_rma_draft_notification
-#: model:mail.template,report_name:rma.mail_template_rma_notification
-#: model:mail.template,report_name:rma.mail_template_rma_receipt_notification
 msgid "{{(object.name or '')}}"
 msgstr "{{(object.Naziv or '')}}"
 
@@ -2451,6 +2454,8 @@ msgid ""
 "{{object.company_id.name}} RMA (Ref {{object.name or 'n/a' }}) products "
 "received"
 msgstr ""
+"{{object.company_id.name}} RMA (ref {{object.name or 'n/a' }}) - proizvodi "
+"primljeni"
 
 #. module: rma
 #: model:mail.template,subject:rma.mail_template_rma_draft_notification
@@ -2458,3 +2463,5 @@ msgid ""
 "{{object.company_id.name}} Your RMA has been succesfully created (Ref "
 "{{object.name or 'n/a' }})"
 msgstr ""
+"{{object.company_id.name}} Vaš RMA je uspješno kreiran (ref {{object.name or"
+" 'n/a' }})"

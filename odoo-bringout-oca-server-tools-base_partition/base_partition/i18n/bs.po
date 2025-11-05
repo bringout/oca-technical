@@ -20,9 +20,11 @@ msgstr "Osnova"
 
 #. module: base_partition
 #. odoo-python
-#: code:addons/base_partition/models/models.py:0
+#: code:addons/base_partition/models/models.py
 #, python-format
 msgid ""
 "Either set up a '_default_batch_size' on the model or provide a batch_size "
 "parameter."
 msgstr ""
+"Ili postavite '_default_batch_size' na modelu ili pružite batch_size "
+"parametar."

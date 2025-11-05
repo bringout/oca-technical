@@ -30,7 +30,6 @@ msgstr "Neusklađenost"
 
 #. module: mgmtsystem_nonconformity_hazard
 #: model:ir.model,name:mgmtsystem_nonconformity_hazard.model_mgmtsystem_nonconformity
-#: model:ir.model.fields,field_description:mgmtsystem_nonconformity_hazard.field_mgmtsystem_hazard__nonconformity_ids
 msgid "Nonconformity"
 msgstr "Neusklađenost"
 

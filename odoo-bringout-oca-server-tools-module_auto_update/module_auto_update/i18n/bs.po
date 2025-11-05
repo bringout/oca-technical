@@ -15,17 +15,17 @@ msgstr ""
 
 #. module: module_auto_update
 #: model:ir.actions.server,name:module_auto_update.ir_module_module_upgrade_changed_checksum
-#: model:ir.ui.menu,name:module_auto_update.menu_ir_module_module_upgrade_changed_checksum
 msgid "Auto-Upgrade Modules"
 msgstr "Auto-ažuriranje modula"
 
 #. module: module_auto_update
 #. odoo-python
-#: code:addons/module_auto_update/models/module.py:0
+#: code:addons/module_auto_update/models/module.py
 #, python-format
 msgid "Checksum upgrade complete."
 msgstr "Ažuriranje checksuma završeno."
 
+# taken from hr.po
 #. module: module_auto_update
 #: model:ir.model,name:module_auto_update.model_ir_module_module
 msgid "Module"
@@ -33,12 +33,14 @@ msgstr "Modul"
 
 #. module: module_auto_update
 #. odoo-python
-#: code:addons/module_auto_update/models/module.py:0
+#: code:addons/module_auto_update/models/module.py
 #, python-format
 msgid ""
 "No checksum change detected in installed modules and all modules installed, "
 "nothing to do."
 msgstr ""
+"Nije detektovana promjena kontrolne sume u instaliranim modulima i svi "
+"moduli su instalirani, nema šta uraditi."
 
 #. module: module_auto_update
 #: model:ir.model.fields,field_description:module_auto_update.field_ir_module_module__smart_search

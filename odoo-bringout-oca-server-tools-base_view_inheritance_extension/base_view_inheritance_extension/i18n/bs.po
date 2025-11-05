@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: base_view_inheritance_extension
 #: model_terms:ir.ui.view,arch_db:base_view_inheritance_extension.view_partner_simple_form
 msgid "Partner form"
 msgstr "Forma partnera"
 
+# taken from hr.po
 #. module: base_view_inheritance_extension
 #: model_terms:ir.ui.view,arch_db:base_view_inheritance_extension.view_partner_simple_form
 msgid "Phone numbers"
@@ -28,6 +30,7 @@ msgstr "Brojevi telefona"
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
+# taken from hr.po
 #. module: base_view_inheritance_extension
 #: model:ir.model,name:base_view_inheritance_extension.model_ir_ui_view
 msgid "View"

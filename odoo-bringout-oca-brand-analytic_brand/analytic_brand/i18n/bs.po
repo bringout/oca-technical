@@ -26,7 +26,7 @@ msgstr "Preciznost analitike"
 #. module: analytic_brand
 #: model:ir.model,name:analytic_brand.model_res_brand
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: analytic_brand
 #: model:ir.model.fields,field_description:analytic_brand.field_res_brand__distribution_analytic_account_ids

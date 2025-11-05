@@ -40,8 +40,6 @@ msgstr "Potvrdi otkazivanje"
 
 #. module: base_cancel_confirm
 #: model:ir.actions.act_window,name:base_cancel_confirm.action_cancel_confirm_wizard
-#: model:ir.model,name:base_cancel_confirm.model_base_cancel_confirm
-#: model_terms:ir.ui.view,arch_db:base_cancel_confirm.view_cancel_confirm_wizard
 msgid "Cancel Confirmation"
 msgstr "Potvrda otkazivanja"
 
@@ -52,13 +50,12 @@ msgstr "Otkazivanje potvrđeno"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_base_cancel_confirm__cancel_reason
-#: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__cancel_reason
 msgid "Cancel Reason"
 msgstr "Razlog otkazivanja"
 
 #. module: base_cancel_confirm
 #. odoo-python
-#: code:addons/base_cancel_confirm/model/base_cancel_confirm.py:0
+#: code:addons/base_cancel_confirm/model/base_cancel_confirm.py
 #, python-format
 msgid "Configuration Error (%s), should be 'True' or 'False'"
 msgstr "Greška konfiguracije (%s), treba biti 'True' ili 'False'"
@@ -111,7 +108,7 @@ msgstr "Zadnje ažurirano"
 #. module: base_cancel_confirm
 #: model:ir.model.fields.selection,name:base_cancel_confirm.selection__cancel_confirm__has_cancel_reason__no
 msgid "None"
-msgstr ""
+msgstr "Ništa"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields.selection,name:base_cancel_confirm.selection__cancel_confirm__has_cancel_reason__optional

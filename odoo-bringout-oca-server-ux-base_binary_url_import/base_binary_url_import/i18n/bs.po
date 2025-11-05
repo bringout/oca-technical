@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: base_binary_url_import
 #: model:ir.actions.act_window,name:base_binary_url_import.action_wizard_base_binary_url_import
-#: model:ir.ui.menu,name:base_binary_url_import.menu_binary_url_import
 msgid "Binary Import From URL"
 msgstr "Binarni uvoz s URL-a"
 
@@ -26,80 +25,80 @@ msgstr "Otkaži"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid "Could not retrieve URL: %(url)s : %(error)s"
 msgstr "Ne mogu dohvatiti URL: %(url)s : %(error)s"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__create_uid
-#: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import_line__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__create_date
-#: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import_line__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__display_name
-#: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid "File size exceeds configured maximum (%s bytes)"
 msgstr "Datoteka prekoračuje definirani maksimum (%s bajtova)"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid ""
 "Following DB IDs intersect with XML IDs:\n"
 " %s"
 msgstr ""
+"Sljedeći DB ID-evi se preklapaju sa XML ID-evima:\n"
+" %s"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid ""
 "Following IDs do not exist in database:\n"
 " %s"
 msgstr ""
+"Sljedeći ID-evi ne postoje u bazi podataka:\n"
+" %s"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid ""
 "Following XML IDs do not exist in database:\n"
 " %s"
 msgstr ""
+"Sljedeći XML ID-evi ne postoje u bazi podataka:\n"
+" %s"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__id
-#: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import_line__id
 msgid "ID"
 msgstr "ID"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid "Identifier %s is not an Integer or XMLID"
 msgstr "Identifikator %s nije cijeli broj ili XMLID"
 
 #. module: base_binary_url_import
 #: model:ir.ui.menu,name:base_binary_url_import.menu_import
-#: model_terms:ir.ui.view,arch_db:base_binary_url_import.base_binary_url_import_form
 msgid "Import"
 msgstr "Uvoz"
 
@@ -120,19 +119,16 @@ msgstr "Je identifikator ciljanog zapisa obavezan"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import____last_update
-#: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__write_uid
-#: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import_line__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__write_date
-#: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import_line__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -148,21 +144,25 @@ msgstr "ID zapisa ili XMLID"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid ""
 "Same XML IDs are duplicated:\n"
 " %s"
 msgstr ""
+"Isti XML ID-evi su duplicirani:\n"
+" %s"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid ""
 "Same database IDs are duplicated:\n"
 " %s"
 msgstr ""
+"Isti ID-evi baze podataka su duplicirani:\n"
+" %s"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__target_binary_field_id
@@ -201,7 +201,7 @@ msgstr "URL za uvoz"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid "Updated records"
 msgstr "Ažurirani zapisi"
@@ -214,22 +214,28 @@ msgstr "ID čarobnjaka"
 #. module: base_binary_url_import
 #: model_terms:ir.ui.view,arch_db:base_binary_url_import.base_binary_url_import_form
 msgid "Write your lines one by one or copy paste a CSV-like list with ID,URL."
-msgstr "Napišite svoje linije jednu po jednu ili kopirajte zalijepite CSV-like listu s ID,URL."
+msgstr ""
+"Napišite svoje linije jednu po jednu ili kopirajte zalijepite CSV-like listu"
+" s ID,URL."
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid ""
 "XML ID %(xml_id)s matches a record of model %(model_name)s instead of model "
 "%(tagert_model_name)s"
 msgstr ""
+"XML ID %(xml_id)s odgovara zapisu modela %(model_name)s umjesto modela "
+"%(tagert_model_name)s"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
 #, python-format
 msgid ""
 "You can not import files via URL, check with your administrator for the "
 "reason."
 msgstr ""
+"Ne možete uvesti datoteke putem URL-a, provjerite sa vašim administratorom "
+"razlog."

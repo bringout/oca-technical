@@ -103,6 +103,91 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div style=\"background:#F3F5F6;color:#515166;padding:25px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
+"                <table style=\"width:600px;margin:5px auto;\">\n"
+"                    <tbody>\n"
+"                        <tr>\n"
+"                            <td>\n"
+"                                <a href=\"/\">\n"
+"                                    <img src=\"/logo\" t-att-alt=\"object.activity_id.controller_id.display_name\" style=\"vertical-align:baseline;max-width:100px;\">\n"
+"                                </a>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                <table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
+"                    <tbody>\n"
+"                        <tr>\n"
+"                            <td colspan=\"2\" style=\"padding:15px 20px 0px 20px; font-size:16px;\">\n"
+"                                <p>\n"
+"                                    Zdravo, <t t-out=\"object.partner_id.name\"></t>\n"
+"                                </p>\n"
+"                                <p>\n"
+"                                    Kontaktirali smo vas da zatražimo da nam date eksplicitnu saglasnost za uključivanje vaših podataka u aktivnost obrade podataka nazvanu\n"
+"                                    <b t-out=\"object.activity_id.display_name\"></b>, vlasništvo\n"
+"                                    <i t-out=\"object.activity_id.controller_id.display_name\"></i>\n"
+"                                </p>\n"
+"                                <t t-out=\"object.activity_id.description\"></t>\n"
+"                                <p>\n"
+"                                    <t t-if=\"object.state == 'answered'\">\n"
+"                                        Poslednji put kada ste odgovorili, vi ste\n"
+"                                    </t>\n"
+"                                    <t t-else=\"\">\n"
+"                                        Ako ne učinite ništa, pretpostavićemo da ste\n"
+"                                    </t>\n"
+"\n"
+"                                    <t t-if=\"object.accepted\">\n"
+"                                        <b>prihvatili</b>\n"
+"                                    </t>\n"
+"                                    <t t-else=\"\">\n"
+"                                        <b>odbili</b>\n"
+"                                    </t>\n"
+"                                    takvu obradu podataka.\n"
+"                                </p>\n"
+"                                <p>\n"
+"                                    Možete ažurirati vaše preferencije ispod:\n"
+"                                </p>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                        <tr>\n"
+"                            <td style=\"padding:15px 20px 0px 20px; font-size:16px; text-align:right;\">\n"
+"                                <a href=\"/privacy/consent/accept/\" style=\"background-color: #449d44; padding: 12px; font-weight: 12px; text-decoration: none; color: #fff; border-radius: 5px; font-size:16px;\">\n"
+"                                    Prihvati\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td style=\"padding:15px 20px 0px 20px; font-size:16px; text-align:left;\">\n"
+"                                <a href=\"/privacy/consent/reject/\" style=\"background-color: #d9534f; padding: 12px; font-weight: 12px; text-decoration: none; color: #fff; border-radius: 5px; font-size:16px;\">\n"
+"                                    Odbij\n"
+"                                </a>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                        <tr>\n"
+"                            <td colspan=\"2\" style=\"padding:15px 20px 15px 20px; font-size:16px;\">\n"
+"                                <p>\n"
+"                                    Ako vam trebaju dodatne informacije, molimo odgovorite na ovaj e-mail i obratićemo pažnju na vaš zahtjev što je prije moguće.\n"
+"                                </p>\n"
+"                                <p>\n"
+"                                    Hvala vam!\n"
+"                                </p>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"                <table style=\"width:600px;margin:0px auto;text-align:center;\">\n"
+"                    <tbody>\n"
+"                        <tr>\n"
+"                            <td style=\"padding-top:10px;font-size: 12px;\">\n"
+"                                <p>\n"
+"                                    Poslao\n"
+"                                    <a href=\"/\" style=\"color:#717188;\">\n"
+"                                        <t t-out=\"object.activity_id.controller_id.display_name\"></t>\n"
+"                                    </a>.\n"
+"                                </p>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </tbody>\n"
+"                </table>\n"
+"            </div>\n"
 
 #. module: privacy_consent
 #: model:mail.message.subtype,name:privacy_consent.mt_activity_acceptance_changed
@@ -121,7 +206,6 @@ msgstr "Status prihvatanja ažuriran od strane subjekta"
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__accepted
-#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
 msgid "Accepted"
 msgstr "Prihvaćeno"
 
@@ -142,7 +226,6 @@ msgstr "Aktivan"
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__activity_id
-#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
 msgid "Activity"
 msgstr "Aktivnost"
 
@@ -153,7 +236,6 @@ msgstr "Odgovoren"
 
 #. module: privacy_consent
 #: model_terms:ir.ui.view,arch_db:privacy_consent.consent_form
-#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -204,10 +286,6 @@ msgstr "Saglasnost za obradu podataka"
 
 #. module: privacy_consent
 #: model:ir.actions.act_window,name:privacy_consent.consent_action
-#: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__consent_ids
-#: model:ir.model.fields,field_description:privacy_consent.field_res_partner__privacy_consent_count
-#: model:ir.model.fields,field_description:privacy_consent.field_res_users__privacy_consent_count
-#: model:ir.ui.menu,name:privacy_consent.menu_privacy_consent
 msgid "Consents"
 msgstr "Saglasnosti"
 
@@ -241,6 +319,8 @@ msgstr "Aktivnosti obrade podataka"
 msgid ""
 "Data processing consent request for {{ object.activity_id.display_name }}"
 msgstr ""
+"Zahtjev za saglasnost obrade podataka za {{ object.activity_id.display_name "
+"}}"
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__display_name
@@ -274,12 +354,16 @@ msgid ""
 "include details about the current consent request status, how to change it, "
 "and where to get more information."
 msgstr ""
+"E-pošta koju treba poslati subjektima da zatraže saglasnost. Dobar predložak"
+" treba da uključuje detalje o trenutnom statusu zahtjeva za saglasnost, kako"
+" da ga promijene i gdje da dobiju više informacija."
 
 #. module: privacy_consent
 #: model:ir.model.fields,help:privacy_consent.field_privacy_activity__consent_required
 msgid ""
 "Enable if you need to track any kind of consent from the affected subjects"
 msgstr ""
+"Omogući ako trebate pratiti bilo koji tip saglasnosti od pogođenih subjekata"
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__message_follower_ids
@@ -303,7 +387,7 @@ msgstr "Generiraj nedostajuće nacrte zahtjeva za saglasnost"
 
 #. module: privacy_consent
 #. odoo-python
-#: code:addons/privacy_consent/models/privacy_activity.py:0
+#: code:addons/privacy_consent/models/privacy_activity.py
 #, python-format
 msgid "Generated consents"
 msgstr "Generirane saglasnosti"
@@ -360,6 +444,9 @@ msgid ""
 "answer, or from the default specified in the related data processing "
 "activity."
 msgstr ""
+"Označava trenutni status prihvatanja, koji može doći iz poslednjeg odgovora "
+"subjekta ili iz zadatog specificiranog u povezanoj aktivnosti obrade "
+"podataka."
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__message_is_follower
@@ -413,17 +500,19 @@ msgstr "Metadata iz poslednjeg prihvatanja ili odbacivanja od strane subjekta"
 
 #. module: privacy_consent
 #. odoo-python
-#: code:addons/privacy_consent/models/mail_template.py:0
+#: code:addons/privacy_consent/models/mail_template.py
 #, python-format
 msgid ""
 "Missing privacy consent link placeholders. You need at least these two links:\n"
 "<a href=\"%(consent_url)s\">Accept</a>\n"
 "<a href=\"%(reject_url)s\">Reject</a>"
 msgstr ""
+"Nedostaju mjesta za linkove za saglasnost o privatnosti. Potrebna su vam najmanje ova dva linka:\n"
+"<a href=\"%(consent_url)s\">Prihvati</a>\n"
+"<a href=\"%(reject_url)s\">Odbij</a>"
 
 #. module: privacy_consent
 #: model:mail.message.subtype,name:privacy_consent.mt_activity_consent_new
-#: model:mail.message.subtype,name:privacy_consent.mt_consent_consent_new
 msgid "New Consent"
 msgstr "Nova saglasnost"
 
@@ -464,40 +553,36 @@ msgstr "Status prihvatanja zahtjeva za saglasnost privatnosti promijenjen"
 
 #. module: privacy_consent
 #: model:mail.message.subtype,description:privacy_consent.mt_activity_consent_new
-#: model:mail.message.subtype,description:privacy_consent.mt_consent_consent_new
 msgid "Privacy consent request created"
 msgstr "Kreiran zahtjev za saglasnost privatnosti"
 
 #. module: privacy_consent
 #: model:mail.message.subtype,description:privacy_consent.mt_activity_state_changed
-#: model:mail.message.subtype,description:privacy_consent.mt_consent_state_changed
 msgid "Privacy consent request state changed"
 msgstr "Stanje zahtjeva za saglasnost privatnosti promijenjeno"
 
 #. module: privacy_consent
 #: model:ir.model.fields,help:privacy_consent.field_res_partner__privacy_consent_count
-#: model:ir.model.fields,help:privacy_consent.field_res_users__privacy_consent_count
 msgid "Privacy consent requests amount"
 msgstr "Količina zahtjeva za saglasnost privatnosti"
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_res_partner__privacy_consent_ids
-#: model:ir.model.fields,field_description:privacy_consent.field_res_users__privacy_consent_ids
 msgid "Privacy consents"
 msgstr "Saglasnosti za privatnost"
 
 #. module: privacy_consent
 #: model:ir.actions.server,name:privacy_consent.cron_auto_consent_ir_actions_server
-#: model:ir.cron,cron_name:privacy_consent.cron_auto_consent
 msgid "Request automatic data processing consents"
 msgstr "Zatraži automatske saglasnosti za obradu podataka"
 
 #. module: privacy_consent
 #. odoo-python
-#: code:addons/privacy_consent/models/privacy_activity.py:0
+#: code:addons/privacy_consent/models/privacy_activity.py
 #, python-format
 msgid "Require consent is available only for subjects in current database."
-msgstr "Zahtijeva saglasnost je dostupno samo za subjekte u trenutnoj bazi podataka."
+msgstr ""
+"Zahtijeva saglasnost je dostupno samo za subjekte u trenutnoj bazi podataka."
 
 #. module: privacy_consent
 #: model:ir.model.fields,help:privacy_consent.field_privacy_activity__server_action_id
@@ -505,6 +590,8 @@ msgid ""
 "Run this action when a new consent request is created or its acceptance "
 "status is updated."
 msgstr ""
+"Pokreni ovu akciju kada se kreira novi zahtjev za saglasnost ili se ažurira "
+"status prihvatanja."
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__server_action_id
@@ -514,7 +601,8 @@ msgstr "Serverska akcija"
 #. module: privacy_consent
 #: model:ir.model.fields,help:privacy_consent.field_privacy_activity__default_consent
 msgid "Should we assume the subject has accepted if we receive no response?"
-msgstr "Trebamo li pretpostaviti da je subjekt prihvatio ako ne dobijemo odgovor?"
+msgstr ""
+"Trebamo li pretpostaviti da je subjekt prihvatio ako ne dobijemo odgovor?"
 
 #. module: privacy_consent
 #: model_terms:ir.ui.view,arch_db:privacy_consent.form
@@ -523,20 +611,18 @@ msgstr "S poštovanjem,<br/>"
 
 #. module: privacy_consent
 #. odoo-python
-#: code:addons/privacy_consent/models/privacy_activity.py:0
+#: code:addons/privacy_consent/models/privacy_activity.py
 #, python-format
 msgid "Specify a mail template to ask automated consent."
 msgstr "Definirajte predložak e-pošte za automatsko zahtijevanje saglasnosti."
 
 #. module: privacy_consent
 #: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__state
-#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
 msgid "State"
 msgstr "Status"
 
 #. module: privacy_consent
 #: model:mail.message.subtype,name:privacy_consent.mt_activity_state_changed
-#: model:mail.message.subtype,name:privacy_consent.mt_consent_state_changed
 msgid "State Changed"
 msgstr "Stanje promijenjeno"
 
@@ -568,7 +654,9 @@ msgstr "Hvala na vašem odgovoru."
 #. module: privacy_consent
 #: model_terms:ir.ui.view,arch_db:privacy_consent.activity_form
 msgid "This could enqueue many consent emails, are you sure to proceed?"
-msgstr "Ovo može staviti u red čekanja mnoge e-poruke za saglasnost, jeste li sigurni da želite nastaviti?"
+msgstr ""
+"Ovo može staviti u red čekanja mnoge e-poruke za saglasnost, jeste li "
+"sigurni da želite nastaviti?"
 
 #. module: privacy_consent
 #: model_terms:ir.ui.view,arch_db:privacy_consent.form
@@ -576,6 +664,8 @@ msgid ""
 "We asked you to authorize us to process your data in this data processing "
 "activity:"
 msgstr ""
+"Zatražili smo od vas da nas ovlaštite da obrađujemo vaše podatke u ovoj "
+"aktivnosti obrade podataka:"
 
 #. module: privacy_consent
 #: model_terms:ir.ui.view,arch_db:privacy_consent.form

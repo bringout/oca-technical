@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: document_quick_access_folder_auto_classification
 #: model_terms:ir.ui.view,arch_db:document_quick_access_folder_auto_classification.document_quick_access_missing_assign_form_view
-#: model_terms:ir.ui.view,arch_db:document_quick_access_folder_auto_classification.document_quick_access_missing_form_view
 msgid "Assign"
 msgstr "Dodijeli"
 
@@ -51,7 +50,6 @@ msgstr "Brzi pristup dokumentu nedostaje"
 
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.actions.act_window,name:document_quick_access_folder_auto_classification.document_quick_access_missing_assign_act_window
-#: model_terms:ir.ui.view,arch_db:document_quick_access_folder_auto_classification.document_quick_access_missing_assign_form_view
 msgid "Document Quick Access Missing Assign"
 msgstr "Dodjela brzog pristupa dokumentu nedostaje"
 
@@ -97,7 +95,7 @@ msgstr "Nedostaju dokumenti"
 
 #. module: document_quick_access_folder_auto_classification
 #. odoo-python
-#: code:addons/document_quick_access_folder_auto_classification/components/document_quick_access_process.py:0
+#: code:addons/document_quick_access_folder_auto_classification/components/document_quick_access_process.py
 #, python-format
 msgid "No file found"
 msgstr "Datoteka nije pronađena"

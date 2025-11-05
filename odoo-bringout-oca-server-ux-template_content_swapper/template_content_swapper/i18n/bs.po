@@ -62,11 +62,10 @@ msgstr "ID"
 #: model:ir.model.fields,help:template_content_swapper.field_template_content_mapping__lang
 msgid ""
 "If no language is selected, the mapping will be applied to all languages."
-msgstr ""
+msgstr "Ako nije odabran jezik, mapiranje će se primeniti na sve jezike."
 
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__lang
-#: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
 msgid "Language"
 msgstr "Jezik"
 
@@ -97,14 +96,14 @@ msgstr "Qweb"
 
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__report_id
-#: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
 msgid "Report"
 msgstr "Izvještaj"
 
 #. module: template_content_swapper
 #: model:ir.model.fields,help:template_content_swapper.field_template_content_mapping__template_id
 msgid "Select the main template of the report / frontend page to be modified."
-msgstr "Odaberite glavni šablon izveštaja/frontend stranice koji treba modifikovati."
+msgstr ""
+"Odaberite glavni šablon izveštaja/frontend stranice koji treba modifikovati."
 
 #. module: template_content_swapper
 #: model:ir.model.fields,help:template_content_swapper.field_template_content_mapping__content_from
@@ -118,7 +117,6 @@ msgstr "Postavite novi sadržaj (tekst). npr. 'Predstavnik prodaje'."
 
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__template_id
-#: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
 msgid "Template"
 msgstr "Prijedlog"
 
@@ -129,7 +127,5 @@ msgstr "Mapiranje sadržaja šablona"
 
 #. module: template_content_swapper
 #: model:ir.actions.act_window,name:template_content_swapper.action_template_content_mapping
-#: model:ir.ui.menu,name:template_content_swapper.menu_template_content_mapping
-#: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
 msgid "Template Content Mappings"
 msgstr "Mapiranje sadržaja šablona"

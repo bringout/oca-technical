@@ -27,6 +27,11 @@ msgid ""
 "* Available: When products are reserved, it is set to 'Available'.\n"
 "* Done: When the shipment is processed, the state is 'Done'."
 msgstr ""
+"* Novo: Kada je kretanje zaliha kreirano i još nije potvrđeno.\n"
+"* Čekanje na drugo kretanje: Ovo stanje se vidi kada kretanje čeka na drugo, na primjer u lančanom toku.\n"
+"* Čekanje dostupnosti: Ovo stanje se dostiže kada rješavanje nabavke nije jednostavno. Možda je potrebno pokrenuti planer, proizvesti komponentu...\n"
+"* Dostupno: Kada su proizvodi rezervirani, postavlja se na 'Dostupno'.\n"
+"* Završeno: Kada je pošiljka obrađena, stanje je 'Završeno'."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
@@ -35,6 +40,9 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Ove vrijednosti su specifične"
+" za svaku tvrtku.\" role=\"img\" aria-label=\"Ove vrijednosti su specifične "
+"za svaku tvrtku.\" groups=\"base.group_multi_company\"/>"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__adu
@@ -48,7 +56,6 @@ msgstr "Metoda ADU izračuna"
 
 #. module: ddmrp
 #: model:ir.actions.act_window,name:ddmrp.product_adu_calculation_method_form_action
-#: model:ir.ui.menu,name:ddmrp.menu_product_adu_calculation_method
 msgid "ADU calculation methods"
 msgstr "Metode ADU izračuna"
 
@@ -73,21 +80,24 @@ msgid ""
 "Apply adjustments to dynamically alter stock buffers to respond to planned "
 "or anticipated events."
 msgstr ""
+"Primijenite prilagođavanja kako biste dinamički promijenili bafere zaliha u "
+"odgovoru na planirane ili očekivane događaje."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
 msgid "Archived"
 msgstr "Arhivirano"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_template.py:0
+#: code:addons/ddmrp/models/product_template.py
 #, python-format
 msgid ""
 "At least one stock buffer for this product has a different Procurement unit "
 "of measure category."
 msgstr ""
+"Najmanje jedan bafer zaliha za ovaj proizvod ima različitu kategoriju "
+"jedinice mjere za nabavku."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__auto_procure
@@ -136,7 +146,7 @@ msgstr "Sastavnica"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Blended"
 msgstr "Miješano"
@@ -148,7 +158,6 @@ msgstr "Bafer"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_product_product__buffer_count
-#: model:ir.model.fields,field_description:ddmrp.field_product_template__buffer_count
 msgid "Buffer Count"
 msgstr "Broj bafera"
 
@@ -169,27 +178,21 @@ msgstr "Nivo statusa dostupnih zaliha bafera"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__buffer_profile_id
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_stock_buffer_profile_form
 msgid "Buffer Profile"
 msgstr "Profil bafera"
 
 #. module: ddmrp
 #: model:ir.actions.act_window,name:ddmrp.stock_buffer_profile_lead_time_form_action
-#: model:ir.ui.menu,name:ddmrp.menu_stock_buffer_profile_lead_time
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_stock_buffer_profile_lead_time_form
 msgid "Buffer Profile Lead Time Factor"
 msgstr "Faktor vremena isporuke profila bafera"
 
 #. module: ddmrp
 #: model:ir.actions.act_window,name:ddmrp.stock_buffer_profile_variability_form_action
-#: model:ir.ui.menu,name:ddmrp.menu_stock_buffer_profile_variability
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_stock_buffer_profile_variability_form
 msgid "Buffer Profile Variability Factor"
 msgstr "Faktor varijabilnosti profila bafera"
 
 #. module: ddmrp
 #: model:ir.actions.act_window,name:ddmrp.stock_buffer_profile_form_action
-#: model:ir.ui.menu,name:ddmrp.menu_stock_buffer_profile_mgt
 msgid "Buffer Profiles"
 msgstr "Profili bafera"
 
@@ -200,17 +203,13 @@ msgstr "Sažetak bafera"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_display_filter/mrp_bom_overview_display_filter.esm.js:0
-#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
-#: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_line_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.report_mrp_bom_inherit_ddmrp
+#: code:addons/ddmrp/static/src/components/bom_overview_display_filter/mrp_bom_overview_display_filter.esm.js
 #, python-format
 msgid "Buffered"
 msgstr "Baferisano"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_mrp_bom__is_buffered
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_line__is_buffered
 msgid "Buffered?"
 msgstr "Baferisano?"
 
@@ -226,16 +225,17 @@ msgid ""
 "                    For distributed buffers, when the option on the profile is active,\n"
 "                    the quantity is limited to the free quantity."
 msgstr ""
+"Standardno, količina je jednaka preporučenoj količini.\n"
+"                    Za distribuirane bafere, kada je opcija u profilu aktivna,\n"
+"                    količina je ograničena na slobodnu količinu."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__method
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__adu_calculation_method_type
 msgid "Calculation method"
 msgstr "Metoda izračuna"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.view_make_procurement_buffer_wizard
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_run_ddmrp_wizard
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -251,13 +251,12 @@ msgstr "Promijeni lokaciju BOM-a"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__ddmrp_duplicate_buffer__type__location
-#: model_terms:ir.ui.view,arch_db:ddmrp.mrp_bom_form_view
 msgid "Change Location"
 msgstr "Promijeni lokaciju"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/mrp_bom.py:0
+#: code:addons/ddmrp/models/mrp_bom.py
 #, python-format
 msgid "Change MRP BoM Location"
 msgstr "Promijeni MRP BOM lokaciju"
@@ -284,6 +283,9 @@ msgid ""
 "                    This can potentially change the Decoupled Lead Time (DLT) value.\n"
 "                    This change is only informative and won't affect any process or buffer size or recommendations."
 msgstr ""
+"Promijenite lokaciju zaliha koja se uzima u obzir pri izračunu da li je proizvod baferiran ili nije.\n"
+"                    Ovo može potencijalno promijeniti vrijednost razdvojenog vremena isporuke (DLT).\n"
+"                    Ova promjena je samo informativna i neće utjecati na proces, veličinu bafera ili preporuke."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_res_config_settings__module_ddmrp_chatter
@@ -312,10 +314,6 @@ msgstr "Kompanije"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__company_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__company_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__company_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__company_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__company_id
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -356,37 +354,16 @@ msgstr "Kreirana linija narudžbe nabavke"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_ddmrp_run__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__create_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_ddmrp_run__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__create_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: ddmrp
 #: model:ir.module.category,name:ddmrp.module_category_ddmrp
-#: model:ir.ui.menu,name:ddmrp.menu_ddmrp_config
-#: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_warehouse
 msgid "DDMRP"
 msgstr "DDMRP"
 
@@ -397,13 +374,11 @@ msgstr "DDMRP prilagođavanja"
 
 #. module: ddmrp
 #: model:ir.actions.server,name:ddmrp.ir_cron_ddmrp_adu_calculation_scheduler_action_ir_actions_server
-#: model:ir.cron,cron_name:ddmrp.ir_cron_ddmrp_adu_calculation_scheduler_action
 msgid "DDMRP Buffer ADU calculation"
 msgstr "DDMRP ADU izračun bafera"
 
 #. module: ddmrp
 #: model:ir.actions.server,name:ddmrp.ir_cron_ddmrp_calculation_scheduler_action_ir_actions_server
-#: model:ir.cron,cron_name:ddmrp.ir_cron_ddmrp_calculation_scheduler_action
 msgid "DDMRP Buffer calculation"
 msgstr "DDMRP izračun bafera"
 
@@ -449,7 +424,7 @@ msgstr "DDMRP grafikon ponude"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
+#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml
 #, python-format
 msgid "DLT"
 msgstr "DLT"
@@ -461,21 +436,19 @@ msgstr "DLT (dani)"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
+#: code:addons/ddmrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml
 #, python-format
 msgid "Days"
 msgstr "Dani"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_mrp_bom__dlt
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_line__dlt
-#: model:ir.model.fields,help:ddmrp.field_stock_buffer__dlt
 msgid "Decoupled Lead Time (days)"
 msgstr "Decoupled vrijeme isporuke (dani)"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
+#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml
 #, python-format
 msgid "Decoupled Lead Time of the BoM."
 msgstr "Decoupled vrijeme isporuke BOM-a."
@@ -492,21 +465,11 @@ msgstr "Zahtjevajte"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_ddmrp_run__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__display_name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer_profile__item_type__distributed
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Distributed"
 msgstr "Distribuirano"
 
@@ -522,8 +485,7 @@ msgstr "Dupliraj bafer"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py:0
-#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py:0
+#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py
 #, python-format
 msgid "Duplicated Buffers"
 msgstr "Duplirani baferi"
@@ -535,12 +497,14 @@ msgstr "Tip dupliranja"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py:0
+#: code:addons/ddmrp/models/stock_buffer.py
 #, python-format
 msgid ""
 "Error: The product default Unit of Measure and the procurement Unit of "
 "Measure must be in the same category."
 msgstr ""
+"Greška: Standardna jedinica mjere proizvoda i jedinica mjere nabavke moraju "
+"biti u istoj kategoriji."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
@@ -578,18 +542,18 @@ msgid ""
 "Factor used to compute the number of days to look into the future for "
 "incoming shipments for the purposes of the Net Flow position calculation."
 msgstr ""
+"Faktor koji se koristi za izračun broja dana za pregled u budućnost za "
+"dolazne pošiljke u svrhe izračuna pozicije neto protoka."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__adu_fixed
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Fixed ADU"
 msgstr "Fiksni ADU"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_purchase_order__ddmrp_comment
-#: model:ir.model.fields,field_description:ddmrp.field_purchase_order_line__ddmrp_comment
 msgid "Follow-up Notes"
 msgstr "Bilješke praćenja"
 
@@ -610,7 +574,7 @@ msgstr "Budući izvor"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Future-looking"
 msgstr "Budući pogled"
@@ -627,12 +591,6 @@ msgstr "Idi na izvor"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__mrp_production__execution_priority_level__3_green
-#: model:ir.model.fields.selection,name:ddmrp.selection__purchase_order_line__execution_priority_level__3_green
-#: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer__execution_priority_level__3_green
-#: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer__planning_priority_level__3_green
-#: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_line_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_mrp_production_filter
 msgid "Green"
 msgstr "Zeleno"
 
@@ -708,35 +666,28 @@ msgstr "Skriva status dostupnih zaliha sa linije narudžbe nabavke."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__id
-#: model:ir.model.fields,field_description:ddmrp.field_ddmrp_run__id
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer__id
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location__id
-#: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__id
 msgid "ID"
 msgstr "ID"
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_make_procurement_buffer__partner_id
 msgid "If set, will be used as preferred vendor for purchase routes."
-msgstr "Ako je postavljeno, koristiće se kao preferirani prodavac za rute nabavke."
+msgstr ""
+"Ako je postavljeno, koristiće se kao preferirani prodavac za rute nabavke."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid ""
 "In blended method, past and future factors must be positive and sum exactly "
 "1,0."
 msgstr ""
+"U kombinovanoj metodi, faktori prošlosti i budućnosti moraju biti pozitivni "
+"i zbir mora biti tačno 1,0."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_res_company__ddmrp_adu_calc_include_scrap
-#: model:ir.model.fields,field_description:ddmrp.field_res_config_settings__ddmrp_adu_calc_include_scrap
 msgid "Include scrap locations in ADU calculation"
 msgstr "Uključi lokacije otpada u ADU izračun"
 
@@ -781,6 +732,8 @@ msgid ""
 "It denotes what the target stock on hand is. The computation is: OH Target ="
 " TOR + Green Zone / 2 "
 msgstr ""
+"Označava koju je ciljna zaliha na stanju. Izračun je: OH Cilj = TOR + Zelena"
+" zona / 2 "
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer__on_hand_target_min
@@ -789,7 +742,6 @@ msgstr "Označava koji je ciljni opseg dostupnih zaliha."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__item_type
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__item_type
 msgid "Item Type"
 msgstr "Tip stavke"
 
@@ -800,43 +752,16 @@ msgstr "Stavke"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_ddmrp_run____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time____last_update
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_ddmrp_run__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__write_uid
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_ddmrp_run__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__write_date
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -847,7 +772,6 @@ msgstr "Vrijeme isporuke (Distribuirano)"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__lead_time_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__factor
 msgid "Lead Time Factor"
 msgstr "Faktor vremena isporuke"
 
@@ -878,9 +802,6 @@ msgstr "Povezani baferi zaliha"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__location_id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_change_location__location_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__location_id
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Location"
 msgstr "Lokacija"
 
@@ -916,13 +837,11 @@ msgstr "Napravi nabavke iz bafera zaliha"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer_profile__item_type__manufactured
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Manufactured"
 msgstr "Proizvoedeno"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__mrp_production_ids
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
 msgid "Manufacturing Orders"
 msgstr "Proizvodni nalozi"
 
@@ -973,6 +892,9 @@ msgid ""
 "none is given, the moves generated by stock rules will be grouped into one "
 "big picking."
 msgstr ""
+"Kretanja kreirana kroz ovaj bafer biće stavljena u ovu grupu nabavke. Ako "
+"nije dato, kretanja generirana pravilima zaliha biće grupirana u jedno "
+"veliko preuzimanje."
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_mrp_multi_level
@@ -981,10 +903,6 @@ msgstr "Višenivoski MRP"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_lead_time__name
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -1015,7 +933,7 @@ msgstr "Novi proizvod"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py:0
+#: code:addons/ddmrp/models/stock_buffer.py
 #, python-format
 msgid "No demand detected."
 msgstr "Potražnja nije detektovana."
@@ -1027,29 +945,27 @@ msgstr "Nema dostupnih zaliha u izvornoj lokaciji za distribuirani bafer"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/make_procurement_buffer.py:0
+#: code:addons/ddmrp/wizards/make_procurement_buffer.py
 #, python-format
 msgid "No stock buffer found."
 msgstr "Bafer zaliha nije pronađen."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py:0
+#: code:addons/ddmrp/models/stock_buffer.py
 #, python-format
 msgid "No supply detected."
 msgstr "Ponuda nije detektovana."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py:0
+#: code:addons/ddmrp/models/stock_buffer.py
 #, python-format
 msgid "Non-completed Moves"
 msgstr "Nezavršeni pomijeranja"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_line_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_mrp_production_filter
 msgid "On Hand Alert Zones"
 msgstr "Zone upozorenja dostupnih zaliha"
 
@@ -1065,8 +981,6 @@ msgstr "Opseg cilja dostupnih zaliha"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_mrp_production__on_hand_percent
-#: model:ir.model.fields,field_description:ddmrp.field_purchase_order_line__on_hand_percent
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__on_hand_percent
 msgid "On Hand/TOR (%)"
 msgstr "Dostupno/TOR (%)"
 
@@ -1102,7 +1016,6 @@ msgstr "Prag špica narudžbe"
 
 #. module: ddmrp
 #: model:ir.actions.act_window,name:ddmrp.po_line_execution_action
-#: model:ir.ui.menu,name:ddmrp.menu_pol_execution
 msgid "PO lines On-Hand Status"
 msgstr "Status dostupnih zaliha PO linija"
 
@@ -1123,7 +1036,7 @@ msgstr "Prošli izvor"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Past-looking"
 msgstr "Prošli pogled"
@@ -1150,42 +1063,42 @@ msgstr "Zone prioriteta planiranja"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Please indicate a Future Horizon."
 msgstr "Molimo navedite budući horizont."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Please indicate a Future Source."
 msgstr "Molimo navedite budući izvor."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Please indicate a Past Horizon."
 msgstr "Molimo navedite prošli horizont."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
+#: code:addons/ddmrp/models/product_adu_calculation_method.py
 #, python-format
 msgid "Please indicate a Past Source."
 msgstr "Molimo navedite prošli izvor."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py:0
+#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py
 #, python-format
 msgid "Please select a New Location."
 msgstr "Molimo izaberite novu lokaciju."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py:0
+#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py
 #, python-format
 msgid "Please select a New Product."
 msgstr "Molimo izaberite novi proizvod."
@@ -1207,7 +1120,6 @@ msgstr "Naručivanje"
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_procurement_group
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__group_id
 msgid "Procurement Group"
 msgstr "Grupa naručivanja"
 
@@ -1233,8 +1145,6 @@ msgstr "Nabavka preporučena"
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_product_template
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__product_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__product_id
 msgid "Product"
 msgstr "Artikal"
 
@@ -1250,7 +1160,6 @@ msgstr "Baferi proizvoda"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__product_categ_id
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Product Category"
 msgstr "Kategorija proizvoda"
 
@@ -1291,7 +1200,6 @@ msgstr "Nalozi u nabavi"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer_profile__item_type__purchased
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Purchased"
 msgstr "Kupljeno"
 
@@ -1307,7 +1215,6 @@ msgstr "Višestruka količina"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_res_company__ddmrp_qty_multiple_tolerance
-#: model:ir.model.fields,field_description:ddmrp.field_res_config_settings__ddmrp_qty_multiple_tolerance
 msgid "Qty Multiple Tolerance"
 msgstr "Tolerancija višestruke količine"
 
@@ -1318,7 +1225,6 @@ msgstr "Množilac količine mora biti veći ili jednak nuli"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__qualified_demand
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
 msgid "Qualified Demand"
 msgstr "Kvalifikovana potražnja"
 
@@ -1343,6 +1249,8 @@ msgid ""
 "Quantity available in this stock buffer, this is the total quantity on hand "
 "minus the outgoing reservations."
 msgstr ""
+"Količina dostupna u ovom baferu zaliha, ovo je ukupna količina na stanju "
+"minus odlazne rezervacije."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer__distributed_source_location_qty
@@ -1351,10 +1259,13 @@ msgid ""
 "procurement is requested, if the option is active on the profile, it will be"
 " limited to this quantity."
 msgstr ""
+"Slobodna količina za distribuirani bafer na izvornoj lokaciji. Kada se "
+"zatraži nabavka, ako je opcija aktivna u profilu, biće ograničena na ovu "
+"količinu."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/make_procurement_buffer.py:0
+#: code:addons/ddmrp/wizards/make_procurement_buffer.py
 #, python-format
 msgid "Quantity must be positive."
 msgstr "Količina mora biti pozitivna."
@@ -1396,12 +1307,6 @@ msgstr "Preporučena količina"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__mrp_production__execution_priority_level__1_red
-#: model:ir.model.fields.selection,name:ddmrp.selection__purchase_order_line__execution_priority_level__1_red
-#: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer__execution_priority_level__1_red
-#: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer__planning_priority_level__1_red
-#: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_line_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_mrp_production_filter
 msgid "Red"
 msgstr "Crveno"
 
@@ -1432,7 +1337,6 @@ msgstr "Crvena zona"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_tree
 msgid "Refresh Buffer"
 msgstr "Osvježi bafer"
 
@@ -1453,7 +1357,6 @@ msgstr "Lokacija dopunjavanja"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__replenish_method
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__replenish_method
 msgid "Replenishment method"
 msgstr "Metoda dopunjavanja"
 
@@ -1473,6 +1376,7 @@ msgid ""
 "Request for Quotation total quantity that is planned inside of the DLT "
 "horizon."
 msgstr ""
+"Ukupna količina zahtjeva za ponudu koja je planirana unutar DLT horizonta."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer__rfq_outside_dlt_qty
@@ -1480,6 +1384,7 @@ msgid ""
 "Request for Quotation total quantity that is planned outside of the DLT "
 "horizon."
 msgstr ""
+"Ukupna količina zahtjeva za ponudu koja je planirana van DLT horizonta."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.view_run_ddmrp_wizard
@@ -1488,8 +1393,6 @@ msgstr "Pokreni ADU izračun"
 
 #. module: ddmrp
 #: model:ir.actions.act_window,name:ddmrp.action_ddmrp_run
-#: model:ir.ui.menu,name:ddmrp.ddmrp_run_menu
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_run_ddmrp_wizard
 msgid "Run DDMRP"
 msgstr "Pokreni DDMRP"
 
@@ -1531,6 +1434,10 @@ msgid ""
 "                                    quantity will be reduced a bit instead of adding another bucket.\n"
 "                                    The value is a percentage of the quantity multiple."
 msgstr ""
+"Postavite vrijednost tolerancije koja se primjenjuje na višekratnu količinu u baferima zaliha.\n"
+"                                    Ako je potrebna količina ispod ovog praga tolerancije, preporučena\n"
+"                                    količina će biti malo smanjena umjesto dodavanja još jednog paketa.\n"
+"                                    Vrijednost je postotak višekratne količine."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
@@ -1554,10 +1461,11 @@ msgstr "Prikaži izvršni grafikon"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_res_config_settings__module_ddmrp_coverage_days
-#: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
 msgid ""
 "Shows the current on-hand for stock buffers expressed as coverage days."
 msgstr ""
+"Prikazuje trenutnu zalihu na stanju za bafere zaliha izraženu kao dani "
+"pokrivenosti."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_tree
@@ -1566,6 +1474,9 @@ msgid ""
 "rescheduling.                     Press this button to display the involved "
 "RFQs"
 msgstr ""
+"Neke količine iz zahtjeva za ponudu su izvan DLT horizonta i možda "
+"zahtijevaju preraspoređivanje.                     Pritisnite ovo dugme da "
+"prikažete uključene zahtjeve za ponudu"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
@@ -1574,6 +1485,9 @@ msgid ""
 "accounted into the NFP.                                         Press this "
 "button to display them."
 msgstr ""
+"Neki zahtjevi za ponudu su unutar DLT horizonta i čekaju validaciju da bi "
+"bili uračunati u NFP.                                         Pritisnite ovo"
+" dugme da ih prikažete."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_tree
@@ -1582,6 +1496,9 @@ msgid ""
 "accounted into the NFP.                     Press this button to display "
 "them."
 msgstr ""
+"Neki zahtjevi za ponudu su unutar DLT horizonta i čekaju validaciju da bi "
+"bili uračunati u NFP.                     Pritisnite ovo dugme da ih "
+"prikažete."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
@@ -1590,6 +1507,9 @@ msgid ""
 "rescheduling.                                          Press this button to "
 "display the involved supply orders"
 msgstr ""
+"Neki dolazni zahtjevi za ponudu su izvan DLT horizonta i mogu zahtijevati "
+"preraspoređivanje.                                          Pritisnite ovo "
+"dugme da prikažete uključene narudžbe snabdijevanja"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
@@ -1598,6 +1518,9 @@ msgid ""
 "rescheduling.                                          Press this button to "
 "display the involved supply orders"
 msgstr ""
+"Neke dolazne količine su izvan DLT horizonta i mogu zahtijevati "
+"preraspoređivanje.                                          Pritisnite ovo "
+"dugme da prikažete uključene narudžbe snabdijevanja"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_tree
@@ -1605,6 +1528,9 @@ msgid ""
 "Some incoming quantities are outside of the DLT Horizon and may require "
 "rescheduling. Press this button to display the involved supply orders"
 msgstr ""
+"Neke dolazne količine su izvan DLT horizonta i mogu zahtijevati "
+"preraspoređivanje. Pritisnite ovo dugme da prikažete uključene narudžbe "
+"snabdijevanja"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__distributed_source_location_qty
@@ -1617,6 +1543,8 @@ msgid ""
 "Source location from where goods will be replenished. Computed when buffer "
 "is refreshed from following the Stock Rules."
 msgstr ""
+"Izvorna lokacija odakle će se roba dopunjavati. Izračunava se kada se bafer "
+"osvježi prema pravilima zaliha."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_move_line__state
@@ -1625,10 +1553,6 @@ msgstr "Status"
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_stock_buffer
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__buffer_id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom__buffer_id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_line__buffer_id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_production__buffer_id
 msgid "Stock Buffer"
 msgstr "Bafer zaliha"
 
@@ -1654,13 +1578,6 @@ msgstr "Faktor varijabilnosti profila bafera zaliha"
 
 #. module: ddmrp
 #: model:ir.actions.act_window,name:ddmrp.action_stock_buffer
-#: model:ir.model.fields,field_description:ddmrp.field_product_product__buffer_ids
-#: model:ir.model.fields,field_description:ddmrp.field_purchase_order_line__buffer_ids
-#: model:ir.ui.menu,name:ddmrp.menu_stock_buffer
-#: model_terms:ir.ui.view,arch_db:ddmrp.product_normal_form_view_inherit
-#: model_terms:ir.ui.view,arch_db:ddmrp.product_template_only_form_view_inherit
-#: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_form
-#: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_line_form2
 msgid "Stock Buffers"
 msgstr "Baferi zaliha"
 
@@ -1671,9 +1588,6 @@ msgstr "Baferi zaliha & Pakovanja"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_mrp_bom__context_location_id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom__location_id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_line__context_location_id
-#: model:ir.model.fields,field_description:ddmrp.field_mrp_bom_line__location_id
 msgid "Stock Location"
 msgstr "Lokacija zalihe"
 
@@ -1689,7 +1603,7 @@ msgstr "Potrošnja pomijeranja zaliha prošle godine"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_move.py:0
+#: code:addons/ddmrp/models/stock_move.py
 #, python-format
 msgid "Stock Move Source"
 msgstr "Izvor pomijeranja zaliha"
@@ -1741,6 +1655,9 @@ msgid ""
 " is determined as the maximum of the following three factors: Minimum Order "
 "Cycle, Lead Time Factor and Minimum Order Quantity."
 msgstr ""
+"Zelena zona određuje prosječnu frekvenciju narudžbi i veličinu narudžbe. "
+"Određuje se kao maksimum sljedeća tri faktora: Minimalni ciklus narudžbe, "
+"Faktor vremena isporuke i Minimalna količina narudžbe."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer__main_supplier_id
@@ -1749,6 +1666,9 @@ msgid ""
 "is valid for this product variant. Any date restrictions are not taken into "
 "account."
 msgstr ""
+"Glavni dobavljač je prvi navedeni dobavljač definiran na proizvodu koji je "
+"valjan za ovu varijantu proizvoda. Nikakva datumska ograničenja se ne "
+"uzimaju u obzir."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer__qty_multiple
@@ -1756,6 +1676,8 @@ msgid ""
 "The procurement quantity will be rounded up to this multiple. If it is 0, "
 "the exact quantity will be used."
 msgstr ""
+"Količina nabavke će biti zaokružena naviše na ovaj množitelj. Ako je 0, "
+"koristiće se tačna količina."
 
 #. module: ddmrp
 #: model:ir.model.constraint,message:ddmrp.constraint_stock_buffer_stock_buffer_uniq
@@ -1763,6 +1685,8 @@ msgid ""
 "The product/location combination must be unique.Remember that the buffer "
 "could be archived."
 msgstr ""
+"Kombinacija proizvoda/lokacije mora biti jedinstvena. Zapamtite da bafer "
+"može biti arhiviran."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
@@ -1771,12 +1695,16 @@ msgid ""
 "variability associated with the product, the larger the red zone will be. It"
 " is composed of two sub-zones: Red base and red safety."
 msgstr ""
+"Crvena zona je ugrađena sigurnost u baferu. Što je veća varijabilnost "
+"povezana s proizvodom, to će crvena zona biti veća. Sastoji se od dvije "
+"podzone: Crvena osnova i crvena sigurnost."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
 msgid ""
 "The yellow zone represents the stock required to cover a full lead time."
 msgstr ""
+"Žuta zona predstavlja zalihu potrebnu za pokrivanje punog vremena isporuke."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__top_of_green
@@ -1795,7 +1723,6 @@ msgstr "Vrh žute zone"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__incoming_total_qty
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_tree
 msgid "Total Incoming"
 msgstr "Ukupno Dolazi"
 
@@ -1806,33 +1733,30 @@ msgstr "Prijenos"
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_res_company__ddmrp_auto_update_nfp
-#: model:ir.model.fields,help:ddmrp.field_res_config_settings__ddmrp_auto_update_nfp
-#: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
 msgid ""
 "Transfer status changes can trigger the update of relevant buffer's NFP."
 msgstr ""
+"Promjene statusa transfera mogu pokrenuti ažuriranje NFP-a relevantnog "
+"bafera."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_mrp_bom__is_buffered
-#: model:ir.model.fields,help:ddmrp.field_mrp_bom_line__is_buffered
 msgid "True when the product has an DDMRP buffer associated."
 msgstr "Istinito kada proizvod ima povezan DDMRP bafer."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__product_type
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Type"
 msgstr "Tip"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__uom_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__product_uom
 msgid "Unit of Measure"
 msgstr "Jedinica mjere"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py:0
+#: code:addons/ddmrp/models/stock_buffer.py
 #, python-format
 msgid "Unsupported operator %s"
 msgstr "Nepodržan operator %s"
@@ -1844,13 +1768,11 @@ msgstr "JMJ"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_res_company__ddmrp_auto_update_nfp
-#: model:ir.model.fields,field_description:ddmrp.field_res_config_settings__ddmrp_auto_update_nfp
 msgid "Update NFP on Stock Buffers on relevant events."
 msgstr "Ažuriraj NFP na baferima zaliha pri relevantnim događajima."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_res_config_settings__module_ddmrp_packaging
-#: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
 msgid "Use packagings on stock buffers."
 msgstr "Koristi pakovanja na baferima zaliha."
 
@@ -1862,6 +1784,10 @@ msgid ""
 "                    this may trigger a draft purchase order, a manufacturing\n"
 "                    order or a transfer picking."
 msgstr ""
+"Koristite ovaj asistent za generiranje zahtjeva za nabavku za ovaj\n"
+"                    bafer zaliha. Prema konfiguraciji proizvoda,\n"
+"                    ovo može pokrenuti nacrt narudžbe nabavke, proizvodnu\n"
+"                    narudžbu ili transfer preuzimanja."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
@@ -1870,13 +1796,11 @@ msgstr "Korišteno u"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__variability_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile_variability__factor
 msgid "Variability Factor"
 msgstr "Faktor varijabilnosti"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer__partner_id
-#: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_line_execution_tree
 msgid "Vendor"
 msgstr "Dobavljač"
 
@@ -1922,9 +1846,6 @@ msgstr "Prikaži kvalifikovanu potražnju iz prikupljanja"
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_stock_warehouse
-#: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__warehouse_id
-#: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__warehouse_id
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Warehouse"
 msgstr "Skladište"
 
@@ -1934,6 +1855,8 @@ msgid ""
 "When activated, the recommended quantity will be maxed at the quantity "
 "available in the replenishment source location."
 msgstr ""
+"Kada je aktivirano, preporučena količina će biti ograničena na količinu "
+"dostupnu u lokaciji izvora snabdijevanja."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer__extra_lead_time
@@ -1944,6 +1867,11 @@ msgid ""
 "In situations with infrequent demand the ADU tends to be very small, and every new order would be treated as a spike, when \n"
 "in reality this is not an exceptional situation."
 msgstr ""
+"Kada je definirano, ovo vrijeme isporuke će biti dodato razdvojenom vremenu isporuke za izračun veličine zona (neće utjecati na planirani datum nabavki).\n"
+"Ovo je posebno korisno u situacijama rijetke ali periodične potražnje. Npr. Primamo veliku narudžbu svakih 30 dana, dok dobavljač treba 10 dana za isporuku.\n"
+"U ovom slučaju žuta zona mora pokriti cijeli ciklus od 30 dana potražnje.\n"
+"U situacijama s rijetkom potražnjom ADU ima tendenciju biti vrlo mala, i svaka nova narudžba bi bila tretirana kao skok, kada\n"
+"u stvarnosti ovo nije izuzetna situacija."
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer__auto_procure_option__stockout
@@ -1961,6 +1889,8 @@ msgid ""
 "When using a blended method, this is the relative weight assigned to the "
 "future part of the combination."
 msgstr ""
+"Kada koristite kombinovanu metodu, ovo je relativna težina dodijeljena "
+"budućem dijelu kombinacije."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_product_adu_calculation_method__factor_past
@@ -1968,6 +1898,8 @@ msgid ""
 "When using a blended method, this is the relative weight assigned to the "
 "past part of the combination."
 msgstr ""
+"Kada koristite kombinovanu metodu, ovo je relativna težina dodijeljena "
+"prošlom dijelu kombinacije."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer_profile__distributed_reschedule_max_proc_time
@@ -1977,6 +1909,10 @@ msgid ""
 "date represents the latest the transfers should be done, and therefore, past"
 " this timestamp, considered late."
 msgstr ""
+"Kada zahtijevate nabavku iz bafera, njihov planirani datum se prenosi na "
+"sada + ovo vrijeme nabavke (u minutama). Njihov planirani datum predstavlja "
+"najkasnije kada transferi treba da budu završeni, i stoga, nakon ovog "
+"vremena, smatraju se kasni."
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_buffer__auto_procure
@@ -1984,6 +1920,8 @@ msgid ""
 "Whenever the buffer is recomputed, if this option is set, it will procure "
 "automatically if needed."
 msgstr ""
+"Svaki put kada se bafer ponovno izračunava, ako je ova opcija postavljena, "
+"automatski će se nabavljati ako je potrebno."
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_make_procurement_buffer_item__wiz_id
@@ -1992,12 +1930,6 @@ msgstr "ID čarobnjaka"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__mrp_production__execution_priority_level__2_yellow
-#: model:ir.model.fields.selection,name:ddmrp.selection__purchase_order_line__execution_priority_level__2_yellow
-#: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer__execution_priority_level__2_yellow
-#: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer__planning_priority_level__2_yellow
-#: model_terms:ir.ui.view,arch_db:ddmrp.purchase_order_line_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_mrp_production_filter
 msgid "Yellow"
 msgstr "Žuta"
 
@@ -2018,12 +1950,14 @@ msgstr "Žuta zona"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py:0
+#: code:addons/ddmrp/models/stock_buffer.py
 #, python-format
 msgid ""
 "You have to select a product unit of measure that is inthe same category "
 "than the default unit ofmeasure of the product"
 msgstr ""
+"Morate odabrati jedinicu mjere proizvoda koja je u istoj kategoriji kao i "
+"standardna jedinica mjere proizvoda"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
@@ -2037,7 +1971,6 @@ msgstr "primijeni prilagođavanja za dinamičko mijenjanje bafera"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
-#: model_terms:ir.ui.view,arch_db:ddmrp.view_product_adu_calculation_method_form
 msgid "days"
 msgstr "dana"
 

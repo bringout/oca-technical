@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: mgmtsystem_hazard_maintenance_equipment
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_maintenance_equipment.field_mgmtsystem_hazard__equipment_ids
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_maintenance_equipment.mgmtsystem_hazard_filter_view
 msgid "Equipment"
 msgstr "Oprema"
 

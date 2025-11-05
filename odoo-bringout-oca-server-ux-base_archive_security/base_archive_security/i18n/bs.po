@@ -25,7 +25,9 @@ msgstr "Može arhivirati zapise"
 
 #. module: base_archive_security
 #. odoo-python
-#: code:addons/base_archive_security/models/base.py:0
+#: code:addons/base_archive_security/models/base.py
 #, python-format
 msgid "Only users belonging to the \"%s\" group can archive or unarchive records."
-msgstr "Samo korisnici koji pripadaju grupi \"%s\" mogu arhivirati ili dearhivirati zapise."
+msgstr ""
+"Samo korisnici koji pripadaju grupi \"%s\" mogu arhivirati ili dearhivirati "
+"zapise."

@@ -47,6 +47,36 @@ msgid ""
 "    \n"
 "        "
 msgstr ""
+"\n"
+"                \n"
+"<div style=\"font-family: 'Lucida Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n"
+"\n"
+"<p>Odoo je pokušao pokrenuti raspoređivač <em><t t-out=\"object.name or ''\"/></em> in the database <em><t t-out=\"ctx.get('dbname')\"/></em> ali nije uspio. Poruka greške:</p>\n"
+"\n"
+"<strong>\n"
+"<t t-out=\"ctx.get('job_exception') or 'Failed to get the error message from the context.'\"/>\n"
+"</strong>\n"
+"\n"
+"<p>Možete provjeriti logove Odoo servera kako biste dobili više informacija o ovom neuspjehu.</p>\n"
+"\n"
+"<p>Svojstva raspoređivača <em><t t-out=\"object.name or ''\"/></em> :</p>\n"
+"<ul>\n"
+"<li>Model : <t t-out=\"object.model_id.name or ''\"/></li>\n"
+"<li>Python kod : <code><t t-out=\"object.code or ''\"/></code></li>\n"
+"<li>Interval : <t t-out=\"object.interval_number or '0'\"/> <t t-out=\"object.interval_type or ''\"/></li>\n"
+"<li>Broj poziva : <t t-out=\"object.numbercall or '0'\"/></li>\n"
+"<li>Ponovi propušteno : <t t-out=\"object.doall\"/></li>\n"
+"<li>Korisnik : <t t-out=\"object.user_id.name or ''\"/></li>\n"
+"</ul>\n"
+"\n"
+"<p>\n"
+"-- <br/>\n"
+"Automatski email poslan od strane Odooa. Ne odgovarajte.<br/>\n"
+"Baza podataka : <t t-out=\"ctx.get('dbname')\"/>\n"
+"</p>\n"
+"</div>\n"
+"    \n"
+"        "
 
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,field_description:scheduler_error_mailer.field_ir_cron__assigned_attachment_ids
@@ -80,7 +110,6 @@ msgstr "Broj skupova izmena na čekanju"
 
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,field_description:scheduler_error_mailer.field_ir_cron__email_template_id
-#: model:ir.model.fields,field_description:scheduler_error_mailer.field_nsca_check__email_template_id
 msgid "Error E-mail Template"
 msgstr "Error E-mail Template"
 
@@ -96,9 +125,9 @@ msgstr "Scheduler Error"
 
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,help:scheduler_error_mailer.field_ir_cron__email_template_id
-#: model:ir.model.fields,help:scheduler_error_mailer.field_nsca_check__email_template_id
 msgid "Select the email template that will be sent when this scheduler fails."
-msgstr "Select the email template that will be sent when this scheduler fails."
+msgstr ""
+"Select the email template that will be sent when this scheduler fails."
 
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,field_description:scheduler_error_mailer.field_ir_cron__smart_search
@@ -107,14 +136,13 @@ msgstr "Pametna pretraga"
 
 #. module: scheduler_error_mailer
 #. odoo-python
-#: code:addons/scheduler_error_mailer/models/ir_cron.py:0
+#: code:addons/scheduler_error_mailer/models/ir_cron.py
 #, python-format
 msgid "Task failure with UID = %d."
 msgstr "Task failure with UID = %d."
 
 #. module: scheduler_error_mailer
 #: model:ir.actions.server,name:scheduler_error_mailer.test_scheduler_error_mailer_ir_actions_server
-#: model:ir.cron,cron_name:scheduler_error_mailer.test_scheduler_error_mailer
 msgid "Test Scheduler Error Mailer"
 msgstr "Test Scheduler Error Mailer"
 

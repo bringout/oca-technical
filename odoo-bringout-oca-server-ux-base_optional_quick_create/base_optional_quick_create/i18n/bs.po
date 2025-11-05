@@ -13,20 +13,25 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: base_optional_quick_create
 #: model:ir.model.fields,field_description:base_optional_quick_create.field_ir_model__avoid_quick_create
+#, fuzzy
 msgid "Avoid Quick Create"
 msgstr "Izbjegni brzo kreiranje"
 
 #. module: base_optional_quick_create
 #. odoo-python
-#: code:addons/base_optional_quick_create/models/ir_model.py:0
+#: code:addons/base_optional_quick_create/models/ir_model.py
 #, python-format
 msgid ""
 "Can't create %(model)s with name %(name)s quickly.\n"
 "Please contact your system administrator to disable this behaviour."
 msgstr ""
+"Ne mogu brzo kreirati %(model)s sa nazivom %(name)s.\\\n"
+"Molimo kontaktirajte administratora sistema da onemogući ovo ponašanje."
 
+# taken from hr.po
 #. module: base_optional_quick_create
 #: model:ir.model,name:base_optional_quick_create.model_ir_model
 msgid "Models"

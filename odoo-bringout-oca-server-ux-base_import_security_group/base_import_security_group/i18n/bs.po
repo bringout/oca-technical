@@ -23,6 +23,7 @@ msgstr "Osnova"
 msgid "HTTP Routing"
 msgstr "HTTP usmjeravanje"
 
+# taken from hr.po
 #. module: base_import_security_group
 #: model:res.groups,name:base_import_security_group.group_import_csv
 msgid "Import CSV/Excel files"

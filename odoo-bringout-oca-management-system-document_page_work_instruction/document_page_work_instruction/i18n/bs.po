@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: document_page_work_instruction
 #: model:ir.actions.act_window,name:document_page_work_instruction.work_instructions_action
-#: model:ir.ui.menu,name:document_page_work_instruction.menu_mgmtsystem_manuals_work_instructions
 msgid "Work Instructions"
 msgstr "Radni instrukcije"
 

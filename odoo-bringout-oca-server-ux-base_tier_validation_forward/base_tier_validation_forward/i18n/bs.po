@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: base_tier_validation_forward
 #. odoo-python
-#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+#: code:addons/base_tier_validation_forward/models/tier_validation.py
 #, python-format
 msgid "A review was forwarded by %s."
 msgstr "Pregled je preusmjerio %s."
 
 #. module: base_tier_validation_forward
 #. odoo-python
-#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+#: code:addons/base_tier_validation_forward/models/tier_validation.py
 #, python-format
 msgid "A review was forwarded from %(user_name)s %(comment)s"
 msgstr "Pregled je preusmjerjen od %(user_name)s %(comment)s"
@@ -49,7 +49,6 @@ msgstr "Redoslijed odobravanja po specificiranom broju sekvence"
 
 #. module: base_tier_validation_forward
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__approve_sequence
-#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__approve_sequence
 msgid "Approve by sequence"
 msgstr "Odobri po sekvenci"
 
@@ -95,9 +94,7 @@ msgstr "Prikazani naziv"
 
 #. module: base_tier_validation_forward
 #. odoo-python
-#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
-#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.tier_validation_label_forward
-#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.view_forward_wizard
+#: code:addons/base_tier_validation_forward/models/tier_validation.py
 #, python-format
 msgid "Forward"
 msgstr "Preusmjeri"

@@ -15,13 +15,11 @@ msgstr ""
 
 #. module: test_connector
 #: model:ir.model.constraint,message:test_connector.constraint_connector_test_binding_test_binding_uniq
-#: model:ir.model.constraint,message:test_connector.constraint_no_inherits_binding_test_binding_uniq
 msgid "A binding already exists for this record"
 msgstr "Vezivanje već postoji za ovaj zapis"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__backend_id
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__backend_id
 msgid "Backend"
 msgstr "U pozadinu"
 
@@ -42,69 +40,46 @@ msgstr "Vezivanja bez nasljeđivanja za testiranje konektora"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__create_uid
-#: model:ir.model.fields,field_description:test_connector.field_connector_test_record__create_uid
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__create_uid
-#: model:ir.model.fields,field_description:test_connector.field_test_backend__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__create_date
-#: model:ir.model.fields,field_description:test_connector.field_connector_test_record__create_date
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__create_date
-#: model:ir.model.fields,field_description:test_connector.field_test_backend__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__display_name
-#: model:ir.model.fields,field_description:test_connector.field_connector_test_record__display_name
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__display_name
-#: model:ir.model.fields,field_description:test_connector.field_test_backend__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__id
-#: model:ir.model.fields,field_description:test_connector.field_connector_test_record__id
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__id
-#: model:ir.model.fields,field_description:test_connector.field_test_backend__id
 msgid "ID"
 msgstr "ID"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__external_id
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__external_id
 msgid "ID on External"
 msgstr "ID na spoljnjem"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding____last_update
-#: model:ir.model.fields,field_description:test_connector.field_connector_test_record____last_update
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding____last_update
-#: model:ir.model.fields,field_description:test_connector.field_test_backend____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__write_uid
-#: model:ir.model.fields,field_description:test_connector.field_connector_test_record__write_uid
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__write_uid
-#: model:ir.model.fields,field_description:test_connector.field_test_backend__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__write_date
-#: model:ir.model.fields,field_description:test_connector.field_connector_test_record__write_date
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__write_date
-#: model:ir.model.fields,field_description:test_connector.field_test_backend__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__sync_date
-#: model:ir.model.fields,field_description:test_connector.field_no_inherits_binding__sync_date
 msgid "Last synchronization date"
 msgstr "Datum poslednje sinhronizacije"
 

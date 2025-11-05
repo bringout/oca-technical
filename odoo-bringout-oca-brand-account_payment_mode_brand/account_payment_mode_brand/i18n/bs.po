@@ -15,9 +15,6 @@ msgstr ""
 
 #. module: account_payment_mode_brand
 #: model:ir.model.fields,field_description:account_payment_mode_brand.field_account_bank_statement_line__allowed_payment_mode_ids
-#: model:ir.model.fields,field_description:account_payment_mode_brand.field_account_move__allowed_payment_mode_ids
-#: model:ir.model.fields,field_description:account_payment_mode_brand.field_contract_contract__allowed_payment_mode_ids
-#: model:ir.model.fields,field_description:account_payment_mode_brand.field_res_brand_mixin__allowed_payment_mode_ids
 msgid "Allowed Payment Mode"
 msgstr "Dozvoljeni način plaćanja"
 
@@ -29,7 +26,7 @@ msgstr "Dozvoljeni načini plaćanja"
 #. module: account_payment_mode_brand
 #: model:ir.model,name:account_payment_mode_brand.model_res_brand
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: account_payment_mode_brand
 #: model:ir.model,name:account_payment_mode_brand.model_res_brand_mixin

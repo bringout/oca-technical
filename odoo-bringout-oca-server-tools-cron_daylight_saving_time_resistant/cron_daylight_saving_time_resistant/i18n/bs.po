@@ -19,6 +19,8 @@ msgid ""
 "Adjust interval to run at the same hour after and beforedaylight saving time"
 " change. It's used twice a year"
 msgstr ""
+"Prilagodi interval da se pokreće u istom satu prije i poslije promjene "
+"ljetnog računanja vremena. Koristi se dvaput godišnje"
 
 #. module: cron_daylight_saving_time_resistant
 #: model:ir.model.fields,field_description:cron_daylight_saving_time_resistant.field_ir_cron__daylight_saving_time_resistant

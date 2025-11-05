@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: base_import_async
 #. odoo-python
-#: code:addons/base_import_async/models/queue_job.py:0
+#: code:addons/base_import_async/models/queue_job.py
 #, python-format
 msgid "Attachment"
 msgstr "Prilog"
@@ -27,23 +27,25 @@ msgstr "Bazni uvoz"
 
 #. module: base_import_async
 #. odoo-python
-#: code:addons/base_import_async/models/base_import_import.py:0
+#: code:addons/base_import_async/models/base_import_import.py
 #, python-format
 msgid ""
 "Import %(model)s from file %(file_name)s - #%(chunk)s - lines %(from)s to "
 "%(to)s"
 msgstr ""
+"Uvoz %(model)s iz datoteke %(file_name)s - #%(chunk)s - redovi %(from)s do "
+"%(to)s"
 
 #. module: base_import_async
 #. odoo-python
-#: code:addons/base_import_async/models/base_import_import.py:0
+#: code:addons/base_import_async/models/base_import_import.py
 #, python-format
 msgid "Import %(model)s from file %(from_file)s"
 msgstr "Uvoz %(model)s iz datoteke %(from_file)s"
 
 #. module: base_import_async
 #. odoo-javascript
-#: code:addons/base_import_async/static/src/xml/import.xml:0
+#: code:addons/base_import_async/static/src/xml/import.xml
 #, python-format
 msgid "Import in the background"
 msgstr "Uvoz u pozadini"
@@ -55,24 +57,27 @@ msgstr "Posao u redu"
 
 #. module: base_import_async
 #. odoo-javascript
-#: code:addons/base_import_async/static/src/xml/import.xml:0
+#: code:addons/base_import_async/static/src/xml/import.xml
 #, python-format
 msgid ""
 "When checked, the import will be executed as a background job, after "
 "splitting your file in small chunks that will be processed independently. "
 "Use this to import very large files."
 msgstr ""
+"Kada je označeno, uvoz će se izvršiti kao pozadinski posao, nakon dijeljenja"
+" vaše datoteke u male dijelove koji će se obrađivati nezavizno. Koristite "
+"ovo za uvoz vrlo velikih datoteka."
 
 #. module: base_import_async
 #. odoo-javascript
-#: code:addons/base_import_async/static/src/js/import.js:0
+#: code:addons/base_import_async/static/src/js/import.js
 #, python-format
 msgid "You can check the status of this job in menu 'Queue / Jobs'."
 msgstr "Možete provjeriti status ovog posla u meniju 'Red čekanja / Poslovi'."
 
 #. module: base_import_async
 #. odoo-javascript
-#: code:addons/base_import_async/static/src/js/import.js:0
+#: code:addons/base_import_async/static/src/js/import.js
 #, python-format
 msgid "Your request is being processed"
 msgstr "Vaš zahtjev se obrađuje"

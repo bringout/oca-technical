@@ -15,9 +15,8 @@ msgstr ""
 
 #. module: product_brand_mrp
 #: model:ir.model.fields,field_description:product_brand_mrp.field_mrp_production__product_brand_id
-#: model_terms:ir.ui.view,arch_db:product_brand_mrp.view_mrp_production_filter
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: product_brand_mrp
 #: model:ir.model,name:product_brand_mrp.model_mrp_production

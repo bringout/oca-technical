@@ -35,7 +35,6 @@ msgstr "Svi ostali moduli"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__analysis_ids
-#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_comparison_config_form
 msgid "Analyses"
 msgstr "Analize"
 
@@ -61,7 +60,7 @@ msgstr "Atributi"
 
 #. module: upgrade_analysis
 #. odoo-python
-#: code:addons/upgrade_analysis/wizards/upgrade_generate_record_wizard.py:0
+#: code:addons/upgrade_analysis/wizards/upgrade_generate_record_wizard.py
 #, python-format
 msgid "Cannot seem to install or upgrade modules %s"
 msgstr "Ne mogu da instaliram ili ažuriram module %s"
@@ -73,7 +72,6 @@ msgstr "Obriši listu"
 
 #. module: upgrade_analysis
 #: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_generate_record_wizard_form
-#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
 msgid "Close"
 msgstr "Zatvori"
 
@@ -89,13 +87,16 @@ msgstr "Konfiguracije poređenja"
 
 #. module: upgrade_analysis
 #. odoo-python
-#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py:0
+#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py
 #, python-format
 msgid ""
 "Connection failed.\n"
 "\n"
 "DETAIL: %s"
 msgstr ""
+"Konekcija neuspešna.\n"
+"\n"
+"DETALJI: %s"
 
 #. module: upgrade_analysis
 #: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_generate_record_wizard_form
@@ -104,7 +105,7 @@ msgstr "Nastavi"
 
 #. module: upgrade_analysis
 #. odoo-python
-#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py:0
+#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py
 #, python-format
 msgid "Could not connect the Odoo server at %(server)s:%(port)s"
 msgstr "Nije moguće povezivanje na Odoo server na %(server)s:%(port)s"
@@ -121,21 +122,11 @@ msgstr "Režim kreiranja"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__create_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__create_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__create_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__create_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__create_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__create_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__create_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__create_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__create_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__create_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -151,11 +142,6 @@ msgstr "Definicija"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__display_name
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__display_name
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__display_name
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__display_name
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__display_name
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -166,36 +152,26 @@ msgstr "Domena"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_analysis__state__done
-#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_generate_record_wizard__state__done
-#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_install_wizard__state__done
 msgid "Done"
 msgstr "Gotovo"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_generate_record_wizard__state__draft
-#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_install_wizard__state__draft
 msgid "Draft"
 msgstr "U pripremi"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__field
-#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_record__type__field
 msgid "Field"
 msgstr "Polje"
 
 #. module: upgrade_analysis
 #: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_generate_record_wizard
-#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_generate_record
 msgid "Generate Records Wizard"
 msgstr "Čarobnjak za generisanje zapisa"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__id
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__id
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__id
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__id
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__id
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__id
 msgid "ID"
 msgstr "ID"
 
@@ -206,7 +182,6 @@ msgstr "Instaliraj module"
 
 #. module: upgrade_analysis
 #: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_install_wizard
-#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_install
 msgid "Install Modules Wizard"
 msgstr "Čarobnjak za instalaciju modula"
 
@@ -222,39 +197,23 @@ msgstr "Je Odoo modul"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis____last_update
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute____last_update
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config____last_update
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard____last_update
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard____last_update
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__write_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__write_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__write_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__write_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__write_uid
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__write_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__write_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__write_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__write_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__write_date
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__log
-#: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_analysis_form
 msgid "Log"
-msgstr "Log"
+msgstr "Dnevnik"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__mode
@@ -263,7 +222,6 @@ msgstr "Mod"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__model
-#: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_record__type__model
 msgid "Model"
 msgstr "Model"
 
@@ -289,7 +247,6 @@ msgstr "Režim modifikacije"
 
 #. module: upgrade_analysis
 #: model:ir.model,name:upgrade_analysis.model_ir_module_module
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__module
 msgid "Module"
 msgstr "Modul"
 
@@ -310,8 +267,6 @@ msgstr "Moduli inicijalizovani i zapis kreiran"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__name
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__name
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -322,7 +277,7 @@ msgstr "Nova analiza"
 
 #. module: upgrade_analysis
 #. odoo-python
-#: code:addons/upgrade_analysis/models/upgrade_record.py:0
+#: code:addons/upgrade_analysis/models/upgrade_record.py
 #, python-format
 msgid "No manifest found in %(addon_dir)s"
 msgstr "Nije pronađen manifest u %(addon_dir)s"
@@ -373,22 +328,16 @@ msgid ""
 "Set to Create if a field is newly created in this module. If this module "
 "modifies an attribute of an existing field, set to Modify."
 msgstr ""
+"Postavite na Kreiraj ako je polje novo kreirano u ovom modulu. Ako ovaj "
+"modul modifikuje atribut postojećeg polja, postavite na Modifikuj."
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_ir_module_module__smart_search
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__smart_search
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_attribute__smart_search
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_comparison_config__smart_search
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__smart_search
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__smart_search
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_analysis__state
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_generate_record_wizard__state
-#: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_install_wizard__state
 msgid "State"
 msgstr "Status"
 
@@ -409,6 +358,9 @@ msgid ""
 "Odoo's --upgrade-path command line option or the 'scripts' subdirectory in "
 "the openupgrade_scripts addon."
 msgstr ""
+"Osnovna putanja datoteke za čuvanje datoteka analize Odoo modula. Uzeta iz "
+"Odoo-ove --upgrade-path opcije komandne linije ili 'scripts' "
+"poddirektorijuma u openupgrade_scripts dodatku."
 
 #. module: upgrade_analysis
 #: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_install_wizard_form
@@ -421,6 +373,8 @@ msgid ""
 "This will install the selected modules on the database. Do not continue if "
 "you use this database in production."
 msgstr ""
+"Ovo će instalirati odabrane module na bazu podataka. Ne nastavljajte ako "
+"koristite ovu bazu podataka u produkciji."
 
 #. module: upgrade_analysis
 #: model_terms:ir.ui.view,arch_db:upgrade_analysis.view_upgrade_generate_record_wizard_form
@@ -428,6 +382,8 @@ msgid ""
 "This will reinitialize all the modules installed on this database. Do not "
 "continue if you use this database in production."
 msgstr ""
+"Ovo će ponovo inicijalizovati sve module instalirane na ovoj bazi podataka. "
+"Ne nastavljajte ako koristite ovu bazu podataka u produkciji."
 
 #. module: upgrade_analysis
 #: model:ir.model.fields,field_description:upgrade_analysis.field_upgrade_record__type
@@ -436,15 +392,13 @@ msgstr "Tip"
 
 #. module: upgrade_analysis
 #. odoo-python
-#: code:addons/upgrade_analysis/models/upgrade_analysis.py:0
+#: code:addons/upgrade_analysis/models/upgrade_analysis.py
 #, python-format
 msgid "Unexpected root Element: %(root)s in file: %(file)s"
 msgstr "Neočekivani root element: %(root)s u datoteci: %(file)s"
 
 #. module: upgrade_analysis
 #: model:ir.actions.act_window,name:upgrade_analysis.action_upgrade_analysis_tree
-#: model:ir.model,name:upgrade_analysis.model_upgrade_analysis
-#: model:ir.ui.menu,name:upgrade_analysis.menu_upgrade_analysis
 msgid "Upgrade Analyses"
 msgstr "Ažuriraj analize"
 
@@ -515,12 +469,14 @@ msgstr "XML ID"
 
 #. module: upgrade_analysis
 #. odoo-python
-#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py:0
+#: code:addons/upgrade_analysis/models/upgrade_comparison_config.py
 #, python-format
 msgid ""
 "You are correctly connected to the server %(server)s (version %(version)s) "
 "with the user %(user_name)s"
 msgstr ""
+"Uspešno ste povezani na server %(server)s (verzija %(version)s) sa "
+"korisnikom %(user_name)s"
 
 #. module: upgrade_analysis
 #: model:ir.model.fields.selection,name:upgrade_analysis.selection__upgrade_analysis__state__draft

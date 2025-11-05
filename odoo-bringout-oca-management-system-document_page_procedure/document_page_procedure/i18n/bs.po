@@ -13,12 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: document_page_procedure
 #: model:ir.actions.act_window,name:document_page_procedure.action_procedures
-#: model:ir.ui.menu,name:document_page_procedure.menu_mgmtsystem_manuals_procedures
 msgid "Procedures"
 msgstr "Procedure"
 
+# taken from hr.po
 #. module: document_page_procedure
 #: model_terms:ir.actions.act_window,help:document_page_procedure.action_procedures
 msgid "Procedures of your management system."

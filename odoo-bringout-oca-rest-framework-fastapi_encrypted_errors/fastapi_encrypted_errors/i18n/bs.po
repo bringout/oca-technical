@@ -30,10 +30,8 @@ msgstr "Kreirano"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.actions.act_window,name:fastapi_encrypted_errors.wizard_fastapi_decrypt_errors_action_decrypt_error
-#: model:ir.ui.menu,name:fastapi_encrypted_errors.menu_fastapi_decrypt_errors
-#: model_terms:ir.ui.view,arch_db:fastapi_encrypted_errors.wizard_fastapi_decrypt_errors_view_form
 msgid "Decrypt Error"
-msgstr "Greška dešifriranja"
+msgstr "Greška dešifrovanja"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors__decrypted_error
@@ -67,7 +65,6 @@ msgstr "Greška"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model,name:fastapi_encrypted_errors.model_fastapi_endpoint
-#: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors__fastapi_endpoint_id
 msgid "FastAPI Endpoint"
 msgstr "FastAPI krajnja točka"
 
@@ -106,8 +103,9 @@ msgstr "Zadnje ažurirano"
 msgid ""
 "The secret key used to encrypt errors before sending them to the client."
 msgstr ""
+"Tajni ključ koji se koristi za šifriranje grešaka prije slanja klijentima."
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model,name:fastapi_encrypted_errors.model_wizard_fastapi_decrypt_errors
 msgid "Wizard to decrypt FastAPI errors"
-msgstr "Čarobnjak za dešifriranje FastAPI grešaka"
+msgstr "Čarobnjak za dešifrovanje FastAPI grešaka"

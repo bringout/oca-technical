@@ -21,14 +21,14 @@ msgstr "Zaposleni"
 #. module: mgmtsystem_evaluation_hr
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation_hr.hr_employee_form_view
 msgid "Evaluations"
-msgstr "Evaluations"
+msgstr "Evaluacije"
 
 #. module: mgmtsystem_evaluation_hr
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation_hr.field_hr_employee__mgmtsystem_evaluation_ids
 msgid "Mgmtsystem Evaluation"
-msgstr "Mgmtsystem Evaluation"
+msgstr "Sistem upravljanja Evaluacija"
 
 #. module: mgmtsystem_evaluation_hr
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation_hr.field_hr_employee__mgmtsystem_evaluation_count
 msgid "Mgmtsystem Evaluation Count"
-msgstr "Mgmtsystem Evaluation Count"
+msgstr "Broj evaluacija sistema upravljanja"

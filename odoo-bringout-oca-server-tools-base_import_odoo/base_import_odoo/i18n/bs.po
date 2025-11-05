@@ -19,6 +19,8 @@ msgid ""
 "# `vals` is the dictionary to be passed to create/write, and you have access"
 " to `env`, `_id`, `remote`"
 msgstr ""
+"# `vals` je rječnik koji se proslijeđuje za create/write, i imate pristup "
+"`env`, `_id`, `remote`"
 
 #. module: base_import_odoo
 #: model:ir.model,name:base_import_odoo.model_import_odoo_database_field
@@ -37,9 +39,6 @@ msgstr "Odoo baza podataka za uvoz"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__assigned_attachment_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__assigned_attachment_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__assigned_attachment_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__assigned_attachment_ids
 msgid "Assigned Attachments"
 msgstr "Dodijeljeni prilozi"
 
@@ -60,17 +59,11 @@ msgstr "Zaobiđi provjeru SSL certifikata"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__changeset_change_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__changeset_change_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__changeset_change_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__changeset_change_ids
 msgid "Changeset Changes"
 msgstr "Promjene skupa promjena"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__changeset_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__changeset_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__changeset_ids
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__changeset_ids
 msgid "Changesets"
 msgstr "Skupovi promjena"
 
@@ -81,39 +74,28 @@ msgstr "Lista dodatnih polja odvojena zarezima za upit"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__count_changesets
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__count_changesets
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__count_changesets
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__count_changesets
 msgid "Count Changesets"
 msgstr "Broj skupova promjena"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
 msgstr "Broj promjena skupa promjena na čekanju"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__count_pending_changesets
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__count_pending_changesets
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__count_pending_changesets
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__count_pending_changesets
 msgid "Count Pending Changesets"
 msgstr "Broj skupova promjena na čekanju"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__create_uid
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__create_uid
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__create_date
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__create_date
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -122,10 +104,9 @@ msgstr "Kreirano"
 msgid "Cronjob Running"
 msgstr "Cronjob pokrenut"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__database
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__database_id
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__database_id
 msgid "Database"
 msgstr "Baza"
 
@@ -134,13 +115,13 @@ msgstr "Baza"
 msgid "Defaults"
 msgstr "Zadane vrijednosti"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__display_name
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__display_name
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__domain
 msgid "Domain"
@@ -178,8 +159,6 @@ msgstr "Iz udaljene baze podataka"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__id
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__id
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__id
 msgid "ID"
 msgstr "ID"
 
@@ -191,7 +170,9 @@ msgstr "ID polje"
 #. module: base_import_odoo
 #: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_field__field_ids
 msgid "If set, the mapping is only effective when setting said field"
-msgstr "Ako je postavljena, mapiranje je efikasno samo kada postavaljte spomenuto polje"
+msgstr ""
+"Ako je postavljena, mapiranje je efikasno samo kada postavaljte spomenuto "
+"polje"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_field__local_id
@@ -199,6 +180,8 @@ msgid ""
 "If you leave this empty, a new record will be created in the local database "
 "when this field is set on the remote database"
 msgstr ""
+"Ako ostavite ovo prazno, novi zapis će se kreirati u lokalnoj bazi podataka "
+"kada se ovo polje postavi na udaljenu bazu podataka"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_field__remote_id
@@ -206,10 +189,11 @@ msgid ""
 "If you leave this empty, every (set) field value will be mapped to the local"
 " ID"
 msgstr ""
+"Ako ostavite ovo prazno, svaka (postavljena) vrijednost polja će se mapirati"
+" na lokalni ID"
 
 #. module: base_import_odoo
 #: model:ir.actions.act_window,name:base_import_odoo.action_import_odoo_database
-#: model:ir.ui.menu,name:base_import_odoo.menu_import_odoo_database
 msgid "Import configurations"
 msgstr "Konfiguracije uvoza"
 
@@ -233,24 +217,21 @@ msgstr "Napredak uvoza"
 msgid "Import results"
 msgstr "Rezultati uvoza"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database____last_update
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field____last_update
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__write_uid
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__write_uid
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__write_date
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__write_date
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -261,7 +242,6 @@ msgstr "Lokalni ID"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__model_id
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__model_id
 msgid "Model"
 msgstr "Model"
 
@@ -301,6 +281,8 @@ msgid ""
 "Optional python code for postprocessing. Your code has access to `vals` "
 "which is the dictionary passed to create/write, and `env`."
 msgstr ""
+"Opcioni python kod za postprocesiranje. Vaš kod ima pristup `vals` koji je "
+"rječnik proslijeđen u create/write, i `env`."
 
 #. module: base_import_odoo
 #: model:ir.model.fields.selection,name:base_import_odoo.selection__import_odoo_database__duplicates__overwrite_empty
@@ -319,7 +301,7 @@ msgstr "Zaporka"
 
 #. module: base_import_odoo
 #. odoo-python
-#: code:addons/base_import_odoo/models/import_odoo_database.py:0
+#: code:addons/base_import_odoo/models/import_odoo_database.py
 #, python-format
 msgid "Please install the \"odoorpc\" libary in your environment"
 msgstr "Molimo instalirajte \"odoorpc\" biblioteku u vašem okruženju"
@@ -360,6 +342,8 @@ msgid ""
 "Select fields for which to generate unique values during import. You'll need"
 " this for res.users#login for example."
 msgstr ""
+"Odaberite polja za koja generirate jedinstvene vrijednosti tokom uvoza. "
+"Trebaće vam ovo za res.users#login na primjer."
 
 #. module: base_import_odoo
 #: model_terms:ir.ui.view,arch_db:base_import_odoo.view_import_odoo_database_field_form
@@ -367,6 +351,8 @@ msgid ""
 "Select fields which must be equal to treat a pair of remote and local "
 "records of this model as being equal."
 msgstr ""
+"Odaberite polja koja moraju biti jednaka da se tretira par udaljenih i "
+"lokalnih zapisa ovog modela kao jednaki."
 
 #. module: base_import_odoo
 #: model_terms:ir.ui.view,arch_db:base_import_odoo.view_import_odoo_database_field_form
@@ -375,10 +361,13 @@ msgid ""
 "linked ID. The IDs for previously imported records will be mapped to the "
 "local ID, for unknown models or IDs, the fields are set to NULL."
 msgstr ""
+"Odaberite polje koje čuva naziv modela i ono koje čuva povezani ID. ID-jevi "
+"ranije uvezenih zapisa biće mapirani na lokalni ID, a za nepoznate modele "
+"ili ID-jeve polja će biti postavljena na NULL."
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__sequence
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 
@@ -389,9 +378,6 @@ msgstr "Preskči postojeće"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__smart_search
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__smart_search
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__smart_search
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
@@ -421,28 +407,21 @@ msgid ""
 "The following remote ids don't have a mapping but have to be imported "
 "anyways due to not null constraints."
 msgstr ""
+"Sljedeći udaljeni ID-jevi nemaju mapiranje ali moraju biti uvezeni svejedno "
+"zbog ne null ograničenja."
 
 #. module: base_import_odoo
 #: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database__count_pending_changeset_changes
-#: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_field__count_pending_changeset_changes
-#: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_model__count_pending_changeset_changes
-#: model:ir.model.fields,help:base_import_odoo.field_ir_model_data__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
 msgstr "Broj promjena na čekanju ovog zapisa"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database__count_pending_changesets
-#: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_field__count_pending_changesets
-#: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_model__count_pending_changesets
-#: model:ir.model.fields,help:base_import_odoo.field_ir_model_data__count_pending_changesets
 msgid "The number of pending changesets of this record"
 msgstr "Broj skupova promjena na čekanju ovog zapisa"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database__count_changesets
-#: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_field__count_changesets
-#: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database_model__count_changesets
-#: model:ir.model.fields,help:base_import_odoo.field_ir_model_data__count_changesets
 msgid "The overall number of changesets of this record"
 msgstr "Ukupan broj skupova promjena ovog zapisa"
 
@@ -453,7 +432,11 @@ msgid ""
 "feasible, map the whole model. You might also have a too specific domain on "
 "your import model definition."
 msgstr ""
+"Da popravite ovo, kreirajte mapiranja za navedene udaljene ID-jeve, ili ako "
+"to nije izvodljivo, mapirajte cijeli model. Možda imate previše specifičan "
+"domen na vašoj definiciji modela uvoza."
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__mapping_type
 msgid "Type"
@@ -461,7 +444,7 @@ msgstr "Vrsta"
 
 #. module: base_import_odoo
 #. odoo-python
-#: code:addons/base_import_odoo/models/import_odoo_database.py:0
+#: code:addons/base_import_odoo/models/import_odoo_database.py
 #, python-format
 msgid "Unhandled field type %s"
 msgstr "Neobrađen tip polja %s"
@@ -473,7 +456,7 @@ msgstr "Jedinstveno"
 
 #. module: base_import_odoo
 #. odoo-python
-#: code:addons/base_import_odoo/models/import_odoo_database.py:0
+#: code:addons/base_import_odoo/models/import_odoo_database.py
 #, python-format
 msgid "Unknown mapping"
 msgstr "Nepoznato mapiranje"
@@ -481,13 +464,14 @@ msgstr "Nepoznato mapiranje"
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,help:base_import_odoo.field_import_odoo_database__ssl
 msgid "Use HTTPS"
 msgstr "Koristi HTTPS"
 
+# taken from hr.po
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__user
 msgid "User"
@@ -495,9 +479,6 @@ msgstr "Korisnik"
 
 #. module: base_import_odoo
 #: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database__user_can_see_changeset
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_field__user_can_see_changeset
-#: model:ir.model.fields,field_description:base_import_odoo.field_import_odoo_database_model__user_can_see_changeset
-#: model:ir.model.fields,field_description:base_import_odoo.field_ir_model_data__user_can_see_changeset
 msgid "User Can See Changeset"
 msgstr "Korisnik može vidjeti skup promjena"
 
@@ -509,6 +490,10 @@ msgid ""
 "replacement is only effective when setting the specified field and/or when "
 "the remote value is the specified record."
 msgstr ""
+"Kada se zapis ovog modela uveze, biće zamijenjen zapisom koji odaberete kao "
+"lokalni ID. Ako odaberete polje i/ili udaljeni ID, zamjena se primjenjuje "
+"samo prilikom postavljanja navedenog polja i/ili kada udaljena vrijednost "
+"odgovara navedenom zapisu."
 
 #. module: base_import_odoo
 #: model_terms:ir.ui.view,arch_db:base_import_odoo.view_import_odoo_database_qweb

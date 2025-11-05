@@ -20,6 +20,10 @@ msgid ""
 "skipped. By default, odoo never runs the same cron job in parallel. This "
 "option is therefore set to True by default when job is run as a queue job."
 msgstr ""
+"Izbjegni paralelno pokretanje. Ako cron posao već traje, novi će biti "
+"preskočen. Po zadanim postavkama, odoo nikad ne pokreće isti cron posao "
+"paralelno. Ova opcija je stoga postavljena na True po zadanim postavkama "
+"kada se posao pokreće kao posao reda."
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__channel_id

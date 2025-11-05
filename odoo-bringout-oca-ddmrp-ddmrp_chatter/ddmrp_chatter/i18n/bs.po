@@ -236,6 +236,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: ddmrp_chatter
 #: model:ir.model,name:ddmrp_chatter.model_stock_buffer
@@ -248,6 +252,8 @@ msgid ""
 "The procurement quantity will be rounded up to this multiple. If it is 0, "
 "the exact quantity will be used."
 msgstr ""
+"Količina nabavke će biti zaokružena naviše na ovaj množitelj. Ako je 0, "
+"koristiće se tačna količina."
 
 #. module: ddmrp_chatter
 #: model:ir.model.fields,help:ddmrp_chatter.field_stock_buffer__activity_exception_decoration
@@ -275,3 +281,5 @@ msgid ""
 "Whenever the buffer is recomputed, if this option is set, it will procure "
 "automatically if needed."
 msgstr ""
+"Svaki put kada se bafer ponovno izračunava, ako je ova opcija postavljena, "
+"automatski će se nabavljati ako je potrebno."

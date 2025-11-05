@@ -15,6 +15,5 @@ msgstr ""
 
 #. module: mgmtsystem_survey
 #: model:ir.actions.act_window,name:mgmtsystem_survey.action_survey_form
-#: model:ir.ui.menu,name:mgmtsystem_survey.menu_open_survey
 msgid "Surveys"
 msgstr "Upitnici"

@@ -50,6 +50,5 @@ msgstr "Pregled nivoa"
 
 #. module: base_tier_validation_board
 #: model:ir.actions.act_window,name:base_tier_validation_board.open_boards_tier_reviews
-#: model:ir.ui.menu,name:base_tier_validation_board.board_menu_tier_reviews
 msgid "Tier Reviews"
 msgstr "Pregledi nivoa"

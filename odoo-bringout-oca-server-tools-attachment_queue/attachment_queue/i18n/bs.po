@@ -22,6 +22,11 @@ msgid ""
 "                <p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">Regards,<br></p>\n"
 "            "
 msgstr ""
+"\n"
+"                <p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">Zdravo,<br><br></p>\n"
+"                <p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">Prilog ${object.name} nije uspio sa sljedećom porukom greške : <br>${object.state_message}<br></p><p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\"></p>\n"
+"                <p style=\"margin:0px 0px 10px 0px;font-size:13px;font-family:&quot;Lucida Grande&quot;, Helvetica, Verdana, Arial, sans-serif;\">S poštovanjem,<br></p>\n"
+"            "
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__access_token
@@ -55,13 +60,11 @@ msgstr "Ikona tipa aktivnosti"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__assigned_attachment_ids
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__assigned_attachment_ids
 msgid "Assigned Attachments"
 msgstr "Dodeljeni prilozi"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__attachment_id
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "Attachment"
 msgstr "Prilog"
 
@@ -87,13 +90,11 @@ msgstr "URL Zakačke"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__attachment_ids
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "Attachments"
 msgstr "Prilozi"
 
 #. module: attachment_queue
 #: model:ir.actions.act_window,name:attachment_queue.action_attachment_queue
-#: model:ir.ui.menu,name:attachment_queue.menu_attachment_queue
 msgid "Attachments Queue"
 msgstr "Red priloga"
 
@@ -109,13 +110,11 @@ msgstr "Otkaži"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__changeset_change_ids
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__changeset_change_ids
 msgid "Changeset Changes"
 msgstr "Promene skupa izmena"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__changeset_ids
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__changeset_ids
 msgid "Changesets"
 msgstr "Skupovi izmena"
 
@@ -129,40 +128,36 @@ msgstr "Kontrolni zbroj/SHA1"
 msgid ""
 "Comma-separated list of email addresses to be notified in case offailure"
 msgstr ""
+"Lista email adresa odvojenih zarezom koje će biti obaviještene u slučaju "
+"neuspjeha"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__company_id
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "Company"
 msgstr "Preduzeće"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__count_changesets
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__count_changesets
 msgid "Count Changesets"
 msgstr "Broj skupova izmena"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
 msgstr "Broj promena skupa izmena na čekanju"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__count_pending_changesets
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__count_pending_changesets
 msgid "Count Pending Changesets"
 msgstr "Broj skupova izmena na čekanju"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__create_uid
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__create_date
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -188,13 +183,11 @@ msgstr "Opis"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__display_name
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: attachment_queue
 #: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__done
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "Done"
 msgstr "Gotovo"
 
@@ -205,7 +198,6 @@ msgstr "Greška"
 
 #. module: attachment_queue
 #: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__failed
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "Failed"
 msgstr "Neuspješan"
 
@@ -271,7 +263,6 @@ msgstr "Ima poruku"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__id
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__id
 msgid "ID"
 msgstr "ID"
 
@@ -292,7 +283,6 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 
 #. module: attachment_queue
 #: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_has_error
-#: model:ir.model.fields,help:attachment_queue.field_attachment_queue__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
@@ -328,19 +318,16 @@ msgstr "Je javni dokument"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue____last_update
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__write_uid
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__write_date
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -441,7 +428,6 @@ msgstr "Vlasnik"
 
 #. module: attachment_queue
 #: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__pending
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "Pending"
 msgstr "Na čekanju"
 
@@ -452,7 +438,6 @@ msgstr "Ponovo stavi u red priloge"
 
 #. module: attachment_queue
 #: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_form
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
 msgid "Reschedule"
 msgstr "Ponovo zakaži"
 
@@ -498,13 +483,11 @@ msgstr "Postavi na završeno"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__smart_search
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__smart_search
 msgid "Smart Search"
 msgstr "Pametna pretraga"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__state
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "State"
 msgstr "Status"
 
@@ -521,6 +504,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__store_fname
@@ -538,22 +525,21 @@ msgid ""
 "The file type determines an import method to be used to parse and transform "
 "data before their import in ERP or an export"
 msgstr ""
+"Tip datoteke određuje metodu uvoza koja se koristi za parsiranje i "
+"transformaciju podataka prije njihovog uvoza u ERP ili izvoza"
 
 #. module: attachment_queue
 #: model:ir.model.fields,help:attachment_queue.field_attachment_queue__count_pending_changeset_changes
-#: model:ir.model.fields,help:attachment_queue.field_attachment_queue_reschedule__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
 msgstr "Broj promena na čekanju ovog zapisa"
 
 #. module: attachment_queue
 #: model:ir.model.fields,help:attachment_queue.field_attachment_queue__count_pending_changesets
-#: model:ir.model.fields,help:attachment_queue.field_attachment_queue_reschedule__count_pending_changesets
 msgid "The number of pending changesets of this record"
 msgstr "Broj čekajućih skupa promjena ovog zapisa"
 
 #. module: attachment_queue
 #: model:ir.model.fields,help:attachment_queue.field_attachment_queue__count_changesets
-#: model:ir.model.fields,help:attachment_queue.field_attachment_queue_reschedule__count_changesets
 msgid "The overall number of changesets of this record"
 msgstr "Ukupan broj skupova izmena ovog zapisa"
 
@@ -564,7 +550,6 @@ msgstr "Odabrani prilozi će biti ponovo zakazani."
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__type
-#: model_terms:ir.ui.view,arch_db:attachment_queue.view_attachment_queue_search
 msgid "Type"
 msgstr "Tip"
 
@@ -581,11 +566,10 @@ msgstr "URL"
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__url
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__user_can_see_changeset
-#: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue_reschedule__user_can_see_changeset
 msgid "User Can See Changeset"
 msgstr "Korisnik može videti skup izmena"
 
@@ -610,11 +594,12 @@ msgid ""
 "You can either upload a file from your computer or copy/paste an internet "
 "link to your file."
 msgstr ""
+"Možete ili učitati datoteku sa vašeg računara ili kopirati/zalijepiti "
+"internet link ka vašoj datoteci."
 
 #. module: attachment_queue
 #. odoo-python
-#: code:addons/attachment_queue/tests/test_models.py:0
-#: code:addons/attachment_queue/tests/test_models.py:0
+#: code:addons/attachment_queue/tests/test_models.py
 #, python-format
 msgid "boom"
 msgstr "bum"

@@ -45,7 +45,6 @@ msgstr "Kreirano"
 
 #. module: ddmrp_history
 #: model:ir.actions.act_window,name:ddmrp_history.action_ddmrp_history
-#: model:ir.ui.menu,name:ddmrp_history.menu_ddmrp_history
 msgid "DDMRP Buffer History"
 msgstr "DDMRP historija bafera"
 
@@ -111,8 +110,7 @@ msgstr "Pozicija neto protoka"
 
 #. module: ddmrp_history
 #. odoo-python
-#: code:addons/ddmrp_history/models/stock_buffer.py:0
-#: code:addons/ddmrp_history/models/stock_buffer.py:0
+#: code:addons/ddmrp_history/models/stock_buffer.py
 #, python-format
 msgid "Not enough data available."
 msgstr "Nema dovoljno dostupnih podataka."

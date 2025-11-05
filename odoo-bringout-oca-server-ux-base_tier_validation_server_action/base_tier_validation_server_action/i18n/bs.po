@@ -25,7 +25,6 @@ msgstr "Domen auto validacije"
 
 #. module: base_tier_validation_server_action
 #: model:ir.actions.server,name:base_tier_validation_server_action.ir_cron_auto_tier_validation_ir_actions_server
-#: model:ir.cron,cron_name:base_tier_validation_server_action.ir_cron_auto_tier_validation
 msgid "Automatic Tier Validation"
 msgstr "Automatska validacija nivoa"
 
@@ -67,6 +66,10 @@ msgid ""
 "- If 1 user matched as reviewer, use the user to validate\n"
 "- If > 1 user matched as reviewer, do not auto validate"
 msgstr ""
+"Koristite zakazani posao za automatsku validaciju ako je uslov ispunjen.\n"
+"- Ako korisnik nije naveden, koristi se sistemski korisnik posla za validaciju\n"
+"- Ako je tačno jedan korisnik pronađen kao recenzent, taj korisnik se koristi za validaciju\n"
+"- Ako je više od jednog korisnika pronađeno kao recenzent, automatska validacija se ne izvršava"
 
 #. module: base_tier_validation_server_action
 #: model_terms:ir.ui.view,arch_db:base_tier_validation_server_action.tier_definition_view_form

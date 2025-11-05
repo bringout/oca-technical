@@ -30,22 +30,18 @@ msgstr "Putanja arhive"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__assigned_attachment_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__assigned_attachment_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__assigned_attachment_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__assigned_attachment_ids
 msgid "Assigned Attachments"
 msgstr "Dodijeljeni prilozi"
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/wizard/attach_mail_manually.py:0
+#: code:addons/fetchmail_attach_from_folder/wizard/attach_mail_manually.py
 #, python-format
 msgid "Attach emails manually"
 msgstr "Priloži e-poruke ručno"
 
 #. module: fetchmail_attach_from_folder
 #: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_attach_mail_manually
-#: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_email_server_form
 msgid "Attach mail manually"
 msgstr "Priloži poštu ručno"
 
@@ -75,6 +71,8 @@ msgid ""
 "By default all undeleted emails are searched. Checking this field adds the "
 "unread condition."
 msgstr ""
+"Po zadanom se traže svi neobrisani e-mailovi. Označavanje ovog polja dodaje "
+"uvjet nepročitano."
 
 #. module: fetchmail_attach_from_folder
 #: model_terms:ir.ui.view,arch_db:fetchmail_attach_from_folder.view_attach_mail_manually
@@ -83,17 +81,11 @@ msgstr "Otkaži"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__changeset_change_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__changeset_change_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__changeset_change_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__changeset_change_ids
 msgid "Changeset Changes"
 msgstr "Promjene skupa promjena"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__changeset_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__changeset_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__changeset_ids
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__changeset_ids
 msgid "Changesets"
 msgstr "Skupovi promjena"
 
@@ -103,11 +95,12 @@ msgid ""
 "Check this field to leave imap inbox alone and only retrieve mail from "
 "configured folders."
 msgstr ""
+"Označite ovo polje da ostavite imap inbox na miru i dohvatite poštu samo iz "
+"konfiguriranih mapa."
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server.py:0
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server.py:0
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server.py
 #, python-format
 msgid "Confirm connection first."
 msgstr "Prvo potvrdite konekciju."
@@ -119,54 +112,46 @@ msgstr "Potvrđeno"
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py
 #, python-format
 msgid "Could not create archive folder %(folder)s on server %(server)s"
 msgstr "Nije mogao kreirati mapu arhive %(folder)s na serveru %(server)s"
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py
 #, python-format
 msgid ""
 "Could not fetch %(message_uid)s in folder %(folder)s on server %(server)s"
 msgstr ""
+"Nije mogao dohvatiti %(message_uid)s u mapi %(folder)s na serveru %(server)s"
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py
 #, python-format
 msgid "Could not open folder %(folder)s on server %(server)s"
 msgstr "Nije mogao otvoriti mapu %(folder)s na serveru %(server)s"
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py
 #, python-format
 msgid "Could not search folder %(folder)s on server %(server)s"
 msgstr "Nije mogao pretražiti mapu %(folder)s na serveru %(server)s"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__count_changesets
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__count_changesets
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__count_changesets
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__count_changesets
 msgid "Count Changesets"
 msgstr "Broj skupova promjena"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__count_pending_changeset_changes
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
 msgstr "Broj promjena skupova promjena na čekanju"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__count_pending_changesets
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__count_pending_changesets
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__count_pending_changesets
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__count_pending_changesets
 msgid "Count Pending Changesets"
 msgstr "Broj skupova promjena na čekanju"
 
@@ -177,15 +162,11 @@ msgstr "Kreiraj novi zapis"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__create_uid
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__create_uid
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__create_date
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__create_date
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -211,8 +192,6 @@ msgstr "Obriši poklapanja"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__display_name
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__display_name
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -261,6 +240,8 @@ msgstr "Polje (model)"
 msgid ""
 "Field(s) to order by, this mostly useful in conjunction with 'Use 1st match'"
 msgstr ""
+"Polja za sortiranje, ovo je uglavnom korisno u kombinaciji s 'Koristi 1. "
+"poklapanje'"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__domain
@@ -275,7 +256,8 @@ msgstr "Označi nepoklapajuće"
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__flag_nonmatching
 msgid "Flag emails in the server that don't match any object in Odoo"
-msgstr "Označi e-poruke na serveru koje se ne poklapaju ni s jednim objektom u Odoo"
+msgstr ""
+"Označi e-poruke na serveru koje se ne poklapaju ni s jednim objektom u Odoo"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__folder_id
@@ -304,8 +286,6 @@ msgstr "Od"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__id
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__id
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__id
 msgid "ID"
 msgstr "ID"
 
@@ -320,6 +300,8 @@ msgid ""
 "If there are multiple matches, use the first one. If not checked, multiple "
 "matches count as no match at all"
 msgstr ""
+"Ako ima više poklapanja, koristi prvo. Ako nije označeno, više poklapanja se"
+" računa kao nijedno poklapanje"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model,name:fetchmail_attach_from_folder.model_fetchmail_server
@@ -328,29 +310,23 @@ msgstr "Poslužitelj dolaznih poruka"
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py:0
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server_folder.py
 #, python-format
 msgid "Invalid folder %s!"
 msgstr "Neispravna mapa %s!"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually____last_update
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail____last_update
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__write_uid
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__write_uid
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__write_date
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__write_date
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -405,6 +381,8 @@ msgid ""
 "Optional custom server action to trigger for each incoming mail, on the "
 "record that was created or updated by this mail"
 msgstr ""
+"Opcionalna prilagođena server akcija za pokretanje za svaku dolaznu poštu, "
+"na zapisu koji je kreiran ili ažuriran ovom poštom"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__model_order
@@ -423,6 +401,9 @@ msgid ""
 "document type. This will create new documents for new conversations, or "
 "attach follow-up emails to the existing conversations (documents)."
 msgstr ""
+"Obrađujte svaki dolazni email kao dio razgovora koji odgovara ovom tipu "
+"dokumenta. Ovo će kreirati nove dokumente za nove razgovore, ili priložiti "
+"dodatne emailove postojećim razgovorima (dokumentima)."
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields.selection,name:fetchmail_attach_from_folder.selection__fetchmail_server_folder__msg_state__received
@@ -461,9 +442,6 @@ msgstr "Tip poslužitelja"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__smart_search
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__smart_search
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__smart_search
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__smart_search
 msgid "Smart Search"
 msgstr "Pametno pretraživanje"
 
@@ -485,13 +463,15 @@ msgstr "Testiraj i potvrdi"
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__match_algorithm
 msgid "The algorithm used to determine which object an email matches."
-msgstr "Algoritam koji se koristi za određivanje kojeg objekta e-poruka poklapa."
+msgstr ""
+"Algoritam koji se koristi za određivanje kojeg objekta e-poruka poklapa."
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__mail_field
 msgid ""
 "The field in the email used for matching. Typically this is 'to' or 'from'"
 msgstr ""
+"Polje u e-poruci koje se koristi za poklapanje. Tipično je to 'do' ili 'od'"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__model_field
@@ -500,6 +480,9 @@ msgid ""
 "Examples:\n"
 "'email' if your model is res.partner, or 'partner_id.email' if you're matching sale orders"
 msgstr ""
+"Polje u vašem modelu koje sadrži polje za poklapanje.\n"
+"Primjeri:\n"
+"'email' ako je vaš model res.partner, ili 'partner_id.email' ako poklapate prodajne narudžbe"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__model_id
@@ -508,25 +491,16 @@ msgstr "Model za prilaganje e-poruka"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__count_pending_changeset_changes
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__count_pending_changeset_changes
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server__count_pending_changeset_changes
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
 msgstr "Broj promjena na čekanju ovog zapisa"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__count_pending_changesets
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__count_pending_changesets
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server__count_pending_changesets
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__count_pending_changesets
 msgid "The number of pending changesets of this record"
 msgstr "Broj skupa promjena na čekanju ovog zapisa"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__count_changesets
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__count_changesets
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server__count_changesets
-#: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__count_changesets
 msgid "The overall number of changesets of this record"
 msgstr "Ukupan broj promjena ovog zapisa"
 
@@ -536,6 +510,7 @@ msgid ""
 "The path to your mail folder. Typically would be something like "
 "'INBOX.myfolder'"
 msgstr ""
+"Putanja do vaše poštanske mape. Tipično bi bilo nešto kao 'INBOX.mojamapa'"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,help:fetchmail_attach_from_folder.field_fetchmail_server_folder__archive_path
@@ -549,7 +524,7 @@ msgstr "Stanje poruka dohvaćenih iz ove mape treba biti dodijeljeno u Odoo"
 
 #. module: fetchmail_attach_from_folder
 #. odoo-python
-#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server.py:0
+#: code:addons/fetchmail_attach_from_folder/models/fetchmail_server.py
 #, python-format
 msgid "Unable to retrieve folders."
 msgstr "Nije moguće dohvatiti mape."
@@ -561,9 +536,6 @@ msgstr "Koristi 1. poklapanje"
 
 #. module: fetchmail_attach_from_folder
 #: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually__user_can_see_changeset
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_attach_mail_manually_mail__user_can_see_changeset
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server__user_can_see_changeset
-#: model:ir.model.fields,field_description:fetchmail_attach_from_folder.field_fetchmail_server_folder__user_can_see_changeset
 msgid "User Can See Changeset"
 msgstr "Korisnik može vidjeti skup promjena"
 

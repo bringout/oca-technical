@@ -35,14 +35,14 @@ msgstr "Ima starih revizija"
 
 #. module: base_revision
 #. odoo-python
-#: code:addons/base_revision/models/base_revision.py:0
+#: code:addons/base_revision/models/base_revision.py
 #, python-format
 msgid "New Revisions"
 msgstr "Nove revizije"
 
 #. module: base_revision
 #. odoo-python
-#: code:addons/base_revision/models/base_revision.py:0
+#: code:addons/base_revision/models/base_revision.py
 #, python-format
 msgid "New revision created: %s"
 msgstr "Nova revizija kreirana: %s"

@@ -35,7 +35,6 @@ msgstr "Primijeni na"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__buffer_id
-#: model_terms:ir.ui.view,arch_db:ddmrp_adjustment.view_ddmrp_adjustment_search
 msgid "Buffer"
 msgstr "Bafer"
 
@@ -51,7 +50,6 @@ msgstr "Linija tabele podešavanja bafera"
 
 #. module: ddmrp_adjustment
 #: model:ir.actions.act_window,name:ddmrp_adjustment.ddmrp_adjustment_action
-#: model:ir.ui.menu,name:ddmrp_adjustment.menu_ddmrp_adjustment
 msgid "Buffer Adjustments"
 msgstr "Podešavanja bafera"
 
@@ -77,7 +75,6 @@ msgstr "Otkaži"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__company_id
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__company_id
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -88,23 +85,16 @@ msgstr "Broji DDMRP potražnju podešavanja"
 
 #. module: ddmrp_adjustment
 #: model:ir.actions.act_window,name:ddmrp_adjustment.action_ddmrp_adjustment_sheet_wizard
-#: model:ir.ui.menu,name:ddmrp_adjustment.menu_ddmrp_adjustment_sheet_wizard
 msgid "Create Buffer Adjustments"
 msgstr "Kreiraj podešavanja bafera"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__create_uid
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__create_uid
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__create_uid
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__create_date
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__create_date
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__create_date
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -125,7 +115,7 @@ msgstr "DDMRP potražnja podešavanja"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
 #, python-format
 msgid "DDMRP Buffer Adjustment"
 msgstr "DDMRP podešavanje bafera"
@@ -172,7 +162,6 @@ msgstr "Predefinirana mjerna jedinica za sve funkcije zalihe."
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__apply_daf
-#: model:ir.model.fields.selection,name:ddmrp_adjustment.selection__ddmrp_adjustment__adjustment_type__daf
 msgid "Demand Adjustment Factor"
 msgstr "Faktor podešavanja potražnje"
 
@@ -181,24 +170,21 @@ msgstr "Faktor podešavanja potražnje"
 msgid ""
 "Demand associated to Demand Adjustment Factors applied to parent buffers."
 msgstr ""
+"Potražnja povezana sa faktorima podešavanja potražnje primijenjenim na "
+"matične bafere."
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__display_name
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__display_name
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__display_name
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__date_end
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__date_end
 msgid "End date"
 msgstr "Završni datum"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__extra_demand
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_stock_buffer__extra_demand_ids
 msgid "Extra Demand"
 msgstr "Dodatna potražnja"
 
@@ -218,6 +204,8 @@ msgid ""
 "Fill the factors to apply in each period for all the\n"
 "                       selected Buffers."
 msgstr ""
+"Popunite faktore za primjenu u svakom periodu za sve\n"
+"                       odabrane bafere."
 
 #. module: ddmrp_adjustment
 #: model_terms:ir.ui.view,arch_db:ddmrp_adjustment.view_ddmrp_adjustment_search
@@ -226,39 +214,26 @@ msgstr "Grupiši po"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__id
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__id
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__id
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__id
 msgid "ID"
 msgstr "ID"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment____last_update
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand____last_update
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet____last_update
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__write_uid
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__write_uid
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__write_uid
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__write_date
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__write_date
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__write_date
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet__apply_ltaf
-#: model:ir.model.fields.selection,name:ddmrp_adjustment.selection__ddmrp_adjustment__adjustment_type__ltaf
 msgid "Lead Time Adjustment Factor"
 msgstr "Faktor podešavanja vremena isporuke"
 
@@ -294,7 +269,6 @@ msgstr "Matični DAF tekst"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__date_range_id
-#: model_terms:ir.ui.view,arch_db:ddmrp_adjustment.view_ddmrp_adjustment_sheet_wizard_form
 msgid "Period"
 msgstr "Period"
 
@@ -310,19 +284,16 @@ msgstr "Pre DAF ADU"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__product_id
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__product_id
 msgid "Product"
 msgstr "Artikal"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__sheet_id
-#: model_terms:ir.ui.view,arch_db:ddmrp_adjustment.view_ddmrp_adjustment_sheet_wizard_form
 msgid "Sheet"
 msgstr "List"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__date_start
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_demand__date_start
 msgid "Start date"
 msgstr "Početni datum"
 
@@ -333,7 +304,7 @@ msgstr "Skladišni bafer"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
 #, python-format
 msgid "The start date cannot be later than the end date."
 msgstr "Datum početka ne može biti kasniji od datuma završetka."
@@ -350,7 +321,6 @@ msgstr "Ovjeri"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__value
-#: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__value
 msgid "Value"
 msgstr "Vrijednost"
 
@@ -366,14 +336,14 @@ msgstr "Pogledaj potražnju iz matičnih DAF-ova koji utiču na stvarnu ADU"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
 #, python-format
 msgid "You must apply at least one factor"
 msgstr "Morate primijeniti najmanje jedan faktor"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
 #, python-format
 msgid "You must select at least one buffer."
 msgstr "Morate izabrati najmanje jedan bafer."

@@ -23,6 +23,7 @@ msgstr "<code>number</code>: The next number of the sequence (integer)"
 msgid ""
 "<code>number_padded</code>: Padded string of the next number of the sequence"
 msgstr ""
+"<code>number_padded</code>: popunjeni string sljedećeg broja u sekvenci"
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
@@ -30,6 +31,8 @@ msgid ""
 "<code>random</code>: The Python random module, eg. to use "
 "<code>random.randint(0, 9)</code>"
 msgstr ""
+"<code>random</code>: Python modul random, npr. za korištenje "
+"<code>random.randint(0, 9)</code>"
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
@@ -42,6 +45,8 @@ msgid ""
 "<code>string</code>: The Python string module, eg. to use "
 "<code>random.choices(string.ascii_letters + string.digits, k=4)</code>"
 msgstr ""
+"<code>niz</code>: The Python string module, eg. to use "
+"<code>random.choices(string.ascii_letters + string.digits, k=4)</code>"
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
@@ -49,6 +54,8 @@ msgid ""
 "<code>uuid</code>: The Python uuid module, eg. to use "
 "<code>uuid.uuid4()</code>"
 msgstr ""
+"<code>uuid</code>: Python modul uuid, npr. za korištenje "
+"<code>uuid.uuid4()</code>"
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
@@ -91,6 +98,8 @@ msgid ""
 "The expression you type here will be evaluated as the next number. The "
 "following variables can be used:"
 msgstr ""
+"Izraz koji ovdje unesete biće evaluiran kao sljedeći broj. Mogu se koristiti"
+" sljedeće varijable:"
 
 #. module: sequence_python
 #: model:ir.model.fields,field_description:sequence_python.field_ir_sequence__use_python_code

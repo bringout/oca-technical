@@ -16,7 +16,9 @@ msgstr ""
 #. module: mgmtsystem_evaluation
 #: model:ir.model,name:mgmtsystem_evaluation.model_mgmtsystem_evaluation_abstract
 msgid "Abstract model to inherit by objects that can be evaluated"
-msgstr "Abstract model to inherit by objects that can be evaluated"
+msgstr ""
+"Apstraktni model za naslijeđivanje od strane objekata koji se mogu "
+"evaluirati"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__message_needaction
@@ -25,8 +27,6 @@ msgstr "Potrebna akcija"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__active
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__active
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__active
 msgid "Active"
 msgstr "Aktivan"
 
@@ -53,16 +53,15 @@ msgstr "Ikona tipa aktivnosti"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__manager_activity_type_id
 msgid "Activity for manager"
-msgstr "Activity for manager"
+msgstr "Aktivnost za menadžera"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__user_activity_type_id
 msgid "Activity for user"
-msgstr "Activity for user"
+msgstr "Aktivnost za korisnika"
 
 #. module: mgmtsystem_evaluation
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_form_view
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_template_form_view
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -73,7 +72,6 @@ msgstr "Broj priloga"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.actions.server,name:mgmtsystem_evaluation.cron_evaluation_ir_actions_server
-#: model:ir.cron,cron_name:mgmtsystem_evaluation.cron_evaluation
 msgid "Automatic evaluation generation"
 msgstr "Automatski evaluation generation"
 
@@ -83,6 +81,8 @@ msgid ""
 "Automatically schedule this activity to the Manager\n"
 "        once the evaluation is started"
 msgstr ""
+"Automatski zakaži ovu aktivnost za menadžera\n"
+"        kada je evaluacija započeta"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,help:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__user_activity_type_id
@@ -90,6 +90,8 @@ msgid ""
 "Automatically schedule this activity to the user\n"
 "        (if exists) once the evaluation is started"
 msgstr ""
+"Automatski zakaži ovu aktivnost za korisnika\n"
+"        (ako postoji) kada je evaluacija započeta"
 
 #. module: mgmtsystem_evaluation
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_form_view
@@ -113,22 +115,16 @@ msgstr "Kontakt"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__create_uid
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__create_uid
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__create_date
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__create_date
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__display_name
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__display_name
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -144,40 +140,31 @@ msgstr "U pripremi"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.actions.act_window,name:mgmtsystem_evaluation.mgmtsystem_evaluation_act_window
-#: model:ir.actions.act_window,name:mgmtsystem_evaluation.mgmtsystem_evaluation_related_act_window
-#: model:ir.model,name:mgmtsystem_evaluation.model_mgmtsystem_evaluation
-#: model:ir.ui.menu,name:mgmtsystem_evaluation.mgmtsystem_evaluation_menu
 msgid "Evaluation"
 msgstr "Procjena"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.actions.act_window,name:mgmtsystem_evaluation.mgmtsystem_evaluation_result_act_window
-#: model:ir.model,name:mgmtsystem_evaluation.model_mgmtsystem_evaluation_result
 msgid "Evaluation Result"
-msgstr "Evaluation Result"
+msgstr "Rezultat evaluacije"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.actions.act_window,name:mgmtsystem_evaluation.mgmtsystem_evaluation_template_act_window
-#: model:ir.model,name:mgmtsystem_evaluation.model_mgmtsystem_evaluation_template
-#: model:ir.ui.menu,name:mgmtsystem_evaluation.mgmtsystem_evaluation_template_menu
 msgid "Evaluation Template"
 msgstr "Evaluation Šablon"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__date
 msgid "Evaluation date"
-msgstr "Evaluation date"
+msgstr "Datum evaluacije"
 
 #. module: mgmtsystem_evaluation
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.view_partner_form
 msgid "Evaluations"
-msgstr "Evaluations"
+msgstr "Evaluacije"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__feedback
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__feedback
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_form_view
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_template_form_view
 msgid "Feedback"
 msgstr "Povratna informacija"
 
@@ -213,8 +200,6 @@ msgstr "Ima poruku"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__id
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__id
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__id
 msgid "ID"
 msgstr "ID"
 
@@ -260,22 +245,16 @@ msgstr "Is Korisnik"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation____last_update
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result____last_update
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__write_uid
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__write_uid
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__write_date
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__write_date
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -287,7 +266,7 @@ msgstr "Glavna zakačka"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_ir_model__is_mgmtsystem_evaluation
 msgid "Management System Evaluation"
-msgstr "Management System Evaluation"
+msgstr "Evaluacija sistema upravljanja"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__manager_ids
@@ -306,34 +285,28 @@ msgstr "Poruke"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_abstract__mgmtsystem_evaluation_ids
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_res_partner__mgmtsystem_evaluation_ids
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_res_users__mgmtsystem_evaluation_ids
 msgid "Mgmtsystem Evaluation"
-msgstr "Mgmtsystem Evaluation"
+msgstr "Sistem upravljanja Evaluacija"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_abstract__mgmtsystem_evaluation_count
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_res_partner__mgmtsystem_evaluation_count
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_res_users__mgmtsystem_evaluation_count
 msgid "Mgmtsystem Evaluation Count"
-msgstr "Mgmtsystem Evaluation Count"
+msgstr "Broj evaluacija sistema upravljanja"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.ui.menu,name:mgmtsystem_evaluation.mgmtsystem_evaluation_result_menu
 msgid "Mgmtsystem Evaluation Result"
-msgstr "Mgmtsystem Evaluation Result"
+msgstr "Rezultat evaluacije sistema upravljanja"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__model_id
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__model_id
 msgid "Model"
 msgstr "Model"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__model
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__model
 msgid "Model technical name"
-msgstr "Model technical name"
+msgstr "Tehnički naziv modela"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model,name:mgmtsystem_evaluation.model_ir_model
@@ -347,8 +320,6 @@ msgstr "Rok za moju aktivnost"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__name
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__name
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -380,16 +351,15 @@ msgstr "Next Evaluation Datum"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__next_evaluation_generated
 msgid "Next Evaluation Generated"
-msgstr "Next Evaluation Generated"
+msgstr "Sljedeća evaluacija generisana"
 
 #. module: mgmtsystem_evaluation
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_form_view
 msgid "Not passed"
-msgstr "Not passed"
+msgstr "Nije prošlo"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__note
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__note
 msgid "Note"
 msgstr "Zabilješka"
 
@@ -415,26 +385,23 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__passed
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__passed
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_form_view
 msgid "Passed"
 msgstr "Prošao"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__result_ids
 msgid "Possible results"
-msgstr "Possible results"
+msgstr "Mogući rezultati"
 
 #. module: mgmtsystem_evaluation
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_form_view
-#: model_terms:ir.ui.view,arch_db:mgmtsystem_evaluation.mgmtsystem_evaluation_template_form_view
 msgid "Private notes"
 msgstr "Privatno notes"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__recurrence_period
 msgid "Recurrence Period"
-msgstr "Recurrence Period"
+msgstr "Period ponavljanja"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__recurrence_type
@@ -458,7 +425,6 @@ msgstr "Odgovorni korisnik"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__result_id
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_template__result_ids
 msgid "Result"
 msgstr "Rezultat"
 
@@ -490,10 +456,13 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__template_id
-#: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_result__template_ids
 msgid "Template"
 msgstr "Prijedlog"
 
@@ -520,4 +489,4 @@ msgstr "Povijest komunikacije Web stranice"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,help:mgmtsystem_evaluation.field_ir_model__is_mgmtsystem_evaluation
 msgid "Whether this model supports evaluations."
-msgstr "Whether this model supports evaluations."
+msgstr "Da li ovaj model podržava evaluacije."

@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__account_id
 msgid "Account"
 msgstr "Konto"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model,name:account_brand.model_account_move_reversal
 msgid "Account Move Reversal"
@@ -25,37 +27,40 @@ msgstr "Storno temeljnice"
 
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_account_bank_statement_line__brand_id
-#: model:ir.model.fields,field_description:account_brand.field_account_move__brand_id
-#: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__brand_id
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_account_move__brand_use_level
 msgid "Brand Use Level"
 msgstr "Razina uporabe brenda"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,help:account_brand.field_account_bank_statement_line__brand_id
-#: model:ir.model.fields,help:account_brand.field_account_move__brand_id
 msgid "Brand to use for this sale"
 msgstr "Brand za ovu prodaju"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_account_move__company_id
 msgid "Company"
 msgstr "Tvrtka"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__display_name
 msgid "Display Name"
@@ -66,16 +71,19 @@ msgstr "Naziv za prikaz"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model,name:account_brand.model_account_move
 msgid "Journal Entry"
 msgstr "Stavka dnevnika"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__write_uid
 msgid "Last Updated by"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__write_date
 msgid "Last Updated on"
@@ -86,38 +94,46 @@ msgstr "Zadnje ažurirano"
 msgid "Partner"
 msgstr "Partner"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.actions.act_window,name:account_brand.res_partner_account_brand_act_window
-#: model:ir.ui.menu,name:account_brand.res_partner_account_brand_menu
 msgid "Partner Accounts by Brand"
 msgstr "Konta partnera po brendu"
 
+# taken from hr.po
 #. module: account_brand
-#: model:ir.model.constraint,message:account_brand.constraint_res_partner_account_brand_unique_account_by_partner
+#: code:addons/account_brand/models/res_partner_account_brand.py
+#, python-format
 msgid "Partner has already an account set for this brand!"
 msgstr "Partner već ima postavljen konto za ovaj brand!"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields.selection,name:account_brand.selection__res_partner_account_brand__account_type__liability_payable
 msgid "Payable"
 msgstr "Dugovno"
 
+# taken from hr.po
 #. module: account_brand
 #. odoo-python
-#: code:addons/account_brand/models/res_partner_account_brand.py:0
+#: code:addons/account_brand/models/res_partner_account_brand.py
+#, python-format
 msgid "Please select an account of type %s"
 msgstr "Molimo odaberite konto tipa %s"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields.selection,name:account_brand.selection__res_partner_account_brand__account_type__asset_receivable
 msgid "Receivable"
 msgstr "Potražno"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model,name:account_brand.model_res_partner_account_brand
 msgid "Receivable/Payable Partner Account By Brand"
 msgstr "Potražna/Dugovna konta partnera po brendu"
 
+# taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__account_type
 msgid "Type"

@@ -19,19 +19,16 @@ msgid ""
 "<span title=\"This company is linked to a brand\" invisible=\"not "
 "brand_logo\">® &amp;nbsp;</span>"
 msgstr ""
+"<span title=\"Ova kompanija je povezana sa brendom\" invisible=\"not "
+"brand_logo\">® &amp;nbsp;</span>"
 
 #. module: partner_brand
 #: model:ir.model.fields,field_description:partner_brand.field_res_brand__brand_id
-#: model:ir.model.fields,field_description:partner_brand.field_res_partner__brand_id
-#: model:ir.model.fields,field_description:partner_brand.field_res_users__brand_id
-#: model_terms:ir.ui.view,arch_db:partner_brand.view_res_partner_filter
 msgid "Brand"
-msgstr "Brand"
+msgstr "Brend"
 
 #. module: partner_brand
 #: model:ir.model.fields,field_description:partner_brand.field_res_brand__brand_logo
-#: model:ir.model.fields,field_description:partner_brand.field_res_partner__brand_logo
-#: model:ir.model.fields,field_description:partner_brand.field_res_users__brand_logo
 msgid "Brand logo"
 msgstr "Logo brenda"
 

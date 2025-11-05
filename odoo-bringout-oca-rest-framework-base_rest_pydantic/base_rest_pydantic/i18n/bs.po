@@ -13,8 +13,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: base_rest_datamodel
-#: code:addons/base_rest_datamodel/restapi.py:0
+#. module: base_rest_pydantic
+#: code:addons/base_rest_pydantic/restapi.py
 #, python-format
 msgid "BadRequest %s"
 msgstr "Neispravni zahtjev %s"
@@ -24,3 +24,23 @@ msgstr "Neispravni zahtjev %s"
 #, python-format
 msgid "Invalid Response %s"
 msgstr "Neispravni odgovor %s"
+
+#. module: base_rest_pydantic
+#: code:addons/base_rest_pydantic/restapi.py
+#, python-format
+msgid "BadRequest: Not enough items in the list (%(current)s < %(expected)s)"
+msgstr ""
+"Neispravni zahtjev: Nedovoljno stavki u listi (%(current)s < %(expected)s)"
+
+#. module: base_rest_pydantic
+#: code:addons/base_rest_pydantic/restapi.py
+#, python-format
+msgid "BadRequest: Too many items in the list (%(current)s > %(expected)s)"
+msgstr ""
+"Neispravni zahtjev: Previše stavki u listi (%(current)s > %(expected)s)"
+
+#. module: base_rest_pydantic
+#: code:addons/base_rest_pydantic/restapi.py
+#, python-format
+msgid "Invalid Response"
+msgstr "Neispravni odgovor"
