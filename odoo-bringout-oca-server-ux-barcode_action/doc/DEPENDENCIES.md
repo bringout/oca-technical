@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [barcodes](https://github.com/bringout/oca-ocb-technical/tree/4694b2a7718eea6743646f61d172cd8cd8c0896b/odoo-bringout-oca-ocb-barcodes)
+- [barcodes](https://github.com/bringout/oca-ocb-warehouse/tree/c945b84263caf64889385d3735546b1fd94a8271/odoo-bringout-oca-ocb-barcodes)
