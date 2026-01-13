@@ -120,17 +120,17 @@ msgstr "Je identifikator ciljanog zapisa obavezan"
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__line_ids

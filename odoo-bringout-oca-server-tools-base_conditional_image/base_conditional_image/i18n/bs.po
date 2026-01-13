@@ -16,7 +16,7 @@ msgstr ""
 #. module: base_conditional_image
 #: model:ir.model.fields,field_description:base_conditional_image.field_conditional_image__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: base_conditional_image
 #: model:ir.model.fields,help:base_conditional_image.field_conditional_image__company_id
@@ -87,17 +87,17 @@ msgstr "Slika 512"
 #. module: base_conditional_image
 #: model:ir.model.fields,field_description:base_conditional_image.field_conditional_image____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: base_conditional_image
 #: model:ir.model.fields,field_description:base_conditional_image.field_conditional_image__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: base_conditional_image
 #: model:ir.model.fields,field_description:base_conditional_image.field_conditional_image__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: base_conditional_image
 #: model:ir.model,name:base_conditional_image.model_conditional_image_consumer_mixin

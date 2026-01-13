@@ -21,7 +21,7 @@ msgstr "Svi pregledi"
 #. module: base_tier_validation_report
 #: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
 msgid "Approved"
-msgstr "Odobren"
+msgstr "Odobreno"
 
 #. module: base_tier_validation_report
 #: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search

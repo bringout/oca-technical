@@ -51,7 +51,7 @@ msgstr "Metoda autentifikacije"
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: fastapi
 #: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_demo_form_view
@@ -131,17 +131,17 @@ msgstr "Jezici"
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: fastapi
 #: model:res.groups,name:fastapi.my_demo_app_group

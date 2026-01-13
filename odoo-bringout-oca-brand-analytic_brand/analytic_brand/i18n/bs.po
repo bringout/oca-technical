@@ -21,7 +21,7 @@ msgstr "Analitička distribucija"
 #. module: analytic_brand
 #: model:ir.model.fields,field_description:analytic_brand.field_res_brand__analytic_precision
 msgid "Analytic Precision"
-msgstr "Preciznost analitike"
+msgstr "Analitička preciznost"
 
 #. module: analytic_brand
 #: model:ir.model,name:analytic_brand.model_res_brand

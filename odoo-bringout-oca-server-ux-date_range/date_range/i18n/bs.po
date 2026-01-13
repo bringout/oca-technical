@@ -107,7 +107,7 @@ msgstr "Otkaži"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__company_id
 msgid "Company"
-msgstr "Poduzeće"
+msgstr "Kompanija"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_type_form_view
@@ -182,7 +182,7 @@ msgstr "Zadane vrijednosti za generiranje opsega datuma"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Prikazani naziv"
 
 # taken from hr.po
 #. module: date_range
@@ -254,19 +254,19 @@ msgstr "Neispravan izraz naziva: %s"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 # taken from hr.po
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 # taken from hr.po
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: date_range
 #: model:ir.model,name:date_range.model_date_range_search_mixin
@@ -350,7 +350,7 @@ msgstr "Rasponi datuma"
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_search
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 # taken from hr.po
 #. module: date_range

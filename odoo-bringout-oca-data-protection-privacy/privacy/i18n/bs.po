@@ -34,14 +34,14 @@ msgstr "Aktivnosti"
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 # taken from hr.po
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__activity_state
 #, fuzzy
 msgid "Activity State"
-msgstr "Aktivnosti"
+msgstr "Status aktivnosti"
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__activity_type_icon
@@ -151,7 +151,7 @@ msgstr "Pojedinosti"
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Prikazani naziv"
 
 # taken from hr.po
 #. module: privacy
@@ -174,7 +174,7 @@ msgstr "Font awesome ikona npr. fa-tasks"
 #. module: privacy
 #: model_terms:ir.ui.view,arch_db:privacy.activity_search
 msgid "Group By"
-msgstr "Grupiraj po"
+msgstr "Grupiši po..."
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__has_message
@@ -206,7 +206,7 @@ msgstr "Ikona za prikaz iznimki."
 #. module: privacy
 #: model:ir.model.fields,help:privacy.field_privacy_activity__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je označeno, nove poruke zahtijevaju važu pozornost."
+msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 
 #. module: privacy
 #: model:ir.model.fields,help:privacy.field_privacy_activity__message_has_error
@@ -217,22 +217,22 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_is_follower
 msgid "Is Follower"
-msgstr "Je pratitelj"
+msgstr "Pratilac"
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_main_attachment_id
@@ -253,7 +253,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: privacy
 #: model:ir.model.fields,field_description:privacy.field_privacy_activity__my_activity_date_deadline

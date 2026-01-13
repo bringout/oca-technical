@@ -86,17 +86,17 @@ msgstr "Opis"
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,help:fastapi_encrypted_errors.field_fastapi_endpoint__encrypted_errors_secret_key

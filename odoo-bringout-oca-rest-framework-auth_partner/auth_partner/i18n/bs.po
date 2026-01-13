@@ -254,7 +254,7 @@ msgstr "Forsiraj verificiran e-mail"
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__id
@@ -321,17 +321,17 @@ msgstr "Opis"
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_partner__login

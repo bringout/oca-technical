@@ -47,7 +47,7 @@ msgstr "Poduzeća"
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__company_id
 #, fuzzy
 msgid "Company"
-msgstr "Poduzeća"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
@@ -58,19 +58,19 @@ msgstr "Izračun rizika"
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__create_uid
 msgid "Created by"
-msgstr "Stvorio"
+msgstr "Kreirao"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__create_date
 msgid "Created on"
-msgstr "Stvoreno na"
+msgstr "Kreirano"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
@@ -82,7 +82,7 @@ msgstr "Opis"
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Prikazani naziv"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
@@ -129,7 +129,7 @@ msgstr "Zadnja izmjena na"
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji puta ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk

@@ -126,17 +126,17 @@ msgstr "Presijek tačke i geometrije"
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_dummy_zip____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_dummy_zip__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_dummy_zip__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_geoengine_demo_automatic_retailing_machine__money_level

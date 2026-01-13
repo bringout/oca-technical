@@ -58,7 +58,7 @@ msgstr "Opis"
 #. module: product_brand
 #: model:ir.model.fields,field_description:product_brand.field_product_brand__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Prikazani naziv"
 
 #. module: product_brand
 #: model:ir.model.fields,field_description:product_brand.field_product_brand__id
@@ -75,13 +75,13 @@ msgstr "Statistika računa"
 #. module: product_brand
 #: model:ir.model.fields,field_description:product_brand.field_product_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 # taken from hr.po
 #. module: product_brand
 #: model:ir.model.fields,field_description:product_brand.field_product_brand__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 # taken from hr.po
 #. module: product_brand

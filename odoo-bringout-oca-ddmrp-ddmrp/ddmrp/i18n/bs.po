@@ -315,7 +315,7 @@ msgstr "Kompanije"
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
@@ -325,7 +325,7 @@ msgstr "Postavke kompanije"
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_res_config_settings__module_ddmrp_warning
@@ -642,7 +642,7 @@ msgstr "Opcija količine zelene zone razmatrajući minimalnu količinu narudžbe
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_search
@@ -753,17 +753,17 @@ msgstr "Stavke"
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__lead_days
@@ -1121,7 +1121,7 @@ msgstr "Naručivanje"
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_procurement_group
 msgid "Procurement Group"
-msgstr "Grupa naručivanja"
+msgstr "Nalog za nabavu"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.view_make_procurement_buffer_wizard
@@ -1146,7 +1146,7 @@ msgstr "Nabavka preporučena"
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_product_adu_calculation_method
@@ -1181,22 +1181,22 @@ msgstr "Proizvodni nalog"
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__purchase_line_ids
 msgid "Purchase Order Lines"
-msgstr "Stavke narudžbenice"
+msgstr "Stavke zahtjeva za nabavu"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.stock_buffer_view_form
 msgid "Purchase Orders"
-msgstr "Nalozi u nabavi"
+msgstr "Zahtjevi za nabavom"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer_profile__item_type__purchased

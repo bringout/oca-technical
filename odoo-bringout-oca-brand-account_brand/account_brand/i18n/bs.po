@@ -46,7 +46,7 @@ msgstr "Brand za ovu prodaju"
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_account_move__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_brand
@@ -64,7 +64,7 @@ msgstr "Kreirano"
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Prikazani naziv"
 
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__id
@@ -81,13 +81,13 @@ msgstr "Stavka dnevnika"
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje izvršio"
 
 # taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__partner_id
