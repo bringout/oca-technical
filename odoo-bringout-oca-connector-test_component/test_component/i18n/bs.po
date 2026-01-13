@@ -36,17 +36,17 @@ msgstr "ID"
 #. module: test_component
 #: model:ir.model.fields,field_description:test_component.field_test_component_collection____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: test_component
 #: model:ir.model.fields,field_description:test_component.field_test_component_collection__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: test_component
 #: model:ir.model.fields,field_description:test_component.field_test_component_collection__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: test_component
 #: model:ir.model.fields,field_description:test_component.field_test_component_collection__name

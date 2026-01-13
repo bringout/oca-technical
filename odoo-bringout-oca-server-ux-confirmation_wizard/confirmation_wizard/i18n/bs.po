@@ -73,17 +73,17 @@ msgstr "ID"
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: confirmation_wizard
 #. odoo-python

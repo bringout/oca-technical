@@ -138,17 +138,17 @@ msgstr "Opis"
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: fastapi_auth_partner
 #: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.auth_partner_view_form

@@ -37,7 +37,7 @@ msgstr "Kompanije"
 #. module: base_user_locale
 #: model:ir.model,name:base_user_locale.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: base_user_locale
 #: model_terms:ir.ui.view,arch_db:base_user_locale.res_config_settings_view_form

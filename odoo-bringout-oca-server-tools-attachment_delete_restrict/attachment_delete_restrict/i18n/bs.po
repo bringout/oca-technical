@@ -61,7 +61,7 @@ msgstr "Skupovi izmena"
 #. module: attachment_delete_restrict
 #: model:ir.model,name:attachment_delete_restrict.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: attachment_delete_restrict
 #: model:ir.model.fields,field_description:attachment_delete_restrict.field_ir_attachment__count_changesets

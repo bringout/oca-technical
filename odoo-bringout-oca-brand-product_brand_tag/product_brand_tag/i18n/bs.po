@@ -46,7 +46,7 @@ msgstr "Indeks boje"
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__create_uid
@@ -71,12 +71,12 @@ msgstr "ID"
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__name

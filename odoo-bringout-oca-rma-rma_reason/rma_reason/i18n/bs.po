@@ -35,12 +35,12 @@ msgstr "Kompanije"
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: rma_reason
 #: model:ir.model,name:rma_reason.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__create_uid
@@ -104,17 +104,17 @@ msgstr ""
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: rma_reason
 #: model:ir.model.fields,help:rma_reason.field_rma_reason__allowed_operation_ids

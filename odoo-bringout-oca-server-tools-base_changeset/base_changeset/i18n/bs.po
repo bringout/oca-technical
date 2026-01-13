@@ -41,7 +41,7 @@ msgstr "Primijeni promjene na čekanju"
 #. module: base_changeset
 #: model:ir.model.fields.selection,name:base_changeset.selection__record_changeset_change__state__done
 msgid "Approved"
-msgstr "Odobreno"
+msgstr "Odobren"
 
 #. module: base_changeset
 #: model:ir.model.fields,help:base_changeset.field_changeset_field_rule__action
@@ -104,7 +104,7 @@ msgstr "Skupovi promjena"
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field__unknown__count_changesets
@@ -139,7 +139,7 @@ msgstr "Prikazani naziv"
 #. module: base_changeset
 #: model:ir.model.fields.selection,name:base_changeset.selection__record_changeset__state__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__expression
@@ -169,7 +169,7 @@ msgstr "Tip polja"
 #. module: base_changeset
 #: model_terms:ir.ui.view,arch_db:base_changeset.view_changeset_field_rule_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__id
@@ -188,17 +188,17 @@ msgstr ""
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__model_id
@@ -415,7 +415,7 @@ msgstr "ID zapisa"
 #. module: base_changeset
 #: model_terms:ir.ui.view,arch_db:base_changeset.view_record_changeset_change_form
 msgid "Reject"
-msgstr "Odbij"
+msgstr "Odbaci"
 
 #. module: base_changeset
 #: model_terms:ir.ui.view,arch_db:base_changeset.view_record_changeset_form

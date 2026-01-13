@@ -113,7 +113,7 @@ msgstr ""
 #. module: connector_importer
 #: model:ir.model.fields.selection,name:connector_importer.selection__import_recordset__jobs_global_state__cancelled
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Otkazan"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_source__chunk_size
@@ -213,7 +213,7 @@ msgstr "Dokumentacija za"
 #. module: connector_importer
 #: model:ir.model.fields.selection,name:connector_importer.selection__import_recordset__jobs_global_state__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_source_csv__example_file_url
@@ -309,7 +309,7 @@ msgstr "Generiraj izvještaj"
 #. module: connector_importer
 #: model_terms:ir.ui.view,arch_db:connector_importer.view_import_recordset_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__id
@@ -474,7 +474,7 @@ msgstr "Ključ"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_recordset__last_run_on
@@ -484,12 +484,12 @@ msgstr "Poslednji put pokrenuto"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: connector_importer
 #: model_terms:ir.ui.view,arch_db:connector_importer.recordset_report

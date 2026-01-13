@@ -31,7 +31,7 @@ msgstr "Komentari dokumenata"
 #. module: purchase_comment_template
 #: model:ir.model,name:purchase_comment_template.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_comment_template
 #: model:ir.actions.act_window,name:purchase_comment_template.action_purchase_order_comment_template

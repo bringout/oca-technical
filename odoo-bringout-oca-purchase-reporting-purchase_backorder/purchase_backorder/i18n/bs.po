@@ -76,22 +76,22 @@ msgstr "Last Datum Received"
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: purchase_backorder
 #: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report
 msgid "Order Reference"
-msgstr "Referenca zahtjeva"
+msgstr "Referenca narudžbe"
 
 #. module: purchase_backorder
 #: model:ir.actions.report,name:purchase_backorder.action_po_backorder_report
@@ -121,12 +121,12 @@ msgstr "Tip artikla"
 #. module: purchase_backorder
 #: model:ir.model,name:purchase_backorder.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_backorder
 #: model:ir.model,name:purchase_backorder.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__uigr_qty

@@ -86,7 +86,7 @@ msgstr "Funkcionalne greške"
 #. module: rest_log
 #: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__headers
@@ -101,17 +101,17 @@ msgstr "ID"
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: rest_log
 #: model:ir.ui.menu,name:rest_log.menu_rest_api_log

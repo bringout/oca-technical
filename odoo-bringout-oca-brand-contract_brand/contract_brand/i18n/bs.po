@@ -31,7 +31,7 @@ msgstr "Brand za ovu prodaju"
 #. module: contract_brand
 #: model:ir.model.fields,field_description:contract_brand.field_contract_contract__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: contract_brand
 #: model:ir.model,name:contract_brand.model_contract_contract

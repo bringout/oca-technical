@@ -101,17 +101,17 @@ msgstr "ID"
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__model_description

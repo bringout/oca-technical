@@ -23,7 +23,7 @@ msgstr ""
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebna akcija"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__active
@@ -38,7 +38,7 @@ msgstr "Aktivnosti"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija izuzetka aktivnosti"
+msgstr "Dekoracija iznimke aktivnosti"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__activity_state
@@ -106,7 +106,7 @@ msgstr "Otkaži"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields.selection,name:mgmtsystem_evaluation.selection__mgmtsystem_evaluation__state__cancel
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Otkazan"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model,name:mgmtsystem_evaluation.model_res_partner
@@ -131,7 +131,7 @@ msgstr "Prikazani naziv"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields.selection,name:mgmtsystem_evaluation.selection__mgmtsystem_evaluation__state__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields.selection,name:mgmtsystem_evaluation.selection__mgmtsystem_evaluation__state__draft
@@ -176,12 +176,12 @@ msgstr "Završi"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (Partneri)"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,help:mgmtsystem_evaluation.field_mgmtsystem_evaluation__activity_type_icon
@@ -246,17 +246,17 @@ msgstr "Is Korisnik"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__message_main_attachment_id
@@ -281,7 +281,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__message_ids
 msgid "Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation_abstract__mgmtsystem_evaluation_ids
@@ -479,7 +479,7 @@ msgstr "Korisnik"
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,field_description:mgmtsystem_evaluation.field_mgmtsystem_evaluation__website_message_ids
 msgid "Website Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke sa website-a"
 
 #. module: mgmtsystem_evaluation
 #: model:ir.model.fields,help:mgmtsystem_evaluation.field_mgmtsystem_evaluation__website_message_ids

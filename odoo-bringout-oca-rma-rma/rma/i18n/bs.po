@@ -478,7 +478,7 @@ msgstr "Upozorenje pristupa"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebna akcija"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_finalization__active
@@ -493,7 +493,7 @@ msgstr "Aktivnosti"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija izuzetka aktivnosti"
+msgstr "Dekoracija iznimke aktivnosti"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__activity_state
@@ -670,12 +670,12 @@ msgstr "Kompanije"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: rma
 #: model:ir.model,name:rma.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: rma
 #: model:ir.ui.menu,name:rma.rma_configuration_menu
@@ -987,12 +987,12 @@ msgstr "Završeno"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (Partneri)"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__activity_type_icon
@@ -1002,7 +1002,7 @@ msgstr "Font awesome ikona npr. fa-tasks"
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_view_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_res_company__rma_return_grouping
@@ -1129,17 +1129,17 @@ msgstr "Stavka žurnala"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_view_search
@@ -1210,7 +1210,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__message_ids
 msgid "Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__my_activity_date_deadline
@@ -1415,7 +1415,7 @@ msgstr "Grupa naručivanja"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma_delivery_wizard__product_uom_qty
@@ -2344,7 +2344,7 @@ msgstr "Skladište"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__website_message_ids
 msgid "Website Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke sa website-a"
 
 #. module: rma
 #: model:ir.model.fields,help:rma.field_rma__website_message_ids

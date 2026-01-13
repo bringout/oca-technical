@@ -70,7 +70,7 @@ msgstr "Status aktivnosti"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Ikona tipa aktivnosti"
+msgstr "Ikona Tipa aktivnsoti"
 
 # taken from hr.po
 #. module: brand
@@ -280,7 +280,7 @@ msgstr "Tvrtke koje odgovaraju partneru"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Tvrtka"
 
 # taken from hr.po
 #. module: brand
@@ -326,7 +326,7 @@ msgstr "Puni naziv"
 #. module: brand
 #: model:ir.model,name:brand.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 # taken from hr.po
 #. module: brand
@@ -452,7 +452,7 @@ msgstr "Prikaži PDF izvještaj predloška fakture"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: brand
@@ -546,7 +546,7 @@ msgstr "Geo dužina"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__has_message
 msgid "Has Message"
-msgstr "Ima poruku"
+msgstr "Ima poruke"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__id
@@ -670,7 +670,7 @@ msgstr "Je li Coa instaliran"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Je pratitelj"
 
 # taken from hr.po
 #. module: brand
@@ -706,12 +706,12 @@ msgstr "Jezik"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnje ažurirano"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_has_error
@@ -742,7 +742,7 @@ msgstr "Moruka za prikupljanje proizvoda sa zalihe"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_ids
 msgid "Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 # taken from hr.po
 #. module: brand
@@ -754,7 +754,7 @@ msgstr "Mobitel"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Rok za moju aktivnost"
+msgstr "Krajnji rok moje aktivnosti"
 
 # taken from hr.po
 #. module: brand
@@ -766,13 +766,13 @@ msgstr "Naziv"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok za sljedeću aktivnost"
+msgstr "Krajnji rok sljedeće aktivnosti"
 
 # taken from hr.po
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__activity_summary
 msgid "Next Activity Summary"
-msgstr "Pregled sljedeće aktivnosti"
+msgstr "Sažetak sljedećih aktivnosti"
 
 # taken from hr.po
 #. module: brand
@@ -795,7 +795,7 @@ msgstr "Bilješke"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Broj akcija"
+msgstr "Broj radnji"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__reminder_date_before_receipt
@@ -819,7 +819,7 @@ msgstr "Broj poruka koje zahtijevaju aktivnost"
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom isporuke"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__on_time_rate
@@ -1352,7 +1352,7 @@ msgstr "Veza websajta"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__website_message_ids
 msgid "Website Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke sa website-a"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__website_message_ids
