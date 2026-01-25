@@ -18,7 +18,7 @@ msgstr ""
 #: code:addons/base_rest/restapi.py
 #, python-format
 msgid "%(key)'s JSON content is malformed: %(error)s"
-msgstr "%(key)s JSON sadržaj je neispravno formatiran: %(error)s"
+msgstr "%(key)'s JSON content is malformed: %(error)s"
 
 #. module: base_rest
 #. odoo-python
