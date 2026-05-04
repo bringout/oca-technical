@@ -16,7 +16,7 @@ msgstr ""
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
 msgid "<code>number</code>: The next number of the sequence (integer)"
-msgstr "<code>number</code>: The next number of the sequence (integer)"
+msgstr ""
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
@@ -37,7 +37,7 @@ msgstr ""
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
 msgid "<code>sequence</code>: Odoo record of the sequence being used"
-msgstr "<code>sequence</code>: Odoo record of the sequence being used"
+msgstr ""
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
@@ -60,7 +60,7 @@ msgstr ""
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
 msgid "Aside from this, you may use several"
-msgstr "Aside from this, you may use several"
+msgstr ""
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
@@ -85,7 +85,7 @@ msgstr "Python ekspresija"
 #. module: sequence_python
 #: model:ir.model,name:sequence_python.model_ir_sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: sequence_python
 #: model:ir.model.fields,field_description:sequence_python.field_ir_sequence__smart_search
@@ -104,19 +104,19 @@ msgstr ""
 #. module: sequence_python
 #: model:ir.model.fields,field_description:sequence_python.field_ir_sequence__use_python_code
 msgid "Use Python"
-msgstr "Use Python"
+msgstr ""
 
 #. module: sequence_python
 #: model:ir.model.fields,help:sequence_python.field_ir_sequence__python_code
 msgid "Write Python code that generates the sequence body."
-msgstr "Write Python code that generates the sequence body."
+msgstr ""
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
 msgid "builtin Python functions"
-msgstr "builtin Python functions"
+msgstr ""
 
 #. module: sequence_python
 #: model_terms:ir.ui.view,arch_db:sequence_python.sequence_view
 msgid "number"
-msgstr "number"
+msgstr ""

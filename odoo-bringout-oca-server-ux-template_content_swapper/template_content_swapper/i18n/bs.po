@@ -41,12 +41,12 @@ msgstr "Kreirano"
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: template_content_swapper
 #: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
 msgid "Frontend"
-msgstr "Frontend"
+msgstr ""
 
 #. module: template_content_swapper
 #: model_terms:ir.ui.view,arch_db:template_content_swapper.view_template_content_mapping_search
@@ -72,7 +72,7 @@ msgstr "Jezik"
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__write_uid
@@ -87,12 +87,12 @@ msgstr "Zadnje ažurirano"
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: template_content_swapper
 #: model:ir.model,name:template_content_swapper.model_ir_qweb
 msgid "Qweb"
-msgstr "Qweb"
+msgstr ""
 
 #. module: template_content_swapper
 #: model:ir.model.fields,field_description:template_content_swapper.field_template_content_mapping__report_id

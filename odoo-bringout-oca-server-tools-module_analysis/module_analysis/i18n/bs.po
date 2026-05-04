@@ -46,7 +46,7 @@ msgstr "Kreirano"
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__id
@@ -76,7 +76,7 @@ msgstr "Količina JS koda"
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__write_uid
@@ -136,7 +136,7 @@ msgstr "Pravila tipova modula"
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_author__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_module__python_code_qty
@@ -161,7 +161,7 @@ msgstr "Količina SCSS koda"
 #. module: module_analysis
 #: model:ir.model.fields,field_description:module_analysis.field_ir_module_type__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: module_analysis
 #: model:ir.ui.menu,name:module_analysis.menu_module_analysis_settings

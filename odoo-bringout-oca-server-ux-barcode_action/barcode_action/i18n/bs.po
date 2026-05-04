@@ -60,7 +60,7 @@ msgstr "Kreirano"
 #. module: barcode_action
 #: model:ir.model.fields,field_description:barcode_action.field_barcode_action__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: barcode_action
@@ -89,19 +89,19 @@ msgstr "ID"
 #. module: barcode_action
 #: model:ir.model.fields,field_description:barcode_action.field_barcode_action____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: barcode_action
 #: model:ir.model.fields,field_description:barcode_action.field_barcode_action__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: barcode_action
 #: model:ir.model.fields,field_description:barcode_action.field_barcode_action__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: barcode_action
@@ -112,12 +112,12 @@ msgstr "Metoda"
 #. module: barcode_action
 #: model:ir.model.fields,field_description:barcode_action.field_barcode_action__model
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 # taken from hr.po
 #. module: barcode_action
 #. odoo-python
-#: code:addons/barcode_action/models/res_partner.py
+#: code:addons/barcode_action/models/res_partner.py:0
 #, python-format
 msgid "Partner with Internal Reference %s cannot be found"
 msgstr "Partner sa šifrom %s nije pronađen"
@@ -136,7 +136,7 @@ msgstr "Država"
 #. module: barcode_action
 #: model:ir.model.fields,field_description:barcode_action.field_barcode_action__status
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 # taken from hr.po
 #. module: barcode_action

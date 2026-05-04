@@ -16,12 +16,12 @@ msgstr ""
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__brands_count
 msgid "# of brands"
-msgstr "# of brands"
+msgstr ""
 
 #. module: product_brand_tag
 #: model:ir.actions.act_window,name:product_brand_tag.action_product_brand_tags
 msgid "Brand tags"
-msgstr "Brand tags"
+msgstr ""
 
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__product_brand_ids
@@ -46,7 +46,7 @@ msgstr "Indeks boje"
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__create_uid
@@ -61,7 +61,7 @@ msgstr "Kreirano"
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__id
@@ -81,7 +81,7 @@ msgstr "Zadnje ažurirano"
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand_tag__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: product_brand_tag
 #: model:ir.model,name:product_brand_tag.model_product_brand
@@ -106,7 +106,7 @@ msgstr "Proizvod Brands Tags"
 #. module: product_brand_tag
 #: model:ir.model.constraint,message:product_brand_tag.constraint_product_brand_tag_mixin_tag_code_uniq
 msgid "Tag code must be unique inside a company"
-msgstr "Tag code must be unique inside a company"
+msgstr ""
 
 #. module: product_brand_tag
 #: model:ir.model.fields,field_description:product_brand_tag.field_product_brand__tag_ids

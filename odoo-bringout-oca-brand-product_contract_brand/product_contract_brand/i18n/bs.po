@@ -16,4 +16,4 @@ msgstr ""
 #. module: product_contract_brand
 #: model:ir.model,name:product_contract_brand.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

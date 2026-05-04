@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/models/date_range.py
+#: code:addons/date_range/models/date_range.py:0
 #, python-format
 msgid "%(name)s is not a valid range (%(date_start)s > %(date_end)s)"
 msgstr "%(name)s nije valjan opseg (%(date_start)s > %(date_end)s)"
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/models/date_range.py
+#: code:addons/date_range/models/date_range.py:0
 #, python-format
 msgid "%(thisname)s overlaps %(dtname)s"
 msgstr "%(thisname)s se preklapa sa %(dtname)s"
@@ -58,7 +58,7 @@ msgstr "Tip raspona datuma mora biti jedinstven unutar tvrtke!"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 # taken from hr.po
 #. module: date_range
@@ -107,7 +107,7 @@ msgstr "Otkaži"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__company_id
 msgid "Company"
-msgstr "Poduzeće"
+msgstr "Kompanija"
 
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_type_form_view
@@ -182,7 +182,7 @@ msgstr "Zadane vrijednosti za generiranje opsega datuma"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: date_range
@@ -193,7 +193,7 @@ msgstr "Trajanje"
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_search
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 # taken from hr.po
 #. module: date_range
@@ -245,7 +245,7 @@ msgstr "Ako je postavljen, opsezi datuma istog tipa se ne smiju preklapati."
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/wizard/date_range_generator.py
+#: code:addons/date_range/wizard/date_range_generator.py:0
 #, python-format
 msgid "Invalid name expression: %s"
 msgstr "Neispravan izraz naziva: %s"
@@ -254,7 +254,7 @@ msgstr "Neispravan izraz naziva: %s"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: date_range
@@ -277,11 +277,11 @@ msgstr "Mixin klasa za dodavanje polja pretrage perioda u Many2one stilu"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/wizard/date_range_generator.py
+#: code:addons/date_range/wizard/date_range_generator.py:0
 #, python-format
 msgid "No ranges to generate with these settings"
 msgstr "Nema opsega za generiranje sa ovim postavkama"
@@ -312,14 +312,14 @@ msgstr "Period"
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/wizard/date_range_generator.py
+#: code:addons/date_range/wizard/date_range_generator.py:0
 #, python-format
 msgid "Please enter an end date, or the number of ranges to generate."
 msgstr "Molim unesite krajnji datum, ili broj opsega za generiranje."
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/wizard/date_range_generator.py
+#: code:addons/date_range/wizard/date_range_generator.py:0
 #, python-format
 msgid "Please set a prefix or an expression to generate the range names."
 msgstr "Molim postavite prefiks ili izraz za generiranje naziva opsega."
@@ -350,17 +350,17 @@ msgstr "Rasponi datuma"
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.view_date_range_search
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 # taken from hr.po
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__date_start
 msgid "Start date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/wizard/date_range_generator.py
+#: code:addons/date_range/wizard/date_range_generator.py:0
 #, python-format
 msgid ""
 "The Company in the Date Range Generator and in Date Range Type must be the "
@@ -390,7 +390,7 @@ msgstr ""
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__type_id
 msgid "Type"
-msgstr "Vrsta"
+msgstr "Tip"
 
 # taken from hr.po
 #. module: date_range
@@ -413,7 +413,7 @@ msgstr "Dok"
 
 #. module: date_range
 #. odoo-python
-#: code:addons/date_range/models/date_range_type.py
+#: code:addons/date_range/models/date_range_type.py:0
 #, python-format
 msgid ""
 "You cannot change the company, as this Date Range Type is assigned to Date "

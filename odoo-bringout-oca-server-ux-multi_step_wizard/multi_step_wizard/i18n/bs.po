@@ -22,7 +22,7 @@ msgstr "Dozvoli vraćanje"
 #. module: multi_step_wizard
 #: model_terms:ir.ui.view,arch_db:multi_step_wizard.multi_step_wizard_form
 msgid "Cancel"
-msgstr "Odustani"
+msgstr "Otkaži"
 
 #. module: multi_step_wizard
 #: model_terms:ir.ui.view,arch_db:multi_step_wizard.multi_step_wizard_form
@@ -32,7 +32,7 @@ msgstr "Nazad"
 #. module: multi_step_wizard
 #: model:ir.model,name:multi_step_wizard.model_multi_step_wizard_mixin
 msgid "Multi Steps Wizard Mixin"
-msgstr "Multi Steps Wizard Mixin"
+msgstr ""
 
 # taken from hr.po
 #. module: multi_step_wizard

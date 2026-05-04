@@ -56,7 +56,7 @@ msgstr "Tip akcije"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__activity_type_id
@@ -177,7 +177,7 @@ msgstr ""
 
 #. module: nsca_client
 #. odoo-python
-#: code:addons/nsca_client/models/nsca_server.py
+#: code:addons/nsca_client/models/nsca_server.py:0
 #, python-format
 msgid ""
 "Command '%s' not found. Please install the NSCA client.\n"
@@ -219,7 +219,7 @@ msgstr "Otporan na ljetno računanje vremena"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__activity_date_deadline_range
@@ -307,7 +307,7 @@ msgstr "Datum poslednjeg izvršavanja"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__write_uid
@@ -332,7 +332,7 @@ msgstr "Metoda"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__model_id
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__model_name
@@ -360,7 +360,7 @@ msgstr "Međusobno isključive zakazane akcije"
 
 #. module: nsca_client
 #. odoo-python
-#: code:addons/nsca_client/models/nsca_check.py
+#: code:addons/nsca_client/models/nsca_check.py:0
 #, python-format
 msgid "NSCA Check"
 msgstr "NSCA provjera"
@@ -388,7 +388,7 @@ msgstr "NSCA server"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__cron_name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__nextcall
@@ -432,7 +432,7 @@ msgstr "Zaporka"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_server__port
 msgid "Port"
-msgstr "Port"
+msgstr ""
 
 #. module: nsca_client
 #: model:ir.model.fields,help:nsca_client.field_nsca_check__lastcall
@@ -500,12 +500,12 @@ msgstr "Pošalji kao (SMS)"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__server_id
 msgid "Server"
-msgstr "Server"
+msgstr ""
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__ir_actions_server_id

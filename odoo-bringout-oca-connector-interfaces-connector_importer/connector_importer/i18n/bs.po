@@ -69,7 +69,7 @@ msgstr "CSV kodiranje"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_source_csv__csv_delimiter
 msgid "CSV delimiter"
-msgstr "CSV delimiter"
+msgstr ""
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_source_csv__csv_file
@@ -168,7 +168,7 @@ msgstr "Cron čišćenje zadržavanje"
 #. module: connector_importer
 #: model:ir.model,name:connector_importer.model_cron_mixin
 msgid "Cron Mixin"
-msgstr "Cron Mixin"
+msgstr ""
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_cron_mixin__cron_mode
@@ -198,7 +198,7 @@ msgstr "Odredišni ključ"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_recordset__docs_html
@@ -344,17 +344,17 @@ msgstr "Uvoz"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_recordset__backend_id
 msgid "Import Backend"
-msgstr "Import Backend"
+msgstr ""
 
 #. module: connector_importer
 #: model:ir.actions.act_window,name:connector_importer.action_import_backend
 msgid "Import Backends"
-msgstr "Import Backends"
+msgstr ""
 
 #. module: connector_importer
 #: model:ir.actions.act_window,name:connector_importer.action_import_recordset
 msgid "Import Recordsets"
-msgstr "Import Recordsets"
+msgstr ""
 
 #. module: connector_importer
 #: model_terms:ir.ui.view,arch_db:connector_importer.view_import_backend_form
@@ -419,12 +419,12 @@ msgstr "Modeli koji se mogu uvoziti:"
 #. module: connector_importer
 #: model:ir.module.category,name:connector_importer.module_category_connector_importer
 msgid "Importer"
-msgstr "Importer"
+msgstr ""
 
 #. module: connector_importer
 #: model:ir.model,name:connector_importer.model_import_backend
 msgid "Importer Backend"
-msgstr "Importer Backend"
+msgstr ""
 
 #. module: connector_importer
 #: model:ir.actions.server,name:connector_importer.ir_cron_import_cleanup_recorsets_ir_actions_server
@@ -474,7 +474,7 @@ msgstr "Ključ"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_recordset__last_run_on
@@ -513,7 +513,7 @@ msgstr "Označi sve poslove završenima"
 
 #. module: connector_importer
 #. odoo-python
-#: code:addons/connector_importer/components/mapper.py
+#: code:addons/connector_importer/components/mapper.py:0
 #, python-format
 msgid "Malformated xml id ref: `%s`"
 msgstr "Malformiran xml id ref: `%s`"
@@ -531,7 +531,7 @@ msgstr "Mixin klasa za queue.job relaciju."
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: connector_importer
 #: model:ir.model.fields.selection,name:connector_importer.selection__import_recordset__server_action_trigger_on__never
@@ -545,14 +545,14 @@ msgstr "Nema posla"
 
 #. module: connector_importer
 #. odoo-python
-#: code:addons/connector_importer/models/import_type.py
+#: code:addons/connector_importer/models/import_type.py:0
 #, python-format
 msgid "No options found for: {}."
 msgstr "Nije pronađena opcija za: {}."
 
 #. module: connector_importer
 #. odoo-python
-#: code:addons/connector_importer/components/importer.py
+#: code:addons/connector_importer/components/importer.py:0
 #, python-format
 msgid "No source configured on recordset '%s'"
 msgstr "Nijedan izvor nije konfigurisan na recordset '%s'"
@@ -605,12 +605,12 @@ msgstr "Zapisi"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_record__recordset_id
 msgid "Recordset"
-msgstr "Recordset"
+msgstr ""
 
 #. module: connector_importer
 #: model_terms:ir.ui.view,arch_db:connector_importer.view_import_backend_form
 msgid "Recordsets"
-msgstr "Recordsets"
+msgstr ""
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_cron_mixin__cron_id
@@ -670,7 +670,7 @@ msgstr "Pretraži recordset"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_recordset__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: connector_importer
 #: model:ir.model.fields,help:connector_importer.field_import_recordset__sequence
@@ -730,7 +730,7 @@ msgstr "Tip izvora"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_cron_mixin__cron_start_date
 msgid "Start date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: connector_importer
 #: model:ir.model.fields.selection,name:connector_importer.selection__import_recordset__jobs_global_state__started
@@ -764,7 +764,7 @@ msgstr ""
 
 #. module: connector_importer
 #. odoo-python
-#: code:addons/connector_importer/utils/misc.py
+#: code:addons/connector_importer/utils/misc.py:0
 #, python-format
 msgid ""
 "The ID reference '%s' must contain maximum one dot (or 0). They are used to "
@@ -851,7 +851,7 @@ msgstr ""
 
 #. module: connector_importer
 #. odoo-python
-#: code:addons/connector_importer/models/backend.py
+#: code:addons/connector_importer/models/backend.py:0
 #, python-format
 msgid "You must complete the job first!"
 msgstr "Morate prvo završiti posao!"

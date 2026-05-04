@@ -76,7 +76,7 @@ msgstr "Imenik"
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_auth_service__endpoint_id
@@ -115,7 +115,7 @@ msgstr "Oponašanje"
 
 #. module: fastapi_auth_partner
 #. odoo-python
-#: code:addons/fastapi_auth_partner/models/auth_partner.py
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
 #, python-format
 msgid "Impersonation successful"
 msgstr "Oponašanje uspješno"
@@ -133,12 +133,12 @@ msgstr "Je auth partner"
 #. module: fastapi_auth_partner
 #: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
 msgid "Label"
-msgstr "Opis"
+msgstr "Oznaka"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__write_uid
@@ -157,14 +157,14 @@ msgstr "Lokalno oponašanje"
 
 #. module: fastapi_auth_partner
 #. odoo-python
-#: code:addons/fastapi_auth_partner/routers/auth.py
+#: code:addons/fastapi_auth_partner/routers/auth.py:0
 #, python-format
 msgid "No cookie secret key defined"
 msgstr "Nema definiranog tajnog ključa kolačića"
 
 #. module: fastapi_auth_partner
 #. odoo-python
-#: code:addons/fastapi_auth_partner/models/auth_partner.py
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
 #, python-format
 msgid "Only admin can impersonate locally"
 msgstr "Samo administrator može lokalno oponašati"
@@ -186,7 +186,7 @@ msgstr "Molimo odaberite krajnju točku:"
 
 #. module: fastapi_auth_partner
 #. odoo-python
-#: code:addons/fastapi_auth_partner/models/auth_partner.py
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
 #, python-format
 msgid "Please install base_future_response for local impersonate to work"
 msgstr "Molimo instalirajte base_future_response da lokalno oponašanje radi"
@@ -255,7 +255,7 @@ msgstr "Čarobnjak partnera za auth resetiranje lozinke"
 
 #. module: fastapi_auth_partner
 #. odoo-python
-#: code:addons/fastapi_auth_partner/models/auth_partner.py
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
 #, python-format
 msgid ""
 "You are now impersonating %s\n"

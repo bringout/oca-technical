@@ -31,7 +31,7 @@ msgstr "Kreirano"
 #. module: test_base_binary_url_import
 #: model:ir.model.fields,field_description:test_base_binary_url_import.field_test_binary__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: test_base_binary_url_import
 #: model:ir.model.fields,field_description:test_base_binary_url_import.field_test_binary__file
@@ -51,7 +51,7 @@ msgstr "ID"
 #. module: test_base_binary_url_import
 #: model:ir.model.fields,field_description:test_base_binary_url_import.field_test_binary____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: test_base_binary_url_import
 #: model:ir.model.fields,field_description:test_base_binary_url_import.field_test_binary__write_uid
@@ -66,7 +66,7 @@ msgstr "Zadnje ažurirano"
 #. module: test_base_binary_url_import
 #: model:ir.model.fields,field_description:test_base_binary_url_import.field_test_binary__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: test_base_binary_url_import
 #: model:ir.ui.menu,name:test_base_binary_url_import.menu_test_binary

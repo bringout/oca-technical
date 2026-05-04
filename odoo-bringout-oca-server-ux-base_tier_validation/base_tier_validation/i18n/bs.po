@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/systray.xml
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "0 Pending"
 msgstr "0 na čekanju"
@@ -49,49 +49,49 @@ msgstr ""
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_review.py
+#: code:addons/base_tier_validation/models/tier_review.py:0
 #, python-format
 msgid "A review has been requested %s days ago."
 msgstr "Pregled je zatražen prije %s dana."
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review has been requested by %s."
 msgstr "Pregled je zatražen od %s."
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was accepted"
 msgstr "Pregled je prihvaćen"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was accepted. (%s)"
 msgstr "Pregled je prihvaćen. (%s)"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by %(user)s. (%(comment)s)"
 msgstr "Pregled je odbačen od %(user)s. (%(comment)s)"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A review was rejected by %s."
 msgstr "Pregled je odbačen od %s."
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "A validation process is still open for at least one record."
 msgstr "Proces validacije je još uvijek otvoren za najmanje jedan zapis."
@@ -99,11 +99,11 @@ msgstr "Proces validacije je još uvijek otvoren za najmanje jedan zapis."
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/systray.xml
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "Activity"
 msgstr "Aktivnost"
@@ -111,7 +111,7 @@ msgstr "Aktivnost"
 #. module: base_tier_validation
 #: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
 msgid "All"
-msgstr "Sve"
+msgstr "Svi"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,help:base_tier_validation.field_tier_validation_exception__group_ids
@@ -155,7 +155,7 @@ msgstr "Arhivirano"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation_exception.py
+#: code:addons/base_tier_validation/models/tier_validation_exception.py:0
 #, python-format
 msgid ""
 "At least one of these fields must be checked! Write under Validation, Write "
@@ -194,7 +194,7 @@ msgstr "Otkaži"
 #. module: base_tier_validation
 #. odoo-javascript
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Comment"
 msgstr "Komentar"
@@ -212,7 +212,7 @@ msgstr "Komentari"
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: base_tier_validation
 #: model:ir.model,name:base_tier_validation.model_res_config_settings
@@ -246,7 +246,7 @@ msgstr "Domen definicije"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Description"
 msgstr "Opis"
@@ -254,7 +254,7 @@ msgstr "Opis"
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__display_status
@@ -273,7 +273,7 @@ msgstr "Riješio"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Done by"
 msgstr "Uradio"
@@ -290,7 +290,7 @@ msgstr "Polja"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_review.py
+#: code:addons/base_tier_validation/models/tier_review.py:0
 #, python-format
 msgid "Group %s"
 msgstr "Grupa %s"
@@ -369,7 +369,7 @@ msgstr "U procesu validacije je"
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__last_reminder_date
@@ -389,7 +389,7 @@ msgstr "Zadnje ažurirano"
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__model_name
@@ -404,7 +404,7 @@ msgstr "Više opcija"
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation_exception__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__need_validation
@@ -413,7 +413,7 @@ msgstr "Potrebna ovjera"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_definition.py
+#: code:addons/base_tier_validation/models/tier_definition.py:0
 #, python-format
 msgid "New Tier Validation"
 msgstr "Nova validacija nivoa"
@@ -425,14 +425,14 @@ msgstr "Sljedeća ovjera"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Next: %s"
 msgstr "Sljedeće: %s"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/systray.xml
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "No reviews to do."
 msgstr "Nema pregleda za uraditi."
@@ -477,14 +477,14 @@ msgstr ""
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Operation has been <b>rejected</b>."
 msgstr "Operacija je <b>odbijena</b>."
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "Operation has been <b>validated</b>!"
 msgstr "Operacija je <b>validirana</b>!"
@@ -503,7 +503,7 @@ msgstr ""
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/systray.xml
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "Pending"
 msgstr "Na čekanju"
@@ -555,7 +555,7 @@ msgstr "Zahtjevao"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Requested by"
 msgstr "Zatraženo od"
@@ -602,7 +602,7 @@ msgstr "Ovejritelji"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/systray.xml
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
 #, python-format
 msgid "Reviews"
 msgstr "Pregledi"
@@ -619,10 +619,10 @@ msgstr "Pošalji podsjetničku poruku o pregledima na čekanju"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: base_tier_validation
 #: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__individual
@@ -631,35 +631,35 @@ msgstr "Specifičan korisnik"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "The review has been reset by %s."
 msgstr "Pregled je resetovao %s."
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_review.py
+#: code:addons/base_tier_validation/models/tier_review.py:0
 #, python-format
 msgid "There are no res.users in the selected field"
 msgstr "Nema res.users u odabranom polju"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid "This %s needs to be validated"
 msgstr "Ovaj %s treba biti validiran"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid ""
 "This action needs to be validated for at least one record. \n"
@@ -755,7 +755,7 @@ msgstr "Uradi od"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Todo by"
 msgstr "Uradi od"
@@ -802,7 +802,7 @@ msgstr "Validirao"
 
 #. module: base_tier_validation
 #. odoo-javascript
-#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
 #, python-format
 msgid "Validation Date"
 msgstr "Datum validacije"
@@ -849,7 +849,7 @@ msgstr "Piši tijekom validacije"
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid ""
 "You are not allowed to write those fields after validation.\n"
@@ -866,7 +866,7 @@ msgstr ""
 
 #. module: base_tier_validation
 #. odoo-python
-#: code:addons/base_tier_validation/models/tier_validation.py
+#: code:addons/base_tier_validation/models/tier_validation.py:0
 #, python-format
 msgid ""
 "You are not allowed to write those fields under validation.\n"

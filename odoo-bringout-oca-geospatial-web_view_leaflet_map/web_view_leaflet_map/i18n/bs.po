@@ -25,7 +25,7 @@ msgstr "Leaflet mapa"
 
 #. module: web_view_leaflet_map
 #. odoo-javascript
-#: code:addons/web_view_leaflet_map/static/src/js/view/map/map_view.js
+#: code:addons/web_view_leaflet_map/static/src/js/view/map/map_view.js:0
 #, python-format
 msgid "Map"
 msgstr "Mapa"

@@ -47,7 +47,7 @@ msgstr "Poduzeća"
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_risk_computation__company_id
 #, fuzzy
 msgid "Company"
-msgstr "Poduzeća"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
@@ -64,13 +64,13 @@ msgstr "Postavke"
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__create_uid
 msgid "Created by"
-msgstr "Stvorio"
+msgstr "Kreirao"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__create_date
 msgid "Created on"
-msgstr "Stvoreno na"
+msgstr "Kreirano"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
@@ -82,7 +82,7 @@ msgstr "Opis"
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
@@ -123,19 +123,19 @@ msgstr "Opravdanje"
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji puta ažurirao"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
 #: model:ir.model.fields,field_description:mgmtsystem_hazard_risk.field_mgmtsystem_hazard_residual_risk__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: mgmtsystem_hazard_risk
@@ -256,7 +256,7 @@ msgstr "Ozbiljnost"
 
 #. module: mgmtsystem_hazard_risk
 #. odoo-python
-#: code:addons/mgmtsystem_hazard_risk/models/common.py
+#: code:addons/mgmtsystem_hazard_risk/models/common.py:0
 #, python-format
 msgid "You must define the company's risk computing formula. Go to settings"
 msgstr ""

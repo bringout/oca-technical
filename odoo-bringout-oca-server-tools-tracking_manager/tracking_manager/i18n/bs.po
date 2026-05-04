@@ -31,7 +31,7 @@ msgstr "<b>Novo :</b>"
 #. module: tracking_manager
 #: model_terms:ir.ui.view,arch_db:tracking_manager.view_model_form
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: tracking_manager
 #: model:ir.model.fields,field_description:tracking_manager.field_ir_model__active_custom_tracking

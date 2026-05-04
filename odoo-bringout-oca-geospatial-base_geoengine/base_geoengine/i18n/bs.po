@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/base.py
+#: code:addons/base_geoengine/models/base.py:0
 #, python-format
 msgid "%s column does not exists or is not a geo field"
 msgstr "%s kolona ne postoji ili nije geo polje"
@@ -117,7 +117,7 @@ msgstr "Dimenzije"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.xml:0
 #, python-format
 msgid "Discard"
 msgstr "Napusti"
@@ -130,7 +130,7 @@ msgstr "Prikaži labele na poligonu"
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_raster_layer__raster_type__d_wms
@@ -139,14 +139,14 @@ msgstr "Udaljeni WMS"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.esm.js
+#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.esm.js:0
 #, python-format
 msgid "Domain editing"
 msgstr "Uređivanje domena"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.esm.js
+#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.esm.js:0
 #, python-format
 msgid "Editing vector layer"
 msgstr "Uređivanje vektorskog sloja"
@@ -158,7 +158,7 @@ msgstr "Završna klasa boja"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/geo_db.py
+#: code:addons/base_geoengine/geo_db.py:0
 #, python-format
 msgid ""
 "Error, can not automatically initialize spatial postgis support. Database user may have to be superuser and postgres/postgis extensions with their devel header have to be installed. If you do not want Odoo to connect with a super user you can manually prepare your database. To do this, open a client to your database using a super user and run:\n"
@@ -182,7 +182,7 @@ msgstr "Polja"
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__format_suffix
 msgid "Format"
-msgstr "Format"
+msgstr ""
 
 #. module: base_geoengine
 #: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
@@ -191,7 +191,7 @@ msgstr "Opšte"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/fields.py
+#: code:addons/base_geoengine/fields.py:0
 #, python-format
 msgid ""
 "Geo Value %(geom_type)s must be of the same type %(geo_type)s as fields"
@@ -200,7 +200,7 @@ msgstr ""
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/fields.py
+#: code:addons/base_geoengine/fields.py:0
 #, python-format
 msgid ""
 "Geo dimention modification is not implemented. We can not change dimention "
@@ -216,7 +216,7 @@ msgstr "Geo polje"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/fields.py
+#: code:addons/base_geoengine/fields.py:0
 #, python-format
 msgid ""
 "Geo type modification is not implemented. We can not change type %(data)s to"
@@ -228,12 +228,12 @@ msgstr ""
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_ui_view__type__geoengine
 msgid "GeoEngine"
-msgstr "GeoEngine"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.ui.menu,name:base_geoengine.geoengine_base_menu
 msgid "GeoEngine Backend"
-msgstr "GeoEngine Backend"
+msgstr ""
 
 #. module: base_geoengine
 #: model_terms:ir.ui.view,arch_db:base_geoengine.geoengine_view_form
@@ -242,10 +242,10 @@ msgstr "GeoEngine podaci"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_view.esm.js
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_view.esm.js:0
 #, python-format
 msgid "Geoengine"
-msgstr "Geoengine"
+msgstr ""
 
 #. module: base_geoengine
 #: model:res.groups,name:base_geoengine.group_geoengine_admin
@@ -290,12 +290,12 @@ msgstr "Je prekrivni sloj?"
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__linestring
 msgid "LINESTRING"
-msgstr "LINESTRING"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__write_uid
@@ -349,7 +349,7 @@ msgstr "Sloj će biti prikazan pri pokretanju ako je označeno."
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.xml:0
 #, python-format
 msgid "Layers ("
 msgstr "Slojevi ("
@@ -362,17 +362,17 @@ msgstr "Lista dimenzija odvojena sa ','"
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__multilinestring
 msgid "MULTILINESTRING"
-msgstr "MULTILINESTRING"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__multipoint
 msgid "MULTIPOINT"
-msgstr "MULTIPOINT"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__multipolygon
 msgid "MULTIPOLYGON"
-msgstr "MULTIPOLYGON"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__matrix_set
@@ -386,7 +386,7 @@ msgstr "Maksimalni opseg"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_arch_parser.esm.js
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_arch_parser.esm.js:0
 #, python-format
 msgid "Missing ${INFO_BOX_ATTRIBUTE} template."
 msgstr "Nedostaje ${INFO_BOX_ATTRIBUTE} šablon."
@@ -394,7 +394,7 @@ msgstr "Nedostaje ${INFO_BOX_ATTRIBUTE} šablon."
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__model_name
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_vector_layer__model_domain
@@ -414,7 +414,7 @@ msgstr "Pogled modela"
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer_type__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: base_geoengine
 #: model:ir.model.fields,help:base_geoengine.field_geoengine_raster_layer__params_wms
@@ -423,21 +423,21 @@ msgstr "Trebate pružiti najmanje LAYERS parametar"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.esm.js
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.esm.js:0
 #, python-format
 msgid "New record"
 msgstr "Novi zapis"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/base.py
+#: code:addons/base_geoengine/models/base.py:0
 #, python-format
 msgid "No GeoEngine view defined for the model %s"
 msgstr "Nije definisan GeoEngine pogled za model %s"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/base.py
+#: code:addons/base_geoengine/models/base.py:0
 #, python-format
 msgid "No raster layer for view %s"
 msgstr "Nema rasterskog sloja za pogled %s"
@@ -449,7 +449,7 @@ msgstr "Broj klasa"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_renderer/geoengine_renderer.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_renderer/geoengine_renderer.xml:0
 #, python-format
 msgid "OPEN"
 msgstr "OTVORI"
@@ -472,17 +472,17 @@ msgstr "Odoo polje sloja za korištenje"
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_raster_layer__raster_type__osm
 msgid "OpenStreetMap"
-msgstr "OpenStreetMap"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__point
 msgid "POINT"
-msgstr "POINT"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__geo_type__polygon
 msgid "POLYGON"
-msgstr "POLYGON"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_geoengine_raster_layer__params
@@ -496,7 +496,7 @@ msgstr "Parametri WMS"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/base.py
+#: code:addons/base_geoengine/models/base.py:0
 #, python-format
 msgid "Please create a view or modify view mode"
 msgstr "Molimo kreirajte pogled ili modificirajte režim pogleda"
@@ -563,14 +563,14 @@ msgstr "Rasterski slojevi"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.xml:0
 #, python-format
 msgid "Rasters"
 msgstr "Rasteri"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/records_panel/records_panel.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/records_panel/records_panel.xml:0
 #, python-format
 msgid "Records ("
 msgstr "Zapisi ("
@@ -597,7 +597,7 @@ msgstr "Režim reprezentacije"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/fields.py
+#: code:addons/base_geoengine/fields.py:0
 #, python-format
 msgid ""
 "Reprojection of column is not implemented. We can not change srid %(srid)s "
@@ -623,14 +623,14 @@ msgstr "Ograničeni opseg karte"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.xml:0
 #, python-format
 msgid "Save"
 msgstr "Spremi"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/records_panel/search_bar_records/search_bar_records.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/records_panel/search_bar_records/search_bar_records.xml:0
 #, python-format
 msgid "Search..."
 msgstr "Pretraži..."
@@ -652,21 +652,21 @@ msgstr "URL servisa"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/geo_convertion_helper.py
+#: code:addons/base_geoengine/geo_convertion_helper.py:0
 #, python-format
 msgid "Shapely or geojson are not available in the sys path"
 msgstr "Shapely ili geojson nisu dostupni u sys path"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field_input/domain_selector_geo_field_input.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field_input/domain_selector_geo_field_input.esm.js:0
 #, python-format
 msgid "Subdomain"
 msgstr "Poddomen"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/geo_vector_layer.py
+#: code:addons/base_geoengine/models/geo_vector_layer.py:0
 #, python-format
 msgid "The geo_field_id must be a field in %s model"
 msgstr "geo_field_id mora biti polje u %s modelu"
@@ -721,7 +721,7 @@ msgstr "Vektorski slojevi"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.xml
+#: code:addons/base_geoengine/static/src/js/views/geoengine/layers_panel/layers_panel.xml:0
 #, python-format
 msgid "Vectors"
 msgstr "Vektori"
@@ -754,7 +754,7 @@ msgstr "WMS opcije"
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__geoengine_raster_layer__raster_type__wmts
 msgid "WMTS"
-msgstr "WMTS"
+msgstr ""
 
 #. module: base_geoengine
 #: model_terms:ir.ui.view,arch_db:base_geoengine.geo_raster_view_form
@@ -763,14 +763,14 @@ msgstr "WMTS opcije"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.esm.js
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.esm.js:0
 #, python-format
 msgid "Warning"
 msgstr "Upozorenje"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/geo_convertion_helper.py
+#: code:addons/base_geoengine/geo_convertion_helper.py:0
 #, python-format
 msgid ""
 "Write/create/search geo type must be wkt/geojson string or must respond to "
@@ -781,7 +781,7 @@ msgstr ""
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.esm.js
+#: code:addons/base_geoengine/static/src/js/views/geoengine/geoengine_controller/geoengine_controller.esm.js:0
 #, python-format
 msgid ""
 "You are about to create a new record without having displayed all the "
@@ -792,21 +792,21 @@ msgstr ""
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/base.py
+#: code:addons/base_geoengine/models/base.py:0
 #, python-format
 msgid "You must at least provide one of domain or geo_domain"
 msgstr "Morate pružiti najmanje jedan od domena ili geo_domena"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/geo_vector_layer.py
+#: code:addons/base_geoengine/models/geo_vector_layer.py:0
 #, python-format
 msgid "You need to provide an attribute that exists in %s model"
 msgstr "Trebate pružiti atribut koji postoji u %s modelu"
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/geo_vector_layer.py
+#: code:addons/base_geoengine/models/geo_vector_layer.py:0
 #, python-format
 msgid "You need to select a numeric field"
 msgstr "Trebate odabrati numeričko polje"
@@ -833,72 +833,72 @@ msgstr "npr. png"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js:0
 #, python-format
 msgid "geo_contains"
-msgstr "geo_contains"
+msgstr ""
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js:0
 #, python-format
 msgid "geo_equal"
-msgstr "geo_equal"
+msgstr ""
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js:0
 #, python-format
 msgid "geo_greater"
-msgstr "geo_greater"
+msgstr ""
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js:0
 #, python-format
 msgid "geo_intersect"
-msgstr "geo_intersect"
+msgstr ""
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js:0
 #, python-format
 msgid "geo_lesser"
-msgstr "geo_lesser"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__ttype__geo_line
 msgid "geo_line"
-msgstr "geo_line"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__ttype__geo_multi_line
 msgid "geo_multi_line"
-msgstr "geo_multi_line"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__ttype__geo_multi_point
 msgid "geo_multi_point"
-msgstr "geo_multi_point"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__ttype__geo_multi_polygon
 msgid "geo_multi_polygon"
-msgstr "geo_multi_polygon"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__ttype__geo_point
 msgid "geo_point"
-msgstr "geo_point"
+msgstr ""
 
 #. module: base_geoengine
 #: model:ir.model.fields.selection,name:base_geoengine.selection__ir_model_fields__ttype__geo_polygon
 msgid "geo_polygon"
-msgstr "geo_polygon"
+msgstr ""
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/models/base.py
+#: code:addons/base_geoengine/models/base.py:0
 #, python-format
 msgid "geo_search is deprecated: uses search method defined on base model"
 msgstr ""
@@ -907,21 +907,21 @@ msgstr ""
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js:0
 #, python-format
 msgid "geo_touch"
-msgstr "geo_touch"
+msgstr ""
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_geo_field/domain_selector_geo_field.esm.js:0
 #, python-format
 msgid "geo_within"
-msgstr "geo_within"
+msgstr ""
 
 #. module: base_geoengine
 #. odoo-python
-#: code:addons/base_geoengine/fields.py
+#: code:addons/base_geoengine/fields.py:0
 #, python-format
 msgid ""
 "geometry_columns table seems to be corrupted. SRID check is not possible"
@@ -934,14 +934,14 @@ msgstr "hex vrijednost"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_number_field/domain_selector_number_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_number_field/domain_selector_number_field.esm.js:0
 #, python-format
 msgid "in active_ids"
 msgstr "u active_ids"
 
 #. module: base_geoengine
 #. odoo-javascript
-#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_number_field/domain_selector_number_field.esm.js
+#: code:addons/base_geoengine/static/src/js/widgets/domain_selector_geo_field/domain_selector_number_field/domain_selector_number_field.esm.js:0
 #, python-format
 msgid "not in active_ids"
 msgstr "nije u active_ids"
@@ -949,4 +949,4 @@ msgstr "nije u active_ids"
 #. module: base_geoengine
 #: model:ir.model.fields,field_description:base_geoengine.field_ir_model_fields__srid
 msgid "srid"
-msgstr "srid"
+msgstr ""

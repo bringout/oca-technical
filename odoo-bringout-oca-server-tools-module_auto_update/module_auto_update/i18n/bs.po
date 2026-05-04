@@ -20,7 +20,7 @@ msgstr "Auto-ažuriranje modula"
 
 #. module: module_auto_update
 #. odoo-python
-#: code:addons/module_auto_update/models/module.py
+#: code:addons/module_auto_update/models/module.py:0
 #, python-format
 msgid "Checksum upgrade complete."
 msgstr "Ažuriranje checksuma završeno."
@@ -33,7 +33,7 @@ msgstr "Modul"
 
 #. module: module_auto_update
 #. odoo-python
-#: code:addons/module_auto_update/models/module.py
+#: code:addons/module_auto_update/models/module.py:0
 #, python-format
 msgid ""
 "No checksum change detected in installed modules and all modules installed, "

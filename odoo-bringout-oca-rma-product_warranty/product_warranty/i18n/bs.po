@@ -21,7 +21,7 @@ msgstr "Aktivni dobavljač"
 #. module: product_warranty
 #: model_terms:ir.ui.view,arch_db:product_warranty.company_form
 msgid "CRM Product Return Address"
-msgstr "CRM Product Return Address"
+msgstr ""
 
 #. module: product_warranty
 #: model:ir.model,name:product_warranty.model_res_company
@@ -31,7 +31,7 @@ msgstr "Kompanije"
 #. module: product_warranty
 #: model:ir.model.fields.selection,name:product_warranty.selection__product_supplierinfo__warranty_return_partner__company
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_return_instruction__create_uid
@@ -54,13 +54,11 @@ msgid ""
 "Default address where the customers has to send back the returned product. "
 "If empty, the address is the company address."
 msgstr ""
-"Default address where the customers has to send back the returned product. "
-"If empty, the address is the company address."
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_return_instruction__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_return_instruction__id
@@ -73,8 +71,6 @@ msgid ""
 "If is default, will be use to set the default value in supplier info's. Be "
 "careful to have only one default."
 msgstr ""
-"If is default, will be use to set the default value in supplier info's. Be "
-"careful to have only one default."
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_product_supplierinfo__return_instructions
@@ -89,7 +85,7 @@ msgstr "Upute za povrat proizvoda"
 #. module: product_warranty
 #: model:ir.model.fields,help:product_warranty.field_product_supplierinfo__return_instructions
 msgid "Instructions for product return."
-msgstr "Instructions for product return."
+msgstr ""
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_return_instruction__is_default
@@ -99,12 +95,12 @@ msgstr "Je zadano"
 #. module: product_warranty
 #: model:ir.model.fields,help:product_warranty.field_product_supplierinfo__active_supplier
 msgid "Is this supplier still active, only for information."
-msgstr "Is this supplier still active, only for information."
+msgstr ""
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_return_instruction____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_return_instruction__write_uid
@@ -129,17 +125,17 @@ msgstr "Ostalo"
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_product_supplierinfo__warranty_duration
 msgid "Period"
-msgstr "Period"
+msgstr ""
 
 #. module: product_warranty
 #: model:ir.model,name:product_warranty.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: product_warranty
 #: model:ir.actions.act_window,name:product_warranty.product_return_instructions_action
 msgid "Products Return Instructions"
-msgstr "Products Return Instructions"
+msgstr ""
 
 #. module: product_warranty
 #: model:ir.model.fields,field_description:product_warranty.field_product_supplierinfo__warranty_return_address
@@ -210,7 +206,7 @@ msgstr "Informacije o garanciji"
 #. module: product_warranty
 #: model:ir.model.fields.selection,name:product_warranty.selection__product_template__warranty_type__week
 msgid "Week(s)"
-msgstr "Sedmica"
+msgstr "Sedmica(e)"
 
 #. module: product_warranty
 #: model:ir.model.fields,help:product_warranty.field_product_supplierinfo__warranty_return_other_address
@@ -218,8 +214,6 @@ msgid ""
 "Where the customer has to send back the product(s) if warranty return is set"
 " to 'other'."
 msgstr ""
-"Where the customer has to send back the product(s) if warranty return is set"
-" to 'other'."
 
 #. module: product_warranty
 #: model:ir.model.fields,help:product_warranty.field_product_supplierinfo__warranty_return_address
@@ -237,13 +231,8 @@ msgid ""
 "warranty to be applied is the one of the return partner (ie: can be returned"
 " to the company and be under the brand warranty)."
 msgstr ""
-"Who is in charge of the warranty return treatment toward the end customer. "
-"Company will use the current company delivery or default address and so on "
-"for supplier and brand manufacturer. Doesn't necessarily mean that the "
-"warranty to be applied is the one of the return partner (ie: can be returned"
-" to the company and be under the brand warranty)."
 
 #. module: product_warranty
 #: model:ir.model.fields.selection,name:product_warranty.selection__product_template__warranty_type__year
 msgid "Year(s)"
-msgstr "Godin(e)a"
+msgstr "Godina(e)"

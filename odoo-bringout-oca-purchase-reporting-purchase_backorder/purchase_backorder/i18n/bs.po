@@ -16,7 +16,7 @@ msgstr ""
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__bo_qty
 msgid "Backorder Qty"
-msgstr "Backorder Qty"
+msgstr ""
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__bo_value
@@ -51,7 +51,7 @@ msgstr "Opis"
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_backorder
 #: model:ir.actions.act_window,name:purchase_backorder.action_po_backorder_wizard
@@ -76,7 +76,7 @@ msgstr "Last Datum Received"
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__write_uid
@@ -101,7 +101,7 @@ msgstr "Nema ništa za isporuku"
 #. module: purchase_backorder
 #: model:ir.model,name:purchase_backorder.model_pobackorder_report_wizard
 msgid "PO Backorder Report Wizard"
-msgstr "PO Backorder Report Wizard"
+msgstr ""
 
 #. module: purchase_backorder
 #: model:ir.actions.act_window,name:purchase_backorder.action_po_backorder
@@ -126,7 +126,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_backorder
 #: model:ir.model,name:purchase_backorder.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__uigr_qty
@@ -136,9 +136,9 @@ msgstr "Vremenske evidencije i skladište"
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order_line__uigr_value
 msgid "UIGR Value"
-msgstr "UIGR Value"
+msgstr ""
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_purchase_order__uigr_value
 msgid "Uigr Value"
-msgstr "Uigr Value"
+msgstr ""

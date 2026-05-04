@@ -25,7 +25,7 @@ msgstr "Vremenski plan akcija"
 
 #. module: base_cron_exclusion
 #. odoo-python
-#: code:addons/base_cron_exclusion/models/ir_cron.py
+#: code:addons/base_cron_exclusion/models/ir_cron.py:0
 #, python-format
 msgid "You can not mutually exclude a scheduled actions with itself."
 msgstr "Ne možete međusobno isključiti zakazanu akciju sa samom sobom."

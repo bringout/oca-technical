@@ -56,7 +56,7 @@ msgstr "Datum geolociranja"
 #. module: base_geolocalize_company
 #: model_terms:ir.ui.view,arch_db:base_geolocalize_company.view_res_company_form
 msgid "Lat:"
-msgstr "Lat:"
+msgstr ""
 
 #. module: base_geolocalize_company
 #: model_terms:ir.ui.view,arch_db:base_geolocalize_company.view_res_company_form

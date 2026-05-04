@@ -22,7 +22,7 @@ msgstr "Izbjegni brzo kreiranje"
 
 #. module: base_optional_quick_create
 #. odoo-python
-#: code:addons/base_optional_quick_create/models/ir_model.py
+#: code:addons/base_optional_quick_create/models/ir_model.py:0
 #, python-format
 msgid ""
 "Can't create %(model)s with name %(name)s quickly.\n"

@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: connector_importer_product
 #. odoo-python
-#: code:addons/connector_importer_product/components/product_product/record_handler.py
+#: code:addons/connector_importer_product/components/product_product/record_handler.py:0
 #, python-format
 msgid ""
 "Product '%(code)s' has not the same attributes than '%(existing_code)s'. "
@@ -26,7 +26,7 @@ msgstr ""
 
 #. module: connector_importer_product
 #. odoo-python
-#: code:addons/connector_importer_product/components/product_product/record_handler.py
+#: code:addons/connector_importer_product/components/product_product/record_handler.py:0
 #, python-format
 msgid ""
 "Product '%(code)s' seems to be a duplicate of '%(existing_code)s' (same "

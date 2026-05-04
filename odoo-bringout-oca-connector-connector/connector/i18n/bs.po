@@ -21,7 +21,7 @@ msgstr "Konektor"
 #. module: connector
 #: model:ir.model,name:connector.model_connector_backend
 msgid "Connector Backend"
-msgstr "Connector Backend"
+msgstr ""
 
 #. module: connector
 #: model:res.groups,name:connector.group_connector_manager
@@ -45,7 +45,7 @@ msgstr "Datum zadnje sinhronizacije"
 
 #. module: connector
 #. odoo-python
-#: code:addons/connector/components/synchronizer.py
+#: code:addons/connector/components/synchronizer.py:0
 #, python-format
 msgid "Nothing to export."
 msgstr "Nema ništa za izvoz."
@@ -57,14 +57,14 @@ msgstr "Posao u redu"
 
 #. module: connector
 #. odoo-python
-#: code:addons/connector/components/synchronizer.py
+#: code:addons/connector/components/synchronizer.py:0
 #, python-format
 msgid "Record exported with ID %s on Backend."
 msgstr "Zapis izvezen sa ID %s na Backend."
 
 #. module: connector
 #. odoo-python
-#: code:addons/connector/models/queue_job.py
+#: code:addons/connector/models/queue_job.py:0
 #, python-format
 msgid "Related Record"
 msgstr "Povezani zapis"

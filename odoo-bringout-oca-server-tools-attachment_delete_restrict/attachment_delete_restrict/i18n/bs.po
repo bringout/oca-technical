@@ -226,7 +226,7 @@ msgstr ""
 
 #. module: attachment_delete_restrict
 #. odoo-python
-#: code:addons/attachment_delete_restrict/models/ir_attachment.py
+#: code:addons/attachment_delete_restrict/models/ir_attachment.py:0
 #, python-format
 msgid ""
 "You are not allowed to delete this attachment.\n"

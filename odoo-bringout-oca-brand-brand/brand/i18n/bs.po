@@ -34,13 +34,13 @@ msgstr "Potražni konto"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebna akcija"
 
 # taken from hr.po
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 # taken from hr.po
 #. module: brand
@@ -70,7 +70,7 @@ msgstr "Status aktivnosti"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Ikona Tipa aktivnsoti"
+msgstr "Ikona tipa aktivnosti"
 
 # taken from hr.po
 #. module: brand
@@ -127,27 +127,27 @@ msgstr ""
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__avatar_1920
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__avatar_1024
 msgid "Avatar 1024"
-msgstr "Avatar 1024"
+msgstr ""
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__avatar_128
 msgid "Avatar 128"
-msgstr "Avatar 128"
+msgstr ""
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__avatar_256
 msgid "Avatar 256"
-msgstr "Avatar 256"
+msgstr ""
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__avatar_512
 msgid "Avatar 512"
-msgstr "Avatar 512"
+msgstr ""
 
 # taken from hr.po
 #. module: brand
@@ -200,14 +200,14 @@ msgstr "Razina upotrebe Brenda"
 # taken from hr.po
 #. module: brand
 #. odoo-python
-#: code:addons/brand/models/res_brand_mixin.py
+#: code:addons/brand/models/res_brand_mixin.py:0
 msgid "Brand company must match document company for %s"
 msgstr "Tvrtka brenda mora odgovarati tvrtci dokumenta za %s"
 
 # taken from hr.po
 #. module: brand
 #. odoo-python
-#: code:addons/brand/models/res_brand_mixin.py
+#: code:addons/brand/models/res_brand_mixin.py:0
 msgid "Brand is required"
 msgstr "Brand je obavezan"
 
@@ -256,7 +256,7 @@ msgstr "Grad"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__color
 msgid "Color Index"
-msgstr "Index boje"
+msgstr "Indeks boje"
 
 # taken from hr.po
 #. module: brand
@@ -280,7 +280,7 @@ msgstr "Tvrtke koje odgovaraju partneru"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: brand
@@ -507,13 +507,13 @@ msgstr "Fiskalna pozicija"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 # taken from hr.po
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__activity_type_icon
@@ -546,7 +546,7 @@ msgstr "Geo dužina"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__has_message
 msgid "Has Message"
-msgstr "Ima poruke"
+msgstr "Ima poruku"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__id
@@ -556,7 +556,7 @@ msgstr "ID"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__im_status
 msgid "IM Status"
-msgstr "IM Status"
+msgstr ""
 
 # taken from hr.po
 #. module: brand
@@ -567,17 +567,17 @@ msgstr "Ikona"
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona za prikaz iznimki."
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__is_blacklisted
@@ -638,7 +638,7 @@ msgstr "Ugrađena kompletna adresa"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_warn
 msgid "Invoice"
-msgstr "Račun"
+msgstr "Faktura"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_edi_format_store
@@ -659,7 +659,7 @@ msgstr "Predložak fakture"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_ids
 msgid "Invoices"
-msgstr "Računi"
+msgstr "Fakture"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__is_coa_installed
@@ -670,7 +670,7 @@ msgstr "Je li Coa instaliran"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_is_follower
 msgid "Is Follower"
-msgstr "Je pratitelj"
+msgstr "Je pratilac"
 
 # taken from hr.po
 #. module: brand
@@ -706,7 +706,7 @@ msgstr "Jezik"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji ažurirao"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__write_date
@@ -716,7 +716,7 @@ msgstr "Zadnje ažurirano"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_warn_msg
@@ -754,7 +754,7 @@ msgstr "Mobitel"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Krajnji rok moje aktivnosti"
+msgstr "Rok moje aktivnosti"
 
 # taken from hr.po
 #. module: brand
@@ -766,13 +766,13 @@ msgstr "Naziv"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok sljedeće aktivnosti"
+msgstr "Rok sljedeće aktivnosti"
 
 # taken from hr.po
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__activity_summary
 msgid "Next Activity Summary"
-msgstr "Sažetak sljedećih aktivnosti"
+msgstr "Sažetak sljedeće aktivnosti"
 
 # taken from hr.po
 #. module: brand
@@ -795,7 +795,7 @@ msgstr "Bilješke"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Broj radnji"
+msgstr "Broj akcija"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__reminder_date_before_receipt
@@ -813,13 +813,13 @@ msgstr "Broj grešaka"
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 # taken from hr.po
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškom isporuke"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__on_time_rate
@@ -931,7 +931,7 @@ msgstr ""
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_product_pricelist
 msgid "Pricelist"
-msgstr "Cjenik"
+msgstr "Cjenovnik"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_inbound_payment_method_line_id
@@ -1007,7 +1007,7 @@ msgstr "Broj prodajnih naloga"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__sale_order_ids
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__sale_warn
@@ -1091,8 +1091,8 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baziran na aktivnostima\n"
-"Zakašnjelo: Rok je već prošao\n"
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
 
@@ -1235,7 +1235,7 @@ msgid ""
 "This currency will be used, instead of the default one, for purchases from "
 "the current partner"
 msgstr ""
-"Za ovog partnera ovdje možete navesti specifičan tečaj za nabavu ako se ne "
+"Za ovog partnera ovdje možete navesti specifičan tečaj za nabavku ako se ne "
 "primjenjuje uobičajeni cjenik."
 
 #. module: brand
@@ -1317,7 +1317,7 @@ msgstr "Ukupni iznos za plaćanje dobavljaču."
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Vrsta aktivnosti iznimke na zapisu."
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__barcode
@@ -1352,12 +1352,12 @@ msgstr "Veza websajta"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Poruke web stranice"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Historija komunikacije web stranice"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__tz
@@ -1401,4 +1401,4 @@ msgstr "npr. https://www.odoo.com"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_edi_format
 msgid "eInvoice format"
-msgstr "eInvoice format"
+msgstr ""

@@ -26,7 +26,7 @@ msgstr "Maksimalni broj rezultata"
 #. module: website_geoengine_store_locator
 #: model_terms:ir.ui.view,arch_db:website_geoengine_store_locator.website_geoengine_store_locator_snipet
 msgid "OCA/Geospatial"
-msgstr "OCA/Geospatial"
+msgstr ""
 
 #. module: website_geoengine_store_locator
 #: model_terms:ir.ui.view,arch_db:website_geoengine_store_locator.s_openlayer_store_locator

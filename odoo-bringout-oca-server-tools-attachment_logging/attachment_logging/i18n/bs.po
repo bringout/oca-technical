@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: attachment_logging
 #. odoo-python
-#: code:addons/attachment_logging/models/ir_attachment.py
+#: code:addons/attachment_logging/models/ir_attachment.py:0
 #, python-format
 msgid "<b>%(username)s</b> %(action)s a file: <i>%(filename)s</i>"
 msgstr "<b>%(username)s</b> %(action)s datoteku: <i>%(filename)s</i>"
@@ -108,14 +108,14 @@ msgstr "Korisnik može videti skup izmena"
 
 #. module: attachment_logging
 #. odoo-python
-#: code:addons/attachment_logging/models/ir_attachment.py
+#: code:addons/attachment_logging/models/ir_attachment.py:0
 #, python-format
 msgid "attached"
 msgstr "priložen"
 
 #. module: attachment_logging
 #. odoo-python
-#: code:addons/attachment_logging/models/ir_attachment.py
+#: code:addons/attachment_logging/models/ir_attachment.py:0
 #, python-format
 msgid "unlinked"
 msgstr "uklonjen"

@@ -56,12 +56,12 @@ msgstr "Informacija"
 #. module: iap_alternative_provider
 #: model:ir.model.fields,field_description:iap_alternative_provider.field_iap_account__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: iap_alternative_provider
 #: model:ir.model.fields.selection,name:iap_alternative_provider.selection__iap_account__provider__odoo
 msgid "Odoo IAP"
-msgstr "Odoo IAP"
+msgstr ""
 
 #. module: iap_alternative_provider
 #: model:ir.model.fields,field_description:iap_alternative_provider.field_iap_account__provider

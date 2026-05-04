@@ -41,7 +41,7 @@ msgstr "Prilagođeni filtri"
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,help:base_custom_filter.field_ir_filters__filter_domain
@@ -90,7 +90,7 @@ msgstr "ID"
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__write_uid
@@ -105,12 +105,12 @@ msgstr "Zadnje ažurirano"
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__model_id
 msgid "Model"
-msgstr "Model"
+msgstr ""
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters__search_field_id
@@ -125,7 +125,7 @@ msgstr "Grupa filtara za pretragu"
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters__type

@@ -16,7 +16,7 @@ msgstr ""
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_definition__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: ddmrp_warning
 #: model_terms:ir.ui.view,arch_db:ddmrp_warning.view_ddmrp_warning_definition_form
@@ -36,7 +36,7 @@ msgstr "Domen primjenjivosti bafera"
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_item__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_definition__create_uid
@@ -96,7 +96,7 @@ msgstr "Opis"
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_definition__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: ddmrp_warning
 #: model:ir.model.fields,help:ddmrp_warning.field_ddmrp_warning_definition__warning_domain
@@ -108,7 +108,7 @@ msgstr ""
 
 #. module: ddmrp_warning
 #. odoo-python
-#: code:addons/ddmrp_warning/models/ddmrp_warning_definition.py
+#: code:addons/ddmrp_warning/models/ddmrp_warning_definition.py:0
 #, python-format
 msgid ""
 "Error evaluating %(name)s.\n"
@@ -135,7 +135,7 @@ msgstr "ID"
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_definition____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_definition__write_uid
@@ -165,12 +165,12 @@ msgstr "Medijum"
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_item__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: ddmrp_warning
 #: model:ir.model.fields,field_description:ddmrp_warning.field_ddmrp_warning_item__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: ddmrp_warning
 #: model_terms:ir.ui.view,arch_db:ddmrp_warning.stock_buffer_view_form

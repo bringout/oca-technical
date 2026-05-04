@@ -55,7 +55,7 @@ msgstr "Razlog otkazivanja"
 
 #. module: base_cancel_confirm
 #. odoo-python
-#: code:addons/base_cancel_confirm/model/base_cancel_confirm.py
+#: code:addons/base_cancel_confirm/model/base_cancel_confirm.py:0
 #, python-format
 msgid "Configuration Error (%s), should be 'True' or 'False'"
 msgstr "Greška konfiguracije (%s), treba biti 'True' ili 'False'"
@@ -78,7 +78,7 @@ msgstr "Kreirano"
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__has_cancel_reason
@@ -93,7 +93,7 @@ msgstr "ID"
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__write_uid

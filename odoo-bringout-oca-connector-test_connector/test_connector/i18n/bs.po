@@ -51,7 +51,7 @@ msgstr "Kreirano"
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__id
@@ -66,7 +66,7 @@ msgstr "ID na spoljnjem"
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: test_connector
 #: model:ir.model.fields,field_description:test_connector.field_connector_test_binding__write_uid

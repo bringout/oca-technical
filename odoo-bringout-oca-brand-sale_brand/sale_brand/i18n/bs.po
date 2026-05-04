@@ -40,13 +40,13 @@ msgstr "Za ovu prodaju koristiti brand"
 #. module: sale_brand
 #: model:ir.model.fields,field_description:sale_brand.field_sale_order__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: sale_brand
 #: model:ir.model,name:sale_brand.model_sale_order
 msgid "Sales Order"
-msgstr "Ponuda"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: sale_brand

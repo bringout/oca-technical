@@ -36,12 +36,12 @@ msgstr "Marka koja se koristi za ovo pobranje."
 #. module: stock_brand
 #: model:ir.model.fields,field_description:stock_brand.field_stock_picking__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: stock_brand
 #: model:ir.model,name:stock_brand.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: stock_brand
 #: model:ir.model,name:stock_brand.model_stock_picking

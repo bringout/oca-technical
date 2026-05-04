@@ -68,7 +68,7 @@ msgstr "Osnova"
 
 #. module: base_name_search_improved
 #. odoo-python
-#: code:addons/base_name_search_improved/models/ir_model.py
+#: code:addons/base_name_search_improved/models/ir_model.py:0
 #, python-format
 msgid "Couldn't eval Name Search Domain (%s)"
 msgstr "Ne mogu evaluirati domen pretrage naziva (%s)"
@@ -115,7 +115,7 @@ msgstr "Modeli"
 
 #. module: base_name_search_improved
 #. odoo-python
-#: code:addons/base_name_search_improved/models/ir_model.py
+#: code:addons/base_name_search_improved/models/ir_model.py:0
 #, python-format
 msgid "Name Search Domain must be a list of tuples"
 msgstr "Domen pretrage naziva mora biti lista torki"

@@ -30,8 +30,6 @@ msgid ""
 "<i class=\"fa fa-info-circle\" title=\"fa fa-info-circle\" style=\"margin-"
 "right:5px\"/>"
 msgstr ""
-"<i class=\"fa fa-info-circle\" title=\"fa fa-info-circle\" style=\"margin-"
-"right:5px\"/>"
 
 #. module: ddmrp_product_replace
 #: model_terms:ir.ui.view,arch_db:ddmrp_product_replace.view_make_procurement_buffer_wizard
@@ -39,8 +37,6 @@ msgid ""
 "<span class=\"fa fa-info-circle\" title=\"fa fa-info-circle\" "
 "style=\"margin-right:5px\"/>"
 msgstr ""
-"<span class=\"fa fa-info-circle\" title=\"fa fa-info-circle\" "
-"style=\"margin-right:5px\"/>"
 
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace__buffer_ids
@@ -49,14 +45,14 @@ msgstr "Pogođeni baferi"
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/models/stock_buffer.py
+#: code:addons/ddmrp_product_replace/models/stock_buffer.py:0
 #, python-format
 msgid "Buffered product must be considered as demand."
 msgstr "Proizvod sa baferom mora biti razmatran kao potražnja."
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/models/stock_buffer.py
+#: code:addons/ddmrp_product_replace/models/stock_buffer.py:0
 #, python-format
 msgid "Buffers Replaced"
 msgstr "Zamijenjeni baferi"
@@ -124,7 +120,7 @@ msgstr "DDMRP zamjena proizvoda"
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_make_procurement_buffer__has_replaced_buffers
@@ -158,7 +154,7 @@ msgstr "Već je zamijenjen"
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace__write_uid
@@ -197,14 +193,14 @@ msgstr "Naziv novog proizvoda"
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py
+#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py:0
 #, python-format
 msgid "New Stock Buffers"
 msgstr "Novi skladišni baferi"
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py
+#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py:0
 #, python-format
 msgid "No affected buffers found."
 msgstr "Nisu pronađeni pogođeni baferi."
@@ -276,7 +272,7 @@ msgstr "Zamjenjuje"
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py
+#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py:0
 #, python-format
 msgid "Replacing Product"
 msgstr "Zamjenjujući proizvod"
@@ -293,7 +289,7 @@ msgstr "Odaberi zamjenjujući proizvod"
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py
+#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py:0
 #, python-format
 msgid ""
 "Some of the affected buffers have a different product than the replaced "
@@ -302,14 +298,14 @@ msgstr "Neki od pogođenih bafera imaju drugačiji proizvod od zamijenjenih."
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py
+#: code:addons/ddmrp_product_replace/wizards/ddmrp_product_replace.py:0
 #, python-format
 msgid "Some of the buffers have already been replaced."
 msgstr "Neki od bafera su već zamijenjeni."
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/wizards/make_procurement_buffer.py
+#: code:addons/ddmrp_product_replace/wizards/make_procurement_buffer.py:0
 #, python-format
 msgid "Some products are being replaced:"
 msgstr "Neki proizvodi se zamjenjuju:"
@@ -354,7 +350,7 @@ msgstr ""
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/models/stock_buffer.py
+#: code:addons/ddmrp_product_replace/models/stock_buffer.py:0
 #, python-format
 msgid "This product is replaced by %s."
 msgstr "Ovaj proizvod je zamijenjen sa %s."
@@ -376,7 +372,7 @@ msgstr "Ovjeri"
 
 #. module: ddmrp_product_replace
 #. odoo-python
-#: code:addons/ddmrp_product_replace/models/stock_buffer.py
+#: code:addons/ddmrp_product_replace/models/stock_buffer.py:0
 #, python-format
 msgid "You cannot create recursive \"Replaced by\" chains."
 msgstr "Ne možete kreirati rekurzivne \"Zamijenjen sa\" lance."

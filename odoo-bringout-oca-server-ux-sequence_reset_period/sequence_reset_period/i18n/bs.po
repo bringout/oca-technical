@@ -35,7 +35,7 @@ msgstr "Reset raspona"
 #. module: sequence_reset_period
 #: model:ir.model,name:sequence_reset_period.model_ir_sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: sequence_reset_period

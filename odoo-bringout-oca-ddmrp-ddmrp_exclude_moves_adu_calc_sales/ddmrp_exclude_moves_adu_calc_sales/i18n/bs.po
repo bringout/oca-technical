@@ -30,4 +30,4 @@ msgstr ""
 #. module: ddmrp_exclude_moves_adu_calc_sales
 #: model:ir.model,name:ddmrp_exclude_moves_adu_calc_sales.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

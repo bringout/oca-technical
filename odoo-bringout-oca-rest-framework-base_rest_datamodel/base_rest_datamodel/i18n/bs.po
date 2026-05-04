@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: base_rest_datamodel
 #. odoo-python
-#: code:addons/base_rest_datamodel/restapi.py
+#: code:addons/base_rest_datamodel/restapi.py:0
 #, python-format
 msgid "BadRequest %s"
 msgstr "Neispravni zahtjev %s"

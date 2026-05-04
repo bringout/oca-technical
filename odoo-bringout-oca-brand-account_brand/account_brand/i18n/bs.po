@@ -17,7 +17,7 @@ msgstr ""
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__account_id
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 # taken from hr.po
 #. module: account_brand
@@ -46,7 +46,7 @@ msgstr "Brand za ovu prodaju"
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_account_move__company_id
 msgid "Company"
-msgstr "Tvrtka"
+msgstr "Kompanija"
 
 # taken from hr.po
 #. module: account_brand
@@ -81,7 +81,7 @@ msgstr "Stavka dnevnika"
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: account_brand
@@ -102,7 +102,7 @@ msgstr "Konta partnera po brendu"
 
 # taken from hr.po
 #. module: account_brand
-#: code:addons/account_brand/models/res_partner_account_brand.py
+#: code:addons/account_brand/models/res_partner_account_brand.py:0
 #, python-format
 msgid "Partner has already an account set for this brand!"
 msgstr "Partner već ima postavljen konto za ovaj brand!"
@@ -111,12 +111,12 @@ msgstr "Partner već ima postavljen konto za ovaj brand!"
 #. module: account_brand
 #: model:ir.model.fields.selection,name:account_brand.selection__res_partner_account_brand__account_type__liability_payable
 msgid "Payable"
-msgstr "Dugovno"
+msgstr "Za naplatu"
 
 # taken from hr.po
 #. module: account_brand
 #. odoo-python
-#: code:addons/account_brand/models/res_partner_account_brand.py
+#: code:addons/account_brand/models/res_partner_account_brand.py:0
 #, python-format
 msgid "Please select an account of type %s"
 msgstr "Molimo odaberite konto tipa %s"
@@ -125,7 +125,7 @@ msgstr "Molimo odaberite konto tipa %s"
 #. module: account_brand
 #: model:ir.model.fields.selection,name:account_brand.selection__res_partner_account_brand__account_type__asset_receivable
 msgid "Receivable"
-msgstr "Potražno"
+msgstr "Kupci"
 
 # taken from hr.po
 #. module: account_brand

@@ -31,9 +31,9 @@ msgstr "Čarobnjak RMA linije prodajnog naloga"
 #. module: rma_sale_lot
 #: model:ir.model,name:rma_sale_lot.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: rma_sale_lot
 #: model:ir.model,name:rma_sale_lot.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

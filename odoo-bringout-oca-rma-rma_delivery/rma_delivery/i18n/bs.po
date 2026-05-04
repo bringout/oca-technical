@@ -36,12 +36,12 @@ msgstr "Kupac method (fallback to fixed)"
 #. module: rma_delivery
 #: model:ir.model.fields,field_description:rma_delivery.field_res_company__rma_fixed_delivery_method
 msgid "Default RMA delivery method"
-msgstr "Default RMA delivery method"
+msgstr ""
 
 #. module: rma_delivery
 #: model:ir.model.fields.selection,name:rma_delivery.selection__res_company__rma_delivery_strategy__fixed_method
 msgid "Fixed method"
-msgstr "Fixed method"
+msgstr ""
 
 #. module: rma_delivery
 #: model:ir.model,name:rma_delivery.model_rma
@@ -51,9 +51,9 @@ msgstr "RMA"
 #. module: rma_delivery
 #: model:ir.model.fields,field_description:rma_delivery.field_res_company__rma_delivery_strategy
 msgid "RMA delivery method strategy"
-msgstr "RMA delivery method strategy"
+msgstr ""
 
 #. module: rma_delivery
 #: model_terms:ir.ui.view,arch_db:rma_delivery.res_config_settings_view_form
 msgid "RMA delivery strategy"
-msgstr "RMA delivery strategy"
+msgstr ""

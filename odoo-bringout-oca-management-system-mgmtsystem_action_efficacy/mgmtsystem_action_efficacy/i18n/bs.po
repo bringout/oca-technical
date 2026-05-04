@@ -45,7 +45,7 @@ msgstr "Ocijena"
 
 #. module: mgmtsystem_action_efficacy
 #. odoo-python
-#: code:addons/mgmtsystem_action_efficacy/models/mgmtsystem_action.py
+#: code:addons/mgmtsystem_action_efficacy/models/mgmtsystem_action.py:0
 #, python-format
 msgid "Rating must be between 0 and 100"
 msgstr "Ocjena mora biti između 0 i 100"

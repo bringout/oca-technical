@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "A wildcard is only allowed at the start of a domain"
 msgstr "Wildcard je dozvoljen samo na početku domene"
@@ -38,7 +38,7 @@ msgstr "Postavke"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "Could not respond to letsencrypt challenges."
 msgstr "Nije moguće odgovoriti na letsencrypt izazove."
@@ -55,14 +55,14 @@ msgstr "DNS update skripta"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "Domain %s: Let's Encrypt doesn't support IP addresses!"
 msgstr "Domena %s: Let's Encrypt ne podržava IP adrese!"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "Domain %s: Let's encrypt doesn't work with local domains!"
 msgstr "Domena %s: Let's encrypt ne funkcioniše sa lokalnim domenama!"
@@ -80,21 +80,21 @@ msgstr ""
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "Error calling %(cmdline)s: %(returncode)d"
 msgstr "Greška pri pozivu %(cmdline)s: %(returncode)d"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/controllers/main.py
+#: code:addons/letsencrypt/controllers/main.py:0
 #, python-format
 msgid "Error opening file %s"
 msgstr "Greška pri otvaranju datoteke %s"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "Error updating name"
 msgstr "Greška pri ažuriranju naziva"
@@ -118,7 +118,7 @@ msgstr ""
 #. module: letsencrypt
 #: model_terms:ir.ui.view,arch_db:letsencrypt.res_config_settings_view_form
 msgid "Let's Encrypt"
-msgstr "Let's Encrypt"
+msgstr ""
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_res_config_settings__letsencrypt_needs_dns_provider
@@ -132,7 +132,7 @@ msgstr "Lista domena za certifikat"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "No DNS provider set, can't request wildcard certificate"
 msgstr ""
@@ -141,7 +141,7 @@ msgstr ""
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/letsencrypt.py
+#: code:addons/letsencrypt/models/letsencrypt.py:0
 #, python-format
 msgid "No shell command configured for updating DNS records"
 msgstr "Nije konfigurirana shell komanda za ažuriranje DNS zapisa"
@@ -214,8 +214,6 @@ msgid ""
 "Write a shell script that will update your DNS TXT records. You can use the "
 "$LETSENCRYPT_DNS_CHALLENGE and $LETSENCRYPT_DNS_DOMAIN variables."
 msgstr ""
-"Write a shell script that will update your DNS TXT records. You can use the "
-"$LETSENCRYPT_DNS_CHALLENGE and $LETSENCRYPT_DNS_DOMAIN variables."
 
 #. module: letsencrypt
 #: model_terms:ir.ui.view,arch_db:letsencrypt.res_config_settings_view_form
@@ -224,7 +222,7 @@ msgstr "Napišite shell skriptu za ažuriranje DNS zapisa"
 
 #. module: letsencrypt
 #. odoo-python
-#: code:addons/letsencrypt/models/res_config_settings.py
+#: code:addons/letsencrypt/models/res_config_settings.py:0
 #, python-format
 msgid "You didn't write a DNS update script!"
 msgstr "Niste napisali DNS update skriptu!"

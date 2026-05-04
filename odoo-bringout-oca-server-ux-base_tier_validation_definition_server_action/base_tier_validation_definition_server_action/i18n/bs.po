@@ -20,7 +20,7 @@ msgstr "Definicija"
 
 #. module: base_tier_validation_definition_server_action
 #. odoo-python
-#: code:addons/base_tier_validation_definition_server_action/models/tier_validation.py
+#: code:addons/base_tier_validation_definition_server_action/models/tier_validation.py:0
 #, python-format
 msgid ""
 "Error evaluating tier validation conditions.\n"

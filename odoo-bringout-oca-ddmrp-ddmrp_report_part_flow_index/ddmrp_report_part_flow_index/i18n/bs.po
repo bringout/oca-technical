@@ -16,7 +16,7 @@ msgstr ""
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_ddmrp_flow_index_group__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: ddmrp_report_part_flow_index
 #: model_terms:ir.ui.view,arch_db:ddmrp_report_part_flow_index.view_ddmrp_flow_index_group_form
@@ -36,7 +36,7 @@ msgstr "Bafer"
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_report_ddmrp_part_plan_flow_index__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_ddmrp_flow_index_group__create_uid
@@ -56,7 +56,7 @@ msgstr "DDMRP grupa indeksa protoka"
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_ddmrp_flow_index_group__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_report_ddmrp_part_plan_flow_index__flow_index_group_id
@@ -76,7 +76,7 @@ msgstr "ID"
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_ddmrp_flow_index_group____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_ddmrp_flow_index_group__write_uid
@@ -111,7 +111,7 @@ msgstr "Donji opseg koji se koristi za dodjeljivanje u skladišni bafer"
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_ddmrp_flow_index_group__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_report_ddmrp_part_plan_flow_index__order_frequency
@@ -136,7 +136,7 @@ msgstr "Indeks protoka plana dijelova"
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_report_ddmrp_part_plan_flow_index__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model,name:ddmrp_report_part_flow_index.model_report_ddmrp_part_plan_flow_index
@@ -146,7 +146,7 @@ msgstr "Izvještaj DDMRP indeksa protoka plana"
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model.fields,field_description:ddmrp_report_part_flow_index.field_ddmrp_flow_index_group__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: ddmrp_report_part_flow_index
 #: model:ir.model,name:ddmrp_report_part_flow_index.model_stock_buffer

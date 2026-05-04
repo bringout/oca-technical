@@ -25,7 +25,7 @@ msgstr "Domen i formula"
 
 #. module: base_tier_validation_formula
 #. odoo-python
-#: code:addons/base_tier_validation_formula/models/tier_review.py
+#: code:addons/base_tier_validation_formula/models/tier_review.py:0
 #, python-format
 msgid ""
 "Error evaluating tier validation conditions.\n"
@@ -37,7 +37,7 @@ msgstr ""
 #. module: base_tier_validation_formula
 #: model:ir.model.fields.selection,name:base_tier_validation_formula.selection__tier_definition__definition_type__formula
 msgid "Formula"
-msgstr "Formula"
+msgstr ""
 
 #. module: base_tier_validation_formula
 #: model:ir.model.fields.selection,name:base_tier_validation_formula.selection__tier_definition__review_type__expression
@@ -51,7 +51,7 @@ msgstr "Izraz pregleda"
 
 #. module: base_tier_validation_formula
 #. odoo-python
-#: code:addons/base_tier_validation_formula/models/tier_review.py
+#: code:addons/base_tier_validation_formula/models/tier_review.py:0
 #, python-format
 msgid "Reviewer python expression must return a res.users recordset."
 msgstr "Python izraz pregledača mora vratiti res.users recordset."

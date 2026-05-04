@@ -36,7 +36,7 @@ msgstr "Brand za ovu prodaju"
 #. module: contract_forecast_brand
 #: model:ir.model.fields,field_description:contract_forecast_brand.field_contract_line_forecast_period__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: contract_forecast_brand
 #: model:ir.model,name:contract_forecast_brand.model_contract_contract

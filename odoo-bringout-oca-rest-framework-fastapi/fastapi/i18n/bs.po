@@ -21,12 +21,12 @@ msgstr "Kratki opis API-ja. Može koristiti Markdown"
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: fastapi
 #: model:res.groups,name:fastapi.group_fastapi_manager
 msgid "Administrator"
-msgstr "Administrator"
+msgstr ""
 
 #. module: fastapi
 #: model:ir.model.fields.selection,name:fastapi.selection__fastapi_endpoint__demo_auth_method__api_key
@@ -51,7 +51,7 @@ msgstr "Metoda autentifikacije"
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: fastapi
 #: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_demo_form_view
@@ -81,7 +81,7 @@ msgstr "Opis"
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__docs_url
@@ -91,7 +91,7 @@ msgstr "URL dokumentacije"
 #. module: fastapi
 #: model:ir.module.category,name:fastapi.module_category_fastapi
 msgid "FastAPI"
-msgstr "FastAPI"
+msgstr ""
 
 #. module: fastapi
 #: model:ir.actions.act_window,name:fastapi.fastapi_endpoint_act_window
@@ -111,7 +111,7 @@ msgstr "Grupiši po..."
 #. module: fastapi
 #: model:ir.model.fields.selection,name:fastapi.selection__fastapi_endpoint__demo_auth_method__http_basic
 msgid "HTTP Basic"
-msgstr "HTTP Basic"
+msgstr ""
 
 #. module: fastapi
 #: model:ir.module.category,description:fastapi.module_category_fastapi
@@ -131,7 +131,7 @@ msgstr "Jezici"
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__write_uid
@@ -151,7 +151,7 @@ msgstr "Moja demo grupa krajnjih točaka"
 #. module: fastapi
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: fastapi
 #: model:ir.model.fields,help:fastapi.field_fastapi_endpoint__registry_sync
@@ -208,7 +208,7 @@ msgstr "Sinhroniziraj registar"
 
 #. module: fastapi
 #. odoo-python
-#: code:addons/fastapi/models/fastapi_endpoint_demo.py
+#: code:addons/fastapi/models/fastapi_endpoint_demo.py:0
 #, python-format
 msgid "The authentication method is required for app %(app)s"
 msgstr "Metoda autentifikacije je potrebna za aplikaciju %(app)s"
@@ -246,7 +246,7 @@ msgstr ""
 
 #. module: fastapi
 #. odoo-python
-#: code:addons/fastapi/models/fastapi_endpoint.py
+#: code:addons/fastapi/models/fastapi_endpoint.py:0
 #, python-format
 msgid "`%(name)s` uses a blacklisted root_path = `%(root_path)s`"
 msgstr "`%(name)s` koristi zabranjenu root_path = `%(root_path)s`"

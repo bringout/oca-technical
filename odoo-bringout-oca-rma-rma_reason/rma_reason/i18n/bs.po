@@ -35,7 +35,7 @@ msgstr "Kompanije"
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: rma_reason
 #: model:ir.model,name:rma_reason.model_res_config_settings
@@ -70,7 +70,7 @@ msgstr "Opis"
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__id
@@ -104,7 +104,7 @@ msgstr ""
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__write_uid
@@ -124,7 +124,7 @@ msgstr "Lista RMA operacija koje su dozvoljene kada je ovaj razlog odabran."
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma__operation_domain
@@ -154,7 +154,7 @@ msgstr "RMA razlog"
 #. module: rma_reason
 #: model:ir.actions.act_window,name:rma_reason.rma_reason_act_window
 msgid "RMA Reasons"
-msgstr "RMA Reasons"
+msgstr ""
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma__reason_id

@@ -16,7 +16,7 @@ msgstr ""
 #. module: base_geoengine_demo
 #: model:geoengine.raster.layer,name:base_geoengine_demo.geoengine_raster_layer_ahocevar0
 msgid "Ahocevar"
-msgstr "Ahocevar"
+msgstr ""
 
 #. module: base_geoengine_demo
 #: model_terms:ir.ui.view,arch_db:base_geoengine_demo.geo_retail_machine_view_form
@@ -66,7 +66,7 @@ msgstr "Kreirano"
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_dummy_zip__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_geoengine_demo
 #: model_terms:ir.ui.view,arch_db:base_geoengine_demo.dummy_zip_form
@@ -86,7 +86,7 @@ msgstr "GeoEngine uzorci"
 #. module: base_geoengine_demo
 #: model:ir.model,name:base_geoengine_demo.model_dummy_zip
 msgid "Geoengine demo ZIP"
-msgstr "Geoengine demo ZIP"
+msgstr ""
 
 #. module: base_geoengine_demo
 #: model:ir.model,name:base_geoengine_demo.model_geoengine_demo_automatic_retailing_machine
@@ -126,7 +126,7 @@ msgstr "Presijek tačke i geometrije"
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_dummy_zip____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_dummy_zip__write_uid
@@ -151,7 +151,7 @@ msgstr "Nivo novca:"
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_dummy_zip__the_geom
 msgid "NPA Shape"
-msgstr "NPA Shape"
+msgstr ""
 
 #. module: base_geoengine_demo
 #: model:geoengine.vector.layer,name:base_geoengine_demo.geoengine_vector_layer_not_intersect_active_ids
@@ -260,7 +260,7 @@ msgstr "Tačka"
 
 #. module: base_geoengine_demo
 #. odoo-python
-#: code:addons/base_geoengine_demo/models/retail_machine.py
+#: code:addons/base_geoengine_demo/models/retail_machine.py:0
 #, python-format
 msgid ""
 "The point must be placed in the corresponding area. (serial number: %s)."
@@ -295,12 +295,12 @@ msgstr "Upravljanje ZIP-om"
 #. module: base_geoengine_demo
 #: model:geoengine.raster.layer,name:base_geoengine_demo.geoengine_raster_layer_test0
 msgid "ZIP OSM"
-msgstr "ZIP OSM"
+msgstr ""
 
 #. module: base_geoengine_demo
 #: model:geoengine.raster.layer,name:base_geoengine_demo.geoengine_raster_layer_osm0
 msgid "ZIP OSM Light"
-msgstr "ZIP OSM Light"
+msgstr ""
 
 #. module: base_geoengine_demo
 #: model:ir.model.fields,field_description:base_geoengine_demo.field_geoengine_demo_automatic_retailing_machine__zip_id
@@ -310,4 +310,4 @@ msgstr "Broj pošte"
 #. module: base_geoengine_demo
 #: model:geoengine.raster.layer,name:base_geoengine_demo.geoengine_raster_layer_wmts
 msgid "sgmc2"
-msgstr "sgmc2"
+msgstr ""

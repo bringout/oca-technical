@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: base_tier_validation_forward
 #. odoo-python
-#: code:addons/base_tier_validation_forward/models/tier_validation.py
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
 #, python-format
 msgid "A review was forwarded by %s."
 msgstr "Pregled je preusmjerio %s."
 
 #. module: base_tier_validation_forward
 #. odoo-python
-#: code:addons/base_tier_validation_forward/models/tier_validation.py
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
 #, python-format
 msgid "A review was forwarded from %(user_name)s %(comment)s"
 msgstr "Pregled je preusmjerjen od %(user_name)s %(comment)s"
@@ -90,11 +90,11 @@ msgstr "Opis"
 #. module: base_tier_validation_forward
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_tier_validation_forward
 #. odoo-python
-#: code:addons/base_tier_validation_forward/models/tier_validation.py
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
 #, python-format
 msgid "Forward"
 msgstr "Preusmjeri"
@@ -122,7 +122,7 @@ msgstr "ID"
 #. module: base_tier_validation_forward
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_tier_validation_forward
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__write_uid
@@ -162,7 +162,7 @@ msgstr "Grupa pregledača"
 #. module: base_tier_validation_forward
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__status
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: base_tier_validation_forward
 #: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__sequence

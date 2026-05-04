@@ -30,7 +30,7 @@ msgstr "Obavijesti recenzente kada dostigne status Na čekanju"
 #. module: base_tier_validation_waiting
 #: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_review__status
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: base_tier_validation_waiting
 #: model:ir.model,name:base_tier_validation_waiting.model_tier_definition

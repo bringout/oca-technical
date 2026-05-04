@@ -156,7 +156,7 @@ msgstr "Obriši"
 #. module: attachment_synchronize
 #: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: attachment_synchronize
 #: model_terms:ir.ui.view,arch_db:attachment_synchronize.view_attachment_task_form
@@ -266,7 +266,7 @@ msgstr ""
 #. module: attachment_synchronize
 #: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: attachment_synchronize
 #: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__write_uid
@@ -286,7 +286,7 @@ msgstr "Tip metode"
 #. module: attachment_synchronize
 #: model:ir.model.fields.selection,name:attachment_synchronize.selection__attachment_synchronize_task__after_import__move
 msgid "Move"
-msgstr "Kretanje"
+msgstr "Knjiženje"
 
 #. module: attachment_synchronize
 #: model:ir.model.fields.selection,name:attachment_synchronize.selection__attachment_synchronize_task__after_import__move_rename
@@ -301,7 +301,7 @@ msgstr "Putanja premještanja"
 #. module: attachment_synchronize
 #: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: attachment_synchronize
 #: model:ir.model.fields,field_description:attachment_synchronize.field_attachment_synchronize_task__new_name

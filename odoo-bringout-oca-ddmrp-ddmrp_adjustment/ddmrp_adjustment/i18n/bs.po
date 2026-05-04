@@ -76,7 +76,7 @@ msgstr "Otkaži"
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_stock_buffer__count_ddmrp_adjustment_demand
@@ -115,7 +115,7 @@ msgstr "DDMRP potražnja podešavanja"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
 #, python-format
 msgid "DDMRP Buffer Adjustment"
 msgstr "DDMRP podešavanje bafera"
@@ -176,7 +176,7 @@ msgstr ""
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__date_end
@@ -220,7 +220,7 @@ msgstr "ID"
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__write_uid
@@ -270,7 +270,7 @@ msgstr "Matični DAF tekst"
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__date_range_id
 msgid "Period"
-msgstr "Period"
+msgstr ""
 
 #. module: ddmrp_adjustment
 #: model_terms:ir.ui.view,arch_db:ddmrp_adjustment.view_ddmrp_adjustment_sheet_wizard_form
@@ -285,7 +285,7 @@ msgstr "Pre DAF ADU"
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment_sheet_line__sheet_id
@@ -295,7 +295,7 @@ msgstr "List"
 #. module: ddmrp_adjustment
 #: model:ir.model.fields,field_description:ddmrp_adjustment.field_ddmrp_adjustment__date_start
 msgid "Start date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: ddmrp_adjustment
 #: model:ir.model,name:ddmrp_adjustment.model_stock_buffer
@@ -304,7 +304,7 @@ msgstr "Skladišni bafer"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
 #, python-format
 msgid "The start date cannot be later than the end date."
 msgstr "Datum početka ne može biti kasniji od datuma završetka."
@@ -336,14 +336,14 @@ msgstr "Pogledaj potražnju iz matičnih DAF-ova koji utiču na stvarnu ADU"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
 #, python-format
 msgid "You must apply at least one factor"
 msgstr "Morate primijeniti najmanje jedan faktor"
 
 #. module: ddmrp_adjustment
 #. odoo-python
-#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py
+#: code:addons/ddmrp_adjustment/wizards/ddmrp_adjustment_sheet.py:0
 #, python-format
 msgid "You must select at least one buffer."
 msgstr "Morate izabrati najmanje jedan bafer."

@@ -34,7 +34,7 @@ msgstr "Akcija"
 # taken from hr.po
 #. module: server_action_mass_edit
 #. odoo-python
-#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py
+#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid "Add"
 msgstr "Dodaj"
@@ -92,7 +92,7 @@ msgstr "Kreirano"
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: server_action_mass_edit
 #. odoo-python
@@ -105,7 +105,7 @@ msgstr "Don't touch"
 
 #. module: server_action_mass_edit
 #. odoo-python
-#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py
+#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid ""
 "Failed to process the %(model_name)s  \"%(name)s\" [id: %(id)s]:\n"
@@ -144,7 +144,7 @@ msgstr "If set, this message will be displayed in the wizard."
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: server_action_mass_edit
@@ -227,7 +227,7 @@ msgstr "Remaining Item Qty"
 
 #. module: server_action_mass_edit
 #. odoo-python
-#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py
+#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid "Remove"
 msgstr "Otpis"
@@ -240,7 +240,7 @@ msgstr "Selected Item Qty"
 #. module: server_action_mass_edit
 #: model:ir.model.fields,field_description:server_action_mass_edit.field_ir_actions_server_mass_edit_line__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: server_action_mass_edit
 #: model:ir.model,name:server_action_mass_edit.model_ir_actions_server
@@ -254,7 +254,7 @@ msgstr "Server Actions Mass Edit Lines"
 
 #. module: server_action_mass_edit
 #. odoo-python
-#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py
+#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid "Set"
 msgstr "Postavi"
@@ -317,7 +317,7 @@ msgstr "Write Record By Record"
 
 #. module: server_action_mass_edit
 #. odoo-python
-#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py
+#: code:addons/server_action_mass_edit/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid ""
 "You have selected %(origin_amount)d record(s) that can not be processed.\n"

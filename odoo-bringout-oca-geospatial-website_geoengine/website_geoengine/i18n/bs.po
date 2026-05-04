@@ -21,11 +21,11 @@ msgstr "Kontakt"
 #. module: website_geoengine
 #: model:ir.model.fields,field_description:website_geoengine.field_res_partner__opening_hours
 msgid "Opening hours"
-msgstr "Opening hours"
+msgstr ""
 
 #. module: website_geoengine
 #. odoo-python
-#: code:addons/website_geoengine/models/res_partner.py
+#: code:addons/website_geoengine/models/res_partner.py:0
 #, python-format
 msgid "Unauthorized field"
 msgstr "Neovlašteno polje"

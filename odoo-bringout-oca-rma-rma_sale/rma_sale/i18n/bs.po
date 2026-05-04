@@ -15,21 +15,21 @@ msgstr ""
 
 #. module: rma_sale
 #. odoo-python
-#: code:addons/rma_sale/controllers/sale_portal.py
+#: code:addons/rma_sale/controllers/sale_portal.py:0
 #, python-format
 msgid " (Portal)"
-msgstr " (Portal)"
+msgstr ""
 
 #. module: rma_sale
 #. odoo-python
-#: code:addons/rma_sale/wizard/sale_order_rma_wizard.py
+#: code:addons/rma_sale/wizard/sale_order_rma_wizard.py:0
 #, python-format
 msgid " has been created."
 msgstr " je kreiran."
 
 #. module: rma_sale
 #. odoo-python
-#: code:addons/rma_sale/wizard/sale_order_rma_wizard.py
+#: code:addons/rma_sale/wizard/sale_order_rma_wizard.py:0
 #, python-format
 msgid " have been created."
 msgstr " su kreirani."
@@ -57,7 +57,7 @@ msgstr "<i class=\"fa fa-truck\"/> Odaberite adresu isporuke"
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
 msgid "<option value=\"\">---</option>"
-msgstr "<option value=\"\">---</option>"
+msgstr ""
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.res_config_settings_view_form
@@ -71,12 +71,12 @@ msgstr ""
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_order_portal_content
 msgid "<span class=\"fa fa-reply\" role=\"img\" aria-label=\"RMA\" title=\"RMA\"/>"
-msgstr "<span class=\"fa fa-reply\" role=\"img\" aria-label=\"RMA\" title=\"RMA\"/>"
+msgstr ""
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_order_portal_content
 msgid "<span>RMA</span>"
-msgstr "<span>RMA</span>"
+msgstr ""
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.portal_rma_page
@@ -86,7 +86,7 @@ msgstr "<strong>Zahtijevana operacija</strong>"
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.portal_rma_page
 msgid "<strong>Sale order</strong>"
-msgstr "<strong>Sale order</strong>"
+msgstr ""
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_order_rma_wizard_form_view
@@ -96,7 +96,7 @@ msgstr "Prihvati"
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_rma__allowed_move_ids
 msgid "Allowed Move"
-msgstr "Allowed Move"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_rma__allowed_picking_ids
@@ -140,7 +140,7 @@ msgstr ""
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_rma_wizard__commercial_partner_id
 msgid "Commercial entity"
-msgstr "Commercial entity"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model,name:rma_sale.model_res_company
@@ -164,15 +164,15 @@ msgstr ""
 
 #. module: rma_sale
 #. odoo-python
-#: code:addons/rma_sale/models/sale.py
+#: code:addons/rma_sale/models/sale.py:0
 #, python-format
 msgid "Create RMA"
-msgstr "Create RMA"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.actions.act_window,name:rma_sale.sale_order_create_rma_action
 msgid "Create RMAs"
-msgstr "Create RMAs"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__create_uid
@@ -212,7 +212,7 @@ msgstr "Različit proizvod za povrat"
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: rma_sale
 #: model:ir.model.fields,help:rma_sale.field_res_company__show_full_page_sale_rma
@@ -226,7 +226,7 @@ msgstr ""
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_res_company__show_full_page_sale_rma
 msgid "Full page RMA creation"
-msgstr "Full page RMA creation"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__id
@@ -252,12 +252,12 @@ msgstr ""
 #. module: rma_sale
 #: model:ir.model,name:rma_sale.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__write_uid
@@ -277,7 +277,7 @@ msgstr "Stavke"
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__move_id
 msgid "Move"
-msgstr "Kretanje"
+msgstr "Knjiženje"
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__order_id
@@ -287,17 +287,17 @@ msgstr "Nalog"
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_rma__picking_id
 msgid "Origin Delivery"
-msgstr "Origin Delivery"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_rma__move_id
 msgid "Origin move"
-msgstr "Origin move"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_rma__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: rma_sale
 #: model:ir.model.fields,help:rma_sale.field_sale_order_line_rma_wizard__return_product_id
@@ -319,22 +319,22 @@ msgstr "RMA"
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order__rma_count
 msgid "RMA count"
-msgstr "RMA count"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_rma_wizard__location_id
 msgid "RMA location"
-msgstr "RMA location"
+msgstr ""
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.request_rma_single_page
 msgid "RMA request for order"
-msgstr "RMA request for order"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order__rma_ids
 msgid "RMAs"
-msgstr "RMAs"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_rma__refund_id
@@ -354,7 +354,7 @@ msgstr "Zahtijevana operacija"
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_rma_wizard__is_return_all
 msgid "Return All?"
-msgstr "Return All?"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model,name:rma_sale.model_stock_return_picking
@@ -394,17 +394,17 @@ msgstr "Prodajni nalog"
 #. module: rma_sale
 #: model:ir.model,name:rma_sale.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: rma_sale
 #: model:ir.model,name:rma_sale.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
 msgid "Select the product quantity and the requested operation"
-msgstr "Select the product quantity and the requested operation"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_rma_wizard__partner_shipping_id
@@ -419,12 +419,12 @@ msgstr "Prikaži zahtjev za povrat robe na portalu na jednoj stranici"
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.res_config_settings_view_form
 msgid "Single page RMA request"
-msgstr "Single page RMA request"
+msgstr ""
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
 msgid "The limit will decrease when the units in other RMAs are confirmed"
-msgstr "The limit will decrease when the units in other RMAs are confirmed"
+msgstr ""
 
 #. module: rma_sale
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__uom_id
@@ -477,11 +477,11 @@ msgstr ""
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
 msgid "You can send a message in every RMA sent"
-msgstr "You can send a message in every RMA sent"
+msgstr ""
 
 #. module: rma_sale
 #. odoo-python
-#: code:addons/rma_sale/wizard/sale_order_rma_wizard.py
+#: code:addons/rma_sale/wizard/sale_order_rma_wizard.py:0
 #, python-format
 msgid ""
 "You can't exceed the allowed quantity for returning product %(product)s."
@@ -490,10 +490,10 @@ msgstr ""
 
 #. module: rma_sale
 #. odoo-python
-#: code:addons/rma_sale/models/sale.py
+#: code:addons/rma_sale/models/sale.py:0
 #, python-format
 msgid "You may only create RMAs from a confirmed or done sale order."
-msgstr "You may only create RMAs from a confirmed or done sale order."
+msgstr ""
 
 #. module: rma_sale
 #: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form

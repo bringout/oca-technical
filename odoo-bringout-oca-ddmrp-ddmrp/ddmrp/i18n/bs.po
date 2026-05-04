@@ -62,12 +62,12 @@ msgstr "Metode ADU izračuna"
 #. module: ddmrp
 #: model:product.template,name:ddmrp.product_product_as01_product_template
 msgid "AS-01"
-msgstr "AS-01"
+msgstr ""
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
@@ -90,7 +90,7 @@ msgstr "Arhivirano"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_template.py
+#: code:addons/ddmrp/models/product_template.py:0
 #, python-format
 msgid ""
 "At least one stock buffer for this product has a different Procurement unit "
@@ -146,7 +146,7 @@ msgstr "Sastavnica"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Blended"
 msgstr "Miješano"
@@ -203,7 +203,7 @@ msgstr "Sažetak bafera"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_display_filter/mrp_bom_overview_display_filter.esm.js
+#: code:addons/ddmrp/static/src/components/bom_overview_display_filter/mrp_bom_overview_display_filter.esm.js:0
 #, python-format
 msgid "Buffered"
 msgstr "Baferisano"
@@ -256,7 +256,7 @@ msgstr "Promijeni lokaciju"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/mrp_bom.py
+#: code:addons/ddmrp/models/mrp_bom.py:0
 #, python-format
 msgid "Change MRP BoM Location"
 msgstr "Promijeni MRP BOM lokaciju"
@@ -315,7 +315,7 @@ msgstr "Kompanije"
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
@@ -365,7 +365,7 @@ msgstr "Kreirano"
 #. module: ddmrp
 #: model:ir.module.category,name:ddmrp.module_category_ddmrp
 msgid "DDMRP"
-msgstr "DDMRP"
+msgstr ""
 
 #. module: ddmrp
 #: model_terms:ir.ui.view,arch_db:ddmrp.res_config_settings_view_form
@@ -424,7 +424,7 @@ msgstr "DDMRP grafikon ponude"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml
+#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #, python-format
 msgid "DLT"
 msgstr "DLT"
@@ -436,7 +436,7 @@ msgstr "DLT (dani)"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml
+#: code:addons/ddmrp/static/src/components/bom_overview_line/mrp_bom_overview_line.xml:0
 #, python-format
 msgid "Days"
 msgstr "Dani"
@@ -448,7 +448,7 @@ msgstr "Decoupled vrijeme isporuke (dani)"
 
 #. module: ddmrp
 #. odoo-javascript
-#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml
+#: code:addons/ddmrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 #, python-format
 msgid "Decoupled Lead Time of the BoM."
 msgstr "Decoupled vrijeme isporuke BOM-a."
@@ -466,7 +466,7 @@ msgstr "Zahtjevajte"
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: ddmrp
 #: model:ir.model.fields.selection,name:ddmrp.selection__stock_buffer_profile__item_type__distributed
@@ -485,7 +485,7 @@ msgstr "Dupliraj bafer"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py
+#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py:0
 #, python-format
 msgid "Duplicated Buffers"
 msgstr "Duplirani baferi"
@@ -497,7 +497,7 @@ msgstr "Tip dupliranja"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py
+#: code:addons/ddmrp/models/stock_buffer.py:0
 #, python-format
 msgid ""
 "Error: The product default Unit of Measure and the procurement Unit of "
@@ -534,7 +534,7 @@ msgstr "Dodatno vrijeme isporuke (za dimenzioniranje)"
 #. module: ddmrp
 #: model:product.template,name:ddmrp.product_product_fp01_product_template
 msgid "FP-01"
-msgstr "FP-01"
+msgstr ""
 
 #. module: ddmrp
 #: model:ir.model.fields,help:ddmrp.field_stock_warehouse__nfp_incoming_safety_factor
@@ -547,7 +547,7 @@ msgstr ""
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Fixed ADU"
 msgstr "Fiksni ADU"
@@ -574,7 +574,7 @@ msgstr "Budući izvor"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Future-looking"
 msgstr "Budući pogled"
@@ -677,7 +677,7 @@ msgstr ""
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid ""
 "In blended method, past and future factors must be positive and sum exactly "
@@ -753,7 +753,7 @@ msgstr "Stavke"
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_ddmrp_duplicate_buffer__write_uid
@@ -904,7 +904,7 @@ msgstr "Višenivoski MRP"
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_product_adu_calculation_method__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__net_flow_position
@@ -933,7 +933,7 @@ msgstr "Novi proizvod"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py
+#: code:addons/ddmrp/models/stock_buffer.py:0
 #, python-format
 msgid "No demand detected."
 msgstr "Potražnja nije detektovana."
@@ -945,21 +945,21 @@ msgstr "Nema dostupnih zaliha u izvornoj lokaciji za distribuirani bafer"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/make_procurement_buffer.py
+#: code:addons/ddmrp/wizards/make_procurement_buffer.py:0
 #, python-format
 msgid "No stock buffer found."
 msgstr "Bafer zaliha nije pronađen."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py
+#: code:addons/ddmrp/models/stock_buffer.py:0
 #, python-format
 msgid "No supply detected."
 msgstr "Ponuda nije detektovana."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py
+#: code:addons/ddmrp/models/stock_buffer.py:0
 #, python-format
 msgid "Non-completed Moves"
 msgstr "Nezavršeni pomijeranja"
@@ -1036,7 +1036,7 @@ msgstr "Prošli izvor"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Past-looking"
 msgstr "Prošli pogled"
@@ -1063,42 +1063,42 @@ msgstr "Zone prioriteta planiranja"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Please indicate a Future Horizon."
 msgstr "Molimo navedite budući horizont."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Please indicate a Future Source."
 msgstr "Molimo navedite budući izvor."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Please indicate a Past Horizon."
 msgstr "Molimo navedite prošli horizont."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/product_adu_calculation_method.py
+#: code:addons/ddmrp/models/product_adu_calculation_method.py:0
 #, python-format
 msgid "Please indicate a Past Source."
 msgstr "Molimo navedite prošli izvor."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py
+#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py:0
 #, python-format
 msgid "Please select a New Location."
 msgstr "Molimo izaberite novu lokaciju."
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py
+#: code:addons/ddmrp/wizards/ddmrp_duplicate_buffer.py:0
 #, python-format
 msgid "Please select a New Product."
 msgstr "Molimo izaberite novi proizvod."
@@ -1146,7 +1146,7 @@ msgstr "Nabavka preporučena"
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_product_adu_calculation_method
@@ -1186,7 +1186,7 @@ msgstr "Nalog za nabavu"
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer__purchase_line_ids
@@ -1265,7 +1265,7 @@ msgstr ""
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/wizards/make_procurement_buffer.py
+#: code:addons/ddmrp/wizards/make_procurement_buffer.py:0
 #, python-format
 msgid "Quantity must be positive."
 msgstr "Količina mora biti pozitivna."
@@ -1288,12 +1288,12 @@ msgstr "RFQ ukupna količina"
 #. module: ddmrp
 #: model:product.template,name:ddmrp.product_product_rm01_product_template
 msgid "RM-01"
-msgstr "RM-01"
+msgstr ""
 
 #. module: ddmrp
 #: model:product.template,name:ddmrp.product_product_rm02_product_template
 msgid "RM-02"
-msgstr "RM-02"
+msgstr ""
 
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_buffer_profile__distributed_reschedule_max_proc_time
@@ -1549,7 +1549,7 @@ msgstr ""
 #. module: ddmrp
 #: model:ir.model.fields,field_description:ddmrp.field_stock_move_line__state
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: ddmrp
 #: model:ir.model,name:ddmrp.model_stock_buffer
@@ -1603,7 +1603,7 @@ msgstr "Potrošnja pomijeranja zaliha prošle godine"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_move.py
+#: code:addons/ddmrp/models/stock_move.py:0
 #, python-format
 msgid "Stock Move Source"
 msgstr "Izvor pomijeranja zaliha"
@@ -1756,7 +1756,7 @@ msgstr "Jedinica mjere"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py
+#: code:addons/ddmrp/models/stock_buffer.py:0
 #, python-format
 msgid "Unsupported operator %s"
 msgstr "Nepodržan operator %s"
@@ -1950,7 +1950,7 @@ msgstr "Žuta zona"
 
 #. module: ddmrp
 #. odoo-python
-#: code:addons/ddmrp/models/stock_buffer.py
+#: code:addons/ddmrp/models/stock_buffer.py:0
 #, python-format
 msgid ""
 "You have to select a product unit of measure that is inthe same category "

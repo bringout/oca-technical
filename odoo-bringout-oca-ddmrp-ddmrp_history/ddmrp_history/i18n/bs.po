@@ -31,7 +31,7 @@ msgstr "Bafer"
 #. module: ddmrp_history
 #: model:ir.model.fields,field_description:ddmrp_history.field_ddmrp_history__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: ddmrp_history
 #: model:ir.model.fields,field_description:ddmrp_history.field_ddmrp_history__create_uid
@@ -61,7 +61,7 @@ msgstr "Datum"
 #. module: ddmrp_history
 #: model:ir.model.fields,field_description:ddmrp_history.field_ddmrp_history__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: ddmrp_history
 #: model_terms:ir.ui.view,arch_db:ddmrp_history.stock_buffer_view_form
@@ -86,7 +86,7 @@ msgstr "ID"
 #. module: ddmrp_history
 #: model:ir.model.fields,field_description:ddmrp_history.field_ddmrp_history____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: ddmrp_history
 #: model:ir.model.fields,field_description:ddmrp_history.field_ddmrp_history__write_uid
@@ -110,7 +110,7 @@ msgstr "Pozicija neto protoka"
 
 #. module: ddmrp_history
 #. odoo-python
-#: code:addons/ddmrp_history/models/stock_buffer.py
+#: code:addons/ddmrp_history/models/stock_buffer.py:0
 #, python-format
 msgid "Not enough data available."
 msgstr "Nema dovoljno dostupnih podataka."

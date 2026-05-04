@@ -26,14 +26,14 @@ msgstr " model slike za funkcionalnost više slika "
 # taken from hr.po
 #. module: base_multi_image
 #. odoo-python
-#: code:addons/base_multi_image/models/image.py
+#: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid "A document can have only one image with the same name."
 msgstr "Dokument može imati samo jednu sliku sa istim nazivom."
 
 #. module: base_multi_image
 #. odoo-python
-#: code:addons/base_multi_image/models/image.py
+#: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid "Can not open the image %(path)s, error : %(error)s"
 msgstr "Ne mogu otvoriti sliku %(path)s, greška: %(error)s"
@@ -52,7 +52,7 @@ msgstr "Komentari"
 
 #. module: base_multi_image
 #. odoo-python
-#: code:addons/base_multi_image/models/image.py
+#: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid "Could not retrieve URL: %(url)s: %(error)s"
 msgstr "Ne mogu dohvatiti URL: %(url)s: %(error)s"
@@ -73,7 +73,7 @@ msgstr "Kreirano"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_multi_image
 #: model:ir.model.fields,help:base_multi_image.field_base_multi_image_image__load_from
@@ -82,7 +82,7 @@ msgstr "Bilo koji udaljeni url ili putanja datoteke na serveru"
 
 #. module: base_multi_image
 #. odoo-python
-#: code:addons/base_multi_image/models/image.py
+#: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid "File size exceeds configured maximum (%s bytes)"
 msgstr "Datoteka prekoračuje definirani maksimum (%s bajtova)"
@@ -120,7 +120,7 @@ msgstr "Slika 512"
 
 #. module: base_multi_image
 #. odoo-python
-#: code:addons/base_multi_image/models/image.py
+#: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid ""
 "Image size excessive, imported images must be smaller than 42 million pixel"
@@ -144,7 +144,7 @@ msgstr "Slike"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: base_multi_image
@@ -196,7 +196,7 @@ msgstr "Pridruženi vlasnik"
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: base_multi_image
 #: model:ir.model.fields,field_description:base_multi_image.field_base_multi_image_image__show_technical
@@ -205,7 +205,7 @@ msgstr "Prikaži tehničko"
 
 #. module: base_multi_image
 #. odoo-python
-#: code:addons/base_multi_image/models/image.py
+#: code:addons/base_multi_image/models/image.py:0
 #, python-format
 msgid "The image %s doesn't exist"
 msgstr "Slika %s ne postoji"

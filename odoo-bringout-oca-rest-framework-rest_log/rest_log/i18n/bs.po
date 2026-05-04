@@ -46,7 +46,7 @@ msgstr "Datum"
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__error
@@ -101,7 +101,7 @@ msgstr "ID"
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__write_uid
@@ -186,7 +186,7 @@ msgstr "Status"
 #. module: rest_log
 #: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: rest_log
 #: model:ir.model.fields.selection,name:rest_log.selection__rest_log__state__success

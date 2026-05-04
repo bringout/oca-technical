@@ -21,7 +21,7 @@ msgstr "Metod definisan na modelu koji prima zapis i naziv_polja"
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_line__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: jsonifier
 #: model:ir.model,name:jsonifier.model_base
@@ -96,11 +96,11 @@ msgstr "Prilagođeni resolver"
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/ir_exports_line.py
+#: code:addons/jsonifier/models/ir_exports_line.py:0
 #, python-format
 msgid "Either set a function or a resolver, not both."
 msgstr "Postavite ili funkciju ili resolver, ne oboje."
@@ -187,7 +187,7 @@ msgstr "Nezavisan od jezika"
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__write_uid
@@ -202,11 +202,11 @@ msgstr "Zadnje ažurirano"
 #. module: jsonifier
 #: model:ir.model.fields,field_description:jsonifier.field_ir_exports_resolver__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/ir_exports_line.py
+#: code:addons/jsonifier/models/ir_exports_line.py:0
 #, python-format
 msgid "Name and Target must have the same hierarchy depth"
 msgstr "Naziv i cilj moraju imati istu dubinu hijerarhije"
@@ -237,7 +237,7 @@ msgstr ""
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/ir_exports_line.py
+#: code:addons/jsonifier/models/ir_exports_line.py:0
 #, python-format
 msgid ""
 "The target must reference the same field as in name '%(name)s' not in "
@@ -253,7 +253,7 @@ msgstr "Tip"
 
 #. module: jsonifier
 #. odoo-python
-#: code:addons/jsonifier/models/models.py
+#: code:addons/jsonifier/models/models.py:0
 #, python-format
 msgid "Wrong parser configuration for field: `%s`"
 msgstr "Pogrešna konfiguracija parsera za polje: `%s`"

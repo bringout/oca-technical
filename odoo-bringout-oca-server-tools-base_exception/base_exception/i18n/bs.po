@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: base_exception
 #. odoo-python
-#: code:addons/base_exception/models/base_exception.py
+#: code:addons/base_exception/models/base_exception.py:0
 #, python-format
 msgid "(Blocking exception)"
 msgstr "(Blokirajući izuzetak)"
@@ -31,7 +31,7 @@ msgstr "<code>self</code>: Zapis nad kojim se pravilo evaluira."
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 # taken from hr.po
 #. module: base_exception
@@ -134,7 +134,7 @@ msgstr "Opis"
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: base_exception
@@ -155,7 +155,7 @@ msgstr ""
 # taken from hr.po
 #. module: base_exception
 #. odoo-python
-#: code:addons/base_exception/models/base_exception_method.py
+#: code:addons/base_exception/models/base_exception_method.py:0
 #, python-format
 msgid ""
 "Error when evaluating the exception.rule rule:\n"
@@ -276,7 +276,7 @@ msgstr "Blokira"
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: base_exception
@@ -305,7 +305,7 @@ msgstr "Metoda"
 # taken from hr.po
 #. module: base_exception
 #. odoo-python
-#: code:addons/base_exception/wizard/base_exception_confirm.py
+#: code:addons/base_exception/wizard/base_exception_confirm.py:0
 #, python-format
 msgid "Only 1 ID accepted, got %r."
 msgstr "Samo 1 ID se prihvaća, došlo %r."
@@ -345,7 +345,7 @@ msgstr "Kreirano"
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_base_exception__smart_search
@@ -354,7 +354,7 @@ msgstr "Pametna pretraga"
 
 #. module: base_exception
 #. odoo-python
-#: code:addons/base_exception/models/base_exception.py
+#: code:addons/base_exception/models/base_exception.py:0
 #, python-format
 msgid "The exceptions can not be ignored, because some of them are blocking."
 msgstr "Iznimke se ne mogu ignorirati, jer su neke od njih blokirajuće."
@@ -376,7 +376,7 @@ msgstr "Ukupan broj skupova promjena ovog zapisa"
 
 #. module: base_exception
 #. odoo-python
-#: code:addons/base_exception/models/exception_rule.py
+#: code:addons/base_exception/models/exception_rule.py:0
 #, python-format
 msgid ""
 "There is a problem of configuration, python code, domain or method is "

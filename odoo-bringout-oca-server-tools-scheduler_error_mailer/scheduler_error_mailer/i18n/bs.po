@@ -111,7 +111,7 @@ msgstr "Broj skupova izmena na čekanju"
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,field_description:scheduler_error_mailer.field_ir_cron__email_template_id
 msgid "Error E-mail Template"
-msgstr "Error E-mail Template"
+msgstr ""
 
 #. module: scheduler_error_mailer
 #: model:ir.model,name:scheduler_error_mailer.model_ir_cron
@@ -121,13 +121,12 @@ msgstr "Vremenski plan akcija"
 #. module: scheduler_error_mailer
 #: model:mail.template,name:scheduler_error_mailer.scheduler_error_mailer
 msgid "Scheduler Error"
-msgstr "Scheduler Error"
+msgstr ""
 
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,help:scheduler_error_mailer.field_ir_cron__email_template_id
 msgid "Select the email template that will be sent when this scheduler fails."
 msgstr ""
-"Select the email template that will be sent when this scheduler fails."
 
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,field_description:scheduler_error_mailer.field_ir_cron__smart_search
@@ -136,15 +135,15 @@ msgstr "Pametna pretraga"
 
 #. module: scheduler_error_mailer
 #. odoo-python
-#: code:addons/scheduler_error_mailer/models/ir_cron.py
+#: code:addons/scheduler_error_mailer/models/ir_cron.py:0
 #, python-format
 msgid "Task failure with UID = %d."
-msgstr "Task failure with UID = %d."
+msgstr ""
 
 #. module: scheduler_error_mailer
 #: model:ir.actions.server,name:scheduler_error_mailer.test_scheduler_error_mailer_ir_actions_server
 msgid "Test Scheduler Error Mailer"
-msgstr "Test Scheduler Error Mailer"
+msgstr ""
 
 #. module: scheduler_error_mailer
 #: model:ir.model.fields,help:scheduler_error_mailer.field_ir_cron__count_pending_changeset_changes
@@ -169,4 +168,4 @@ msgstr "Korisnik može videti skup izmena"
 #. module: scheduler_error_mailer
 #: model:mail.template,subject:scheduler_error_mailer.scheduler_error_mailer
 msgid "[DB {{ctx.get('dbname')}}] Scheduler '{{object.name or ''}}' FAILED"
-msgstr "[DB {{ctx.get('dbname')}}] Scheduler '{{object.name or ''}}' FAILED"
+msgstr ""

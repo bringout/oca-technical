@@ -51,7 +51,7 @@ msgstr "Opis"
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,help:mgmtsystem_action_template.field_mgmtsystem_action__template_id
@@ -66,7 +66,7 @@ msgstr "ID"
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__write_uid
@@ -85,7 +85,7 @@ msgstr "Šablon akcije sistema upravljanja"
 
 #. module: mgmtsystem_action_template
 #. odoo-python
-#: code:addons/mgmtsystem_action_template/models/mgmtsystem_action.py
+#: code:addons/mgmtsystem_action_template/models/mgmtsystem_action.py:0
 #, python-format
 msgid "NEW"
 msgstr "NOVO"
@@ -93,7 +93,7 @@ msgstr "NOVO"
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action__template_id

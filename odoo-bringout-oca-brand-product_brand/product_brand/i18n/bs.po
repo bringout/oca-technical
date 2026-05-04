@@ -16,7 +16,7 @@ msgstr ""
 #. module: product_brand
 #: model_terms:ir.ui.view,arch_db:product_brand.view_product_brand_kanban
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 # taken from hr.po
 #. module: product_brand
@@ -58,7 +58,7 @@ msgstr "Opis"
 #. module: product_brand
 #: model:ir.model.fields,field_description:product_brand.field_product_brand__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 #. module: product_brand
 #: model:ir.model.fields,field_description:product_brand.field_product_brand__id

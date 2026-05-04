@@ -15,35 +15,35 @@ msgstr ""
 
 #. module: base_rest_demo
 #. odoo-python
-#: code:addons/base_rest_demo/services/exception_services.py
+#: code:addons/base_rest_demo/services/exception_services.py:0
 #, python-format
 msgid "Access error message"
 msgstr "Poruka greške pristupa"
 
 #. module: base_rest_demo
 #. odoo-python
-#: code:addons/base_rest_demo/services/exception_services.py
+#: code:addons/base_rest_demo/services/exception_services.py:0
 #, python-format
 msgid "Missing message"
 msgstr "Nedostajuća poruka"
 
 #. module: base_rest_demo
 #. odoo-python
-#: code:addons/base_rest_demo/services/partner_image_services.py
+#: code:addons/base_rest_demo/services/partner_image_services.py:0
 #, python-format
 msgid "No image found for partner %s"
 msgstr "Nema pronađene slike za partnera %s"
 
 #. module: base_rest_demo
 #. odoo-python
-#: code:addons/base_rest_demo/services/exception_services.py
+#: code:addons/base_rest_demo/services/exception_services.py:0
 #, python-format
 msgid "UserError message"
 msgstr "Poruka greške korisnika"
 
 #. module: base_rest_demo
 #. odoo-python
-#: code:addons/base_rest_demo/services/exception_services.py
+#: code:addons/base_rest_demo/services/exception_services.py:0
 #, python-format
 msgid "ValidationError message"
 msgstr "Poruka greške validacije"

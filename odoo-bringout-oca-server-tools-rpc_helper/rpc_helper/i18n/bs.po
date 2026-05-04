@@ -57,14 +57,14 @@ msgstr "Modeli"
 
 #. module: rpc_helper
 #. odoo-python
-#: code:addons/rpc_helper/patch.py
+#: code:addons/rpc_helper/patch.py:0
 #, python-format
 msgid "Object %s doesn't exist"
 msgstr "Objekat %s ne postoji"
 
 #. module: rpc_helper
 #. odoo-python
-#: code:addons/rpc_helper/patch.py
+#: code:addons/rpc_helper/patch.py:0
 #, python-format
 msgid "RPC call on %s is not allowed"
 msgstr "RPC poziv na %s nije dozvoljen"

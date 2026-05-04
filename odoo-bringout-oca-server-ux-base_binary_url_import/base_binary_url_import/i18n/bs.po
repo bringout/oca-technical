@@ -25,7 +25,7 @@ msgstr "Otkaži"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid "Could not retrieve URL: %(url)s : %(error)s"
 msgstr "Ne mogu dohvatiti URL: %(url)s : %(error)s"
@@ -43,18 +43,18 @@ msgstr "Kreirano"
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid "File size exceeds configured maximum (%s bytes)"
 msgstr "Datoteka prekoračuje definirani maksimum (%s bajtova)"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid ""
 "Following DB IDs intersect with XML IDs:\n"
@@ -65,7 +65,7 @@ msgstr ""
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid ""
 "Following IDs do not exist in database:\n"
@@ -76,7 +76,7 @@ msgstr ""
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid ""
 "Following XML IDs do not exist in database:\n"
@@ -92,7 +92,7 @@ msgstr "ID"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid "Identifier %s is not an Integer or XMLID"
 msgstr "Identifikator %s nije cijeli broj ili XMLID"
@@ -120,7 +120,7 @@ msgstr "Je identifikator ciljanog zapisa obavezan"
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__write_uid
@@ -144,7 +144,7 @@ msgstr "ID zapisa ili XMLID"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid ""
 "Same XML IDs are duplicated:\n"
@@ -155,7 +155,7 @@ msgstr ""
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid ""
 "Same database IDs are duplicated:\n"
@@ -201,7 +201,7 @@ msgstr "URL za uvoz"
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid "Updated records"
 msgstr "Ažurirani zapisi"
@@ -220,7 +220,7 @@ msgstr ""
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid ""
 "XML ID %(xml_id)s matches a record of model %(model_name)s instead of model "
@@ -231,7 +231,7 @@ msgstr ""
 
 #. module: base_binary_url_import
 #. odoo-python
-#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py
+#: code:addons/base_binary_url_import/wizard/base_binary_url_import.py:0
 #, python-format
 msgid ""
 "You can not import files via URL, check with your administrator for the "

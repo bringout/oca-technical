@@ -95,7 +95,7 @@ msgstr "Dobavljač"
 
 #. module: mgmtsystem_nonconformity_type
 #. odoo-python
-#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py
+#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
 #, python-format
 msgid ""
 "The partner's contacts quality type isn't available.\n"
@@ -106,7 +106,7 @@ msgstr ""
 
 #. module: mgmtsystem_nonconformity_type
 #. odoo-python
-#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py
+#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
 #, python-format
 msgid ""
 "The partner's quality contact email is required in order to send the "

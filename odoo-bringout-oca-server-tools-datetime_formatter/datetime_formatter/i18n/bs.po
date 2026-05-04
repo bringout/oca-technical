@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: datetime_formatter
 #. odoo-python
-#: code:addons/datetime_formatter/models/res_lang.py
+#: code:addons/datetime_formatter/models/res_lang.py:0
 #, python-format
 msgid "Best matched language (%s) not found."
 msgstr "Najsličiniji jezik (%s) nije pronađen."

@@ -81,7 +81,7 @@ msgstr "Ukupan broj promjena ovog zapisa"
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_template_export__is_unidecode
 msgid "Unidecode"
-msgstr "Unidecode"
+msgstr ""
 
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_export__user_can_see_changeset

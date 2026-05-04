@@ -99,7 +99,7 @@ msgstr "API partner Auth menadžer"
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_form
 msgid "Account"
-msgstr "Konto"
+msgstr "Naziv konta"
 
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_reset_password_view_form
@@ -228,11 +228,11 @@ msgstr "Autentifikacija direktorija"
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_partner.py
+#: code:addons/auth_partner/models/auth_partner.py:0
 #, python-format
 msgid ""
 "Email address not validated. Validate your email address by clicking on the "
@@ -294,21 +294,21 @@ msgstr "U sekundama, default 60 sekundi"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_partner.py
+#: code:addons/auth_partner/models/auth_partner.py:0
 #, python-format
 msgid "Invalid Login or Password"
 msgstr "Nevažeća prijava ili lozinka"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_directory.py
+#: code:addons/auth_partner/models/auth_directory.py:0
 #, python-format
 msgid "Invalid Token"
 msgstr "Nevažeći token"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_directory.py
+#: code:addons/auth_partner/models/auth_directory.py:0
 #, python-format
 msgid "Invalid token"
 msgstr "Nevažeći token"
@@ -316,12 +316,12 @@ msgstr "Nevažeći token"
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
 msgid "Label"
-msgstr "Opis"
+msgstr "Oznaka"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_uid
@@ -376,7 +376,7 @@ msgstr "ručno"
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_partner__nbr_pending_reset_sent
@@ -385,14 +385,14 @@ msgstr "Broj čekajućih resetovanja poslanih"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
 #, python-format
 msgid "No active_id in context"
 msgstr "Nema active_id u kontekstu"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_directory.py
+#: code:addons/auth_partner/models/auth_directory.py:0
 #, python-format
 msgid "No email template defined for %(template)s in %(directory)s"
 msgstr "Nema definirani e-mail template za %(template)s u %(directory)s"
@@ -431,7 +431,7 @@ msgstr "Zaporka"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
 #, python-format
 msgid "Password and Confirm Password must be the same"
 msgstr "Lozinka i potvrda lozinke moraju biti iste"
@@ -513,7 +513,7 @@ msgstr ""
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
 #, python-format
 msgid "This wizard can only be used on auth.partner"
 msgstr "Ovaj čarobnjak se može koristiti samo na auth.partner"
@@ -535,7 +535,7 @@ msgstr "Čarobnjak partner auth resetovanje lozinke"
 
 #. module: auth_partner
 #. odoo-python
-#: code:addons/auth_partner/models/auth_partner.py
+#: code:addons/auth_partner/models/auth_partner.py:0
 #, python-format
 msgid "You are not allowed to impersonate this user"
 msgstr "Nije vam dozvoljeno oponašati ovog korisnika"

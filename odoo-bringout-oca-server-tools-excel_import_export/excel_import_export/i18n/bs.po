@@ -16,11 +16,11 @@ msgstr ""
 #. module: excel_import_export
 #: model_terms:ir.ui.view,arch_db:excel_import_export.view_xlsx_template_form
 msgid "${object.post_import_do_something()}"
-msgstr "${object.post_import_do_something()}"
+msgstr ""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py
+#: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "'%s' sheet not found"
 msgstr "'%s' list nije pronađen"
@@ -371,7 +371,7 @@ msgstr "Promjene changeset-a"
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__changeset_ids
 msgid "Changesets"
-msgstr "Changesets"
+msgstr ""
 
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__export_xlsx_wizard__state__choose
@@ -476,18 +476,18 @@ msgstr "Detalji kako će excel podaci biti uvezeni"
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Document must be in %s states"
 msgstr "Dokument mora biti u %s stanjima"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Document must be in draft state"
 msgstr "Dokument mora biti u nacrt stanju"
@@ -499,7 +499,7 @@ msgstr "Lako izvještavanje"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py
+#: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid ""
 "Error deleting data\n"
@@ -510,7 +510,7 @@ msgstr ""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py
+#: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid ""
 "Error filling data into Excel sheets\n"
@@ -521,7 +521,7 @@ msgstr ""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py
+#: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "Error importing data"
 msgstr "Greška uvoza podataka"
@@ -529,7 +529,7 @@ msgstr "Greška uvoza podataka"
 #. module: excel_import_export
 #: model:ir.model.fields.selection,name:excel_import_export.selection__ir_actions_report__report_type__excel
 msgid "Excel"
-msgstr "Excel"
+msgstr ""
 
 #. module: excel_import_export
 #: model:ir.model,name:excel_import_export.model_xlsx_export
@@ -623,7 +623,7 @@ msgstr "Datoteka"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "File \"%(fname)s\" not found in template, %(name)s."
 msgstr "Datoteka \"%(fname)s\" nije pronađena u predlošku, %(name)s."
@@ -728,7 +728,7 @@ msgstr "Ako je tip sekcije red, ovo polje je obavezno"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py
+#: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid ""
 "IllegalCharacterError\n"
@@ -751,7 +751,7 @@ msgstr "Akcija uvoza"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Import Excel"
 msgstr "Uvezi Excel"
@@ -857,35 +857,35 @@ msgstr "Instrukcije o tome kako uvoziti/izvoziti, pripremljene od sistema."
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py
+#: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "Invalid declaration, %s has no valid field type"
 msgstr "Neispravna deklaracija, %s nema ispravan tip polja"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py
+#: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "Invalid file style, only .xls or .xlsx file allowed"
 msgstr "Neispravan stil datoteke, dozvoljena je samo .xls ili .xlsx datoteka"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py
+#: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "Invalid style type %s"
 msgstr "Neispravan tip stila %s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py
+#: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "Invalid value %(value)s for style type %(key)s"
 msgstr "Neispravna vrijednost %(value)s za tip stila %(key)s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py
+#: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid ""
 "Key Error\n"
@@ -897,7 +897,7 @@ msgstr ""
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_export_xlsx_wizard__write_uid
@@ -925,42 +925,42 @@ msgstr "Ne briši"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py
+#: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid "No data_dict['__IMPORT__'] in template %s"
 msgstr "Nema data_dict['__IMPORT__'] u predlošku %s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_template.py
+#: code:addons/excel_import_export/models/xlsx_template.py:0
 #, python-format
 msgid "No file content!"
 msgstr "Nema sadržaja datoteke!"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_report.py
+#: code:addons/excel_import_export/models/xlsx_report.py:0
 #, python-format
 msgid "No file in %s"
 msgstr "Nema datoteke u %s"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_report.py
+#: code:addons/excel_import_export/models/xlsx_report.py:0
 #, python-format
 msgid "No template found"
 msgstr "Predložak nije pronađen"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py
+#: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid "Not enough worksheets"
 msgstr "Nema dovoljno radnih listova"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/ir_report.py
+#: code:addons/excel_import_export/models/ir_report.py:0
 #, python-format
 msgid "Only one id is allowed for excel_import_export"
 msgstr "Samo jedan id je dozvoljen za excel_import_export"
@@ -987,14 +987,14 @@ msgstr "Neobavezno za CSV, zadano je potpuno navođenje."
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Please select Excel file to import"
 msgstr "Molimo odaberite Excel datoteku za uvoz"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py
+#: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid "Position %s is not valid"
 msgstr "Pozicija %s nije ispravna"
@@ -1011,7 +1011,7 @@ msgstr "Hook nakon uvoza"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py
+#: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid ""
 "Post import operation error\n"
@@ -1022,7 +1022,7 @@ msgstr ""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py
+#: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid "Records in %s exceed max records allowed"
 msgstr "Zapisi u %s premašuju maksimalne dozvoljene zapise"
@@ -1125,11 +1125,11 @@ msgstr "Tip sekcije"
 #. module: excel_import_export
 #: model:ir.model.fields,field_description:excel_import_export.field_xlsx_template_export__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "Set Templates"
 msgstr "Postavi predloške"
@@ -1141,7 +1141,7 @@ msgstr "List"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py
+#: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid "Sheet %s not found"
 msgstr "List %s nije pronađen"
@@ -1178,7 +1178,7 @@ msgstr "Prijedlog"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/ir_report.py
+#: code:addons/excel_import_export/models/ir_report.py:0
 #, python-format
 msgid "Template %(report_name)s on model %(model)s is not unique!"
 msgstr "Predložak %(report_name)s na modelu %(model)s nije jedinstven!"
@@ -1190,7 +1190,7 @@ msgstr "Naziv predloška"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/common.py
+#: code:addons/excel_import_export/models/common.py:0
 #, python-format
 msgid ""
 "Template with CSV Quoting = False, data must not contain the same char as "
@@ -1201,7 +1201,7 @@ msgstr ""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_export.py
+#: code:addons/excel_import_export/models/xlsx_export.py:0
 #, python-format
 msgid "Template's model mismatch"
 msgstr "Model predloška se ne poklapa"
@@ -1228,7 +1228,7 @@ msgstr "Ukupan broj promjena ovog zapisa"
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_template.py
+#: code:addons/excel_import_export/models/xlsx_template.py:0
 #, python-format
 msgid "The selected redirect action is not for model %s"
 msgstr "Odabrana akcija preusmjeravanja nije za model %s"
@@ -1248,7 +1248,7 @@ msgstr ""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/models/xlsx_import.py
+#: code:addons/excel_import_export/models/xlsx_import.py:0
 #, python-format
 msgid ""
 "The value for the '%(field)s' field is expected to be in cell "
@@ -1261,7 +1261,7 @@ msgstr ""
 
 #. module: excel_import_export
 #. odoo-python
-#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py
+#: code:addons/excel_import_export/wizard/import_xlsx_wizard.py:0
 #, python-format
 msgid "This import action is not usable in this document context"
 msgstr "Ova akcija uvoza se ne može koristiti u ovom kontekstu dokumenta"

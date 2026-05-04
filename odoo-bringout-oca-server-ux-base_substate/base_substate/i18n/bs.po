@@ -16,7 +16,7 @@ msgstr ""
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__model
@@ -41,7 +41,7 @@ msgstr "Tip osnovnog podstanja"
 #. module: base_substate
 #: model:ir.model,name:base_substate.model_base_substate_mixin
 msgid "BaseSubstate Mixin"
-msgstr "BaseSubstate Mixin"
+msgstr ""
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__create_uid
@@ -61,7 +61,7 @@ msgstr "Opis"
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__mail_template_id
@@ -90,7 +90,7 @@ msgstr ""
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__write_uid
@@ -110,12 +110,12 @@ msgstr "Model za tehničku upotrebu"
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate_type__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate_mixin__substate_id
@@ -191,7 +191,7 @@ msgstr ""
 
 #. module: base_substate
 #. odoo-python
-#: code:addons/base_substate/models/base_substate_mixin.py
+#: code:addons/base_substate/models/base_substate_mixin.py:0
 #, python-format
 msgid ""
 "The substate %(name)s is not defined for the state %(state)s but for "
@@ -202,7 +202,7 @@ msgstr ""
 
 #. module: base_substate
 #. odoo-python
-#: code:addons/base_substate/models/base_substate_mixin.py
+#: code:addons/base_substate/models/base_substate_mixin.py:0
 #, python-format
 msgid "This substate is not define for this object but for %s"
 msgstr "Ovo podstanje nije definirano za ovaj objekat već za %s"

@@ -84,7 +84,7 @@ msgstr "Kreirano"
 #. module: excel_import_export_demo
 #: model:ir.model.fields,field_description:excel_import_export_demo.field_report_crm_lead__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: excel_import_export_demo
 #: model_terms:ir.ui.view,arch_db:excel_import_export_demo.partner_list_wizard
@@ -114,7 +114,7 @@ msgstr "Uvoz Excel"
 #. module: excel_import_export_demo
 #: model:ir.model.fields,field_description:excel_import_export_demo.field_report_crm_lead____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: excel_import_export_demo
 #: model:ir.model.fields,field_description:excel_import_export_demo.field_report_crm_lead__write_uid
