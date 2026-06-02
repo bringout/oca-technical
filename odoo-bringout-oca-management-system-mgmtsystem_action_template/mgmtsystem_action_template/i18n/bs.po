@@ -51,7 +51,7 @@ msgstr "Opis"
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,help:mgmtsystem_action_template.field_mgmtsystem_action__template_id
@@ -66,17 +66,17 @@ msgstr "ID"
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: mgmtsystem_action_template
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: mgmtsystem_action_template
 #: model:ir.actions.act_window,name:mgmtsystem_action_template.mgmtsystem_action_template_act_window

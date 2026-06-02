@@ -106,7 +106,7 @@ msgstr "Binarni"
 #. module: attachment_queue
 #: model_terms:ir.ui.view,arch_db:attachment_queue.view_reschedule_attachment
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__changeset_change_ids
@@ -184,7 +184,7 @@ msgstr "Opis"
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: attachment_queue
 #: model:ir.model.fields.selection,name:attachment_queue.selection__attachment_queue__state__done
@@ -319,17 +319,17 @@ msgstr "Je javni dokument"
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: attachment_queue
 #: model:ir.model.fields,field_description:attachment_queue.field_attachment_queue__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: attachment_queue
 #: model:ir.model.fields,help:attachment_queue.field_attachment_queue__attachment_id

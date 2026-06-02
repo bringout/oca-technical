@@ -38,7 +38,7 @@ msgstr "Korisnik"
 #. module: web_view_leaflet_map
 #: model:ir.model,name:web_view_leaflet_map.model_ir_ui_view
 msgid "View"
-msgstr "Pregled"
+msgstr "Prikaz"
 
 #. module: web_view_leaflet_map
 #: model:ir.model.fields,field_description:web_view_leaflet_map.field_ir_actions_act_window_view__view_mode

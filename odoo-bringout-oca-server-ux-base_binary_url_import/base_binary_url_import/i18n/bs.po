@@ -21,7 +21,7 @@ msgstr "Binarni uvoz s URL-a"
 #. module: base_binary_url_import
 #: model_terms:ir.ui.view,arch_db:base_binary_url_import.base_binary_url_import_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: base_binary_url_import
 #. odoo-python
@@ -43,7 +43,7 @@ msgstr "Kreirano"
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_binary_url_import
 #. odoo-python
@@ -120,17 +120,17 @@ msgstr "Je identifikator ciljanog zapisa obavezan"
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_binary_url_import
 #: model:ir.model.fields,field_description:base_binary_url_import.field_base_binary_url_import__line_ids

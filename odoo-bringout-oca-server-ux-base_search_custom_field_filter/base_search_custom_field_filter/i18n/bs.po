@@ -41,7 +41,7 @@ msgstr "Prilagođeni UI filter polja"
 #. module: base_search_custom_field_filter
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_search_custom_field_filter
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__expression
@@ -68,17 +68,17 @@ msgstr "Jezik"
 #. module: base_search_custom_field_filter
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_search_custom_field_filter
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_search_custom_field_filter
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_search_custom_field_filter
 #: model:ir.model.fields,field_description:base_search_custom_field_filter.field_ir_ui_custom_field_filter__model_id

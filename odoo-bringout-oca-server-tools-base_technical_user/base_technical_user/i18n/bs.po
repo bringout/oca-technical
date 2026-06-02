@@ -22,7 +22,7 @@ msgstr "Osnova"
 #. module: base_technical_user
 #: model:ir.model,name:base_technical_user.model_res_company
 msgid "Companies"
-msgstr "Tvrtke"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: base_technical_user

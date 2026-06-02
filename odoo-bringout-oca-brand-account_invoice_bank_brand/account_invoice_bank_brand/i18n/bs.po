@@ -40,7 +40,7 @@ msgstr "Fakture"
 #. module: account_invoice_bank_brand
 #: model:ir.model,name:account_invoice_bank_brand.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: account_invoice_bank_brand
 #. odoo-python

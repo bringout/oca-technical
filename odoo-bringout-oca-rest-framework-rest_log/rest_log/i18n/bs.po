@@ -46,7 +46,7 @@ msgstr "Datum"
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__error
@@ -101,17 +101,17 @@ msgstr "ID"
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: rest_log
 #: model:ir.model.fields,field_description:rest_log.field_rest_log__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: rest_log
 #: model:ir.ui.menu,name:rest_log.menu_rest_api_log

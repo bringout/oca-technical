@@ -36,7 +36,7 @@ msgstr "Inspektor"
 #. module: mgmtsystem_action_efficacy
 #: model:ir.model.fields,field_description:mgmtsystem_action_efficacy.field_mgmtsystem_action__efficacy_description
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 #. module: mgmtsystem_action_efficacy
 #: model:ir.model.fields,field_description:mgmtsystem_action_efficacy.field_mgmtsystem_action__efficacy_value

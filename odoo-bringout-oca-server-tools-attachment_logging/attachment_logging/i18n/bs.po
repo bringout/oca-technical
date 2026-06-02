@@ -48,7 +48,7 @@ msgstr "Skupovi izmena"
 #. module: attachment_logging
 #: model:ir.model,name:attachment_logging.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: attachment_logging
 #: model:ir.model.fields,field_description:attachment_logging.field_ir_attachment__count_changesets

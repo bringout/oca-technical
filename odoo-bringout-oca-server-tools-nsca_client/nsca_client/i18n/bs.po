@@ -219,7 +219,7 @@ msgstr "Otporan na ljetno računanje vremena"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__activity_date_deadline_range
@@ -307,17 +307,17 @@ msgstr "Datum poslednjeg izvršavanja"
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: nsca_client
 #: model:ir.model.fields,field_description:nsca_client.field_nsca_check__link_field_id

@@ -26,7 +26,7 @@ msgstr "Callback parametri"
 #. module: confirmation_wizard
 #: model_terms:ir.ui.view,arch_db:confirmation_wizard.confirmation_wizard_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: confirmation_wizard
 #: model_terms:ir.ui.view,arch_db:confirmation_wizard.confirmation_wizard_form_view
@@ -63,7 +63,7 @@ msgstr "Kreirano"
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard__id
@@ -73,17 +73,17 @@ msgstr "ID"
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: confirmation_wizard
 #: model:ir.model.fields,field_description:confirmation_wizard.field_confirmation_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: confirmation_wizard
 #. odoo-python

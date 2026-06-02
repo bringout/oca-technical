@@ -99,7 +99,7 @@ msgstr "API partner Auth menadžer"
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_form
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_reset_password_view_form
@@ -148,7 +148,7 @@ msgstr "Auth partneri"
 #. module: auth_partner
 #: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__password_confirm
@@ -228,7 +228,7 @@ msgstr "Autentifikacija direktorija"
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: auth_partner
 #. odoo-python
@@ -321,17 +321,17 @@ msgstr "Oznaka"
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: auth_partner
 #: model:ir.model.fields,field_description:auth_partner.field_auth_partner__login

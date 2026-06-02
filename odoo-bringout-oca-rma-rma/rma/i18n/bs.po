@@ -615,7 +615,7 @@ msgstr ""
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_finalization_wizard_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: rma
 #: model:ir.model.fields.selection,name:rma.selection__rma__state__cancelled
@@ -675,7 +675,7 @@ msgstr "Kompanija"
 #. module: rma
 #: model:ir.model,name:rma.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: rma
 #: model:ir.ui.menu,name:rma.rma_configuration_menu
@@ -864,7 +864,7 @@ msgstr "Različit proizvod za povrat"
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: rma
 #. odoo-python
@@ -1115,27 +1115,27 @@ msgstr "Je pratilac"
 #. module: rma
 #: model:ir.model,name:rma.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: rma
 #: model:ir.model,name:rma.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: rma
 #: model:ir.model.fields,field_description:rma.field_rma__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: rma
 #: model_terms:ir.ui.view,arch_db:rma.rma_view_search

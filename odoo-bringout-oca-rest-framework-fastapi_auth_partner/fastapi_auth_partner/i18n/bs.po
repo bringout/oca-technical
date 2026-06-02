@@ -41,7 +41,7 @@ msgstr "Metoda autentifikacije"
 #. module: fastapi_auth_partner
 #: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__cookie_duration
@@ -76,7 +76,7 @@ msgstr "Imenik"
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_auth_service__endpoint_id
@@ -138,17 +138,17 @@ msgstr "Oznaka"
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: fastapi_auth_partner
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: fastapi_auth_partner
 #: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.auth_partner_view_form

@@ -198,7 +198,7 @@ msgstr "Odredišni ključ"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_recordset__docs_html
@@ -474,7 +474,7 @@ msgstr "Ključ"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_recordset__last_run_on
@@ -484,12 +484,12 @@ msgstr "Poslednji put pokrenuto"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: connector_importer
 #: model_terms:ir.ui.view,arch_db:connector_importer.recordset_report
@@ -560,7 +560,7 @@ msgstr "Nijedan izvor nije konfigurisan na recordset '%s'"
 #. module: connector_importer
 #: model:ir.model.fields,field_description:connector_importer.field_import_backend__notes
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 #. module: connector_importer
 #: model_terms:ir.ui.view,arch_db:connector_importer.recordset_docs

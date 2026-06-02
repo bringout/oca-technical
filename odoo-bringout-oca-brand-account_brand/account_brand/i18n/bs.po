@@ -17,7 +17,7 @@ msgstr ""
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__account_id
 msgid "Account"
-msgstr "Naziv konta"
+msgstr "Konto"
 
 # taken from hr.po
 #. module: account_brand
@@ -64,7 +64,7 @@ msgstr "Kreirano"
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__id
@@ -75,19 +75,19 @@ msgstr "ID"
 #. module: account_brand
 #: model:ir.model,name:account_brand.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 # taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: account_brand
 #: model:ir.model.fields,field_description:account_brand.field_res_partner_account_brand__partner_id
@@ -111,7 +111,7 @@ msgstr "Partner već ima postavljen konto za ovaj brand!"
 #. module: account_brand
 #: model:ir.model.fields.selection,name:account_brand.selection__res_partner_account_brand__account_type__liability_payable
 msgid "Payable"
-msgstr "Za naplatu"
+msgstr "Obveze"
 
 # taken from hr.po
 #. module: account_brand
@@ -125,7 +125,7 @@ msgstr "Molimo odaberite konto tipa %s"
 #. module: account_brand
 #: model:ir.model.fields.selection,name:account_brand.selection__res_partner_account_brand__account_type__asset_receivable
 msgid "Receivable"
-msgstr "Kupci"
+msgstr "Potraživanja"
 
 # taken from hr.po
 #. module: account_brand

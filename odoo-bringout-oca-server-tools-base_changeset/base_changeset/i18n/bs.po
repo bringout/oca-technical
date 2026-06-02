@@ -134,7 +134,7 @@ msgstr "Kreirano"
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_changeset
 #: model:ir.model.fields.selection,name:base_changeset.selection__record_changeset__state__done
@@ -188,17 +188,17 @@ msgstr ""
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_changeset_field_rule__model_id

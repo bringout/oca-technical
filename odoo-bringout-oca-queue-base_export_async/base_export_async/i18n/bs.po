@@ -74,7 +74,7 @@ msgstr "Obriši generirane izvozove"
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__expiration_date
@@ -101,17 +101,17 @@ msgstr "ID"
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_export_async
 #: model:ir.model.fields,field_description:base_export_async.field_delay_export__model_description

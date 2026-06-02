@@ -40,7 +40,7 @@ msgstr "Kompanija"
 #. module: rma_reason
 #: model:ir.model,name:rma_reason.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__create_uid
@@ -70,7 +70,7 @@ msgstr "Opis"
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__id
@@ -104,17 +104,17 @@ msgstr ""
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: rma_reason
 #: model:ir.model.fields,field_description:rma_reason.field_rma_reason__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: rma_reason
 #: model:ir.model.fields,help:rma_reason.field_rma_reason__allowed_operation_ids

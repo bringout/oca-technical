@@ -101,7 +101,7 @@ msgstr "Jedinica auto-generiranja"
 #. module: date_range
 #: model_terms:ir.ui.view,arch_db:date_range.date_range_generator_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 # taken from hr.po
 #. module: date_range
@@ -182,7 +182,7 @@ msgstr "Zadane vrijednosti za generiranje opsega datuma"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: date_range
@@ -254,19 +254,19 @@ msgstr "Neispravan izraz naziva: %s"
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 # taken from hr.po
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 # taken from hr.po
 #. module: date_range
 #: model:ir.model.fields,field_description:date_range.field_date_range__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: date_range
 #: model:ir.model,name:date_range.model_date_range_search_mixin

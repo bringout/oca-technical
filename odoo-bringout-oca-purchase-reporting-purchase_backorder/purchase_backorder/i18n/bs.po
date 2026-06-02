@@ -31,7 +31,7 @@ msgstr "Sati potrošeno"
 #. module: purchase_backorder
 #: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__create_uid
@@ -51,7 +51,7 @@ msgstr "Opis"
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_backorder
 #: model:ir.actions.act_window,name:purchase_backorder.action_po_backorder_wizard
@@ -76,17 +76,17 @@ msgstr "Last Datum Received"
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_backorder
 #: model:ir.model.fields,field_description:purchase_backorder.field_pobackorder_report_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_backorder
 #: model_terms:ir.ui.view,arch_db:purchase_backorder.po_backorder_report

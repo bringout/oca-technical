@@ -60,7 +60,7 @@ msgstr "Zamijenjeni baferi"
 #. module: ddmrp_product_replace
 #: model_terms:ir.ui.view,arch_db:ddmrp_product_replace.view_ddmrp_adjustment_sheet_wizard_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace__consider_past_demand
@@ -120,7 +120,7 @@ msgstr "DDMRP zamjena proizvoda"
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_make_procurement_buffer__has_replaced_buffers
@@ -154,17 +154,17 @@ msgstr "Već je zamijenjen"
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: ddmrp_product_replace
 #: model:ir.model.fields,field_description:ddmrp_product_replace.field_ddmrp_product_replace__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: ddmrp_product_replace
 #: model:ir.model,name:ddmrp_product_replace.model_make_procurement_buffer
@@ -368,7 +368,7 @@ msgstr "Koristi postojeći/novi proizvod"
 #. module: ddmrp_product_replace
 #: model_terms:ir.ui.view,arch_db:ddmrp_product_replace.view_ddmrp_adjustment_sheet_wizard_form
 msgid "Validate"
-msgstr "Ovjeri"
+msgstr "Potvrdi"
 
 #. module: ddmrp_product_replace
 #. odoo-python

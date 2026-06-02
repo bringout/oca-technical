@@ -47,7 +47,7 @@ msgstr "Kreirano"
 #. module: base_time_window
 #: model:ir.model.fields,field_description:base_time_window.field_time_weekday__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_time_window
 #: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__4
@@ -74,17 +74,17 @@ msgstr "ID"
 #. module: base_time_window
 #: model:ir.model.fields,field_description:base_time_window.field_time_weekday____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_time_window
 #: model:ir.model.fields,field_description:base_time_window.field_time_weekday__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_time_window
 #: model:ir.model.fields,field_description:base_time_window.field_time_weekday__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_time_window
 #: model:ir.model.fields.selection,name:base_time_window.selection__time_weekday__name__0

@@ -268,7 +268,7 @@ msgstr "Komercijalni entitet"
 #. module: brand
 #: model:ir.model,name:brand.model_res_company
 msgid "Companies"
-msgstr "Tvrtke"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: brand
@@ -326,7 +326,7 @@ msgstr "Puni naziv"
 #. module: brand
 #: model:ir.model,name:brand.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: brand
@@ -452,7 +452,7 @@ msgstr "Prikaži PDF izvještaj predloška fakture"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 # taken from hr.po
 #. module: brand
@@ -706,12 +706,12 @@ msgstr "Jezik"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_has_error
@@ -789,7 +789,7 @@ msgstr "Normalizirani Email"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__comment
 msgid "Notes"
-msgstr "Bilješke"
+msgstr "Napomene"
 
 # taken from hr.po
 #. module: brand

@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: rma_delivery
 #: model:ir.model,name:rma_delivery.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: rma_delivery
 #: model:ir.model.fields.selection,name:rma_delivery.selection__res_company__rma_delivery_strategy__customer_method

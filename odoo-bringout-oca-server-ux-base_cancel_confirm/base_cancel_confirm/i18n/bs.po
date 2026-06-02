@@ -31,7 +31,7 @@ msgstr "Jeste li sigurni da želite otkazati ovaj dokument?"
 #. module: base_cancel_confirm
 #: model_terms:ir.ui.view,arch_db:base_cancel_confirm.view_cancel_confirm_wizard
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: base_cancel_confirm
 #: model:ir.model,name:base_cancel_confirm.model_cancel_confirm
@@ -78,7 +78,7 @@ msgstr "Kreirano"
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__has_cancel_reason
@@ -93,17 +93,17 @@ msgstr "ID"
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields,field_description:base_cancel_confirm.field_cancel_confirm__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_cancel_confirm
 #: model:ir.model.fields.selection,name:base_cancel_confirm.selection__cancel_confirm__has_cancel_reason__no

@@ -41,7 +41,7 @@ msgstr "Dešifrirana greška"
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_fastapi_endpoint__encrypt_errors
@@ -86,17 +86,17 @@ msgstr "Oznaka"
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,field_description:fastapi_encrypted_errors.field_wizard_fastapi_decrypt_errors__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: fastapi_encrypted_errors
 #: model:ir.model.fields,help:fastapi_encrypted_errors.field_fastapi_endpoint__encrypted_errors_secret_key

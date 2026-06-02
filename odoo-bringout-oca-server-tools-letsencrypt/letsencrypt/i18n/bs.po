@@ -34,7 +34,7 @@ msgstr "Provjeri Let's Encrypt certifikate"
 #. module: letsencrypt
 #: model:ir.model,name:letsencrypt.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: letsencrypt
 #. odoo-python

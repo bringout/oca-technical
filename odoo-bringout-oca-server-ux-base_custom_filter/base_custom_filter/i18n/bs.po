@@ -41,7 +41,7 @@ msgstr "Prilagođeni filtri"
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,help:base_custom_filter.field_ir_filters__filter_domain
@@ -90,17 +90,17 @@ msgstr "ID"
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_custom_filter
 #: model:ir.model.fields,field_description:base_custom_filter.field_ir_filters_group__model_id

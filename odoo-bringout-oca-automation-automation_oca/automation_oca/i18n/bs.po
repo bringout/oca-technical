@@ -337,7 +337,7 @@ msgstr "Odbačeno nakon"
 #. module: automation_oca
 #: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_test_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: automation_oca
 #: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_search_view
@@ -426,7 +426,7 @@ msgstr "Obriši"
 #. module: automation_oca
 #: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: automation_oca
 #: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__do_not_wait
@@ -688,17 +688,17 @@ msgstr "Je test"
 #. module: automation_oca
 #: model:ir.model.fields,field_description:automation_oca.field_automation_configuration____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: automation_oca
 #: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: automation_oca
 #: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: automation_oca
 #: model:ir.model,name:automation_oca.model_link_tracker_click

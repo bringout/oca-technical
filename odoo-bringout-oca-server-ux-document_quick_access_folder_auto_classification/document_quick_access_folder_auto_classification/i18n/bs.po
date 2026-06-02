@@ -26,7 +26,7 @@ msgstr "Dodjeljuje"
 #. module: document_quick_access_folder_auto_classification
 #: model_terms:ir.ui.view,arch_db:document_quick_access_folder_auto_classification.document_quick_access_missing_assign_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.model.fields,field_description:document_quick_access_folder_auto_classification.field_document_quick_access_missing_assign__create_uid
@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.model.fields,field_description:document_quick_access_folder_auto_classification.field_document_quick_access_missing_assign__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.actions.act_window,name:document_quick_access_folder_auto_classification.document_quick_access_missing_act_window
@@ -76,17 +76,17 @@ msgstr "ID"
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.model.fields,field_description:document_quick_access_folder_auto_classification.field_document_quick_access_missing_assign____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.model.fields,field_description:document_quick_access_folder_auto_classification.field_document_quick_access_missing_assign__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.model.fields,field_description:document_quick_access_folder_auto_classification.field_document_quick_access_missing_assign__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: document_quick_access_folder_auto_classification
 #: model:ir.module.category,name:document_quick_access_folder_auto_classification.ir_module_category_missing_document
