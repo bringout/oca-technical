@@ -5,6 +5,7 @@
 
 from lxml import etree
 
+from odoo.exceptions import ValidationError
 from odoo.tests.common import TransactionCase
 
 
@@ -13,10 +14,33 @@ class TestBaseViewInheritanceExtension(TransactionCase):
     def setUpClass(cls):
         super().setUpClass()
         cls.maxDiff = None
+        cls.view = cls.env["ir.ui.view"].create(
+            {
+                "name": "Test Partner Simple Form Override",
+                "type": "form",
+                "model": "res.partner",
+                "inherit_id": cls.env.ref("base.view_partner_simple_form").id,
+                "arch": """
+                <data>
+                    <xpath expr="." position="attributes">
+                        <attribute name="string">Partner form</attribute>
+                    </xpath>
+
+                    <field name="parent_id" position="attributes">
+                        <attribute name="context" operation="update">
+                            {
+                                "default_email": "info@odoo-community.org",
+                                "default_company_id": allowed_company_ids[0]
+                            }
+                        </attribute>
+                    </field>
+                </data>
+            """,
+            }
+        )
 
     def test_base_view_inheritance_extension(self):
-        view_id = self.env.ref("base.view_partner_simple_form").id
-        arch, view = self.env["res.partner"]._get_view(view_id=view_id)
+        arch, _ = self.env["res.partner"]._get_view(view_id=self.view.id)
         # Verify normal attributes work
         self.assertEqual(arch.xpath("//form")[0].get("string"), "Partner form")
         # Verify our extra context key worked
@@ -33,7 +57,8 @@ class TestBaseViewInheritanceExtension(TransactionCase):
         source = etree.fromstring(
             """
             <form>
-                <field name="account_move_id" context="{'default_journal_id': journal_id}" />
+                <field name="account_move_id"
+                 context="{'default_journal_id': journal_id}" />
             </form>
             """
         )
@@ -103,96 +128,31 @@ class TestBaseViewInheritanceExtension(TransactionCase):
         ]
         self.assertEqual(
             res.xpath('//field[@name="invoice_line_ids"]')[0].attrib["context"],
-            "{%s}" % ", ".join(expected_items),
+            "{%s}" % ", ".join(expected_items),  # noqa: UP031
         )
 
-    def test_update_attrs_new_key(self):
-        """Test that we can add new keys to an existing dict"""
+    def test_text_add_operation(self):
         source = etree.fromstring(
             """
             <form>
-                <field
-                    name="ref"
-                    attrs="{'invisible': [('state', '=', 'draft')]}"
-                />
+                <field name="customer_id" string="Client"/>
             </form>
             """
-        )
-        specs = etree.fromstring(
-            """
-            <field name="ref" position="attributes">
-                <attribute name="attrs" operation="update">
-                    {
-                        "required": [("state", "!=", "draft")],
-                    }
-                </attribute>
-            </field>
-            """
-        )
-        res = self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
-        self.assertEqual(
-            res.xpath('//field[@name="ref"]')[0].attrib["attrs"],
-            "{'invisible': [('state', '=', 'draft')], "
-            "'required': [('state', '!=', 'draft')]}",
         )
 
-    def test_update_attrs_replace(self):
-        """Test that we can replace an existing dict key"""
-        source = etree.fromstring(
-            """
-            <form>
-                <field
-                    name="ref"
-                    attrs="{
-                        'invisible': [('state', '=', 'draft')],
-                        'required': [('state', '=', False)],
-                    }"
-                />
-            </form>
-            """
-        )
         specs = etree.fromstring(
             """
-            <field name="ref" position="attributes">
-                <attribute name="attrs" operation="update">
-                    {
-                        "required": [('state', '!=', 'draft')],
-                    }
-                </attribute>
+            <field name="customer_id" position="attributes">
+                <attribute name="string"
+                operation="text_add">{old_value} Customer</attribute>
             </field>
             """
-        )
-        res = self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
-        self.assertEqual(
-            res.xpath('//field[@name="ref"]')[0].attrib["attrs"],
-            "{'invisible': [('state', '=', 'draft')], "
-            "'required': [('state', '!=', 'draft')]}",
         )
 
-    def test_update_empty_source_dict(self):
-        """Test that we can add new keys by creating the dict if it's missing"""
-        source = etree.fromstring(
-            """
-            <form>
-                <field name="ref" />
-            </form>
-            """
-        )
-        specs = etree.fromstring(
-            """
-            <field name="ref" position="attributes">
-                <attribute name="attrs" operation="update">
-                    {
-                        "required": [('state', '!=', 'draft')],
-                    }
-                </attribute>
-            </field>
-            """
-        )
         res = self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
         self.assertEqual(
-            res.xpath('//field[@name="ref"]')[0].attrib["attrs"],
-            "{'required': [('state', '!=', 'draft')]}",
+            res.xpath('//field[@name="customer_id"]')[0].attrib["string"],
+            "Client Customer",
         )
 
     def test_update_operation_not_a_dict(self):
@@ -207,16 +167,39 @@ class TestBaseViewInheritanceExtension(TransactionCase):
         specs = etree.fromstring(
             """
             <field name="ref" position="attributes">
-                <attribute name="attrs" operation="update">
+                <attribute name="context" operation="update">
                     ["not", "a", "dict"]
                 </attribute>
             </field>
             """
         )
         with self.assertRaisesRegex(
-            TypeError, "Operation for attribute `attrs` is not a dict"
+            TypeError, "Operation for attribute `context` is not a dict"
         ):
             self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
+
+    def test_domain_add_operation(self):
+        source = etree.fromstring(
+            """
+            <form>
+                <field name="child_ids" domain="[('state', '=', 'confirm')]" />
+            </form>
+            """
+        )
+        specs = etree.fromstring(
+            """
+            <field name="child_ids" position="attributes">
+                <attribute name="domain" operation="domain_add">
+                    [('state', '!=', 'draft')]
+                </attribute>
+            </field>
+            """
+        )
+        res = self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
+        self.assertEqual(
+            res.xpath('//field[@name="child_ids"]')[0].attrib["domain"],
+            "['&', ('state', '=', 'confirm'), ('state', '!=', 'draft')]",
+        )
 
     def test_update_source_not_a_dict(self):
         """We should get an error if we try to update a non-dict attribute"""
@@ -241,69 +224,46 @@ class TestBaseViewInheritanceExtension(TransactionCase):
         with self.assertRaisesRegex(TypeError, "Attribute `domain` is not a dict"):
             self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
 
-    def test_attrs_domain_add_join_operator_or(self):
-        """Test that we can add an OR domain to an existing attrs key."""
-        self._test_attrs_domain_add(join_operator="OR")
-
-    def test_attrs_domain_add_join_operator_and(self):
-        """Test that we can add an AND domain to an existing attrs key."""
-        self._test_attrs_domain_add(join_operator="AND")
-
-    def _test_attrs_domain_add(self, join_operator):
-        """Test that we can add a domain to an existing attrs domain key."""
-        source = etree.fromstring(
-            """
-            <form>
-                <field
-                    name="ref"
-                    attrs="{
-                        'invisible': [('state', '=', 'draft')],
-                        'required': [('state', '=', False)],
-                    }"
-                />
-            </form>
-            """
+    def test_wraptext(self):
+        """Test textwrap transformations"""
+        base_view = self.env["ir.ui.view"].create(
+            {
+                "type": "qweb",
+                "arch": "<some>"
+                "<node>plain text 1<other_node />plain text2</node></some>",
+            }
         )
-        specs = etree.fromstring(
-            """
-            <field name="ref" position="attributes">
-                <attribute name="attrs" operation="attrs_domain_add"
-                           key="required" join_operator="%s">
-                    [('state', '!=', 'draft')]
-                </attribute>
-            </field>
-            """
-            % (join_operator,)
+        inherited_view = self.env["ir.ui.view"].create(
+            {
+                "type": "qweb",
+                "inherit_id": base_view.id,
+                "arch": "<data>"
+                '<wraptext expr="//some/node" position="text" element="span" />'
+                '<wraptext expr="//some/node/other_node" position="tail" '
+                'element="div" />'
+                "</data>",
+            }
         )
-        res = self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
         self.assertEqual(
-            res.xpath('//field[@name="ref"]')[0].attrib["attrs"],
-            "{'invisible': [('state', '=', 'draft')], "
-            "'required': ['%s', ('state', '=', False), ('state', '!=', 'draft')]}"
-            % ("|" if join_operator == "OR" else "&"),
+            base_view.with_context(load_all_views=True).get_combined_arch(),
+            "<some><node><span>plain text 1</span><other_node/>"
+            "<div>plain text2</div></node></some>",
+        )
+        translatable_arch = base_view.with_context(
+            load_all_views=True, edit_translations=True
+        )._get_combined_arch()
+        self.assertTrue(
+            translatable_arch.xpath("//some/node/span/span[@data-oe-translation-state]")
+        )
+        self.assertTrue(
+            translatable_arch.xpath("//some/node/div/span[@data-oe-translation-state]")
         )
 
-    def test_attrs_domain_add_no_attrs(self):
-        """Test attrs_domain_add if there is no attrs: attrs is created."""
-        source = etree.fromstring(
-            """
-            <form>
-                <field name="ref"/>
-            </form>
-            """
-        )
-        specs = etree.fromstring(
-            """
-            <field name="ref" position="attributes">
-                <attribute name="attrs" operation="attrs_domain_add"
-                           key="required" join_operator="OR">
-                    [('state', '!=', 'draft')]
-                </attribute>
-            </field>
-            """
-        )
-        res = self.env["ir.ui.view"].apply_inheritance_specs(source, specs)
-        self.assertEqual(
-            res.xpath('//field[@name="ref"]')[0].attrib["attrs"],
-            "{'required': [('state', '!=', 'draft')]}",
-        )
+        with self.assertRaisesRegex(ValidationError, "children"):
+            inherited_view.write({"arch": "<wraptext><node /></wraptext>"})
+        with self.assertRaisesRegex(ValidationError, "found"):
+            inherited_view.write({"arch": '<wraptext expr="//not/existing" />'})
+        with self.assertRaisesRegex(ValidationError, "positions"):
+            inherited_view.write(
+                {"arch": '<wraptext expr="//some/node" position="other" />'}
+            )

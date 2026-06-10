@@ -3,15 +3,14 @@
 # Copyright 2021 Camptocamp SA (https://www.camptocamp.com).
 # Copyright 2023 Tecnativa - Carlos Dauden
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
-
 import ast
 import re
 
-import astor
 from lxml import etree
 
 from odoo import api, models
-from odoo.osv import expression
+from odoo.exceptions import ValidationError
+from odoo.fields import Domain
 
 
 def ast_dict_update(source, update):
@@ -29,11 +28,8 @@ def ast_dict_update(source, update):
         raise TypeError("`update` must be an AST dict")
 
     def ast_key_eq(k1, k2):
-        # python < 3.8 uses ast.Str; python >= 3.8 uses ast.Constant
-        if type(k1) != type(k2):
+        if type(k1) is not type(k2):
             return False
-        elif isinstance(k1, ast.Str):
-            return k1.s == k2.s
         elif isinstance(k1, ast.Constant):
             return k1.value == k2.value
 
@@ -84,21 +80,100 @@ class IrUiView(models.Model):
     @api.model
     def _get_inheritance_handler(self, node):
         handler = super().apply_inheritance_specs
-        if hasattr(self, "inheritance_handler_%s" % node.tag):
-            handler = getattr(self, "inheritance_handler_%s" % node.tag)
+        if hasattr(self, f"inheritance_handler_{node.tag}"):
+            handler = getattr(self, f"inheritance_handler_{node.tag}")
         return handler
+
+    @api.model
+    def inheritance_handler_wraptext(self, source, specs):
+        """Implement wraptext inheritance spec
+
+        .. code-block:: xml
+
+            <wraptext expr="//some/node" position="text" element="span" />
+
+        Which transforms xml like
+
+        .. code-block:: xml
+
+            <some>
+                <node>
+                    plain text
+                    <other_node />
+                </node>
+            </some>
+
+        to
+
+        .. code-block:: xml
+
+            <some>
+                <node>
+                    <span>plain text</span>
+                    <other_node />
+                </node>
+            </some>
+
+        """
+        if len(specs):
+            raise ValidationError(self.env._("wraptext elements cannot have children"))
+
+        expression = specs.attrib.get("expr")
+        found = source.xpath(specs.attrib["expr"])
+        if not found:
+            raise ValidationError(
+                self.env._("wraptext: nothing found for expression %r", expression)
+            )
+
+        found = found[0]
+        text_position = specs.attrib.get("position", "text")
+        if text_position not in ("text", "tail"):
+            raise ValidationError(
+                self.env._("wraptext: the only valid positions are 'text' or 'tail'")
+            )
+
+        wrapped = etree.Element(specs.attrib.get("element", "t"))
+        wrapped.text = getattr(found, text_position)
+        setattr(found, text_position, None)
+
+        if self.env.context.get("edit_translations") and not wrapped.text:
+            # translation might have wrapped the text already in a <span> element
+            # we wrap this element so that subsequent view manipulations find
+            # the wrapped element at the same position in the tree it would be at
+            # without translation
+            next_sibling = found.getnext()
+
+            if (
+                text_position == "text"
+                and len(found)
+                and found[0].attrib.get("data-oe-translation-state")
+            ):
+                wrapped.append(found[0])
+            elif (
+                text_position == "tail"
+                and next_sibling is not None
+                and next_sibling.attrib.get("data-oe-translation-state")
+            ):
+                wrapped.append(next_sibling)
+
+        if text_position == "text":
+            found.insert(0, wrapped)
+        elif text_position == "tail":
+            found.addnext(wrapped)
+
+        return source
 
     @api.model
     def _get_inheritance_handler_attributes(self, node):
         handler = super().apply_inheritance_specs
-        if hasattr(self, "inheritance_handler_attributes_%s" % node.get("operation")):
+        if hasattr(self, f"_inheritance_handler_attributes_{node.get('operation')}"):
             handler = getattr(
-                self, "inheritance_handler_attributes_%s" % node.get("operation")
+                self, f"_inheritance_handler_attributes_{node.get('operation')}"
             )
         return handler
 
     @api.model
-    def inheritance_handler_attributes_update(self, source, specs):
+    def _inheritance_handler_attributes_update(self, source, specs):
         """Implement dict `update` operation on the attribute node.
 
         .. code-block:: xml
@@ -125,15 +200,11 @@ class IrUiView(models.Model):
             # Update node ast dict
             source_ast = ast_dict_update(source_ast, update_ast)
             # Dump the ast back to source
-            # TODO: once odoo requires python >= 3.9; use `ast.unparse` instead
-            node.attrib[attr_name] = astor.to_source(
-                source_ast,
-                pretty_source=lambda s: "".join(s).strip(),
-            )
+            node.attrib[attr_name] = ast.unparse(source_ast).strip()
         return source
 
     @api.model
-    def inheritance_handler_attributes_text_add(self, source, specs):
+    def _inheritance_handler_attributes_text_add(self, source, specs):
         """Implement
         <$node position="attributes">
             <attribute name="$attribute" operation="text_add">
@@ -150,7 +221,7 @@ class IrUiView(models.Model):
         return source
 
     @api.model
-    def inheritance_handler_attributes_domain_add(self, source, specs):
+    def _inheritance_handler_attributes_domain_add(self, source, specs):
         """Implement
         <$node position="attributes">
             <attribute name="$attribute" operation="domain_add"
@@ -166,68 +237,28 @@ class IrUiView(models.Model):
             old_value = node.get(attribute_name) or ""
             if old_value:
                 old_domain = ast.literal_eval(
-                    self.var2str_domain_text(old_value.strip())
+                    self._var2str_domain_text(old_value.strip())
                 )
                 new_domain = ast.literal_eval(
-                    self.var2str_domain_text(attribute_node.text.strip())
+                    self._var2str_domain_text(attribute_node.text.strip())
                 )
                 if join_operator == "OR":
-                    new_value = str(expression.OR([old_domain, new_domain]))
+                    new_value = str(Domain.OR([old_domain, new_domain]))
                 else:
-                    new_value = str(expression.AND([old_domain, new_domain]))
-                new_value = self.str2var_domain_text(new_value)
+                    new_value = str(Domain.AND([old_domain, new_domain]))
+                new_value = self._str2var_domain_text(new_value)
                 old_value = "".join(old_value.splitlines())
             else:
                 # We must ensure that the domain definition has not line breaks because
                 # in update mode the domain cause an invalid syntax error
                 new_value = attribute_node.text.strip()
             if condition:
-                new_value = "{condition} and {new_value} or {old_value}".format(
-                    condition=condition,
-                    new_value=new_value,
-                    old_value=old_value or [],
-                )
+                new_value = f"{condition} and {new_value} or {old_value or []}"
             node.attrib[attribute_name] = new_value
         return source
 
     @api.model
-    def inheritance_handler_attributes_attrs_domain_add(self, source, specs):
-        """Implement attrs_domain_add
-
-        <attribute name="$attribute" operation="attrs_domain_add"
-                   key="$attrs_key" join_operator="OR">
-            $domain_to_add_to_attrs_key
-        </attribute>
-        """
-        node = self.locate_node(source, specs)
-        for attribute_node in specs:
-            attribute_name = attribute_node.get("name")
-            key = attribute_node.get("key")
-            join_operator = attribute_node.get("join_operator") or "AND"
-            old_value = node.get(attribute_name) or ""
-            if old_value:
-                old_value = ast.literal_eval(
-                    self.var2str_domain_text(old_value.strip())
-                )
-                old_domain_attrs = old_value.get(key)
-                new_domain = ast.literal_eval(
-                    self.var2str_domain_text(attribute_node.text.strip())
-                )
-                if join_operator == "OR":
-                    new_value = expression.OR([old_domain_attrs, new_domain])
-                else:
-                    new_value = expression.AND([old_domain_attrs, new_domain])
-                old_value[key] = new_value
-                new_value = self.str2var_domain_text(str(old_value))
-            else:
-                # We must ensure that the domain definition has not line breaks because
-                # in update mode the domain cause an invalid syntax error
-                new_value = "{'%s': %s}" % (key, attribute_node.text.strip())
-            node.attrib[attribute_name] = new_value
-        return source
-
-    @api.model
-    def var2str_domain_text(self, domain_str):
+    def _var2str_domain_text(self, domain_str):
         """Replaces var names with str names to allow eval without defined vars"""
         # Replace fields in 2 steps because 1 step returns "parent_sufix"."var_sufix"
         regex_parent = re.compile(r"parent\.(\b\w+\b)")
@@ -238,7 +269,7 @@ class IrUiView(models.Model):
         return re.sub(regex, r"'\1_is_a_var_to_replace'", domain_str)
 
     @api.model
-    def str2var_domain_text(self, domain_str):
+    def _str2var_domain_text(self, domain_str):
         """Revert var2str_domain_text cleaning apostrophes and suffix in vars"""
         pattern = re.compile(r"'(parent\.[^']+)_is_a_var_to_replace'")
         domain_str = pattern.sub(r"\1", domain_str)
