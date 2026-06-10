@@ -2,6 +2,7 @@
 # Copyright 2018-2020 Onestein (<http://www.onestein.eu>)
 # Copyright 2023 Le Filament (https://le-filament.com)
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+
 from lxml import etree
 
 from odoo import api, models
@@ -12,48 +13,34 @@ class ResConfigSettings(models.TransientModel):
 
     @api.model
     def get_views(self, views, options=None):
-        """Override to hide settings related to enterprise features.
+        ret_val = super().get_views(views, options)
 
-        This method modifies the form view for settings to hide options
-        that require enterprise version of Odoo.
-        """
-        result = super().get_views(views, options)
+        form_view = self.env["ir.ui.view"].browse(ret_val["views"]["form"]["id"])
+        if not form_view.xml_id == "base.res_config_settings_view_form":
+            return ret_val
 
-        doc = etree.XML(result["views"]["form"]["arch"])
+        doc = etree.XML(ret_val["views"]["form"]["arch"])
 
-        # Hide all setting boxes containing upgrade_boolean widgets
-        self._hide_enterprise_settings(doc)
+        query = "//setting[field[@widget='upgrade_boolean']]"
+        for item in doc.xpath(query):
+            item.attrib["class"] = "d-none"
 
-        # Hide empty setting containers and their headings
-        self._hide_empty_containers(doc)
+        for block in doc.xpath("//block"):
+            if (
+                len(
+                    block.xpath(
+                        """setting[
+                            not(contains(@class, 'd-none'))
+                            and not(@invisible='1')]
+                        """
+                    )
+                )
+                == 0
+            ):
+                # Removing title and tip so that no empty h2 or h3 are displayed
+                block.attrib.pop("title", None)
+                block.attrib.pop("tip", None)
+                block.attrib["class"] = "d-none"
 
-        # Update the form view architecture with the modified XML
-        result["views"]["form"]["arch"] = etree.tostring(doc)
-        return result
-
-    def _hide_enterprise_settings(self, doc):
-        """Hide all setting boxes containing upgrade_boolean widgets."""
-        # Find all setting boxes with upgrade_boolean widgets
-        query = (
-            "//div[contains(@class, 'o_setting_box')]"
-            "[.//field[@widget='upgrade_boolean']]"
-        )
-        for setting_box in doc.xpath(query):
-            setting_box.attrib["class"] = "d-none"
-
-    def _hide_empty_containers(self, doc):
-        """Hide containers that no longer have any visible setting boxes."""
-        # Find containers with no visible setting boxes
-        empty_container_query = (
-            "//div[contains(@class, 'o_settings_container')]"
-            "[not(.//div[contains(@class, 'o_setting_box') "
-            "and not(contains(@class, 'd-none'))])]"
-        )
-
-        for empty_container in doc.xpath(empty_container_query):
-            # If there's a heading before the container, hide it too
-            prev_element = empty_container.getprevious()
-            if prev_element is not None and prev_element.tag == "h2":
-                prev_element.attrib["class"] = "d-none"
-            # Hide the empty container
-            empty_container.attrib["class"] = "d-none"
+        ret_val["views"]["form"]["arch"] = etree.tostring(doc)
+        return ret_val
