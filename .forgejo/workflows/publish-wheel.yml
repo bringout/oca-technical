@@ -35,6 +35,11 @@ jobs:
           ODOO_SERIES: ${{ github.ref_name }}
           REPO: ${{ github.event.repository.name }}
           MSG: ${{ github.event.head_commit.message }}
+          # Alert on the wrong-series publish guard (16.0.* wheel from a 19.0 branch)
+          # to the shared infra-24 ops topic. Graceful: notify_ntfy no-ops unless
+          # NTFY_BOT_TOKEN is set on the repo/org (the ntfy `bot` write-only token).
+          NTFY_TOPIC: bringout_infra_24
+          NTFY_TOKEN: ${{ secrets.NTFY_BOT_TOKEN }}
         run: |
           set -euo pipefail
           python3 -m venv /tmp/venv && . /tmp/venv/bin/activate
@@ -48,4 +53,9 @@ jobs:
           elif printf '%s' "$MSG" | grep -q '\[republish\]'; then ARGS="--replace";
           elif [ -n "$PUB_MODS" ]; then ARGS="--only $PUB_MODS"; fi
           echo "publish args: ${ARGS:-<all modules>}"
-          python3 .core_0/scripts/publish_addon_wheels.py --repo-dir . --repo-name "$REPO" $ARGS
+
+          REPUB_ARGS=""
+          MODS=$(printf '%s' "$MSG" | grep -oE '\[republish-[a-z0-9_]+\]' | sed -E 's/.*\[republish-([a-z0-9_]+)\].*/\1/' | paste -sd, -)
+          if [ -n "$MODS" ]; then REPUB_ARGS="--replace --only $MODS";
+          elif printf '%s' "$MSG" | grep -q '\[republish\]'; then REPUB_ARGS="--replace"; fi
+          python3 .core_0/scripts/publish_addon_wheels.py --repo-dir . --repo-name "$REPO" $REPUB_ARGS

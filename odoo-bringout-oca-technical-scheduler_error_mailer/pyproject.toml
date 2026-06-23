@@ -1,12 +1,12 @@
 [project]
-name = "odoo-bringout-oca-server-tools-scheduler_error_mailer"
-version = "16.0.0"
+name = "odoo-bringout-oca-technical-scheduler_error_mailer"
+version = "19.0.1.0.0"
 description = "Scheduler Error Mailer - Odoo addon"
 authors = [
     { name = "Ernad Husremovic", email = "hernad@bring.out.ba" }
 ]
 dependencies = [
-    "odoo-bringout-oca-ocb-mail>=16.0.0",
+    "odoo-bringout-oca-ocb-mail>=19.0.0",
     "requests>=2.25.1"
 ]
 readme = "README.md"
@@ -16,14 +16,14 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.11", 
+    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Office/Business",
 ]
 
 [project.urls]
-homepage = "https://github.com/bringout/0"
-repository = "https://github.com/bringout/0"
+homepage = "https://git.hodi.ba/bringout/project-0"
+repository = "https://git.hodi.ba/bringout/project-0"
 
 [build-system]
 requires = ["hatchling"]

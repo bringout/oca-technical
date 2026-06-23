@@ -2,10 +2,10 @@
 
 - **Upstream repository:** https://github.com/OCA/server-tools
 - **Upstream module path:** scheduler_error_mailer
-- **Upstream base branch:** 16.0
-- **Upstream tree:** https://github.com/OCA/server-tools/tree/16.0/scheduler_error_mailer
+- **Upstream base branch:** 19.0
+- **Upstream tree:** https://github.com/OCA/server-tools/tree/19.0/scheduler_error_mailer
 - **OCA project:** server-tools
-- **Origin:** LOCAL PORT — upstream `server-tools` has no `19.0` release; bring.out maintains the `19.0` fork from upstream base `16.0` (module __manifest__.py = `16.0`).
+- **Origin:** upstream `19.0` release (verified present in https://github.com/OCA/server-tools @ `19.0`).
 - **bring.out fork module:** https://git.hodi.ba/oca/oca-technical/src/branch/19.0/odoo-bringout-oca-technical-scheduler_error_mailer
 - **bring.out package:** odoo-bringout-oca-technical-scheduler_error_mailer
 - **Synced via:** core_0/scripts/refresh_packages_from_oca.py
